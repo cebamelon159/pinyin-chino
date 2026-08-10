@@ -3,7 +3,13 @@
    `build_dataset.py` nuevo se note en la siguiente apertura sin obligar a
    reinstalar nada. */
 
-var CACHE = "pinyin-v2";
+// publicar.py sustituye esto por la fecha de publicación. Es lo que hace que
+// el navegador vea un service worker distinto y detecte que hay versión nueva:
+// si este archivo no cambia, el celular se queda con el código viejo aunque
+// app.js sí haya cambiado.
+var BUILD = "20260810-153210";
+
+var CACHE = "pinyin-" + BUILD;
 var ASSETS = [
   "./",
   "./index.html",

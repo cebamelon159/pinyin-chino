@@ -1476,16 +1476,20 @@ var UI = {
     document.body.classList.toggle("no-colors", !Store.settings.colors);
   },
 
-  showUpdateBanner: function (fresh) {
+  showUpdateBanner: function (fresh, titulo) {
     if ($("#update-banner")) return;
-    var nuevas = (fresh.cards || []).length - Data.cards.length;
     var bar = el("div", "update-banner");
     bar.id = "update-banner";
     var txt = el("div", "");
-    txt.appendChild(el("b", "", "Hay vocabulario nuevo"));
-    txt.appendChild(el("div", "", nuevas > 0
-      ? nuevas + (nuevas === 1 ? " tarjeta más" : " tarjetas más")
-      : "se actualizó el contenido"));
+    txt.appendChild(el("b", "", titulo || "Hay vocabulario nuevo"));
+    if (fresh) {
+      var nuevas = (fresh.cards || []).length - Data.cards.length;
+      txt.appendChild(el("div", "", nuevas > 0
+        ? nuevas + (nuevas === 1 ? " tarjeta más" : " tarjetas más")
+        : "se actualizó el contenido"));
+    } else {
+      txt.appendChild(el("div", "", "toca para cargarla"));
+    }
     bar.appendChild(txt);
     var b = el("button", "", "Actualizar");
     b.onclick = function () {
@@ -1920,7 +1924,23 @@ function boot() {
     // Desde el celular se entra por la IP de la red, así que ahí sí funciona.
     var isLocal = /^(localhost|127\.0\.0\.1)$/.test(location.hostname);
     if ("serviceWorker" in navigator && location.protocol !== "file:" && !isLocal) {
-      navigator.serviceWorker.register("sw.js").catch(function () {});
+      navigator.serviceWorker.register("sw.js").then(function (reg) {
+        // Aviso cuando hay una VERSIÓN NUEVA DE LA APP, no solo datos nuevos.
+        // Antes solo se comparaba la fecha del vocabulario, así que una mejora
+        // que no tocara los datos (un ejercicio nuevo, por ejemplo) se quedaba
+        // sin avisar y había que recargar a mano.
+        reg.addEventListener("updatefound", function () {
+          var nuevo = reg.installing;
+          if (!nuevo) return;
+          nuevo.addEventListener("statechange", function () {
+            if (nuevo.state === "installed" && navigator.serviceWorker.controller) {
+              UI.showUpdateBanner(null, "Hay una versión nueva de la app");
+            }
+          });
+        });
+        // por si el celular lleva días con la app abierta
+        setTimeout(function () { reg.update().catch(function () {}); }, 4000);
+      }).catch(function () {});
     }
   }).catch(function (err) {
     $("#loading").innerHTML =
