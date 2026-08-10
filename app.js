@@ -1280,9 +1280,12 @@ var Session = {
     var fresh = cards.filter(function (c) { return SRS.isNew(c.id); });
     var rest  = cards.filter(function (c) { return !SRS.isDue(c.id) && !SRS.isNew(c.id); });
 
-    var picked = shuffle(due)
-      .concat(shuffle(fresh).slice(0, Store.settings.newPerSession))
-      .concat(shuffle(rest));
+    // El tope de "tarjetas nuevas por sesión" existe para que el repaso diario
+    // no se llene de material sin ver. Pero cuando abres un mazo a propósito
+    // quieres ESE mazo: aplicarlo ahí dejaba 10 frases de las 59 disponibles.
+    var nuevas = deck ? fresh : shuffle(fresh).slice(0, Store.settings.newPerSession);
+
+    var picked = shuffle(due).concat(shuffle(nuevas)).concat(shuffle(rest));
     picked = picked.slice(0, Math.max(1, Store.settings.maxPerSession));
 
     this.queue = picked;
@@ -1618,8 +1621,10 @@ var UI = {
       b.appendChild(el("div", "mode-ico", m.icon));
       var txt = el("div", "mode-txt");
       txt.appendChild(el("b", "", m.name));
+      // lo que entra de verdad en la sesión, no el total del mazo
+      var enSesion = Math.min(usable, Math.max(1, Store.settings.maxPerSession));
       txt.appendChild(el("span", "", usable
-        ? m.desc + " · " + usable + " tarjetas"
+        ? m.desc + " · " + enSesion + " de " + usable
         : (m.id === "dictation" && !Speech.available()
             ? "Tu dispositivo no tiene voz en chino instalada"
             : "No hay tarjetas compatibles")));
