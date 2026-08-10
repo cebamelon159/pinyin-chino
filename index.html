@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#1b7a43">
+<title>Pinyin — Chino Mandarín</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="app.css">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+</head>
+<body>
+
+<div id="loading" class="loading">
+  <div class="spinner"></div>
+  <p>Cargando vocabulario…</p>
+</div>
+
+<main id="app" hidden>
+
+  <!-- ══════════════ APRENDER ══════════════ -->
+  <section class="view" id="view-learn">
+    <header class="topbar">
+      <h1>Aprender</h1>
+      <button class="icon-btn" id="btn-settings-shortcut" aria-label="Ajustes">⚙️</button>
+    </header>
+
+    <div class="scroll">
+      <div class="stat-row" id="global-stats"></div>
+
+      <div class="section-label">
+        <span>Repaso de hoy</span>
+      </div>
+      <div id="due-card" class="due-card"></div>
+
+      <div class="section-label">
+        <span>Mazos</span>
+        <select id="deck-sort" class="mini-select">
+          <option value="order">Orden del curso</option>
+          <option value="pending">Más pendientes</option>
+          <option value="accuracy">Menor precisión</option>
+        </select>
+      </div>
+      <div id="deck-list"></div>
+    </div>
+  </section>
+
+  <!-- ══════════════ BIBLIOTECA ══════════════ -->
+  <section class="view" id="view-library" hidden>
+    <header class="topbar">
+      <h1>Biblioteca</h1>
+      <button class="icon-btn" id="btn-search" aria-label="Buscar">🔍</button>
+    </header>
+
+    <div class="search-wrap" id="search-wrap" hidden>
+      <input type="search" id="search-input" placeholder="Buscar en hanzi, pinyin o español…" autocomplete="off">
+    </div>
+
+    <nav class="tabs" id="deck-tabs"></nav>
+
+    <div class="scroll" id="word-list"></div>
+
+    <div class="library-footer">
+      <span id="word-count" class="pill"></span>
+      <div class="filter-chips" id="filter-chips">
+        <button class="chip active" data-filter="all">Todas</button>
+        <button class="chip" data-filter="word">Palabras</button>
+        <button class="chip" data-filter="sentence">Oraciones</button>
+        <button class="chip" data-filter="weak">Flojas</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ AJUSTES ══════════════ -->
+  <section class="view" id="view-settings" hidden>
+    <header class="topbar"><h1>Ajustes</h1></header>
+    <div class="scroll">
+
+      <div class="settings-group">
+        <h2>Audio</h2>
+        <label class="setting">
+          <span>Voz</span>
+          <select id="set-voice"></select>
+        </label>
+        <label class="setting">
+          <span>Velocidad <b id="rate-label">0,85</b></span>
+          <input type="range" id="set-rate" min="0.5" max="1.2" step="0.05" value="0.85">
+        </label>
+        <label class="setting">
+          <span>Reproducir al mostrar la tarjeta</span>
+          <input type="checkbox" id="set-autoplay" checked>
+        </label>
+        <button class="btn ghost" id="btn-test-voice">Probar voz</button>
+        <p class="hint" id="voice-hint"></p>
+      </div>
+
+      <div class="settings-group">
+        <h2>Tarjetas</h2>
+        <label class="setting">
+          <span>Colorear por tono</span>
+          <input type="checkbox" id="set-colors" checked>
+        </label>
+        <label class="setting">
+          <span>Mostrar nivel HSK</span>
+          <input type="checkbox" id="set-hsk" checked>
+        </label>
+        <label class="setting">
+          <span>Avisar del sandhi 3-3</span>
+          <input type="checkbox" id="set-sandhi" checked>
+        </label>
+        <p class="hint">El sandhi 3-3 es cuando dos terceros tonos seguidos hacen
+        que el primero suene como segundo: <b>nǐ hǎo</b> se escribe así pero suena
+        <b>ní hǎo</b>.</p>
+      </div>
+
+      <div class="settings-group">
+        <h2>Repaso</h2>
+        <label class="setting">
+          <span>Tarjetas nuevas por sesión</span>
+          <input type="number" id="set-new" min="0" max="50" value="10">
+        </label>
+        <label class="setting">
+          <span>Máximo por sesión</span>
+          <input type="number" id="set-max" min="5" max="200" value="30">
+        </label>
+      </div>
+
+      <div class="settings-group">
+        <h2>Tu progreso</h2>
+        <div id="progress-summary" class="progress-summary"></div>
+        <button class="btn ghost" id="btn-export">Exportar progreso</button>
+        <button class="btn ghost" id="btn-import">Importar progreso</button>
+        <input type="file" id="import-file" accept=".json" hidden>
+        <button class="btn danger-ghost" id="btn-reset">Borrar todo el progreso</button>
+      </div>
+
+      <div class="settings-group">
+        <h2>Sobre los datos</h2>
+        <p class="hint" id="data-info"></p>
+        <button class="btn ghost" id="btn-check-updates">Buscar vocabulario nuevo</button>
+        <p class="hint">
+          Cuando añadas una lección en la PC y ejecutes <code>agregar.bat</code>,
+          pulsa aquí con el celular conectado a la misma wifi. Una vez
+          descargado, funciona sin conexión.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ══════════════ SESIÓN DE ESTUDIO ══════════════ -->
+  <section class="view session" id="view-session" hidden>
+    <header class="topbar session-bar">
+      <button class="icon-btn" id="btn-quit">←</button>
+      <div class="progress-wrap">
+        <div class="progress-text">
+          <span id="session-counter">0 / 0</span>
+          <span id="session-pct">0 %</span>
+        </div>
+        <div class="progress-track"><div class="progress-fill" id="session-fill"></div></div>
+      </div>
+    </header>
+
+    <div class="session-body" id="session-body"></div>
+
+    <div class="session-actions" id="session-actions"></div>
+  </section>
+
+  <!-- ══════════════ RESUMEN ══════════════ -->
+  <section class="view" id="view-summary" hidden>
+    <div class="summary-wrap" id="summary-wrap"></div>
+  </section>
+
+  <!-- ══════════════ ORDEN DE TRAZOS ══════════════ -->
+  <div class="sheet-backdrop" id="stroke-sheet" hidden>
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <div class="stroke-head">
+        <h2 id="stroke-title">Orden de trazos</h2>
+        <button class="icon-btn" id="btn-stroke-close">✕</button>
+      </div>
+      <div class="stroke-grid" id="stroke-grid"></div>
+      <div class="stroke-actions">
+        <button class="btn ghost" id="btn-stroke-replay">▶  Repetir animación</button>
+        <button class="btn" id="btn-stroke-practice">✍️  Practicar trazando</button>
+      </div>
+      <p class="hint" id="stroke-hint">
+        Toca un carácter para verlo de nuevo. En modo práctica se traza con el
+        dedo: si te equivocas, te marca el trazo correcto.
+      </p>
+    </div>
+  </div>
+
+  <!-- ══════════════ SELECTOR DE MODO ══════════════ -->
+  <div class="sheet-backdrop" id="mode-sheet" hidden>
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <h2 id="mode-deck-name">Elegir ejercicio</h2>
+      <div class="mode-list" id="mode-list"></div>
+      <button class="btn ghost" id="btn-mode-cancel">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- ══════════════ NAVEGACIÓN ══════════════ -->
+  <nav class="bottom-nav" id="bottom-nav">
+    <button class="nav-btn active" data-view="learn">
+      <span class="nav-ico">🎓</span><span>Aprender</span>
+    </button>
+    <button class="nav-btn" data-view="library">
+      <span class="nav-ico">📚</span><span>Biblioteca</span>
+    </button>
+    <button class="nav-btn" data-view="settings">
+      <span class="nav-ico">⚙️</span><span>Ajustes</span>
+    </button>
+  </nav>
+
+</main>
+
+<div id="toast" class="toast" hidden></div>
+
+<script src="vendor/hanzi-writer.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
