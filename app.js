@@ -513,6 +513,74 @@ function strokeButton(card) {
   return b;
 }
 
+
+/* ─────────────── deslizar para pasar de tarjeta ───────────────
+   Después de ver la respuesta, en vez de buscar el botón se arrastra la
+   tarjeta: derecha = la sabía, izquierda = no la sabía. Los botones siguen
+   ahí para quien los prefiera.
+
+   Se usan eventos de puntero, que valen igual para dedo y ratón. Si el gesto
+   arranca vertical se cancela, para no secuestrar el scroll de la página. */
+function enableSwipe(node, onLeft, onRight) {
+  var x0 = 0, y0 = 0, dx = 0, arrastrando = false, resuelto = false;
+  var ancho = 300;
+
+  var marca = el("div", "swipe-badge");
+  node.appendChild(marca);
+
+  function pinta() {
+    var p = Math.min(1, Math.abs(dx) / (ancho * 0.3));
+    node.style.transform = "translateX(" + dx + "px) rotate(" + (dx / 24) + "deg)";
+    marca.textContent = dx > 0 ? "✓" : "✕";
+    marca.className = "swipe-badge " + (dx > 0 ? "ok" : "bad");
+    marca.style.opacity = Math.abs(dx) > 12 ? p : 0;
+  }
+
+  function suelta() {
+    arrastrando = false;
+    node.style.transition = "transform .18s ease, opacity .18s ease";
+    node.style.transform = "";
+    marca.style.opacity = 0;
+  }
+
+  node.addEventListener("pointerdown", function (e) {
+    if (resuelto) return;
+    if (e.target.closest && e.target.closest("button")) return;   // no robar los botones
+    arrastrando = true;
+    x0 = e.clientX; y0 = e.clientY; dx = 0;
+    ancho = node.offsetWidth || 300;
+    node.style.transition = "none";
+    try { node.setPointerCapture(e.pointerId); } catch (err) {}
+  });
+
+  node.addEventListener("pointermove", function (e) {
+    if (!arrastrando) return;
+    dx = e.clientX - x0;
+    var dy = e.clientY - y0;
+    if (Math.abs(dy) > Math.abs(dx) * 1.4 && Math.abs(dy) > 24) { suelta(); return; }
+    pinta();
+  });
+
+  function fin() {
+    if (!arrastrando) return;
+    var umbral = Math.max(70, ancho * 0.28);
+    var decidido = Math.abs(dx) > umbral;
+    var derecha = dx > 0;
+    if (!decidido) { suelta(); return; }
+
+    resuelto = true;
+    arrastrando = false;
+    node.style.transition = "transform .2s ease, opacity .2s ease";
+    node.style.transform = "translateX(" + (derecha ? ancho : -ancho) * 1.4 +
+                           "px) rotate(" + (derecha ? 18 : -18) + "deg)";
+    node.style.opacity = 0;
+    setTimeout(function () { (derecha ? onRight : onLeft)(); }, 170);
+  }
+
+  node.addEventListener("pointerup", fin);
+  node.addEventListener("pointercancel", suelta);
+}
+
 /* ────────────────── comparación de lo que escribes ────────────────── */
 
 /* Para comparar dos frases hay que ignorar la puntuación: si escribes 。 o .
@@ -646,8 +714,11 @@ var Modes = {
         if (revealed) return;
         revealed = true;
         back.style.display = "";
-        hint.style.display = "none";
+        hint.textContent = "Desliza →  la sabía   ·   ←  no la sabía";
         ctx.showGrading();
+        enableSwipe(card,
+          function () { Session.grade(false); },
+          function () { Session.grade(true); });
         if (Store.settings.autoplay) Speech.speak(c.hanzi);
       }
       card.onclick = reveal;
@@ -1139,9 +1210,12 @@ var Modes = {
         if (revealed) return;
         revealed = true;
         back.style.display = "";
-        hint.style.display = "none";
+        hint.textContent = "Desliza →  la sabía   ·   ←  no la sabía";
         Speech.speak(c.hanzi);
         ctx.showGrading();
+        enableSwipe(card,
+          function () { Session.grade(false); },
+          function () { Session.grade(true); });
       }
       card.onclick = reveal;
       body.appendChild(card);

@@ -641,3 +641,18 @@ button { cursor: pointer; border: none; background: none; }
   .view { max-width: 620px; margin: 0 auto; border-inline: 1px solid var(--border); }
   .bottom-nav { max-width: 620px; margin: 0 auto; }
 }
+
+/* ---------- deslizar la tarjeta ---------- */
+.card { touch-action: pan-y; }          /* deja pasar el scroll vertical */
+
+.swipe-badge {
+  position: absolute; top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 84px; font-weight: 800; line-height: 1;
+  opacity: 0; pointer-events: none;
+  /* Sin transicion a proposito: la opacidad sigue al dedo en tiempo real.
+     Con transicion, el simbolo iba 120 ms por detras del gesto. */
+  text-shadow: 0 2px 12px rgba(0,0,0,.18);
+}
+.swipe-badge.ok  { color: var(--ok); }
+.swipe-badge.bad { color: var(--bad); }
