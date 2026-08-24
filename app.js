@@ -531,8 +531,8 @@ function enableSwipe(node, onLeft, onRight) {
   function pinta() {
     var p = Math.min(1, Math.abs(dx) / (ancho * 0.3));
     node.style.transform = "translateX(" + dx + "px) rotate(" + (dx / 24) + "deg)";
-    marca.textContent = dx > 0 ? "✓" : "✕";
-    marca.className = "swipe-badge " + (dx > 0 ? "ok" : "bad");
+    marca.textContent = dx > 0 ? "✕" : "✓";
+    marca.className = "swipe-badge " + (dx > 0 ? "bad" : "ok");
     marca.style.opacity = Math.abs(dx) > 12 ? p : 0;
   }
 
@@ -714,11 +714,12 @@ var Modes = {
         if (revealed) return;
         revealed = true;
         back.style.display = "";
-        hint.textContent = "Desliza →  la sabía   ·   ←  no la sabía";
+        hint.textContent = "Desliza ←  la sabía   ·   →  no la sabía";
         ctx.showGrading();
+        // izquierda = la sabía, derecha = no la sabía (así lo pidió el usuario)
         enableSwipe(card,
-          function () { Session.grade(false); },
-          function () { Session.grade(true); });
+          function () { Session.grade(true); },
+          function () { Session.grade(false); });
         if (Store.settings.autoplay) Speech.speak(c.hanzi);
       }
       card.onclick = reveal;
@@ -1210,12 +1211,13 @@ var Modes = {
         if (revealed) return;
         revealed = true;
         back.style.display = "";
-        hint.textContent = "Desliza →  la sabía   ·   ←  no la sabía";
+        hint.textContent = "Desliza ←  la sabía   ·   →  no la sabía";
         Speech.speak(c.hanzi);
         ctx.showGrading();
+        // izquierda = la sabía, derecha = no la sabía (así lo pidió el usuario)
         enableSwipe(card,
-          function () { Session.grade(false); },
-          function () { Session.grade(true); });
+          function () { Session.grade(true); },
+          function () { Session.grade(false); });
       }
       card.onclick = reveal;
       body.appendChild(card);

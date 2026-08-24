@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-08-24T10:30:59",
+ "generated": "2026-08-24T11:58:35",
  "decks": [
   {
    "id": "L13",
@@ -41792,21 +41792,21 @@
   {
    "id": "c8fd8",
    "hanzi": "还",
-   "pinyin": "hái",
+   "pinyin": "huán",
    "tokens": [
     {
      "t": "w",
      "hanzi": "还",
-     "pinyin": "hái",
+     "pinyin": "huán",
      "syl": [
       [
-       "hái",
+       "huán",
        2
       ]
      ]
     }
    ],
-   "es": "todavía / además",
+   "es": "devolver (lo prestado)",
    "en": "still; still in progress; still more",
    "emoji": null,
    "image": null,
