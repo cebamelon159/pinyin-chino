@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-08-10T20:12:57",
+ "generated": "2026-08-24T10:22:13",
  "decks": [
   {
    "id": "d13",
@@ -1115,6 +1115,84 @@
    ]
   },
   {
+   "id": "mia13",
+   "name": "L13 Viajes, trámites y tecnología",
+   "order": 500,
+   "source": "mias",
+   "cards": [
+    "c4e22",
+    "c4ea4",
+    "c4fee7406",
+    "c50198f665ba4",
+    "c501f",
+    "c501f8bb05361",
+    "c505c",
+    "c505c8f66573a",
+    "c516553e3",
+    "c516c4ea45361",
+    "c51fa53e3",
+    "c5361",
+    "c53d17968",
+    "c540e6765",
+    "c554a",
+    "c57304e0b",
+    "c573094c1",
+    "c574f",
+    "c590d5370",
+    "c59274f7f9986",
+    "c59276982",
+    "c5b66751f8bc1",
+    "c5b8988c5",
+    "c5e085085",
+    "c5e26",
+    "c5e2e",
+    "c5e3d5b50",
+    "c5f00",
+    "c5fd8",
+    "c603b662f",
+    "c624d",
+    "c62535370",
+    "c6253626b",
+    "c627e",
+    "c628a",
+    "c62a47167",
+    "c63a5",
+    "c65397b7e",
+    "c65747406",
+    "c65ad",
+    "c65b94fbf",
+    "c65e07ebf7f51",
+    "c684c5b50",
+    "c69055b50",
+    "c6b276d32",
+    "c706b8f66",
+    "c706f",
+    "c77ed",
+    "c7ad9",
+    "c7b7e8bc1",
+    "c7bb15b50",
+    "c7f517edc",
+    "c804a5929513f",
+    "c88c5",
+    "c8bc14ef6",
+    "c8d70",
+    "c8d9f",
+    "c8eab4efd8bc1",
+    "c8f666b21",
+    "c8f6c673a",
+    "c8f6f4ef6",
+    "c8fd8",
+    "c8fdc",
+    "c90007968",
+    "c901b",
+    "c9047",
+    "c957f",
+    "c975e6d32",
+    "c987a5229",
+    "c9ad894c1"
+   ]
+  },
+  {
    "id": "hsk1",
    "name": "Camino a HSK1",
    "order": 901,
@@ -1164,7 +1242,6 @@
     "c4eca5929",
     "c51e0",
     "c542c",
-    "c5f00",
     "c53eb",
     "c8bf7",
     "c56de",
@@ -1220,8 +1297,6 @@
     "c4e2d5348",
     "c51fa79df8f66",
     "c6c34679c",
-    "c684c5b50",
-    "c69055b50",
     "c53174eac",
     "c676f5b50",
     "c706b8f667ad9",
@@ -1238,7 +1313,6 @@
     "c8981",
     "c4e5f",
     "c5230",
-    "c8fd8",
     "c7740",
     "c5427",
     "c4e3a",
@@ -1246,7 +1320,6 @@
     "c4e24",
     "c51fa",
     "c56e04e3a",
-    "c8d70",
     "c5b83",
     "c4f46662f",
     "c65f695f4",
@@ -1259,7 +1332,6 @@
     "c5b695b50",
     "c7b2c4e00",
     "c95ee",
-    "c957f",
     "c4e8b60c5",
     "c5f20",
     "c51c65907",
@@ -1275,7 +1347,6 @@
     "c5e2e52a9",
     "c665a4e0a",
     "c9519",
-    "c8fdc",
     "c836f",
     "c9ed1",
     "c7ea2",
@@ -1333,17 +1404,13 @@
    "order": 903,
    "source": "hsk",
    "cards": [
-    "c554a",
-    "c628a",
     "c88ab",
     "c5982679c",
     "c53ea",
     "c66f4",
     "c5730",
-    "c624d",
     "c50cf",
     "c8ba44e3a",
-    "c5e26",
     "c79cd",
     "c53d173b0",
     "c4e0076f4",
@@ -1363,12 +1430,10 @@
     "c62168005",
     "c673a4f1a",
     "c522b4eba",
-    "c7ad9",
     "c4f7f",
     "c51765b9e",
     "c89816c42",
     "c4fe1",
-    "c63a5",
     "c76f84fe1",
     "c82b1",
     "c867d7136",
@@ -1393,7 +1458,6 @@
     "c8138",
     "c53e3",
     "c96644e86",
-    "c603b662f",
     "c53cc",
     "c7a817136",
     "c6bb5",
@@ -1429,7 +1493,6 @@
     "c897f",
     "c5dee",
     "c7ed35a5a",
-    "c77ed",
     "c51e04e4e",
     "c96448fd1",
     "c8ba4771f",
@@ -1445,7 +1508,6 @@
     "c51735fc3",
     "c817f",
     "c73ed",
-    "c574f",
     "c4e008fb9",
     "c978b",
     "c4e6060ef",
@@ -1456,7 +1518,6 @@
     "c4e3e884c",
     "c52a87269",
     "c6c345e73",
-    "c501f",
     "c4e1c",
     "c593453d1",
     "c5bb36015",
@@ -1479,9 +1540,7 @@
     "c4e2d95f4",
     "c806a660e",
     "c591a4e48",
-    "c706f",
     "c592a9633",
-    "c65b94fbf",
     "c7cd6",
     "c76f8540c",
     "c751f6c14",
@@ -1521,7 +1580,6 @@
     "c9f3b5b50",
     "c53d453d4",
     "c6d176fa1",
-    "c5e3d5b50",
     "c611f5192",
     "c8fdf5230",
     "c523b",
@@ -1548,10 +1606,8 @@
     "c53d170e7",
     "c4f1e",
     "c6709540d",
-    "c6253626b",
     "c84618404",
     "c718a732b",
-    "c62a47167",
     "c83dc5355",
     "c5e747ea7",
     "c679c6c41",
@@ -5053,7 +5109,8 @@
    "lesson": 11,
    "decks": [
     "d20",
-    "l11_2"
+    "l11_2",
+    "mia13"
    ],
    "stats": {
     "studyCount": 4,
@@ -9701,7 +9758,8 @@
    "lesson": 10,
    "decks": [
     "d18",
-    "l10_2"
+    "l10_2",
+    "mia13"
    ],
    "stats": {
     "studyCount": 4,
@@ -10792,7 +10850,8 @@
    "lesson": 9,
    "decks": [
     "d17",
-    "l9_2"
+    "l9_2",
+    "mia13"
    ],
    "stats": {
     "studyCount": 10,
@@ -18702,7 +18761,8 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "d5"
+    "d5",
+    "mia13"
    ],
    "stats": {
     "studyCount": 15,
@@ -27323,7 +27383,7 @@
   {
    "id": "c662f554a62114e0a5348521a52305b666821",
    "hanzi": "是啊。我上午刚到学校。",
-   "pinyin": "shì ā。 wǒ shàngwǔ gāng dào xuéxiào。",
+   "pinyin": "shì a。 wǒ shàngwǔ gāng dào xuéxiào。",
    "tokens": [
     {
      "t": "w",
@@ -27339,11 +27399,11 @@
     {
      "t": "w",
      "hanzi": "啊",
-     "pinyin": "ā",
+     "pinyin": "a",
      "syl": [
       [
-       "ā",
-       1
+       "a",
+       5
       ]
      ]
     },
@@ -27435,8 +27495,7 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "pinyinOriginal": "shì a 。 wŏ shàng wŭ gāng dào xué xiào 。"
+   }
   },
   {
    "id": "c670994f6884c572856fe4e6699864e1c8fb9",
@@ -28672,7 +28731,7 @@
   {
    "id": "c662f554a67975a1c662f6211548c5b8b534e7684",
    "hanzi": "是啊，林娜是我和宋华的好朋友。",
-   "pinyin": "shì ā， Lín Nà shì wǒ hé Sòng Huá de hǎo péngyou。",
+   "pinyin": "shì a， Lín Nà shì wǒ hé Sòng Huá de hǎo péngyou。",
    "tokens": [
     {
      "t": "w",
@@ -28688,11 +28747,11 @@
     {
      "t": "w",
      "hanzi": "啊",
-     "pinyin": "ā",
+     "pinyin": "a",
      "syl": [
       [
-       "ā",
-       1
+       "a",
+       5
       ]
      ]
     },
@@ -35547,7 +35606,7 @@
   {
    "id": "c4e0d4f1a554a62114eec521a901a4e8675358bdd",
    "hanzi": "不会啊，我们刚通了电话，他就在宿舍。",
-   "pinyin": "búhuì ā， wǒmen gāng tōng le diànhuà， tā jiù zài sùshè。",
+   "pinyin": "búhuì a， wǒmen gāng tōng le diànhuà， tā jiù zài sùshè。",
    "tokens": [
     {
      "t": "w",
@@ -35567,11 +35626,11 @@
     {
      "t": "w",
      "hanzi": "啊",
-     "pinyin": "ā",
+     "pinyin": "a",
      "syl": [
       [
-       "ā",
-       1
+       "a",
+       5
       ]
      ]
     },
@@ -36034,16 +36093,16 @@
   {
    "id": "c554a4e0d597d610f601d621181ea5df18bb09519",
    "hanzi": "啊，不好意思，我自己记错了，以为是三层呢。",
-   "pinyin": "ā， bùhǎoyìsi， wǒ zìjǐ jìcuò le， yǐwéi shì sān céng ne。",
+   "pinyin": "a， bùhǎoyìsi， wǒ zìjǐ jìcuò le， yǐwéi shì sān céng ne。",
    "tokens": [
     {
      "t": "w",
      "hanzi": "啊",
-     "pinyin": "ā",
+     "pinyin": "a",
      "syl": [
       [
-       "ā",
-       1
+       "a",
+       5
       ]
      ]
     },
@@ -39961,6 +40020,2529 @@
    "patternEs": "Creer algo que resulta ser falso"
   },
   {
+   "id": "c4e22",
+   "hanzi": "丢",
+   "pinyin": "diū",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "丢",
+     "pinyin": "diū",
+     "syl": [
+      [
+       "diū",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "perder (algo)",
+   "en": "to lose; to put aside; to throw",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 5,
+   "freq": 1655,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4ea4",
+   "hanzi": "交",
+   "pinyin": "jiāo",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "交",
+     "pinyin": "jiāo",
+     "syl": [
+      [
+       "jiāo",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "entregar / pagar",
+   "en": "to hand over; to deliver; to pay (money); to turn over; to make friends; (of lines) to intersect",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 715,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4fee7406",
+   "hanzi": "修理",
+   "pinyin": "xiūlǐ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "修理",
+     "pinyin": "xiūlǐ",
+     "syl": [
+      [
+       "xiū",
+       1
+      ],
+      [
+       "lǐ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "reparar / arreglar",
+   "en": "to repair; to fix; to prune",
+   "emoji": null,
+   "image": null,
+   "hsk": 6,
+   "hskNew": 4,
+   "freq": 5879,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c50198f665ba4",
+   "hanzi": "候车室",
+   "pinyin": "hòuchēshì",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "候车室",
+     "pinyin": "hòuchēshì",
+     "syl": [
+      [
+       "hòu",
+       4
+      ],
+      [
+       "chē",
+       1
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "sala de espera",
+   "en": "waiting room (for train, bus etc)",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c501f",
+   "hanzi": "借",
+   "pinyin": "jiè",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "借",
+     "pinyin": "jiè",
+     "syl": [
+      [
+       "jiè",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "prestar / pedir prestado",
+   "en": "to borrow; (used in combination with 給|给[gei3] or 出[chu1] etc) to lend; to make use of; to avail oneself of",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 1495,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c501f8bb05361",
+   "hanzi": "借记卡",
+   "pinyin": "jièjìkǎ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "借记卡",
+     "pinyin": "jièjìkǎ",
+     "syl": [
+      [
+       "jiè",
+       4
+      ],
+      [
+       "jì",
+       4
+      ],
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "tarjeta de débito",
+   "en": "debit card",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c505c",
+   "hanzi": "停",
+   "pinyin": "tíng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "停",
+     "pinyin": "tíng",
+     "syl": [
+      [
+       "tíng",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "parar / estacionar",
+   "en": "to stop; to halt; to park (a car)",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 768,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c505c8f66573a",
+   "hanzi": "停车场",
+   "pinyin": "tíngchēchǎng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "停车场",
+     "pinyin": "tíngchēchǎng",
+     "syl": [
+      [
+       "tíng",
+       2
+      ],
+      [
+       "chē",
+       1
+      ],
+      [
+       "chǎng",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "estacionamiento / playa de autos",
+   "en": "parking lot; car park",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 5453,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c516553e3",
+   "hanzi": "入口",
+   "pinyin": "rùkǒu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "入口",
+     "pinyin": "rùkǒu",
+     "syl": [
+      [
+       "rù",
+       4
+      ],
+      [
+       "kǒu",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "entrada",
+   "en": "entrance; to import",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 5927,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c516c4ea45361",
+   "hanzi": "公交卡",
+   "pinyin": "gōngjiāo kǎ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "公交",
+     "pinyin": "gōngjiāo",
+     "syl": [
+      [
+       "gōng",
+       1
+      ],
+      [
+       "jiāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "卡",
+     "pinyin": "kǎ",
+     "syl": [
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "tarjeta de transporte público",
+   "en": "IC card used for paying fares on public transportation systems such as buses and subways",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c51fa53e3",
+   "hanzi": "出口",
+   "pinyin": "chūkǒu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "出口",
+     "pinyin": "chūkǒu",
+     "syl": [
+      [
+       "chū",
+       1
+      ],
+      [
+       "kǒu",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "salida",
+   "en": "an exit; to speak; to export",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 2,
+   "freq": 1693,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5361",
+   "hanzi": "卡",
+   "pinyin": "kǎ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "卡",
+     "pinyin": "kǎ",
+     "syl": [
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "tarjeta",
+   "en": "to stop; to block; (computing) (coll.) slow",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 670,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c53d17968",
+   "hanzi": "发票",
+   "pinyin": "fāpiào",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "发票",
+     "pinyin": "fāpiào",
+     "syl": [
+      [
+       "fā",
+       1
+      ],
+      [
+       "piào",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "boleta / factura",
+   "en": "invoice; receipt; bill; uniform invoice (abbr. for 統一發票|统一发票[tong3 yi1 fa1 piao4])",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 4,
+   "freq": 9848,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c540e6765",
+   "hanzi": "后来",
+   "pinyin": "hòulái",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "后来",
+     "pinyin": "hòulái",
+     "syl": [
+      [
+       "hòu",
+       4
+      ],
+      [
+       "lái",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "después / más tarde",
+   "en": "afterwards; later; newly arrived",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 1055,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c554a",
+   "hanzi": "啊",
+   "pinyin": "a",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "啊",
+     "pinyin": "a",
+     "syl": [
+      [
+       "a",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "partícula de énfasis al final de frase",
+   "en": "interjection of surprise; Ah!; Oh!",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 47,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c57304e0b",
+   "hanzi": "地下",
+   "pinyin": "dìxià",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "地下",
+     "pinyin": "dìxià",
+     "syl": [
+      [
+       "dì",
+       4
+      ],
+      [
+       "xià",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "subterráneo / debajo",
+   "en": "underground; subterranean; covert",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 4,
+   "freq": 2908,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c574f",
+   "hanzi": "坏",
+   "pinyin": "huài",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "坏",
+     "pinyin": "huài",
+     "syl": [
+      [
+       "huài",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "malogrado / roto",
+   "en": "bad; spoiled; broken",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 1,
+   "freq": 1239,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c590d5370",
+   "hanzi": "复印",
+   "pinyin": "fùyìn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "复印",
+     "pinyin": "fùyìn",
+     "syl": [
+      [
+       "fù",
+       4
+      ],
+      [
+       "yìn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "fotocopiar",
+   "en": "to photocopy; to duplicate a document",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 3,
+   "freq": 14608,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c59274f7f9986",
+   "hanzi": "大使馆",
+   "pinyin": "dàshǐguǎn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "大使馆",
+     "pinyin": "dàshǐguǎn",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "shǐ",
+       3
+      ],
+      [
+       "guǎn",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "embajada",
+   "en": "embassy",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 3,
+   "freq": 11530,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "dàshíguǎn"
+  },
+  {
+   "id": "c59276982",
+   "hanzi": "大概",
+   "pinyin": "dàgài",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "大概",
+     "pinyin": "dàgài",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "gài",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "probablemente / más o menos",
+   "en": "roughly; probably; rough",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 3,
+   "freq": 1611,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5b66751f8bc1",
+   "hanzi": "学生证",
+   "pinyin": "xuéshengzhèng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "学生证",
+     "pinyin": "xuéshengzhèng",
+     "syl": [
+      [
+       "xué",
+       2
+      ],
+      [
+       "sheng",
+       5
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "carné de estudiante",
+   "en": "student identity card",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5b8988c5",
+   "hanzi": "安装",
+   "pinyin": "ānzhuāng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "安装",
+     "pinyin": "ānzhuāng",
+     "syl": [
+      [
+       "ān",
+       1
+      ],
+      [
+       "zhuāng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "instalar",
+   "en": "to install; to erect; to fix",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 3,
+   "freq": 3653,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5e085085",
+   "hanzi": "师傅",
+   "pinyin": "shīfu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "师傅",
+     "pinyin": "shīfu",
+     "syl": [
+      [
+       "shī",
+       1
+      ],
+      [
+       "fu",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "maestro / señor (a un técnico o chofer)",
+   "en": "master; qualified worker; respectful form of address for older men",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 5,
+   "freq": 4911,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5e26",
+   "hanzi": "带",
+   "pinyin": "dài",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "llevar / traer",
+   "en": "band; belt; girdle",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 177,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5e3d5b50",
+   "hanzi": "帽子",
+   "pinyin": "màozi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "帽子",
+     "pinyin": "màozi",
+     "syl": [
+      [
+       "mào",
+       4
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "gorro / sombrero",
+   "en": "hat; cap; (fig.) label",
+   "emoji": "🧢",
+   "image": null,
+   "hsk": 3,
+   "hskNew": 4,
+   "freq": 3553,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5f00",
+   "hanzi": "开",
+   "pinyin": "kāi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "开",
+     "pinyin": "kāi",
+     "syl": [
+      [
+       "kāi",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "abrir / encender / conducir",
+   "en": "to open (transitive or intransitive); (of ships, vehicles, troops etc) to start; to turn on; to put in operation; to operate; to run",
+   "emoji": null,
+   "image": null,
+   "hsk": 1,
+   "hskNew": 1,
+   "freq": 195,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5fd8",
+   "hanzi": "忘",
+   "pinyin": "wàng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "忘",
+     "pinyin": "wàng",
+     "syl": [
+      [
+       "wàng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "olvidar",
+   "en": "to forget; to overlook; to neglect",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 1,
+   "freq": 1015,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c603b662f",
+   "hanzi": "总是",
+   "pinyin": "zǒngshì",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "总是",
+     "pinyin": "zǒngshì",
+     "syl": [
+      [
+       "zǒng",
+       3
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "siempre",
+   "en": "always",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 3,
+   "freq": 638,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c624d",
+   "hanzi": "才",
+   "pinyin": "cái",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "才",
+     "pinyin": "cái",
+     "syl": [
+      [
+       "cái",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "recién / apenas",
+   "en": "ability; talent; sb of a certain type; a capable individual",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 133,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c62535370",
+   "hanzi": "打印",
+   "pinyin": "dǎyìn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "打印",
+     "pinyin": "dǎyìn",
+     "syl": [
+      [
+       "dǎ",
+       3
+      ],
+      [
+       "yìn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "imprimir",
+   "en": "to affix a seal; to stamp; to print out (with a printer)",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 8233,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c6253626b",
+   "hanzi": "打扫",
+   "pinyin": "dǎsǎo",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "打扫",
+     "pinyin": "dǎsǎo",
+     "syl": [
+      [
+       "dǎ",
+       3
+      ],
+      [
+       "sǎo",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "limpiar / barrer",
+   "en": "to clean; to sweep",
+   "emoji": null,
+   "image": "images/c6253626b.webp",
+   "hsk": 3,
+   "hskNew": 4,
+   "freq": 6258,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "dásǎo"
+  },
+  {
+   "id": "c628a",
+   "hanzi": "把",
+   "pinyin": "bǎ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "partícula que adelanta el objeto",
+   "en": "handle",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 3,
+   "freq": 50,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c62a47167",
+   "hanzi": "护照",
+   "pinyin": "hùzhào",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "pasaporte",
+   "en": "passport",
+   "emoji": null,
+   "image": "images/c62a47167.webp",
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 7152,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c63a5",
+   "hanzi": "接",
+   "pinyin": "jiē",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "接",
+     "pinyin": "jiē",
+     "syl": [
+      [
+       "jiē",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "recoger / contestar / recibir",
+   "en": "to receive; to answer (the phone); to meet or welcome sb",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 425,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c65397b7e",
+   "hanzi": "改签",
+   "pinyin": "gǎiqiān",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "改签",
+     "pinyin": "gǎiqiān",
+     "syl": [
+      [
+       "gǎi",
+       3
+      ],
+      [
+       "qiān",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "cambiar el pasaje (fecha o vuelo)",
+   "en": "to change one's reservation; to transfer to a different flight, airline, bus or train",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c65747406",
+   "hanzi": "整理",
+   "pinyin": "zhěnglǐ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "整理",
+     "pinyin": "zhěnglǐ",
+     "syl": [
+      [
+       "zhěng",
+       3
+      ],
+      [
+       "lǐ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "ordenar / organizar",
+   "en": "to arrange; to tidy up; to sort out",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 3,
+   "freq": 2737,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "zhénglǐ"
+  },
+  {
+   "id": "c65ad",
+   "hanzi": "断",
+   "pinyin": "duàn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "断",
+     "pinyin": "duàn",
+     "syl": [
+      [
+       "duàn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "cortarse / romperse",
+   "en": "to break; to snap; to cut off",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 3,
+   "freq": 1707,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c65b94fbf",
+   "hanzi": "方便",
+   "pinyin": "fāngbiàn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "方便",
+     "pinyin": "fāngbiàn",
+     "syl": [
+      [
+       "fāng",
+       1
+      ],
+      [
+       "biàn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "cómodo / práctico",
+   "en": "convenient; suitable; to facilitate; to make things easy; having money to spare",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 2014,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c65e07ebf7f51",
+   "hanzi": "无线网",
+   "pinyin": "wúxiàn wǎng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "无线",
+     "pinyin": "wúxiàn",
+     "syl": [
+      [
+       "wú",
+       2
+      ],
+      [
+       "xiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "网",
+     "pinyin": "wǎng",
+     "syl": [
+      [
+       "wǎng",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "wifi / red inalámbrica",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c684c5b50",
+   "hanzi": "桌子",
+   "pinyin": "zhuōzi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "桌子",
+     "pinyin": "zhuōzi",
+     "syl": [
+      [
+       "zhuō",
+       1
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "mesa",
+   "en": "table; desk",
+   "emoji": null,
+   "image": "images/c684c5b50.webp",
+   "hsk": 1,
+   "hskNew": 1,
+   "freq": 3639,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c69055b50",
+   "hanzi": "椅子",
+   "pinyin": "yǐzi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "椅子",
+     "pinyin": "yǐzi",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "silla",
+   "en": "chair",
+   "emoji": null,
+   "image": "images/c69055b50.webp",
+   "hsk": 1,
+   "hskNew": 2,
+   "freq": 4472,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c6b276d32",
+   "hanzi": "欧洲",
+   "pinyin": "Ōuzhōu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "欧洲",
+     "pinyin": "Ōuzhōu",
+     "syl": [
+      [
+       "Ōu",
+       1
+      ],
+      [
+       "zhōu",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "Europa",
+   "en": "Europe (abbr. for 歐羅巴洲|欧罗巴洲[Ou1 luo2 ba1 Zhou1])",
+   "emoji": null,
+   "image": null,
+   "hsk": 6,
+   "hskNew": null,
+   "freq": 1929,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c706b8f66",
+   "hanzi": "火车",
+   "pinyin": "huǒchē",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "火车",
+     "pinyin": "huǒchē",
+     "syl": [
+      [
+       "huǒ",
+       3
+      ],
+      [
+       "chē",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "tren",
+   "en": "train",
+   "emoji": "🚆",
+   "image": null,
+   "hsk": null,
+   "hskNew": 1,
+   "freq": 2791,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c706f",
+   "hanzi": "灯",
+   "pinyin": "dēng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "灯",
+     "pinyin": "dēng",
+     "syl": [
+      [
+       "dēng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "lámpara / luz",
+   "en": "lamp; light; lantern",
+   "emoji": null,
+   "image": "images/c706f.webp",
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 2001,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c77ed",
+   "hanzi": "短",
+   "pinyin": "duǎn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "短",
+     "pinyin": "duǎn",
+     "syl": [
+      [
+       "duǎn",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "corto",
+   "en": "short; brief; to lack",
+   "emoji": null,
+   "image": "images/c77ed.webp",
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 983,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c7ad9",
+   "hanzi": "站",
+   "pinyin": "zhàn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "站",
+     "pinyin": "zhàn",
+     "syl": [
+      [
+       "zhàn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "estación / pararse",
+   "en": "station; to stand; to halt",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 1,
+   "freq": 399,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c7b7e8bc1",
+   "hanzi": "签证",
+   "pinyin": "qiānzhèng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "签证",
+     "pinyin": "qiānzhèng",
+     "syl": [
+      [
+       "qiān",
+       1
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "visa",
+   "en": "visa; to issue a visa",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 5,
+   "freq": 8073,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c7f517edc",
+   "hanzi": "网络",
+   "pinyin": "wǎngluò",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "网络",
+     "pinyin": "wǎngluò",
+     "syl": [
+      [
+       "wǎng",
+       3
+      ],
+      [
+       "luò",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "red / internet",
+   "en": "network (computing, telecommunications, transport etc)",
+   "emoji": null,
+   "image": null,
+   "hsk": 6,
+   "hskNew": 4,
+   "freq": 1462,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c804a5929513f",
+   "hanzi": "聊天儿",
+   "pinyin": "liáotiānr",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "聊天儿",
+     "pinyin": "liáotiānr",
+     "syl": [
+      [
+       "liáo",
+       2
+      ],
+      [
+       "tiānr",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "charlar / conversar",
+   "en": "to chat; to gossip",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 6,
+   "freq": 102289,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c88c5",
+   "hanzi": "装",
+   "pinyin": "zhuāng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "装",
+     "pinyin": "zhuāng",
+     "syl": [
+      [
+       "zhuāng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "instalar / empacar",
+   "en": "adornment; to adorn; dress",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 2,
+   "freq": 741,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8bc14ef6",
+   "hanzi": "证件",
+   "pinyin": "zhèngjiàn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "证件",
+     "pinyin": "zhèngjiàn",
+     "syl": [
+      [
+       "zhèng",
+       4
+      ],
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "documento de identidad",
+   "en": "certificate; papers; credentials; document; ID",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 3,
+   "freq": 5876,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8d70",
+   "hanzi": "走",
+   "pinyin": "zǒu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "走",
+     "pinyin": "zǒu",
+     "syl": [
+      [
+       "zǒu",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "caminar / irse",
+   "en": "to walk; to go; to run",
+   "emoji": "🚶",
+   "image": null,
+   "hsk": 2,
+   "hskNew": 1,
+   "freq": 109,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8d9f",
+   "hanzi": "趟",
+   "pinyin": "tàng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "趟",
+     "pinyin": "tàng",
+     "syl": [
+      [
+       "tàng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "viaje, vez (clasificador de idas y vueltas)",
+   "en": "to wade; to trample; to turn the soil",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 6,
+   "freq": 3174,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8eab4efd8bc1",
+   "hanzi": "身份证",
+   "pinyin": "shēnfènzhèng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "身份证",
+     "pinyin": "shēnfènzhèng",
+     "syl": [
+      [
+       "shēn",
+       1
+      ],
+      [
+       "fèn",
+       4
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "DNI / documento de identidad",
+   "en": "identity card; ID",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 3,
+   "freq": 4226,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8f666b21",
+   "hanzi": "车次",
+   "pinyin": "chēcì",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "车次",
+     "pinyin": "chēcì",
+     "syl": [
+      [
+       "chē",
+       1
+      ],
+      [
+       "cì",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "número de tren",
+   "en": "train or coach service (\"service\" as in \"they run 12 services per day between the two cities\")",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8f6c673a",
+   "hanzi": "转机",
+   "pinyin": "zhuǎnjī",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "转机",
+     "pinyin": "zhuǎnjī",
+     "syl": [
+      [
+       "zhuǎn",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "hacer conexión / escala",
+   "en": "(to take) a turn for the better; to change planes",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 7,
+   "freq": 12036,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8f6f4ef6",
+   "hanzi": "软件",
+   "pinyin": "ruǎnjiàn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "软件",
+     "pinyin": "ruǎnjiàn",
+     "syl": [
+      [
+       "ruǎn",
+       3
+      ],
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "programa / aplicación",
+   "en": "software",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 5,
+   "freq": 3539,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8fd8",
+   "hanzi": "还",
+   "pinyin": "hái",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "还",
+     "pinyin": "hái",
+     "syl": [
+      [
+       "hái",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "todavía / además",
+   "en": "still; still in progress; still more",
+   "emoji": null,
+   "image": null,
+   "hsk": 2,
+   "hskNew": 1,
+   "freq": 37,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8fdc",
+   "hanzi": "远",
+   "pinyin": "yuǎn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "远",
+     "pinyin": "yuǎn",
+     "syl": [
+      [
+       "yuǎn",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "lejos",
+   "en": "far; distant; remote",
+   "emoji": null,
+   "image": "images/c8fdc.webp",
+   "hsk": 2,
+   "hskNew": 1,
+   "freq": 635,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c90007968",
+   "hanzi": "退票",
+   "pinyin": "tuìpiào",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "退票",
+     "pinyin": "tuìpiào",
+     "syl": [
+      [
+       "tuì",
+       4
+      ],
+      [
+       "piào",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "devolver el pasaje / reembolso",
+   "en": "to bounce (a check); to return a ticket; ticket refund",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 6,
+   "freq": 24894,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c901b",
+   "hanzi": "逛",
+   "pinyin": "guàng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "逛",
+     "pinyin": "guàng",
+     "syl": [
+      [
+       "guàng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "pasear / vitrinear",
+   "en": "to stroll; to visit",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 4,
+   "freq": 4709,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c9047",
+   "hanzi": "遇",
+   "pinyin": "yù",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "遇",
+     "pinyin": "yù",
+     "syl": [
+      [
+       "yù",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "encontrarse con",
+   "en": "(bound form) to encounter; to happen upon; to meet unplanned; (bound form) to treat; to receive",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 4,
+   "freq": 2834,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c957f",
+   "hanzi": "长",
+   "pinyin": "cháng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "长",
+     "pinyin": "cháng",
+     "syl": [
+      [
+       "cháng",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "largo",
+   "en": "long; (bound form) length; (bound form) strong point; forte",
+   "emoji": "📏",
+   "image": null,
+   "hsk": 2,
+   "hskNew": 2,
+   "freq": 246,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c975e6d32",
+   "hanzi": "非洲",
+   "pinyin": "Fēizhōu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "非洲",
+     "pinyin": "Fēizhōu",
+     "syl": [
+      [
+       "Fēi",
+       1
+      ],
+      [
+       "zhōu",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "África",
+   "en": "Africa",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c987a5229",
+   "hanzi": "顺利",
+   "pinyin": "shùnlì",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "顺利",
+     "pinyin": "shùnlì",
+     "syl": [
+      [
+       "shùn",
+       4
+      ],
+      [
+       "lì",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "sin problemas / que salga bien",
+   "en": "smoothly; without a hitch",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 1475,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c9ad894c1",
+   "hanzi": "高铁",
+   "pinyin": "gāotiě",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "高铁",
+     "pinyin": "gāotiě",
+     "syl": [
+      [
+       "gāo",
+       1
+      ],
+      [
+       "tiě",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "tren de alta velocidad",
+   "en": "high speed rail",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 4,
+   "freq": 25367,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
    "id": "c6211662f5750573094c153bb7684",
    "hanzi": "我是坐地铁去的。",
    "pinyin": "wǒ shì zuò dìtiě qù de。",
@@ -43120,41 +45702,6 @@
    }
   },
   {
-   "id": "c5f00",
-   "hanzi": "开",
-   "pinyin": "kāi",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "开",
-     "pinyin": "kāi",
-     "syl": [
-      [
-       "kāi",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "abrir / encender / conducir",
-   "en": "to open (transitive or intransitive); (of ships, vehicles, troops etc) to start; to turn on; to put in operation; to operate; to run",
-   "emoji": null,
-   "image": null,
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 195,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk1"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c53eb",
    "hanzi": "叫",
    "pinyin": "jiào",
@@ -45221,84 +47768,6 @@
    "toneHint": "shuíguǒ"
   },
   {
-   "id": "c684c5b50",
-   "hanzi": "桌子",
-   "pinyin": "zhuōzi",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "桌子",
-     "pinyin": "zhuōzi",
-     "syl": [
-      [
-       "zhuō",
-       1
-      ],
-      [
-       "zi",
-       5
-      ]
-     ]
-    }
-   ],
-   "es": "mesa",
-   "en": "table; desk",
-   "emoji": null,
-   "image": "images/c684c5b50.webp",
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 3639,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk1"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c69055b50",
-   "hanzi": "椅子",
-   "pinyin": "yǐzi",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "椅子",
-     "pinyin": "yǐzi",
-     "syl": [
-      [
-       "yǐ",
-       3
-      ],
-      [
-       "zi",
-       5
-      ]
-     ]
-    }
-   ],
-   "es": "silla",
-   "en": "chair",
-   "emoji": null,
-   "image": "images/c69055b50.webp",
-   "hsk": 1,
-   "hskNew": 2,
-   "freq": 4472,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk1"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c53174eac",
    "hanzi": "北京",
    "pinyin": "Běijīng",
@@ -45603,41 +48072,6 @@
    }
   },
   {
-   "id": "c8fd8",
-   "hanzi": "还",
-   "pinyin": "hái",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "还",
-     "pinyin": "hái",
-     "syl": [
-      [
-       "hái",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "todavía / además",
-   "en": "still; still in progress; still more",
-   "emoji": null,
-   "image": null,
-   "hsk": 2,
-   "hskNew": 1,
-   "freq": 37,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk2"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c7740",
    "hanzi": "着",
    "pinyin": "zhe",
@@ -45875,41 +48309,6 @@
    "hsk": 2,
    "hskNew": 2,
    "freq": 91,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk2"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c8d70",
-   "hanzi": "走",
-   "pinyin": "zǒu",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "走",
-     "pinyin": "zǒu",
-     "syl": [
-      [
-       "zǒu",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "caminar / irse",
-   "en": "to walk; to go; to run",
-   "emoji": "🚶",
-   "image": null,
-   "hsk": 2,
-   "hskNew": 1,
-   "freq": 109,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -46362,41 +48761,6 @@
    "image": null,
    "hsk": 2,
    "hskNew": 1,
-   "freq": 246,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk2"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c957f",
-   "hanzi": "长",
-   "pinyin": "cháng",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "长",
-     "pinyin": "cháng",
-     "syl": [
-      [
-       "cháng",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "largo",
-   "en": "long; (bound form) length; (bound form) strong point; forte",
-   "emoji": "📏",
-   "image": null,
-   "hsk": 2,
-   "hskNew": 2,
    "freq": 246,
    "type": "word",
    "lesson": null,
@@ -46955,41 +49319,6 @@
    "hsk": 2,
    "hskNew": 1,
    "freq": 531,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk2"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c8fdc",
-   "hanzi": "远",
-   "pinyin": "yuǎn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "远",
-     "pinyin": "yuǎn",
-     "syl": [
-      [
-       "yuǎn",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "lejos",
-   "en": "far; distant; remote",
-   "emoji": null,
-   "image": "images/c8fdc.webp",
-   "hsk": 2,
-   "hskNew": 1,
-   "freq": 635,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -48857,76 +51186,6 @@
    }
   },
   {
-   "id": "c554a",
-   "hanzi": "啊",
-   "pinyin": "ā",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "啊",
-     "pinyin": "ā",
-     "syl": [
-      [
-       "ā",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "¡ah! (exclamación)",
-   "en": "interjection of surprise; Ah!; Oh!",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 47,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c628a",
-   "hanzi": "把",
-   "pinyin": "bǎ",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "把",
-     "pinyin": "bǎ",
-     "syl": [
-      [
-       "bǎ",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "partícula que adelanta el objeto",
-   "en": "handle",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 3,
-   "freq": 50,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c88ab",
    "hanzi": "被",
    "pinyin": "bèi",
@@ -49106,41 +51365,6 @@
    }
   },
   {
-   "id": "c624d",
-   "hanzi": "才",
-   "pinyin": "cái",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "才",
-     "pinyin": "cái",
-     "syl": [
-      [
-       "cái",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "recién / apenas",
-   "en": "ability; talent; sb of a certain type; a capable individual",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 133,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c50cf",
    "hanzi": "像",
    "pinyin": "xiàng",
@@ -49203,41 +51427,6 @@
    "hsk": 3,
    "hskNew": 2,
    "freq": 168,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c5e26",
-   "hanzi": "带",
-   "pinyin": "dài",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "带",
-     "pinyin": "dài",
-     "syl": [
-      [
-       "dài",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "llevar / traer",
-   "en": "band; belt; girdle",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 177,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -49988,41 +52177,6 @@
    }
   },
   {
-   "id": "c7ad9",
-   "hanzi": "站",
-   "pinyin": "zhàn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "站",
-     "pinyin": "zhàn",
-     "syl": [
-      [
-       "zhàn",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "pararse / estación",
-   "en": "station; to stand; to halt",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 1,
-   "freq": 399,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c4f7f",
    "hanzi": "使",
    "pinyin": "shǐ",
@@ -50159,41 +52313,6 @@
    "hsk": 3,
    "hskNew": 2,
    "freq": 419,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c63a5",
-   "hanzi": "接",
-   "pinyin": "jiē",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "接",
-     "pinyin": "jiē",
-     "syl": [
-      [
-       "jiē",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "recibir / recoger / contestar",
-   "en": "to receive; to answer (the phone); to meet or welcome sb",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 425,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -51098,45 +53217,6 @@
    ],
    "es": "aparte de / excepto",
    "en": "apart from; besides; in addition to (used to exclude, as in 除了他，誰也沒來|除了他，谁也没来[chu2 le5 ta1 , shei2 ye3 mei2 lai2] \"apart from him, nobody came\", or to include, as in 除了英語，他也會法語|除了英语，他也会法语[chu2 le5 Ying1 yu3 , ta1 ye3 hui4 Fa3 yu3] \"in addition to English, he also knows French\"); (used to introduce one of two habitual alternatives in the pattern 除了[chu2 le5] + A + 就是[jiu4 shi4] + B, \"either A or B\")",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 3,
-   "freq": 638,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c603b662f",
-   "hanzi": "总是",
-   "pinyin": "zǒngshì",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "总是",
-     "pinyin": "zǒngshì",
-     "syl": [
-      [
-       "zǒng",
-       3
-      ],
-      [
-       "shì",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "siempre",
-   "en": "always",
    "emoji": null,
    "image": null,
    "hsk": 3,
@@ -52471,41 +54551,6 @@
    }
   },
   {
-   "id": "c77ed",
-   "hanzi": "短",
-   "pinyin": "duǎn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "短",
-     "pinyin": "duǎn",
-     "syl": [
-      [
-       "duǎn",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "corto",
-   "en": "short; brief; to lack",
-   "emoji": null,
-   "image": "images/c77ed.webp",
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 983,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c51e04e4e",
    "hanzi": "几乎",
    "pinyin": "jīhū",
@@ -53072,41 +55117,6 @@
    }
   },
   {
-   "id": "c574f",
-   "hanzi": "坏",
-   "pinyin": "huài",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "坏",
-     "pinyin": "huài",
-     "syl": [
-      [
-       "huài",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "malo / malogrado",
-   "en": "bad; spoiled; broken",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 1,
-   "freq": 1239,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c4e008fb9",
    "hanzi": "一边",
    "pinyin": "yìbiān",
@@ -53477,41 +55487,6 @@
    "hsk": 3,
    "hskNew": 2,
    "freq": 1490,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c501f",
-   "hanzi": "借",
-   "pinyin": "jiè",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "借",
-     "pinyin": "jiè",
-     "syl": [
-      [
-       "jiè",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "prestar / pedir prestado",
-   "en": "to borrow; (used in combination with 給|给[gei3] or 出[chu1] etc) to lend; to make use of; to avail oneself of",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 1495,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -54358,41 +56333,6 @@
    }
   },
   {
-   "id": "c706f",
-   "hanzi": "灯",
-   "pinyin": "dēng",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "灯",
-     "pinyin": "dēng",
-     "syl": [
-      [
-       "dēng",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "lámpara / luz",
-   "en": "lamp; light; lantern",
-   "emoji": null,
-   "image": "images/c706f.webp",
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 2001,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c592a9633",
    "hanzi": "太阳",
    "pinyin": "tàiyang",
@@ -54420,45 +56360,6 @@
    "hsk": 3,
    "hskNew": 2,
    "freq": 2001,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c65b94fbf",
-   "hanzi": "方便",
-   "pinyin": "fāngbiàn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "方便",
-     "pinyin": "fāngbiàn",
-     "syl": [
-      [
-       "fāng",
-       1
-      ],
-      [
-       "biàn",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "cómodo / práctico",
-   "en": "convenient; suitable; to facilitate; to make things easy; having money to spare",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 2014,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -55945,45 +57846,6 @@
    "toneHint": "xízǎo"
   },
   {
-   "id": "c5e3d5b50",
-   "hanzi": "帽子",
-   "pinyin": "màozi",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "帽子",
-     "pinyin": "màozi",
-     "syl": [
-      [
-       "mào",
-       4
-      ],
-      [
-       "zi",
-       5
-      ]
-     ]
-    }
-   ],
-   "es": "gorro / sombrero",
-   "en": "hat; cap; (fig.) label",
-   "emoji": "🧢",
-   "image": null,
-   "hsk": 3,
-   "hskNew": 4,
-   "freq": 3553,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c611f5192",
    "hanzi": "感冒",
    "pinyin": "gǎnmào",
@@ -56962,46 +58824,6 @@
    }
   },
   {
-   "id": "c6253626b",
-   "hanzi": "打扫",
-   "pinyin": "dǎsǎo",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "打扫",
-     "pinyin": "dǎsǎo",
-     "syl": [
-      [
-       "dǎ",
-       3
-      ],
-      [
-       "sǎo",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "limpiar / barrer",
-   "en": "to clean; to sweep",
-   "emoji": null,
-   "image": "images/c6253626b.webp",
-   "hsk": 3,
-   "hskNew": 4,
-   "freq": 6258,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "toneHint": "dásǎo"
-  },
-  {
    "id": "c84618404",
    "hanzi": "葡萄",
    "pinyin": "pútao",
@@ -57068,45 +58890,6 @@
    "hsk": 3,
    "hskNew": null,
    "freq": 7123,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk3"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c62a47167",
-   "hanzi": "护照",
-   "pinyin": "hùzhào",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "护照",
-     "pinyin": "hùzhào",
-     "syl": [
-      [
-       "hù",
-       4
-      ],
-      [
-       "zhào",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "pasaporte",
-   "en": "passport",
-   "emoji": null,
-   "image": "images/c62a47167.webp",
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 7152,
    "type": "word",
    "lesson": null,
    "decks": [
