@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-08-24T11:58:35",
+ "generated": "2026-08-27T10:30:03",
  "decks": [
   {
    "id": "L13",
@@ -78,6 +78,36 @@
     "c975e6d32",
     "c987a5229",
     "c9ad894c1"
+   ]
+  },
+  {
+   "id": "mia13B",
+   "name": "L13B 办手机卡 — Sacar un chip de teléfono",
+   "order": 88,
+   "source": "mias",
+   "cards": [
+    "c60a8597d62117684624b673a574f4e86621160f3",
+    "c60a8898163624e004e2a65b07684624b673a53f7",
+    "c4e0d662f621160f34e704e005f2065b053618fd8",
+    "c597d768460a85e268eab4efd8bc167654e865417",
+    "c4e0d597d610f601d62116ca167094e2d56fd7684",
+    "c554a60a8662f591656fd4eba60a86c498bed8bf4",
+    "c62a4716762114e5f6ca15e2662118981529e7b7e",
+    "c60a862ff52307b7e8bc14ee5540e5e2662a47167",
+    "c4e0d884c554a4ed64eec4e244e2a661f671f4ee5",
+    "c62114e0d80fd8fd94e48957f65f695f44e0d7528",
+    "c5bf94e8662115e265b66751f8bc14e865b66751f",
+    "c5b66751f8bc14e0d884c60a867094e2d56fd7684",
+    "c6709",
+    "c597d8bf760a8628a59d3540d548c624b673a53f7",
+    "c8fd9662f60a876849a7e71678fd9662f65b07684",
+    "c60a853ef4ee5628a536188c55728624b673a4e0a",
+    "c597d768473b0572853ef4ee575284e868c228c22",
+    "c4e0d5ba26c146b228fce60a8518d6765",
+    "c66285929628a62a471679001523059274f7f9986",
+    "c4ed64eec4e244e2a661f671f4ee5540e624d628a",
+    "c8bf760a8628a9a7e71674ea47ed96211",
+    "c60a88bd54e008bd5"
    ]
   },
   {
@@ -861,6 +891,11 @@
     "c4e9470b94ee5524d53ef4ee566ff4f606536",
     "c53ef4ee58ba94ed6900152304f608fd9513f5417",
     "c621181ea5df18bb095194e864ee54e3a662f4e09",
+    "c66285929628a62a471679001523059274f7f9986",
+    "c4ed64eec4e244e2a661f671f4ee5540e624d628a",
+    "c8bf760a8628a9a7e71674ea47ed96211",
+    "c60a853ef4ee5628a536188c55728624b673a4e0a",
+    "c60a88bd54e008bd5",
     "c56e04e3a4e0b96e862404ee562116ca153bb",
     "c867d71365f887d2f4f46662f62115f889ad85174",
     "c4ed64e0d4f464f1a8bf46c498bed800c4e148bf4",
@@ -42121,6 +42156,3355 @@
    }
   },
   {
+   "id": "c60a8597d62117684624b673a574f4e86621160f3",
+   "hanzi": "您好！我的手机坏了，我想办一张新的手机卡。",
+   "pinyin": "nínhǎo！ wǒ de shǒujī huài le， wǒ xiǎng bàn yì zhāng xīn de shǒujīkǎ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "您好",
+     "pinyin": "nínhǎo",
+     "syl": [
+      [
+       "nín",
+       2
+      ],
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "！"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "坏",
+     "pinyin": "huài",
+     "syl": [
+      [
+       "huài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想",
+     "pinyin": "xiǎng",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "办",
+     "pinyin": "bàn",
+     "syl": [
+      [
+       "bàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yì",
+     "syl": [
+      [
+       "yì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "张",
+     "pinyin": "zhāng",
+     "syl": [
+      [
+       "zhāng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "新",
+     "pinyin": "xīn",
+     "syl": [
+      [
+       "xīn",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机卡",
+     "pinyin": "shǒujīkǎ",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ],
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "¡Buenos días! Se me malogró el celular, quiero sacar un chip nuevo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "nínháowǒdeshǒujīhuàilewóxiǎngbànyìzhāngxīndeshǒujīkǎ"
+  },
+  {
+   "id": "c60a8898163624e004e2a65b07684624b673a53f7",
+   "hanzi": "您要换一个新的手机号吗？",
+   "pinyin": "nín yào huàn yíge xīn de shǒujī hào ma？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "换",
+     "pinyin": "huàn",
+     "syl": [
+      [
+       "huàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一个",
+     "pinyin": "yíge",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "新",
+     "pinyin": "xīn",
+     "syl": [
+      [
+       "xīn",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "号",
+     "pinyin": "hào",
+     "syl": [
+      [
+       "hào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吗",
+     "pinyin": "ma",
+     "syl": [
+      [
+       "ma",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "¿Quiere cambiarse a un número nuevo?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4e0d662f621160f34e704e005f2065b053618fd8",
+   "hanzi": "不是。我想买一张新卡，还用以前的手机号码。",
+   "pinyin": "búshì。 wǒ xiǎng mǎi yì zhāng xīn kǎ， hái yòng yǐqián de shǒujī hàomǎ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "不是",
+     "pinyin": "búshì",
+     "syl": [
+      [
+       "bú",
+       2
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想",
+     "pinyin": "xiǎng",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "买",
+     "pinyin": "mǎi",
+     "syl": [
+      [
+       "mǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yì",
+     "syl": [
+      [
+       "yì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "张",
+     "pinyin": "zhāng",
+     "syl": [
+      [
+       "zhāng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "新",
+     "pinyin": "xīn",
+     "syl": [
+      [
+       "xīn",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "卡",
+     "pinyin": "kǎ",
+     "syl": [
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "还",
+     "pinyin": "hái",
+     "syl": [
+      [
+       "hái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "用",
+     "pinyin": "yòng",
+     "syl": [
+      [
+       "yòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以前",
+     "pinyin": "yǐqián",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "qián",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "号码",
+     "pinyin": "hàomǎ",
+     "syl": [
+      [
+       "hào",
+       4
+      ],
+      [
+       "mǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "No. Quiero comprar un chip nuevo pero seguir usando mi número de antes.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "búshìwǒxiángmǎiyìzhāngxīnkǎháiyòngyǐqiándeshǒujīhàomǎ"
+  },
+  {
+   "id": "c597d768460a85e268eab4efd8bc167654e865417",
+   "hanzi": "好的。您带身份证来了吗？",
+   "pinyin": "hǎo de。 nín dài shēnfènzhèng lái le ma？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "好",
+     "pinyin": "hǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "身份证",
+     "pinyin": "shēnfènzhèng",
+     "syl": [
+      [
+       "shēn",
+       1
+      ],
+      [
+       "fèn",
+       4
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吗",
+     "pinyin": "ma",
+     "syl": [
+      [
+       "ma",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "Bien. ¿Trajo su documento de identidad?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4e0d597d610f601d62116ca167094e2d56fd7684",
+   "hanzi": "不好意思，我没有中国的身份证。",
+   "pinyin": "bùhǎoyìsi， wǒ méiyǒu Zhōngguó de shēnfènzhèng。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "不好意思",
+     "pinyin": "bùhǎoyìsi",
+     "syl": [
+      [
+       "bù",
+       4
+      ],
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "yì",
+       4
+      ],
+      [
+       "si",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "没有",
+     "pinyin": "méiyǒu",
+     "syl": [
+      [
+       "méi",
+       2
+      ],
+      [
+       "yǒu",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "中国",
+     "pinyin": "Zhōngguó",
+     "syl": [
+      [
+       "Zhōng",
+       1
+      ],
+      [
+       "guó",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "身份证",
+     "pinyin": "shēnfènzhèng",
+     "syl": [
+      [
+       "shēn",
+       1
+      ],
+      [
+       "fèn",
+       4
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Disculpe, no tengo DNI chino.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c554a60a8662f591656fd4eba60a86c498bed8bf4",
+   "hanzi": "啊，您是外国人，您汉语说得真好。您带护照来了吗？",
+   "pinyin": "a， nín shì wàiguórén， nín Hànyǔ shuō de zhēn hǎo。 nín dài hùzhào lái le ma？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "啊",
+     "pinyin": "a",
+     "syl": [
+      [
+       "a",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "外国人",
+     "pinyin": "wàiguórén",
+     "syl": [
+      [
+       "wài",
+       4
+      ],
+      [
+       "guó",
+       2
+      ],
+      [
+       "rén",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "汉语",
+     "pinyin": "Hànyǔ",
+     "syl": [
+      [
+       "Hàn",
+       4
+      ],
+      [
+       "yǔ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "真",
+     "pinyin": "zhēn",
+     "syl": [
+      [
+       "zhēn",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好",
+     "pinyin": "hǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吗",
+     "pinyin": "ma",
+     "syl": [
+      [
+       "ma",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "Ah, es extranjero; habla muy bien chino. ¿Trajo el pasaporte?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c62a4716762114e5f6ca15e2662118981529e7b7e",
+   "hanzi": "护照我也没带。我要办签证，昨天把护照送到大使馆了。",
+   "pinyin": "hùzhào wǒ yě méi dài。 wǒ yào bàn qiānzhèng， zuótiān bǎ hùzhào sòng dào dàshǐguǎn le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "也",
+     "pinyin": "yě",
+     "syl": [
+      [
+       "yě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "没",
+     "pinyin": "méi",
+     "syl": [
+      [
+       "méi",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "办",
+     "pinyin": "bàn",
+     "syl": [
+      [
+       "bàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "签证",
+     "pinyin": "qiānzhèng",
+     "syl": [
+      [
+       "qiān",
+       1
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "昨天",
+     "pinyin": "zuótiān",
+     "syl": [
+      [
+       "zuó",
+       2
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送",
+     "pinyin": "sòng",
+     "syl": [
+      [
+       "sòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "到",
+     "pinyin": "dào",
+     "syl": [
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "大使馆",
+     "pinyin": "dàshǐguǎn",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "shǐ",
+       3
+      ],
+      [
+       "guǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "El pasaporte tampoco lo traje. Estoy tramitando la visa y ayer lo llevé a la embajada.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "hùzhàowóyěméidàiwǒyàobànqiānzhèngzuótiānbǎhùzhàosòngdàodàshíguǎnle"
+  },
+  {
+   "id": "c60a862ff52307b7e8bc14ee5540e5e2662a47167",
+   "hanzi": "您拿到签证以后带护照来办卡吧。",
+   "pinyin": "nín nádào qiānzhèng yǐhòu dài hùzhào lái bàn kǎ ba。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "拿到",
+     "pinyin": "nádào",
+     "syl": [
+      [
+       "ná",
+       2
+      ],
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "签证",
+     "pinyin": "qiānzhèng",
+     "syl": [
+      [
+       "qiān",
+       1
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "hòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "办",
+     "pinyin": "bàn",
+     "syl": [
+      [
+       "bàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "卡",
+     "pinyin": "kǎ",
+     "syl": [
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吧",
+     "pinyin": "ba",
+     "syl": [
+      [
+       "ba",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Cuando tenga la visa, venga con el pasaporte a sacar el chip.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4e0d884c554a4ed64eec4e244e2a661f671f4ee5",
+   "hanzi": "不行啊。他们两个星期以后才把护照还给我。",
+   "pinyin": "bùxíng a。 tāmen liǎng gè xīngqī yǐhòu cái bǎ hùzhào huángěi wǒ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "不行",
+     "pinyin": "bùxíng",
+     "syl": [
+      [
+       "bù",
+       4
+      ],
+      [
+       "xíng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "啊",
+     "pinyin": "a",
+     "syl": [
+      [
+       "a",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "两",
+     "pinyin": "liǎng",
+     "syl": [
+      [
+       "liǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "个",
+     "pinyin": "gè",
+     "syl": [
+      [
+       "gè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "星期",
+     "pinyin": "xīngqī",
+     "syl": [
+      [
+       "xīng",
+       1
+      ],
+      [
+       "qī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "hòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "才",
+     "pinyin": "cái",
+     "syl": [
+      [
+       "cái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还给",
+     "pinyin": "huángěi",
+     "syl": [
+      [
+       "huán",
+       2
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "No puede ser. Recién me devuelven el pasaporte en dos semanas.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "bùxíngatāmenliǎnggèxīngqīyǐhòucáibǎhùzhàohuángéiwǒ"
+  },
+  {
+   "id": "c62114e0d80fd8fd94e48957f65f695f44e0d7528",
+   "hanzi": "我不能这么长时间不用手机啊。",
+   "pinyin": "wǒ bùnéng zhème cháng shíjiān búyòng shǒujī a。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不能",
+     "pinyin": "bùnéng",
+     "syl": [
+      [
+       "bù",
+       4
+      ],
+      [
+       "néng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "这么",
+     "pinyin": "zhème",
+     "syl": [
+      [
+       "zhè",
+       4
+      ],
+      [
+       "me",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "长",
+     "pinyin": "cháng",
+     "syl": [
+      [
+       "cháng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "时间",
+     "pinyin": "shíjiān",
+     "syl": [
+      [
+       "shí",
+       2
+      ],
+      [
+       "jiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不用",
+     "pinyin": "búyòng",
+     "syl": [
+      [
+       "bú",
+       2
+      ],
+      [
+       "yòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "啊",
+     "pinyin": "a",
+     "syl": [
+      [
+       "a",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "No puedo estar tanto tiempo sin celular.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5bf94e8662115e265b66751f8bc14e865b66751f",
+   "hanzi": "对了，我带学生证了，学生证可以吗？",
+   "pinyin": "duì le， wǒ dài xuéshengzhèng le， xuéshengzhèng kěyǐ ma？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "对",
+     "pinyin": "duì",
+     "syl": [
+      [
+       "duì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "学生证",
+     "pinyin": "xuéshengzhèng",
+     "syl": [
+      [
+       "xué",
+       2
+      ],
+      [
+       "sheng",
+       5
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "学生证",
+     "pinyin": "xuéshengzhèng",
+     "syl": [
+      [
+       "xué",
+       2
+      ],
+      [
+       "sheng",
+       5
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "可以",
+     "pinyin": "kěyǐ",
+     "syl": [
+      [
+       "kě",
+       3
+      ],
+      [
+       "yǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吗",
+     "pinyin": "ma",
+     "syl": [
+      [
+       "ma",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "Ah, sí traje mi carné de estudiante, ¿sirve?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "duìlewǒdàixuéshengzhènglexuéshengzhèngkéyǐma"
+  },
+  {
+   "id": "c5b66751f8bc14e0d884c60a867094e2d56fd7684",
+   "hanzi": "学生证不行。您有中国的驾照吗？",
+   "pinyin": "xuéshengzhèng bùxíng。 nín yǒu Zhōngguó de jiàzhào ma？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "学生证",
+     "pinyin": "xuéshengzhèng",
+     "syl": [
+      [
+       "xué",
+       2
+      ],
+      [
+       "sheng",
+       5
+      ],
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不行",
+     "pinyin": "bùxíng",
+     "syl": [
+      [
+       "bù",
+       4
+      ],
+      [
+       "xíng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "有",
+     "pinyin": "yǒu",
+     "syl": [
+      [
+       "yǒu",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "中国",
+     "pinyin": "Zhōngguó",
+     "syl": [
+      [
+       "Zhōng",
+       1
+      ],
+      [
+       "guó",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "驾照",
+     "pinyin": "jiàzhào",
+     "syl": [
+      [
+       "jià",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吗",
+     "pinyin": "ma",
+     "syl": [
+      [
+       "ma",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "El carné de estudiante no sirve. ¿Tiene licencia de conducir china?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c6709",
+   "hanzi": "有。",
+   "pinyin": "yǒu。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "有",
+     "pinyin": "yǒu",
+     "syl": [
+      [
+       "yǒu",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Sí.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "mia13B",
+    "hsk1"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c597d8bf760a8628a59d3540d548c624b673a53f7",
+   "hanzi": "好。请您把姓名和手机号写在这儿，把驾照交给我，我复印一下。",
+   "pinyin": "hǎo。 qǐng nín bǎ xìngmíng hé shǒujī hào xiě zài zhèr， bǎ jiàzhào jiāogěi wǒ， wǒ fùyìn yíxià。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "好",
+     "pinyin": "hǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "w",
+     "hanzi": "请",
+     "pinyin": "qǐng",
+     "syl": [
+      [
+       "qǐng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "姓名",
+     "pinyin": "xìngmíng",
+     "syl": [
+      [
+       "xìng",
+       4
+      ],
+      [
+       "míng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "和",
+     "pinyin": "hé",
+     "syl": [
+      [
+       "hé",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "号",
+     "pinyin": "hào",
+     "syl": [
+      [
+       "hào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "写",
+     "pinyin": "xiě",
+     "syl": [
+      [
+       "xiě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "这儿",
+     "pinyin": "zhèr",
+     "syl": [
+      [
+       "zhèr",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "驾照",
+     "pinyin": "jiàzhào",
+     "syl": [
+      [
+       "jià",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "交给",
+     "pinyin": "jiāogěi",
+     "syl": [
+      [
+       "jiāo",
+       1
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "复印",
+     "pinyin": "fùyìn",
+     "syl": [
+      [
+       "fù",
+       4
+      ],
+      [
+       "yìn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一下",
+     "pinyin": "yíxià",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "xià",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Bien. Escriba aquí su nombre y su número, deme la licencia y saco una copia.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "háoqǐngnínbǎxìngmínghéshǒujīhàoxiězàizhèrbǎjiàzhàojiāogěiwówǒfùyìnyíxià"
+  },
+  {
+   "id": "c8fd9662f60a876849a7e71678fd9662f65b07684",
+   "hanzi": "这是您的驾照，这是新的手机卡。",
+   "pinyin": "zhè shì nín de jiàzhào， zhè shì xīn de shǒujīkǎ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "驾照",
+     "pinyin": "jiàzhào",
+     "syl": [
+      [
+       "jià",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "新",
+     "pinyin": "xīn",
+     "syl": [
+      [
+       "xīn",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机卡",
+     "pinyin": "shǒujīkǎ",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ],
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Aquí tiene su licencia y aquí el chip nuevo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c60a853ef4ee5628a536188c55728624b673a4e0a",
+   "hanzi": "您可以把卡装在手机上，试一试。",
+   "pinyin": "nín kěyǐ bǎ kǎ zhuāng zài shǒujī shàng， shìyíshì。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "可以",
+     "pinyin": "kěyǐ",
+     "syl": [
+      [
+       "kě",
+       3
+      ],
+      [
+       "yǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "卡",
+     "pinyin": "kǎ",
+     "syl": [
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "装",
+     "pinyin": "zhuāng",
+     "syl": [
+      [
+       "zhuāng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上",
+     "pinyin": "shàng",
+     "syl": [
+      [
+       "shàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "试一试",
+     "pinyin": "shìyíshì",
+     "syl": [
+      [
+       "shì",
+       4
+      ],
+      [
+       "yí",
+       2
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Puede poner el chip en el celular y probarlo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "nínkéyǐbákǎzhuāngzàishǒujīshàngshìyíshì",
+   "pattern": "把 + objeto + verbo + 在",
+   "patternEs": "Dejar el objeto EN un sitio"
+  },
+  {
+   "id": "c597d768473b0572853ef4ee575284e868c228c22",
+   "hanzi": "好的。……现在可以用了，谢谢！",
+   "pinyin": "hǎo de。…… xiànzài kěyǐ yòng le， xièxie！",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "好",
+     "pinyin": "hǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    },
+    {
+     "t": "p",
+     "hanzi": "…"
+    },
+    {
+     "t": "p",
+     "hanzi": "…"
+    },
+    {
+     "t": "w",
+     "hanzi": "现在",
+     "pinyin": "xiànzài",
+     "syl": [
+      [
+       "xiàn",
+       4
+      ],
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "可以",
+     "pinyin": "kěyǐ",
+     "syl": [
+      [
+       "kě",
+       3
+      ],
+      [
+       "yǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "用",
+     "pinyin": "yòng",
+     "syl": [
+      [
+       "yòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "谢谢",
+     "pinyin": "xièxie",
+     "syl": [
+      [
+       "xiè",
+       4
+      ],
+      [
+       "xie",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "！"
+    }
+   ],
+   "es": "Bien... Ya funciona, ¡gracias!",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "hǎodexiànzàikéyǐyònglexièxie"
+  },
+  {
+   "id": "c4e0d5ba26c146b228fce60a8518d6765",
+   "hanzi": "不客气，欢迎您再来。",
+   "pinyin": "bú kèqi， huānyíng nín zài lái。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bú",
+     "syl": [
+      [
+       "bú",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "客气",
+     "pinyin": "kèqi",
+     "syl": [
+      [
+       "kè",
+       4
+      ],
+      [
+       "qi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "欢迎",
+     "pinyin": "huānyíng",
+     "syl": [
+      [
+       "huān",
+       1
+      ],
+      [
+       "yíng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "再",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "De nada, vuelva cuando guste.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c66285929628a62a471679001523059274f7f9986",
+   "hanzi": "昨天把护照送到大使馆了。",
+   "pinyin": "zuótiān bǎ hùzhào sòng dào dàshǐguǎn le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "昨天",
+     "pinyin": "zuótiān",
+     "syl": [
+      [
+       "zuó",
+       2
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送",
+     "pinyin": "sòng",
+     "syl": [
+      [
+       "sòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "到",
+     "pinyin": "dào",
+     "syl": [
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "大使馆",
+     "pinyin": "dàshǐguǎn",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "shǐ",
+       3
+      ],
+      [
+       "guǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Ayer llevé el pasaporte a la embajada.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "zuótiānbǎhùzhàosòngdàodàshíguǎnle",
+   "pattern": "把 + objeto + verbo + 到",
+   "patternEs": "Adelantar el objeto para decir adónde va a parar"
+  },
+  {
+   "id": "c4ed64eec4e244e2a661f671f4ee5540e624d628a",
+   "hanzi": "他们两个星期以后才把护照还给我。",
+   "pinyin": "tāmen liǎng gè xīngqī yǐhòu cái bǎ hùzhào huángěi wǒ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "两",
+     "pinyin": "liǎng",
+     "syl": [
+      [
+       "liǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "个",
+     "pinyin": "gè",
+     "syl": [
+      [
+       "gè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "星期",
+     "pinyin": "xīngqī",
+     "syl": [
+      [
+       "xīng",
+       1
+      ],
+      [
+       "qī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "hòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "才",
+     "pinyin": "cái",
+     "syl": [
+      [
+       "cái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还给",
+     "pinyin": "huángěi",
+     "syl": [
+      [
+       "huán",
+       2
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Recién me devuelven el pasaporte en dos semanas.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tāmenliǎnggèxīngqīyǐhòucáibǎhùzhàohuángéiwǒ",
+   "pattern": "才",
+   "patternEs": "Recién, no antes de (más tarde de lo esperado)"
+  },
+  {
+   "id": "c8bf760a8628a9a7e71674ea47ed96211",
+   "hanzi": "请您把驾照交给我。",
+   "pinyin": "qǐng nín bǎ jiàzhào jiāogěi wǒ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "请",
+     "pinyin": "qǐng",
+     "syl": [
+      [
+       "qǐng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "驾照",
+     "pinyin": "jiàzhào",
+     "syl": [
+      [
+       "jià",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "交给",
+     "pinyin": "jiāogěi",
+     "syl": [
+      [
+       "jiāo",
+       1
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Deme su licencia, por favor.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "qǐngnínbǎjiàzhàojiāogéiwǒ",
+   "pattern": "把 + objeto + 交给 + persona",
+   "patternEs": "Entregarle algo a alguien"
+  },
+  {
+   "id": "c60a88bd54e008bd5",
+   "hanzi": "您试一试。",
+   "pinyin": "nín shìyíshì。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "试一试",
+     "pinyin": "shìyíshì",
+     "syl": [
+      [
+       "shì",
+       4
+      ],
+      [
+       "yí",
+       2
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Pruébelo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "mia13B",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "Verbo + 一 + Verbo",
+   "patternEs": "Hacer algo un poquito, probar"
+  },
+  {
    "id": "c6211662f5750573094c153bb7684",
    "hanzi": "我是坐地铁去的。",
    "pinyin": "wǒ shì zuò dìtiě qù de。",
@@ -47266,41 +50650,6 @@
    ],
    "es": "no",
    "en": "no; not so; (bound form) not; un-",
-   "emoji": null,
-   "image": null,
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 9,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "hsk1"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c6709",
-   "hanzi": "有",
-   "pinyin": "yǒu",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "有",
-     "pinyin": "yǒu",
-     "syl": [
-      [
-       "yǒu",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "tener / haber",
-   "en": "to have; there is; (bound form) having; with; -ful; -ed; -al (as in 有意[you3 yi4] intentional)",
    "emoji": null,
    "image": null,
    "hsk": 1,
@@ -65010,6 +68359,643 @@
   },
   {
    "id": "g26",
+   "pattern": "把 + objeto + verbo + 到",
+   "es": "Adelantar el objeto para decir adónde va a parar",
+   "example": "昨天把护照送到大使馆了。",
+   "examplePinyin": "zuótiān bǎ hùzhào sòng dào dàshǐguǎn le。",
+   "exampleEs": "Ayer llevé el pasaporte a la embajada.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "昨天",
+     "pinyin": "zuótiān",
+     "syl": [
+      [
+       "zuó",
+       2
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送",
+     "pinyin": "sòng",
+     "syl": [
+      [
+       "sòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "到",
+     "pinyin": "dào",
+     "syl": [
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "大使馆",
+     "pinyin": "dàshǐguǎn",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "shǐ",
+       3
+      ],
+      [
+       "guǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g27",
+   "pattern": "把 + objeto + 还给 + persona",
+   "es": "Devolverle algo a alguien",
+   "example": "他们两个星期以后才把护照还给我。",
+   "examplePinyin": "tāmen liǎng gè xīngqī yǐhòu cái bǎ hùzhào huángěi wǒ。",
+   "exampleEs": "Recién me devuelven el pasaporte en dos semanas.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "两",
+     "pinyin": "liǎng",
+     "syl": [
+      [
+       "liǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "个",
+     "pinyin": "gè",
+     "syl": [
+      [
+       "gè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "星期",
+     "pinyin": "xīngqī",
+     "syl": [
+      [
+       "xīng",
+       1
+      ],
+      [
+       "qī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "hòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "才",
+     "pinyin": "cái",
+     "syl": [
+      [
+       "cái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还给",
+     "pinyin": "huángěi",
+     "syl": [
+      [
+       "huán",
+       2
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g28",
+   "pattern": "把 + objeto + 交给 + persona",
+   "es": "Entregarle algo a alguien",
+   "example": "请您把驾照交给我。",
+   "examplePinyin": "qǐng nín bǎ jiàzhào jiāogěi wǒ。",
+   "exampleEs": "Deme su licencia, por favor.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "请",
+     "pinyin": "qǐng",
+     "syl": [
+      [
+       "qǐng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "驾照",
+     "pinyin": "jiàzhào",
+     "syl": [
+      [
+       "jià",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "交给",
+     "pinyin": "jiāogěi",
+     "syl": [
+      [
+       "jiāo",
+       1
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g29",
+   "pattern": "把 + objeto + verbo + 在",
+   "es": "Dejar el objeto EN un sitio",
+   "example": "您可以把卡装在手机上。",
+   "examplePinyin": "nín kěyǐ bǎ kǎ zhuāng zài shǒujī shàng。",
+   "exampleEs": "Puede poner el chip en el celular.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "可以",
+     "pinyin": "kěyǐ",
+     "syl": [
+      [
+       "kě",
+       3
+      ],
+      [
+       "yǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "卡",
+     "pinyin": "kǎ",
+     "syl": [
+      [
+       "kǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "装",
+     "pinyin": "zhuāng",
+     "syl": [
+      [
+       "zhuāng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "手机",
+     "pinyin": "shǒujī",
+     "syl": [
+      [
+       "shǒu",
+       3
+      ],
+      [
+       "jī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上",
+     "pinyin": "shàng",
+     "syl": [
+      [
+       "shàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g30",
+   "pattern": "才",
+   "es": "Recién, no antes de (más tarde de lo esperado)",
+   "example": "他们两个星期以后才把护照还给我。",
+   "examplePinyin": "tāmen liǎng gè xīngqī yǐhòu cái bǎ hùzhào huángěi wǒ。",
+   "exampleEs": "Recién me lo devuelven en dos semanas.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "两",
+     "pinyin": "liǎng",
+     "syl": [
+      [
+       "liǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "个",
+     "pinyin": "gè",
+     "syl": [
+      [
+       "gè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "星期",
+     "pinyin": "xīngqī",
+     "syl": [
+      [
+       "xīng",
+       1
+      ],
+      [
+       "qī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "hòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "才",
+     "pinyin": "cái",
+     "syl": [
+      [
+       "cái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还给",
+     "pinyin": "huángěi",
+     "syl": [
+      [
+       "huán",
+       2
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g31",
+   "pattern": "Verbo + 一 + Verbo",
+   "es": "Hacer algo un poquito, probar",
+   "example": "您试一试。",
+   "examplePinyin": "nín shìyíshì。",
+   "exampleEs": "Pruébelo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "试一试",
+     "pinyin": "shìyíshì",
+     "syl": [
+      [
+       "shì",
+       4
+      ],
+      [
+       "yí",
+       2
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g32",
    "pattern": "因为...所以...",
    "es": "Porque... por eso...",
    "example": "因为下雨，所以我没去。",
@@ -65105,7 +69091,7 @@
    ]
   },
   {
-   "id": "g27",
+   "id": "g33",
    "pattern": "虽然...但是...",
    "es": "Aunque... sin embargo...",
    "example": "虽然很累，但是我很高兴。",
@@ -65212,7 +69198,7 @@
    ]
   },
   {
-   "id": "g28",
+   "id": "g34",
    "pattern": "不但...而且...",
    "es": "No solo... sino que además...",
    "example": "他不但会说汉语，而且说得很好。",
@@ -65352,7 +69338,7 @@
    ]
   },
   {
-   "id": "g29",
+   "id": "g35",
    "pattern": "如果...就...",
    "es": "Si... entonces...",
    "example": "如果你有时间，就来我家。",
@@ -65466,7 +69452,7 @@
    ]
   },
   {
-   "id": "g30",
+   "id": "g36",
    "pattern": "要是...就...",
    "es": "Si... entonces... (coloquial)",
    "example": "要是明天不下雨，我们就去。",
@@ -65577,7 +69563,7 @@
    ]
   },
   {
-   "id": "g31",
+   "id": "g37",
    "pattern": "只要...就...",
    "es": "Con tal de que... basta con...",
    "example": "只要你努力，就一定行。",
@@ -65673,7 +69659,7 @@
    ]
   },
   {
-   "id": "g32",
+   "id": "g38",
    "pattern": "一...就...",
    "es": "En cuanto... entonces...",
    "example": "我一到就给你打电话。",
@@ -65772,7 +69758,7 @@
    ]
   },
   {
-   "id": "g33",
+   "id": "g39",
    "pattern": "先...再...",
    "es": "Primero... después...",
    "example": "先做作业，再看电视。",
@@ -65864,7 +69850,7 @@
    ]
   },
   {
-   "id": "g34",
+   "id": "g40",
    "pattern": "一边...一边...",
    "es": "Hacer dos cosas a la vez",
    "example": "他一边走一边听音乐。",
@@ -65956,7 +69942,7 @@
    ]
   },
   {
-   "id": "g35",
+   "id": "g41",
    "pattern": "又...又...",
    "es": "Tanto... como... (dos cualidades)",
    "example": "这个又便宜又好吃。",
@@ -66037,7 +70023,7 @@
    ]
   },
   {
-   "id": "g36",
+   "id": "g42",
    "pattern": "越...越...",
    "es": "Cuanto más... más...",
    "example": "雨越下越大。",
@@ -66106,7 +70092,7 @@
    ]
   },
   {
-   "id": "g37",
+   "id": "g43",
    "pattern": "除了...以外",
    "es": "Aparte de... / excepto...",
    "example": "除了他以外，我们都去了。",
@@ -66213,7 +70199,7 @@
    ]
   },
   {
-   "id": "g38",
+   "id": "g44",
    "pattern": "不是...而是...",
    "es": "No es... sino...",
    "example": "他不是老师，而是学生。",
@@ -66302,7 +70288,7 @@
    ]
   },
   {
-   "id": "g39",
+   "id": "g45",
    "pattern": "或者...或者...",
    "es": "O bien... o bien... (afirmando)",
    "example": "或者今天，或者明天。",
@@ -66380,7 +70366,7 @@
    ]
   },
   {
-   "id": "g40",
+   "id": "g46",
    "pattern": "还是",
    "es": "O (solo en preguntas)",
    "example": "你喝茶还是咖啡？",
@@ -66450,7 +70436,7 @@
    ]
   },
   {
-   "id": "g41",
+   "id": "g47",
    "pattern": "为了",
    "es": "Para (con esa finalidad)",
    "example": "为了学好汉语，我每天听录音。",
@@ -66565,7 +70551,7 @@
    ]
   },
   {
-   "id": "g42",
+   "id": "g48",
    "pattern": "所以",
    "es": "Por eso / así que",
    "example": "我很忙，所以没去。",
@@ -66653,7 +70639,7 @@
    ]
   },
   {
-   "id": "g43",
+   "id": "g49",
    "pattern": "可是",
    "es": "Pero",
    "example": "我想去，可是没有时间。",
@@ -66749,7 +70735,7 @@
    ]
   },
   {
-   "id": "g44",
+   "id": "g50",
    "pattern": "而且",
    "es": "Además",
    "example": "这儿很近，而且很方便。",
@@ -66841,7 +70827,7 @@
    ]
   },
   {
-   "id": "g45",
+   "id": "g51",
    "pattern": "然后",
    "es": "Luego / a continuación",
    "example": "我们先吃饭，然后去逛街。",
@@ -66941,7 +70927,7 @@
    ]
   },
   {
-   "id": "g46",
+   "id": "g52",
    "pattern": "最后",
    "es": "Por último / finalmente",
    "example": "最后，他签了字。",
@@ -67018,7 +71004,7 @@
    ]
   },
   {
-   "id": "g47",
+   "id": "g53",
    "pattern": "因此",
    "es": "Por lo tanto (formal)",
    "example": "他没准备，因此没通过。",
@@ -67114,7 +71100,7 @@
    ]
   },
   {
-   "id": "g48",
+   "id": "g54",
    "pattern": "其实",
    "es": "En realidad",
    "example": "他看起来很凶，其实很好。",
@@ -67221,7 +71207,7 @@
    ]
   },
   {
-   "id": "g49",
+   "id": "g55",
    "pattern": "比如说",
    "es": "Por ejemplo",
    "example": "比如说，你可以坐地铁。",
@@ -67310,7 +71296,7 @@
    ]
   },
   {
-   "id": "g50",
+   "id": "g56",
    "pattern": "一方面...另一方面...",
    "es": "Por un lado... por otro...",
    "example": "一方面很贵，另一方面不方便。",
@@ -67418,7 +71404,7 @@
    ]
   },
   {
-   "id": "g51",
+   "id": "g57",
    "pattern": "无论...都...",
    "es": "Sin importar... siempre...",
    "example": "无论多忙，他都来。",
@@ -67506,7 +71492,7 @@
    ]
   },
   {
-   "id": "g52",
+   "id": "g58",
    "pattern": "既然...就...",
    "es": "Ya que... entonces...",
    "example": "既然来了，就多坐一会儿。",
@@ -67609,7 +71595,7 @@
    ]
   },
   {
-   "id": "g53",
+   "id": "g59",
    "pattern": "不过",
    "es": "Sin embargo (suave)",
    "example": "东西不错，不过太贵了。",
@@ -67705,7 +71691,7 @@
    ]
   },
   {
-   "id": "g54",
+   "id": "g60",
    "pattern": "于是",
    "es": "Entonces / y así (narrando)",
    "example": "下雨了，于是我们回家了。",
@@ -67805,7 +71791,7 @@
    ]
   },
   {
-   "id": "g55",
+   "id": "g61",
    "pattern": "从...到...",
    "es": "Desde... hasta...",
    "example": "从家到学校要二十分钟。",
