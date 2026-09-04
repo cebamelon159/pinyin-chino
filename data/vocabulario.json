@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-09-04T07:28:30",
+ "generated": "2026-09-04T08:31:29",
  "decks": [
   {
    "id": "L14",
@@ -81,6 +81,7 @@
     "c8df3821e",
     "c5feb",
     "c6162",
+    "c58ee",
     "c5f31",
     "c4e0359158282",
     "c80038bd5",
@@ -48230,6 +48231,41 @@
    "hsk": 3,
    "hskNew": 5,
    "freq": 2595,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L14"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c58ee",
+   "hanzi": "壮",
+   "pinyin": "zhuàng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "壮",
+     "pinyin": "zhuàng",
+     "syl": [
+      [
+       "zhuàng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "fuerte, robusto (de cuerpo)",
+   "en": "to strengthen; strong; robust",
+   "emoji": null,
+   "image": "images/c58ee.webp",
+   "hsk": null,
+   "hskNew": 7,
+   "freq": 6069,
    "type": "word",
    "lesson": null,
    "decks": [
