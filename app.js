@@ -944,11 +944,12 @@ var Session = {
   queue: [], index: 0, mode: null, deck: null,
   results: [], startedAt: 0,
 
-  start: function (deck, modeId) {
+  start: function (deck, modeId, filtro) {
     var mode = Modes[modeId];
     if (!mode) return;
 
     var cards = deck ? Data.deckCards(deck) : Data.allDue();
+    if (filtro) cards = cards.filter(filtro);
     cards = cards.filter(mode.fits);
 
     if (!cards.length) {
@@ -1316,6 +1317,33 @@ var UI = {
       };
       list.appendChild(b);
     });
+
+    // Los textos largos de la lección (diálogos) se ofrecen aquí mismo, como
+    // una opción más. Son un trozo del mismo mazo, no un mazo aparte: así el
+    // vocabulario y su diálogo viven juntos.
+    var textos = [];
+    cards.forEach(function (c) {
+      if (c.texto && textos.indexOf(c.texto) < 0) textos.push(c.texto);
+    });
+    if (textos.length) {
+      textos.sort();          // Texto 1 antes que Texto 2
+      list.appendChild(el("div", "mode-sep", "Textos de la lección"));
+      textos.forEach(function (t) {
+        var deEsteTexto = function (c) { return c.texto === t; };
+        var n = cards.filter(deEsteTexto).length;
+        var b = el("button", "mode");
+        b.appendChild(el("div", "mode-ico", "📖"));
+        var txt = el("div", "mode-txt");
+        txt.appendChild(el("b", "", t));
+        txt.appendChild(el("span", "", "Las oraciones del texto · " + n + " tarjetas"));
+        b.appendChild(txt);
+        b.onclick = function () {
+          $("#mode-sheet").hidden = true;
+          Session.start(deck, "flash", deEsteTexto);
+        };
+        list.appendChild(b);
+      });
+    }
 
     $("#mode-sheet").hidden = false;
   },

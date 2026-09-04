@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-09-04T08:31:29",
+ "generated": "2026-09-04T08:36:57",
  "decks": [
   {
    "id": "L14",
@@ -93,15 +93,7 @@
     "c51995267672c4ed64e005b9a53c85feb53c8597d",
     "c4f604eec53ef4ee58df3821e6216800588686f14",
     "c518d8bf46f148bdd52678fd880fd63d09ad86211",
-    "c62115b668fc7592a678162f3"
-   ]
-  },
-  {
-   "id": "mia14A",
-   "name": "L14A Diálogo texto 1 — 留学生晚会",
-   "order": 86.1,
-   "source": "mias",
-   "cards": [
+    "c62115b668fc7592a678162f3",
     "c67975a1c59274e3a529b6ce24f604eec90fd5728",
     "c4eca592959296c144e0d9519",
     "c662f554a4eca59296bd4662859296696548c",
@@ -115,7 +107,6 @@
     "c4f604eec73ed898188686f144ec04e48828276ee",
     "c4f6095ee5f97597d62114eec554691cf4e864e24",
     "c4f6067094ec04e485efa8bae",
-    "c4f604eec53ef4ee58df3821e6216800588686f14",
     "c621189c95f976253592a678162f36bd48df3821e",
     "c53ef662f6253592a678162f3592a61624e868df3",
     "c8fd9683754274f604eec88686f144e004e2a6c49",
@@ -124,7 +115,6 @@
     "c522b88686f148bdd52674e86592a96be4e86",
     "c62114eec53ef4ee555314e2d65876b4c55316b4c",
     "c53ef662f665a4f1a4e0a55316b4c7684828276ee",
-    "c518d8bf46f148bdd52678fd880fd63d09ad86211",
     "c662f554a4f604eec53ef4ee551994e004e2a5c0f",
     "c4f604eec8bf45f975bf96211540c610f",
     "c529b6ce24f6076846c498bed6bd46211597d4f60",
@@ -135,15 +125,7 @@
     "c5bf94e86964696e85e73662f8bb080054ed67684",
     "c54b14eec627e4ed66765554691cf554691cf5427",
     "c5bf9554a51995267672c4ed64e005b9a53c85feb",
-    "c62117ed94ed6625375358bdd"
-   ]
-  },
-  {
-   "id": "mia14B",
-   "name": "L14B Diálogo texto 2 — 租服装",
-   "order": 86.2,
-   "source": "mias",
-   "cards": [
+    "c62117ed94ed6625375358bdd",
     "c8fd95957592a678162f3670d88c5662f8c017684",
     "c662f621176844f6089c95f97600e4e486837",
     "c5f8854089002",
@@ -165,7 +147,6 @@
     "c621167655e2e4f60770b770b8fd94ef665d7888d",
     "c8fd94ef6989c8272592a6df14e86621160f38981",
     "c8fd94ef67ea27684600e4e4868377ea27684662f",
-    "c6211770b7ea276844e0d6bd47eff76846f024eae",
     "c8fd94ef67ea27684989c82724e0d951953ef662f",
     "c4f60770b8fd94ef66bd490a34ef6957f4e24516c",
     "c53ef662f8fd94ef6662f68c97684621160f38981",
@@ -18782,14 +18763,15 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "mia14A",
-    "L6"
+    "L6",
+    "L14"
    ],
    "stats": {
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1775595501367
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c70b9513f",
@@ -42695,7 +42677,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "nínháowǒdeshǒujīhuàilewóxiǎngbànyìzhāngxīndeshǒujīkǎ"
+   "toneHint": "nínháowǒdeshǒujīhuàilewóxiǎngbànyìzhāngxīndeshǒujīkǎ",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c60a8898163624e004e2a65b07684624b673a53f7",
@@ -42830,7 +42813,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c4e0d662f621160f34e704e005f2065b053618fd8",
@@ -43037,7 +43021,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "búshìwǒxiángmǎiyìzhāngxīnkǎháiyòngyǐqiándeshǒujīhàomǎ"
+   "toneHint": "búshìwǒxiángmǎiyìzhāngxīnkǎháiyòngyǐqiándeshǒujīhàomǎ",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c597d768460a85e268eab4efd8bc167654e865417",
@@ -43165,7 +43150,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c4e0d597d610f601d62116ca167094e2d56fd7684",
@@ -43291,7 +43277,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c554a60a8662f591656fd4eba60a86c498bed8bf4",
@@ -43523,7 +43510,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c62a4716762114e5f6ca15e2662118981529e7b7e",
@@ -43760,7 +43748,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "hùzhàowóyěméidàiwǒyàobànqiānzhèngzuótiānbǎhùzhàosòngdàodàshíguǎnle"
+   "toneHint": "hùzhàowóyěméidàiwǒyàobànqiānzhèngzuótiānbǎhùzhàosòngdàodàshíguǎnle",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c60a862ff52307b7e8bc14ee5540e5e2662a47167",
@@ -43914,7 +43903,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c4e0d884c554a4ed64eec4e244e2a661f671f4ee5",
@@ -44103,7 +44093,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "bùxíngatāmenliǎnggèxīngqīyǐhòucáibǎhùzhàohuángéiwǒ"
+   "toneHint": "bùxíngatāmenliǎnggèxīngqīyǐhòucáibǎhùzhàohuángéiwǒ",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c62114e0d80fd8fd94e48957f65f695f44e0d7528",
@@ -44239,7 +44230,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c5bf94e8662115e265b66751f8bc14e865b66751f",
@@ -44395,7 +44387,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "duìlewǒdàixuéshengzhènglexuéshengzhèngkéyǐma"
+   "toneHint": "duìlewǒdàixuéshengzhènglexuéshengzhèngkéyǐma",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c5b66751f8bc14e0d884c60a867094e2d56fd7684",
@@ -44535,7 +44528,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c6709",
@@ -44575,7 +44569,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c597d8bf760a8628a59d3540d548c624b673a53f7",
@@ -44838,7 +44833,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "háoqǐngnínbǎxìngmínghéshǒujīhàoxiězàizhèrbǎjiàzhàojiāogěiwówǒfùyìnyíxià"
+   "toneHint": "háoqǐngnínbǎxìngmínghéshǒujīhàoxiězàizhèrbǎjiàzhàojiāogěiwówǒfùyìnyíxià",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c8fd9662f60a876849a7e71678fd9662f65b07684",
@@ -44992,7 +44988,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c60a853ef4ee5628a536188c55728624b673a4e0a",
@@ -45143,7 +45140,8 @@
    },
    "toneHint": "nínkéyǐbákǎzhuāngzàishǒujīshàngshìyíshì",
    "pattern": "把 + objeto + verbo + 在",
-   "patternEs": "Dejar el objeto EN un sitio"
+   "patternEs": "Dejar el objeto EN un sitio",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c597d768473b0572853ef4ee575284e868c228c22",
@@ -45277,7 +45275,8 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "hǎodexiànzàikéyǐyònglexièxie"
+   "toneHint": "hǎodexiànzàikéyǐyònglexièxie",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c4e0d5ba26c146b228fce60a8518d6765",
@@ -45383,7 +45382,8 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c66285929628a62a471679001523059274f7f9986",
@@ -45508,7 +45508,8 @@
    },
    "toneHint": "zuótiānbǎhùzhàosòngdàodàshíguǎnle",
    "pattern": "把 + objeto + verbo + 到",
-   "patternEs": "Adelantar el objeto para decir adónde va a parar"
+   "patternEs": "Adelantar el objeto para decir adónde va a parar",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c4ed64eec4e244e2a661f671f4ee5540e624d628a",
@@ -45670,7 +45671,8 @@
    },
    "toneHint": "tāmenliǎnggèxīngqīyǐhòucáibǎhùzhàohuángéiwǒ",
    "pattern": "才",
-   "patternEs": "Recién, no antes de (más tarde de lo esperado)"
+   "patternEs": "Recién, no antes de (más tarde de lo esperado)",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c8bf760a8628a9a7e71674ea47ed96211",
@@ -45776,7 +45778,8 @@
    },
    "toneHint": "qǐngnínbǎjiàzhàojiāogéiwǒ",
    "pattern": "把 + objeto + 交给 + persona",
-   "patternEs": "Entregarle algo a alguien"
+   "patternEs": "Entregarle algo a alguien",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c60a88bd54e008bd5",
@@ -45837,7 +45840,8 @@
     "lastStudiedAt": null
    },
    "pattern": "Verbo + 一 + Verbo",
-   "patternEs": "Hacer algo un poquito, probar"
+   "patternEs": "Hacer algo un poquito, probar",
+   "texto": "Diálogo — 办手机卡"
   },
   {
    "id": "c6bd4",
@@ -48766,7 +48770,6 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B",
     "conectores",
     "L14"
    ],
@@ -48776,7 +48779,8 @@
     "lastStudiedAt": null
    },
    "pattern": "A 不比 B + adjetivo",
-   "patternEs": "A no es más [adj] que B"
+   "patternEs": "A no es más [adj] que B",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c8df3821e6ca167098bdd52676709610f601d",
@@ -49114,7 +49118,6 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A",
     "conectores",
     "L14"
    ],
@@ -49125,7 +49128,8 @@
    },
    "toneHint": "nǐmenkéyǐtiàowǔhuòzhěbiáoyǎntàijíquán",
    "pattern": "或者",
-   "patternEs": "O (afirmando, no en preguntas)"
+   "patternEs": "O (afirmando, no en preguntas)",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c518d8bf46f148bdd52678fd880fd63d09ad86211",
@@ -49285,7 +49289,6 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A",
     "conectores",
     "L14"
    ],
@@ -49296,7 +49299,8 @@
    },
    "toneHint": "zàishuōyǎnhuàjùháinéngtígāowǒmendekǒuyúshuǐpíng",
    "pattern": "再说",
-   "patternEs": "Además, por otra parte (añade un motivo)"
+   "patternEs": "Además, por otra parte (añade un motivo)",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c62115b668fc7592a678162f3",
@@ -49502,13 +49506,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c4eca592959296c144e0d9519",
@@ -49575,13 +49580,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c662f554a4eca59296bd4662859296696548c",
@@ -49685,13 +49691,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c5c0f4e91597d4e456ca189c152304f604e864eca",
@@ -49881,14 +49888,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "XiǎoYúnháojiǔméijiàndàonǐlejīntiānzěnmeyǒushíjiānguòláile"
+   "toneHint": "XiǎoYúnháojiǔméijiàndàonǐlejīntiānzěnmeyǒushíjiānguòláile",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c62116765770b770b4f604eec554a",
@@ -49973,13 +49981,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c5b8b534e8ba96211628a8fd9672c4e665e267ed9",
@@ -50108,14 +50117,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "SòngHuáràngwóbǎzhèběnshūdàigéinǐ"
+   "toneHint": "SòngHuáràngwóbǎzhèběnshūdàigéinǐ",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c4ed68bf44e664e0a67094f608981768490a34e2a",
@@ -50255,14 +50265,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "tāshuōshūshàngyóunǐyàodenàgehuàjù"
+   "toneHint": "tāshuōshūshàngyóunǐyàodenàgehuàjù",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c66ff62118c228c225b8b534e",
@@ -50336,13 +50347,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c6211572856fe4e66998667e54e865f88957f65f6",
@@ -50531,13 +50543,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c542c8bf44eca5e7454b14eec5b66682176847559",
@@ -50746,13 +50759,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c4f604eec73ed898188686f144ec04e48828276ee",
@@ -50856,14 +50870,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "nǐmenbānyàobiáoyǎnshénmejiémù"
+   "toneHint": "nǐmenbānyàobiáoyǎnshénmejiémù",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c4f6095ee5f97597d62114eec554691cf4e864e24",
@@ -51048,14 +51063,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "nǐwèndeháowǒmenshāngliangleliǎngtiānháiméijuédìngne"
+   "toneHint": "nǐwèndeháowǒmenshāngliangleliǎngtiānháiméijuédìngne",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c4f6067094ec04e485efa8bae",
@@ -51129,14 +51145,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "níyǒushénmejiànyì"
+   "toneHint": "níyǒushénmejiànyì",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c621189c95f976253592a678162f36bd48df3821e",
@@ -51259,14 +51276,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "wǒjuédedǎtàijíquánbǐtiàowúyǒuyìsi"
+   "toneHint": "wǒjuédedǎtàijíquánbǐtiàowúyǒuyìsi",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c53ef662f6253592a678162f3592a61624e868df3",
@@ -51441,7 +51459,7 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
@@ -51450,7 +51468,8 @@
    },
    "toneHint": "kěshìdǎtàijíquántàimànletiàowǔbídǎtàijíquánrènao",
    "pattern": "太...了",
-   "patternEs": "Demasiado + adjetivo"
+   "patternEs": "Demasiado + adjetivo",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c8fd9683754274f604eec88686f144e004e2a6c49",
@@ -51600,14 +51619,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "zhèyàngbanǐmenbiáoyǎnyígeHànyǔhuàjùzěnmeyàng"
+   "toneHint": "zhèyàngbanǐmenbiáoyǎnyígeHànyǔhuàjùzěnmeyàng",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c662f4e2a597d4e3b610f",
@@ -51677,14 +51697,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "shìgèháozhǔyi"
+   "toneHint": "shìgèháozhǔyi",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c62114eec662f6c498bed4e134e1a76845b66751f",
@@ -51852,14 +51873,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "wǒmenshìHànyǔzhuānyèdexuéshengyīnggāibiáoyǎnHànyǔjiémù"
+   "toneHint": "wǒmenshìHànyǔzhuānyèdexuéshengyīnggāibiáoyǎnHànyǔjiémù",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c522b88686f148bdd52674e86592a96be4e86",
@@ -51970,7 +51992,7 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
@@ -51979,7 +52001,8 @@
    },
    "toneHint": "biébiáoyǎnhuàjùletàinánle",
    "pattern": "太...了",
-   "patternEs": "Demasiado + adjetivo"
+   "patternEs": "Demasiado + adjetivo",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c62114eec53ef4ee555314e2d65876b4c55316b4c",
@@ -52139,14 +52162,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "wǒmenkéyǐchàngZhōngwéngēchànggēbíyǎnhuàjùróngyì"
+   "toneHint": "wǒmenkéyǐchàngZhōngwéngēchànggēbíyǎnhuàjùróngyì",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c53ef662f665a4f1a4e0a55316b4c7684828276ee",
@@ -52335,14 +52359,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "kěshìwǎnhuìshàngchànggēdejiémùhěnduōchàngháoyěbùróngyì"
+   "toneHint": "kěshìwǎnhuìshàngchànggēdejiémùhěnduōchàngháoyěbùróngyì",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c662f554a4f604eec53ef4ee551994e004e2a5c0f",
@@ -52599,14 +52624,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "shìanǐmenkěyíxiěyígexiǎohuàjùxiénǐmenzàiZhōngguódegùshìduōyǒuyìsia"
+   "toneHint": "shìanǐmenkěyíxiěyígexiǎohuàjùxiénǐmenzàiZhōngguódegùshìduōyǒuyìsia",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c4f604eec8bf45f975bf96211540c610f",
@@ -52706,13 +52732,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c529b6ce24f6076846c498bed6bd46211597d4f60",
@@ -52878,14 +52905,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "lìbōnǐdeHànyǔbíwǒháonǐláixiěba"
+   "toneHint": "lìbōnǐdeHànyǔbíwǒháonǐláixiěba",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c62118bd58bd5",
@@ -52940,13 +52968,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c621160f351994e004e2a75595b66751f5b66592a",
@@ -53091,14 +53120,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "wǒxiángxiěyígeliúxuéshēngxuétàijíquándegùshì"
+   "toneHint": "wǒxiángxiěyígeliúxuéshēngxuétàijíquándegùshì",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c5c0f4e914f6053ef4ee58ddf62114e008d775199",
@@ -53224,14 +53254,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "XiǎoYúnnǐkéyǐgēnwǒyìqíxiěma"
+   "toneHint": "XiǎoYúnnǐkéyǐgēnwǒyìqíxiěma",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c5bf94e86964696e85e73662f8bb080054ed67684",
@@ -53413,14 +53444,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "duìleLùYǔpíngshìjìzhětādexiězuòshuǐpíngbíwǒgāo"
+   "toneHint": "duìleLùYǔpíngshìjìzhětādexiězuòshuǐpíngbíwǒgāo",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c54b14eec627e4ed66765554691cf554691cf5427",
@@ -53531,13 +53563,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c5bf9554a51995267672c4ed64e005b9a53c85feb",
@@ -53722,7 +53755,7 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
@@ -53731,7 +53764,8 @@
    },
    "toneHint": "duìaxiějùběntāyídìngyòukuàiyòuháobǐzánmenqiáng",
    "pattern": "又...又...",
-   "patternEs": "Tanto... como... (dos cualidades)"
+   "patternEs": "Tanto... como... (dos cualidades)",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c62117ed94ed6625375358bdd",
@@ -53805,14 +53839,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14A"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "wógěitādǎdiànhuà"
+   "toneHint": "wógěitādǎdiànhuà",
+   "texto": "Texto 1 — 留学生晚会"
   },
   {
    "id": "c8fd95957592a678162f3670d88c5662f8c017684",
@@ -53923,13 +53958,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c662f621176844f6089c95f97600e4e486837",
@@ -54033,13 +54069,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c5f8854089002",
@@ -54087,13 +54124,14 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c54b14eec8fd89700898156db5957592a678162f3",
@@ -54260,13 +54298,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c5c0f4e9167094e004ef665d7888d54b14eec53ef",
@@ -54418,14 +54457,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "XiǎoYúnyǒuyíjiànqípáozánmenkéyǐjiètāde"
+   "toneHint": "XiǎoYúnyǒuyíjiànqípáozánmenkéyǐjiètāde",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c54b14eec5e948be553bb54ea513f4e705462",
@@ -54521,14 +54561,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "zánmenyīnggāiqùnármǎine"
+   "toneHint": "zánmenyīnggāiqùnármǎine",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c5979768490a34ef6662f65e77684621160f38981",
@@ -54701,14 +54742,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "tādenàjiànshìjiùdewóxiǎngyàoyíjiànchángde"
+   "toneHint": "tādenàjiànshìjiùdewóxiǎngyàoyíjiànchángde",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c542c8bf475355f715b66966265c18fb967094e0d",
@@ -54872,13 +54914,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c54b14eec53ef4ee553bb79df670d88c5",
@@ -54967,14 +55010,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "zánmenkéyǐqùzūfúzhuāng"
+   "toneHint": "zánmenkéyǐqùzūfúzhuāng",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c597d554a79df76846bd44e7076844fbf5b9c591a",
@@ -55114,14 +55158,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "hǎoazūdebímǎidepiányiduōle"
+   "toneHint": "hǎoazūdebímǎidepiányiduōle",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c4e0b534854b14eec53bb770b770b",
@@ -55199,13 +55244,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c8fd94e244ef6592a678162f3670d88c576845f0f",
@@ -55357,13 +55403,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c4f6089c95f9754ea4ef6597d767d76848fd8662f",
@@ -55507,13 +55554,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c90fd5f88597d",
@@ -55568,14 +55616,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "dōuhénhǎo"
+   "toneHint": "dōuhénhǎo",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c770b88686f14768465f650197a7f767d76846bd4",
@@ -55749,14 +55798,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "kànbiáoyǎndeshíhouchuānbáidebǐchuānhēidepiàoliang"
+   "toneHint": "kànbiáoyǎndeshíhouchuānbáidebǐchuānhēidepiàoliang",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c597d5c318981767d7684",
@@ -55830,13 +55880,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c8fd9513f768465d7888d600e4e486837",
@@ -55914,13 +55965,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c5f0f6837592a591a4e866211771f4e0d77e59053",
@@ -56086,7 +56138,7 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
@@ -56095,7 +56147,8 @@
    },
    "toneHint": "shìyàngtàiduōlewǒzhēnbùzhīdàogāixuánnǎjiàn",
    "pattern": "太...了",
-   "patternEs": "Demasiado + adjetivo"
+   "patternEs": "Demasiado + adjetivo",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c621167655e2e4f60770b770b8fd94ef665d7888d",
@@ -56236,13 +56289,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c8fd94ef6989c8272592a6df14e86621160f38981",
@@ -56401,7 +56455,7 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
@@ -56410,7 +56464,8 @@
    },
    "toneHint": "zhèjiànyánsètàishēnlewóxiǎngyàoqiǎnyìdiǎnrde",
    "pattern": "太...了",
-   "patternEs": "Demasiado + adjetivo"
+   "patternEs": "Demasiado + adjetivo",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c8fd94ef67ea27684600e4e4868377ea27684662f",
@@ -56588,13 +56643,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c8fd94ef67ea27684989c82724e0d951953ef662f",
@@ -56809,14 +56865,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "zhèjiànhóngdeyánsèbúcuòkěshìduǎnlediǎnrwóxiǎngyàochángyìdiǎnrde"
+   "toneHint": "zhèjiànhóngdeyánsèbúcuòkěshìduǎnlediǎnrwóxiǎngyàochángyìdiǎnrde",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c4f60770b8fd94ef66bd490a34ef6957f4e24516c",
@@ -57008,13 +57065,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c53ef662f8fd94ef6662f68c97684621160f38981",
@@ -57162,14 +57220,15 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "kěshìzhèjiànshìmiándewóxiǎngyàozhēnsīde"
+   "toneHint": "kěshìzhèjiànshìmiándewóxiǎngyàozhēnsīde",
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c4f604eec61626162770b54276211514853bb4e00",
@@ -57314,13 +57373,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "mia14B"
+    "L14"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   }
+   },
+   "texto": "Texto 2 — 租服装"
   },
   {
    "id": "c6211662f5750573094c153bb7684",
