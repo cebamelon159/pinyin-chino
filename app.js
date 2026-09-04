@@ -780,7 +780,256 @@ var Modes = {
     }
   },
 
+  /* ---- Ordenar la oración (sólo dentro de un texto) ----
+     `soloTexto` los deja fuera de la lista general de ejercicios: estos dos
+     sólo tienen sentido con las frases de un diálogo concreto, no con
+     vocabulario suelto. */
+  build: {
+    id: "build", icon: "🧩", name: "Ordenar la oración",
+    desc: "Arma la frase con las palabras desordenadas",
+    soloTexto: true,
+    fits: function (c) { return c.type === "sentence" && !!c.es && countWords(c) >= 2; },
+    render: function (ctx) {
+      var c = ctx.card, body = ctx.body;
+      var card = el("div", "card");
+
+      var prompt = el("div", "prompt-block");
+      prompt.appendChild(el("div", "prompt-label", "Ordena la oración"));
+      prompt.appendChild(el("div", "prompt-es", c.es));
+      if (c.pattern) {
+        prompt.appendChild(el("div", "pattern-chip hanzi", c.pattern));
+        if (c.patternEs) prompt.appendChild(el("div", "pattern-desc", c.patternEs));
+      }
+      card.appendChild(prompt);
+
+      var words = (c.tokens || []).filter(function (t) { return t.t === "w"; });
+      var slot = el("div", "token-slot");
+      var bank = el("div", "token-bank");
+      var chosen = [];
+
+      function redraw() {
+        slot.innerHTML = "";
+        if (!chosen.length) slot.appendChild(el("span", "tap-hint", "Toca las palabras en orden"));
+        chosen.forEach(function (item, idx) {
+          var t = el("button", "token hanzi", item.hanzi);
+          t.onclick = function () {
+            chosen.splice(idx, 1);
+            item.node.classList.remove("used");
+            redraw();
+          };
+          slot.appendChild(t);
+        });
+      }
+
+      shuffle(words).forEach(function (w) {
+        var t = el("button", "token hanzi", w.hanzi);
+        t.onclick = function () {
+          if (t.classList.contains("used")) return;
+          t.classList.add("used");
+          chosen.push({ hanzi: w.hanzi, node: t });
+          redraw();
+        };
+        bank.appendChild(t);
+      });
+
+      redraw();
+      card.appendChild(slot);
+      card.appendChild(bank);
+      body.appendChild(card);
+
+      var done = false;
+      function check() {
+        if (done || !chosen.length) return;
+        done = true;
+        var mine = chosen.map(function (x) { return x.hanzi; }).join("");
+        var target = words.map(function (w) { return w.hanzi; }).join("");
+        var ok = mine === target;
+        ctx.feedback(ok, buildAnswerNote(c));
+        Speech.speak(c.hanzi);
+        ctx.autoGrade(ok);
+      }
+      ctx.setActions([{ label: "Comprobar", cls: "", onClick: check }]);
+    }
+  },
+
+  /* ---- Traducir al chino escribiéndolo (sólo dentro de un texto) ---- */
+  compose: {
+    id: "compose", icon: "⌨️", name: "Traducir al chino",
+    desc: "Escribe la frase en chino con tu teclado",
+    soloTexto: true,
+    fits: function (c) {
+      return c.type === "sentence" && !!c.es && countWords(c) >= 2
+             && pt_hanziCount(c.hanzi) <= 28;
+    },
+    render: function (ctx) {
+      var c = ctx.card, body = ctx.body;
+      var palabras = (c.tokens || []).filter(function (t) { return t.t === "w"; });
+      var card = el("div", "card compose-card");
+
+      var prompt = el("div", "prompt-block");
+      prompt.appendChild(el("div", "prompt-label", "Escríbelo en chino"));
+      prompt.appendChild(el("div", "prompt-es", c.es));
+      if (c.pattern) {
+        prompt.appendChild(el("div", "pattern-chip hanzi", c.pattern));
+        if (c.patternEs) prompt.appendChild(el("div", "pattern-desc", c.patternEs));
+      }
+      card.appendChild(prompt);
+
+      var input = el("textarea", "answer-input compose-input");
+      input.rows = 2;
+      input.placeholder = "汉字…";
+      input.autocapitalize = "off";
+      input.autocorrect = "off";
+      input.spellcheck = false;
+      input.lang = "zh";
+      card.appendChild(input);
+
+      var zonaPistas = el("div", "hint-zone");
+      card.appendChild(zonaPistas);
+      body.appendChild(card);
+      setTimeout(function () { input.focus(); }, 80);
+
+      var nivel = 0, resuelto = false, revelado = false;
+      var PISTAS = ["Pista: vocabulario", "Pista: estructura", "Pista: esqueleto", "Ver la respuesta"];
+
+      function pista() {
+        if (resuelto) return;
+        nivel++;
+        var caja = el("div", "hint-box");
+
+        if (nivel === 1) {
+          caja.appendChild(el("b", "", "Palabras que necesitas"));
+          var lista = el("div", "hint-words");
+          palabras.forEach(function (t) {
+            var ficha = Data.cards.filter(function (x) { return x.hanzi === t.hanzi; })[0];
+            var w = el("div", "hint-word");
+            w.appendChild(el("span", "hanzi", t.hanzi));
+            w.appendChild(el("span", "hw-py", t.pinyin));
+            if (ficha && ficha.es) w.appendChild(el("span", "hw-es", ficha.es.split(" /")[0]));
+            lista.appendChild(w);
+          });
+          caja.appendChild(lista);
+
+        } else if (nivel === 2) {
+          caja.appendChild(el("b", "", "Cómo se arma"));
+          if (c.pattern) {
+            caja.appendChild(el("div", "hanzi hint-pattern", c.pattern));
+            caja.appendChild(el("div", "", c.patternEs || ""));
+          } else {
+            caja.appendChild(el("div", "", "Orden: " + palabras.map(function (t) {
+              return t.pinyin;
+            }).join(" · ")));
+          }
+
+        } else if (nivel === 3) {
+          caja.appendChild(el("b", "", "El esqueleto"));
+          var esq = "";
+          (c.tokens || []).forEach(function (t) {
+            if (t.t === "p") { esq += t.hanzi; return; }
+            esq += t.hanzi[0] + new Array(t.hanzi.length).join("○");
+          });
+          caja.appendChild(el("div", "hanzi hint-skeleton", esq));
+          caja.appendChild(el("div", "", "Cada ○ es un carácter que falta."));
+
+        } else {
+          revelado = true;
+          caja.appendChild(el("b", "", "La respuesta"));
+          caja.appendChild(el("div", "hint-answer hanzi", c.hanzi));
+          var py = el("div", "");
+          py.appendChild(renderPinyin(c));
+          caja.appendChild(py);
+          Speech.speak(c.hanzi);
+          terminar(false);
+        }
+
+        zonaPistas.appendChild(caja);
+        body.scrollTop = body.scrollHeight;
+        if (nivel < PISTAS.length) botones();
+        else ctx.setActions([]);
+      }
+
+      function comprobar() {
+        if (resuelto) return;
+        var escrito = normalizarChino(input.value);
+        if (!escrito) { toast("Escribe algo primero"); return; }
+        var esperado = normalizarChino(c.hanzi);
+
+        if (escrito === esperado) {
+          input.classList.add("ok");
+          terminar(true);
+          return;
+        }
+        input.classList.add("bad");
+        var listaPal = palabras.map(function (t) { return t.hanzi; });
+        var difs = compararTokens(
+          segmentar(esperado, listaPal),
+          segmentar(escrito, listaPal)
+        );
+        terminar(false, difs);
+      }
+
+      function terminar(ok, difs) {
+        if (resuelto) return;
+        resuelto = true;
+        input.readOnly = true;
+
+        var extra = document.createDocumentFragment();
+        if (difs) {
+          var fila = el("div", "diff-row");
+          difs.forEach(function (d) {
+            var cls = d.op === "ok" ? "diff-ok" : d.op === "falta" ? "diff-falta" : "diff-sobra";
+            var n = el("span", "diff-tok hanzi " + cls, d.w);
+            n.title = d.op === "falta" ? "te faltó" : d.op === "sobra" ? "sobra" : "bien";
+            fila.appendChild(n);
+          });
+          extra.appendChild(el("div", "diff-legend",
+            "verde: bien · rojo: te faltó · tachado: sobra"));
+          extra.appendChild(fila);
+        }
+        extra.appendChild(buildAnswerNote(c));
+        if (nivel > 0 && ok) {
+          extra.appendChild(el("div", "hint-used",
+            "Resuelto con " + nivel + (nivel === 1 ? " pista" : " pistas")));
+        }
+        ctx.feedback(ok, extra);
+        if (!revelado) Speech.speak(c.hanzi);
+
+        var acciones = [];
+        var similar = (!ok || nivel > 0) ? otraConMismaEstructura(c) : null;
+        if (similar) {
+          acciones.push({
+            label: "↻  Otra con " + c.pattern,
+            cls: "ghost",
+            onClick: function () { Session.insertNext(similar); }
+          });
+        }
+        acciones.push({
+          label: "Continuar",
+          cls: ok ? "btn-good" : "btn-bad",
+          onClick: function () { Session.grade(ok && nivel <= 1); }
+        });
+        ctx.setActions(acciones);
+      }
+
+      function botones() {
+        ctx.setActions([
+          { label: PISTAS[nivel], cls: "ghost", onClick: pista },
+          { label: "Comprobar", cls: "", onClick: comprobar },
+        ]);
+      }
+
+      input.addEventListener("keydown", function (e) {
+        if (e.key === "Enter" && !e.shiftKey && !e.isComposing) {
+          e.preventDefault();
+          comprobar();
+        }
+      });
+      botones();
+    }
+  },
+
   /* ---- 5. Reconocer el carácter ---- */
+
   reading: {
     id: "reading", icon: "👁️", name: "Lectura",
     desc: "Ves el carácter y recuerdas cómo se lee y qué significa",
@@ -1297,6 +1546,7 @@ var UI = {
 
     Object.keys(Modes).forEach(function (key) {
       var m = Modes[key];
+      if (m.soloTexto) return;          // se ofrecen bajo cada texto, no aquí
       var usable = cards.filter(m.fits).length;
       var b = el("button", "mode");
       if (!usable) b.setAttribute("disabled", "");
@@ -1342,6 +1592,25 @@ var UI = {
           Session.start(deck, "flash", deEsteTexto);
         };
         list.appendChild(b);
+
+        // Los ejercicios de producción del texto, sangrados debajo
+        Object.keys(Modes).forEach(function (k2) {
+          var m2 = Modes[k2];
+          if (!m2.soloTexto) return;
+          var aptas = cards.filter(deEsteTexto).filter(m2.fits).length;
+          if (!aptas) return;
+          var sub = el("button", "mode mode-sub");
+          sub.appendChild(el("div", "mode-ico", m2.icon));
+          var st = el("div", "mode-txt");
+          st.appendChild(el("b", "", m2.name));
+          st.appendChild(el("span", "", m2.desc + " · " + aptas + " frases"));
+          sub.appendChild(st);
+          sub.onclick = function () {
+            $("#mode-sheet").hidden = true;
+            Session.start(deck, m2.id, deEsteTexto);
+          };
+          list.appendChild(sub);
+        });
       });
     }
 

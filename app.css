@@ -663,3 +663,11 @@ button { cursor: pointer; border: none; background: none; }
   letter-spacing: .05em; color: var(--text-soft);
   margin: 10px 2px 2px;
 }
+
+/* Ejercicios que cuelgan de un texto: sangrados y algo más discretos */
+.mode.mode-sub {
+  margin-left: 22px; padding: 10px 12px;
+  background: var(--bg-alt); border-style: dashed;
+}
+.mode.mode-sub .mode-ico { font-size: 20px; }
+.mode.mode-sub .mode-txt b { font-size: 14px; }
