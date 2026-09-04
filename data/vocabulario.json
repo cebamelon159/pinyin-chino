@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-09-04T07:25:48",
+ "generated": "2026-09-04T07:28:30",
  "decks": [
   {
    "id": "L14",
@@ -1143,411 +1143,510 @@
    ]
   },
   {
-   "id": "hsk1",
-   "name": "Camino a HSK1",
-   "order": 900,
-   "source": "hsk",
+   "id": "tema0",
+   "name": "👨‍👩‍👧 Personas y familia",
+   "order": 500,
+   "source": "tema",
    "cards": [
-    "c7684",
-    "c6211",
-    "c662f",
-    "c4f60",
-    "c4e0d",
-    "c6709",
-    "c4ed6",
-    "c8fd9",
-    "c4e2a",
-    "c548c",
     "c4eba",
-    "c62114eec",
-    "c597d",
-    "c4e00",
-    "c90fd",
-    "c4e0a",
-    "c6765",
-    "c5f88",
-    "c53bb",
+    "c6211",
+    "c4f60",
+    "c4ed6",
     "c5979",
-    "c90a3",
-    "c505a",
-    "c4ec04e48",
-    "c70b9",
-    "c6ca1",
-    "c5927",
-    "c4e0b",
-    "c91cc",
-    "c73b05728",
-    "c5e74",
-    "c591a",
-    "c5417",
-    "c592a",
-    "c5462",
-    "c5c0f",
-    "c5de54f5c",
+    "c62114eec",
+    "c60a8",
+    "c5b83",
+    "c670b53cb",
+    "c59885988",
+    "c72387238",
+    "c59d059d0",
+    "c54e554e5",
+    "c59b959b9",
+    "c5f1f5f1f",
+    "c59765976",
+    "c72377237",
+    "c53d453d4",
+    "c963f59e8",
+    "c5973513f",
+    "c5b695b50",
+    "c59734eba",
+    "c75374eba",
+    "c59bb5b50",
+    "c4e08592b",
+    "c522b4eba",
+    "c5ba24eba",
+    "c90bb5c45",
+    "c540c4e8b",
+    "c540d5b57",
+    "c59d3",
+    "c5c81",
+    "c7ed35a5a",
+    "c89c19762",
+    "c51735fc3",
+    "c7167987e",
+    "c5e2e52a9",
+    "c5e2e5fd9",
+    "c8ba48bc6",
+    "c533b751f",
+    "c53f8673a",
+    "c7ecf7406",
+    "c670d52a15458",
+    "c6821957f",
+    "c80015e08",
+    "c5b66751f"
+   ]
+  },
+  {
+   "id": "tema1",
+   "name": "🍜 Comida y bebida",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c5403",
+    "c559d",
+    "c8336",
+    "c54965561",
+    "c725b5976",
+    "c7c73996d",
+    "c97626761",
+    "c97625305",
+    "c9e2186cb",
+    "c6c34679c",
+    "c897f74dc",
+    "c99998549",
+    "c84618404",
+    "c55649152",
+    "c679c6c41",
+    "c7cd6",
+    "c9c7c",
+    "c597d5403",
+    "c65b09c9c",
+    "c9971",
+    "c6e34",
+    "c83dc5355",
+    "c7897",
+    "c76d85b50",
+    "c676f5b50",
+    "c7b775b50",
+    "c53a8623f"
+   ]
+  },
+  {
+   "id": "tema2",
+   "name": "🏠 Casa y objetos",
+   "order": 500,
+   "source": "tema",
+   "cards": [
     "c5bb6",
+    "c697c",
+    "c51b07bb1",
+    "c7a7a8c03",
+    "c753568af",
+    "c753589c6",
+    "c75358111",
+    "c624b8868",
+    "c773c955c",
+    "c4f1e",
+    "c62a57eb8",
+    "c4e66",
+    "c71677247",
+    "c716776f8673a",
+    "c5b575178",
+    "c94c57b14",
+    "c9ed1677f",
+    "c884c674e7bb1",
+    "c5305",
+    "c978b",
+    "c88e45b50",
+    "c836f",
+    "c7968",
+    "c4fe1",
+    "c82b1",
+    "c6d17624b95f4",
+    "c82b156ed",
+    "c529e516c5ba4",
+    "c65595ba4",
+    "c5e7251c0",
+    "c65e7"
+   ]
+  },
+  {
+   "id": "tema3",
+   "name": "🩺 Cuerpo y salud",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c773c775b",
+    "c80336735",
+    "c9f3b5b50",
+    "c53e3",
+    "c8138",
+    "c811a",
+    "c817f",
+    "c593453d1",
+    "c751f75c5",
+    "c611f5192",
+    "c53d170e7",
+    "c50655eb7",
+    "c7d2f",
+    "c6d176fa1",
+    "c6d17",
+    "c953b70bc"
+   ]
+  },
+  {
+   "id": "tema4",
+   "name": "🗓️ Tiempo y calendario",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c73b05728",
+    "c4eca5929",
+    "c660e5929",
+    "c53bb5e74",
+    "c5e74",
+    "c65e5",
+    "c661f671f",
+    "c4e0a5348",
+    "c4e2d5348",
+    "c4e0b5348",
+    "c65e94e0a",
+    "c665a4e0a",
+    "c5c0f65f6",
+    "c65f695f4",
+    "c4e004f1a513f",
+    "c523b",
+    "c4e45",
+    "c67008fd1",
+    "c9a6c4e0a",
+    "c4e0076f4",
+    "c7ecf5e38",
+    "c7a817136",
+    "c7ec84e8e",
+    "c8fdf5230",
+    "c7136540e",
+    "c8fc753bb",
+    "c5f0059cb",
+    "c7ed3675f",
+    "c7b2c4e00"
+   ]
+  },
+  {
+   "id": "tema5",
+   "name": "🌤️ Clima y estaciones",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c6625",
+    "c590f",
+    "c79cb",
+    "c51ac",
+    "c96ea",
+    "c4e91",
+    "c592a9633",
+    "c67084eae",
+    "c9634",
+    "c6674",
+    "c522e"
+   ]
+  },
+  {
+   "id": "tema6",
+   "name": "🚇 Ciudad, lugares y transporte",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c5b666821",
+    "c4e2d56fd",
+    "c53174eac",
+    "c706b8f667ad9",
+    "c51fa79df8f66",
+    "c98de673a",
+    "c8239",
+    "c81ea884c8f66",
+    "c516c56ed",
+    "c6cb3",
+    "c96448fd1",
+    "c4e2d95f4",
+    "c524d9762",
+    "c540e9762",
+    "c5916",
+    "c91cc",
+    "c4e0a",
+    "c4e0b",
+    "c4e1c",
+    "c897f",
+    "c5357",
+    "c531765b9",
+    "c8fd1",
+    "c79bb",
+    "c4e16754c",
+    "c73af5883",
+    "c65c56e38",
+    "c722c5c71",
+    "c642c",
+    "c9a91",
+    "c516c65a4",
+    "c7c73",
+    "c8349"
+   ]
+  },
+  {
+   "id": "tema7",
+   "name": "📚 Estudio y trabajo",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c5b664e60",
+    "c8bfe",
+    "c4f5c4e1a",
+    "c7ec34e60",
+    "c9898",
+    "c65705b66",
+    "c6c498bed",
+    "c5b57",
+    "c8bcd8bed",
+    "c53e55b50",
+    "c8bf48bdd",
+    "c8bb2",
+    "c95ee",
+    "c56de7b54",
+    "c660e767d",
+    "c8bb05f97",
+    "c5fd88bb0",
+    "c8ba4771f",
+    "c62107ee9",
+    "c5e747ea7",
+    "c4f1a8bae",
+    "c4e3e884c",
+    "c5de54f5c",
+    "c4e0a73ed",
+    "c75355b50",
+    "c673a4f1a",
+    "c89816c42",
+    "c5b8c6210",
+    "c52aa529b",
+    "c529e6cd5",
+    "c51737cfb",
+    "c4f5c7528",
+    "c4e3b8981",
+    "c51c65907"
+   ]
+  },
+  {
+   "id": "tema8",
+   "name": "😊 Sentimientos y carácter",
+   "order": 500,
+   "source": "tema",
+   "cards": [
     "c7231",
     "c559c6b22",
-    "c5403",
-    "c8c01",
-    "c4eca5929",
-    "c51e0",
+    "c9ad85174",
+    "c751f6c14",
+    "c5bb36015",
+    "c96be8fc7",
+    "c62c55fc3",
+    "c653e5fc3",
+    "c6ee1610f",
+    "c70ed60c5",
+    "c806a660e",
+    "c53ef7231",
+    "c5947602a",
+    "c6709540d",
+    "c6f024eae",
+    "c7b11",
+    "c54ed",
+    "c6562",
+    "c613f610f",
+    "c51748da3",
+    "c5c0f5fc3",
+    "c4e6060ef",
+    "c76f84fe1",
+    "c8ba44e3a",
+    "c5e0c671b",
+    "c51765b9e",
+    "c7279522b",
+    "c6ce8610f",
+    "c5fd9",
+    "c9519"
+   ]
+  },
+  {
+   "id": "tema9",
+   "name": "⚽ Ocio, deporte y animales",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c73a9",
+    "c6e38620f",
+    "c4f5380b2",
+    "c8dd16b65",
+    "c62537bee7403",
+    "c8e22",
+    "c6bd48d5b",
+    "c75355f71",
+    "c65b095fb",
+    "c58f097f3",
+    "c52a87269",
+    "c72d7",
+    "c732b",
+    "c9a6c",
+    "c9e1f",
+    "c718a732b",
+    "c65c56e38"
+   ]
+  },
+  {
+   "id": "tema10",
+   "name": "🎨 Colores, medidas y comparación",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c9ed1",
+    "c84dd",
+    "c9ec4",
+    "c7eff",
+    "c4f4e",
+    "c5927",
+    "c5c0f",
+    "c591a",
+    "c5c11",
+    "c5dee",
+    "c6781",
+    "c8d8a",
+    "c6bd48f83",
+    "c591a4e48",
+    "c76f8540c",
+    "c4e006837",
+    "c53cc",
+    "c6bb5",
+    "c8f86",
+    "c5f20",
+    "c53ea",
+    "c79cd",
+    "c534a",
+    "c4e005171",
+    "c7c73",
+    "c516c65a4",
+    "c89d2"
+   ]
+  },
+  {
+   "id": "tema11",
+   "name": "🏃 Acciones cotidianas",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c505a",
+    "c6765",
+    "c53bb",
+    "c56de",
+    "c8fdb",
+    "c51fa",
+    "c5230",
+    "c770b89c1",
     "c542c",
     "c53eb",
     "c8bf7",
-    "c56de",
-    "c4e09",
-    "c5c81",
-    "c670b53cb",
-    "c65e5",
-    "c559d",
-    "c5b666821",
-    "c8ba48bc6",
-    "c660e5929",
-    "c56db",
     "c8c228c22",
-    "c591a5c11",
-    "c59885988",
-    "c5c11",
-    "c75355f71",
-    "c54ea",
-    "c4e66",
-    "c4e94",
-    "c72d7",
-    "c5b66751f",
-    "c4e8c",
-    "c4e2d56fd",
-    "c753589c6",
-    "c4e0b5348",
-    "c5b664e60",
-    "c80015e08",
-    "c516d",
-    "c533b751f",
-    "c540d5b57",
-    "c5341",
-    "c770b89c1",
-    "c5973513f",
-    "c8bf48bdd",
-    "c72387238",
-    "c5b57",
-    "c6f024eae",
-    "c9ad85174",
-    "c75358111",
-    "c98de673a",
-    "c732b",
-    "c540e9762",
-    "c516b",
-    "c600e4e486837",
-    "c4e03",
-    "c524d9762",
-    "c8336",
-    "c661f671f",
-    "c4e5d",
-    "c4e0a5348",
     "c518d89c1",
-    "c4e2d5348",
-    "c51fa79df8f66",
-    "c6c34679c",
-    "c53174eac",
-    "c676f5b50",
-    "c706b8f667ad9",
-    "c7c73996d",
-    "c6c498bed"
-   ]
-  },
-  {
-   "id": "hsk2",
-   "name": "Camino a HSK2",
-   "order": 901,
-   "source": "hsk",
-   "cards": [
-    "c8981",
-    "c4e5f",
-    "c5230",
-    "c7740",
-    "c5427",
-    "c4e3a",
-    "c771f",
-    "c4e24",
-    "c51fa",
-    "c56e04e3a",
-    "c5b83",
-    "c4f46662f",
-    "c65f695f4",
-    "c5f0059cb",
-    "c62404ee5",
-    "c5411",
-    "c4e008d77",
-    "c5e0c671b",
-    "c5b695b50",
-    "c7b2c4e00",
-    "c95ee",
-    "c4e8b60c5",
-    "c5f20",
-    "c51c65907",
-    "c8fdb",
-    "c60a8",
-    "c7b11",
-    "c59734eba",
-    "c5c0f65f6",
-    "c75374eba",
-    "c73a9",
-    "c6b635728",
-    "c5916",
-    "c5e2e52a9",
-    "c665a4e0a",
-    "c9519",
-    "c836f",
-    "c9ed1",
-    "c773c775b",
-    "c8fd1",
-    "c5fd9",
-    "c79bb",
-    "c53bb5e74",
-    "c7968",
-    "c610f601d",
-    "c65e94e0a",
-    "c56de7b54",
-    "c59bb5b50",
-    "c9c7c",
-    "c7d2f",
-    "c6d17",
-    "c8239",
-    "c4e08592b",
-    "c4e0a73ed",
-    "c59d059d0",
-    "c8bfe",
-    "c54e554e5",
-    "c54965561",
-    "c96ea",
-    "c59b959b9",
-    "c62a57eb8",
-    "c8e22",
-    "c5f1f5f1f",
-    "c597d5403",
-    "c65c56e38",
-    "c9898",
-    "c725b5976",
-    "c81ea884c8f66",
-    "c9e2186cb",
-    "c59d3",
-    "c9634",
-    "c751f75c5",
-    "c516c65a4",
-    "c65595ba4",
-    "c670d52a15458",
-    "c624b8868",
-    "c8dd16b65",
-    "c897f74dc",
-    "c6674",
-    "c62537bee7403"
-   ]
-  },
-  {
-   "id": "hsk3",
-   "name": "Camino a HSK3",
-   "order": 902,
-   "source": "hsk",
-   "cards": [
-    "c88ab",
-    "c5982679c",
-    "c53ea",
-    "c5730",
-    "c50cf",
-    "c8ba44e3a",
-    "c79cd",
-    "c53d173b0",
-    "c4e0076f4",
-    "c4e3a4e86",
-    "c4e006837",
-    "c4e16754c",
-    "c800c4e14",
-    "c5fc5987b",
-    "c51764ed6",
-    "c6bd48d5b",
-    "c7136540e",
-    "c62c55fc3",
-    "c51737cfb",
-    "c51fa73b0",
-    "c8fc753bb",
-    "c673a4f1a",
-    "c522b4eba",
     "c4f7f",
-    "c51765b9e",
-    "c89816c42",
-    "c4fe1",
-    "c76f84fe1",
-    "c82b1",
-    "c867d7136",
+    "c53d173b0",
+    "c51fa73b0",
     "c89e351b3",
-    "c51734e8e",
-    "c5b8c6210",
-    "c7ed3675f",
-    "c52aa529b",
-    "c529e6cd5",
-    "c7279522b",
-    "c6ce8610f",
-    "c8bb2",
-    "c79bb5f00",
-    "c8d8a",
     "c5f7154cd",
-    "c6e38620f",
-    "c9a6c",
-    "c6bd48f83",
-    "c67008fd1",
-    "c7ec84e8e",
-    "c8138",
-    "c53e3",
-    "c96644e86",
-    "c53cc",
-    "c7a817136",
-    "c6bb5",
-    "c7c73",
-    "c660e767d",
-    "c6839636e",
-    "c8bb05f97",
-    "c8f86",
-    "c534a",
-    "c613f610f",
-    "c5305",
-    "c697c",
-    "c71677247",
-    "c53ef7231",
-    "c65b095fb",
-    "c58f097f3",
-    "c9a6c4e0a",
     "c8868793a",
     "c7ecf8fc7",
-    "c54ed",
-    "c6562",
-    "c4f1a8bae",
-    "c7ecf5e38",
-    "c4f4e",
-    "c50655eb7",
-    "c4f5c7528",
-    "c897f",
-    "c5dee",
-    "c7ed35a5a",
-    "c51e04e4e",
-    "c96448fd1",
-    "c8ba4771f",
-    "c811a",
-    "c4e3b8981",
     "c90475230",
-    "c4e45",
+    "c79bb5f00",
     "c5173",
-    "c529e516c5ba4",
-    "c73af5883",
-    "c51735fc3",
-    "c817f",
-    "c73ed",
+    "c5237"
+   ]
+  },
+  {
+   "id": "tema12",
+   "name": "🔗 Palabras gramaticales",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c7684",
+    "c662f",
+    "c4e0d",
+    "c8fd9",
+    "c90a3",
+    "c4e2a",
+    "c548c",
+    "c90fd",
+    "c5f88",
+    "c592a",
+    "c4e5f",
+    "c8981",
+    "c5417",
+    "c5462",
+    "c5427",
+    "c7740",
+    "c88ab",
+    "c5730",
+    "c4e3a",
+    "c4e3a4e86",
+    "c56e04e3a",
+    "c62404ee5",
+    "c4f46662f",
+    "c867d7136",
+    "c800c4e14",
+    "c5982679c",
+    "c96644e86",
+    "c6839636e",
+    "c51734e8e",
+    "c51764ed6",
+    "c4e008d77",
+    "c5411",
+    "c771f",
+    "c4e24",
+    "c6b635728",
+    "c5fc5987b",
+    "c50cf",
     "c4e008fb9",
-    "c978b",
-    "c4e6060ef",
-    "c5fd88bb0",
-    "c6781",
-    "c5c0f5fc3",
-    "c4e3e884c",
-    "c52a87269",
-    "c4e1c",
-    "c593453d1",
-    "c5bb36015",
-    "c9e1f",
-    "c84dd",
-    "c7167987e",
-    "c5947602a",
-    "c5357",
-    "c6ee1610f",
-    "c65e7",
-    "c53f8673a",
-    "c9ec4",
-    "c7ecf7406",
-    "c51748da3",
-    "c5e2e5fd9",
-    "c75355b50",
-    "c89c19762",
-    "c62107ee9",
-    "c4e2d95f4",
-    "c806a660e",
-    "c591a4e48",
-    "c592a9633",
-    "c7cd6",
-    "c76f8540c",
-    "c751f6c14",
-    "c516c56ed",
-    "c70ed60c5",
-    "c4e004f1a513f",
-    "c9a91",
-    "c6cb3",
-    "c642c",
-    "c540c4e8b",
-    "c4f5380b2",
-    "c89d2",
-    "c5e7251c0",
-    "c653e5fc3",
-    "c8349",
-    "c4f5c4e1a",
-    "c7eff",
-    "c55649152",
-    "c65b09c9c",
-    "c96be8fc7",
-    "c5ba24eba",
-    "c59765976",
-    "c7897",
-    "c65705b66",
-    "c5237",
-    "c53a8623f",
-    "c7ec34e60",
-    "c72377237",
-    "c4e91",
-    "c90bb5c45",
-    "c6821957f",
-    "c82b156ed",
-    "c80336735",
-    "c9f3b5b50",
-    "c53d453d4",
-    "c6d176fa1",
-    "c611f5192",
-    "c8fdf5230",
-    "c523b",
-    "c953b70bc",
-    "c88e45b50",
-    "c590f",
-    "c753568af",
-    "c522e",
-    "c773c955c",
-    "c6625",
-    "c97625305",
-    "c51b07bb1",
-    "c963f59e8",
-    "c9971",
-    "c7a7a8c03",
-    "c4e005171",
-    "c67084eae",
-    "c531765b9",
-    "c51ac",
-    "c99998549",
-    "c79cb",
-    "c53d170e7",
-    "c4f1e",
-    "c6709540d",
-    "c84618404",
-    "c718a732b",
-    "c83dc5355",
-    "c5e747ea7",
-    "c679c6c41",
-    "c97626761",
-    "c76d85b50",
-    "c94c57b14",
-    "c6e34",
-    "c6d17624b95f4",
-    "c8bcd8bed",
-    "c53e55b50",
-    "c716776f8673a",
-    "c7b775b50",
-    "c5b575178",
-    "c722c5c71",
-    "c9ed1677f",
-    "c884c674e7bb1"
+    "c4ec04e48",
+    "c8c01",
+    "c51e0",
+    "c54ea",
+    "c591a5c11",
+    "c600e4e486837",
+    "c6ca1",
+    "c70b9",
+    "c4e8b60c5"
+   ]
+  },
+  {
+   "id": "tema13",
+   "name": "🔢 Números",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c4e00",
+    "c4e8c",
+    "c4e09",
+    "c56db",
+    "c4e94",
+    "c516d",
+    "c4e03",
+    "c516b",
+    "c4e5d",
+    "c5341"
+   ]
+  },
+  {
+   "id": "temaz",
+   "name": "📦 Resto del HSK",
+   "order": 500,
+   "source": "tema",
+   "cards": [
+    "c6709",
+    "c597d",
+    "c610f601d",
+    "c51e04e4e",
+    "c73ed"
    ]
   }
  ],
@@ -44468,7 +44567,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1",
+    "temaz",
     "L13"
    ],
    "stats": {
@@ -62201,7 +62300,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62236,7 +62335,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -62271,7 +62370,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62306,7 +62405,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -62341,7 +62440,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62376,7 +62475,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -62411,7 +62510,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62446,7 +62545,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62481,7 +62580,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62516,7 +62615,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -62555,7 +62654,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -62590,7 +62689,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "temaz"
    ],
    "stats": {
     "studyCount": 0,
@@ -62625,7 +62724,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -62660,7 +62759,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62695,7 +62794,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -62730,7 +62829,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -62765,7 +62864,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62800,7 +62899,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -62835,7 +62934,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -62870,7 +62969,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62905,7 +63004,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -62944,7 +63043,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -62979,7 +63078,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63014,7 +63113,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63049,7 +63148,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -63084,7 +63183,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -63119,7 +63218,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -63158,7 +63257,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -63193,7 +63292,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -63228,7 +63327,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -63263,7 +63362,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63298,7 +63397,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63333,7 +63432,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63368,7 +63467,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -63407,7 +63506,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -63442,7 +63541,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -63477,7 +63576,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -63516,7 +63615,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -63551,7 +63650,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -63586,7 +63685,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63625,7 +63724,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -63660,7 +63759,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -63695,7 +63794,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -63730,7 +63829,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -63765,7 +63864,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -63800,7 +63899,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -63835,7 +63934,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -63870,7 +63969,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -63909,7 +64008,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -63944,7 +64043,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -63979,7 +64078,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -64018,7 +64117,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -64057,7 +64156,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64096,7 +64195,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -64131,7 +64230,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -64170,7 +64269,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -64209,7 +64308,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -64248,7 +64347,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64283,7 +64382,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -64322,7 +64421,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -64357,7 +64456,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -64392,7 +64491,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -64427,7 +64526,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -64462,7 +64561,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -64501,7 +64600,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64536,7 +64635,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -64575,7 +64674,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -64614,7 +64713,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -64653,7 +64752,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -64692,7 +64791,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -64731,7 +64830,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64766,7 +64865,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -64805,7 +64904,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64844,7 +64943,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64879,7 +64978,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -64918,7 +65017,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -64957,7 +65056,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -64996,7 +65095,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -65035,7 +65134,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -65070,7 +65169,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -65109,7 +65208,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -65148,7 +65247,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -65187,7 +65286,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -65226,7 +65325,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -65261,7 +65360,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -65300,7 +65399,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -65335,7 +65434,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -65378,7 +65477,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -65413,7 +65512,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -65452,7 +65551,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -65487,7 +65586,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -65526,7 +65625,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -65561,7 +65660,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema13"
    ],
    "stats": {
     "studyCount": 0,
@@ -65600,7 +65699,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -65639,7 +65738,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -65678,7 +65777,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -65721,7 +65820,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -65760,7 +65859,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -65800,7 +65899,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -65839,7 +65938,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -65882,7 +65981,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -65921,7 +66020,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -65960,7 +66059,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk1"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -65995,7 +66094,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66030,7 +66129,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66065,7 +66164,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -66100,7 +66199,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66135,7 +66234,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66170,7 +66269,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66205,7 +66304,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66240,7 +66339,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66275,7 +66374,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -66314,7 +66413,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66349,7 +66448,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -66388,7 +66487,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66427,7 +66526,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -66466,7 +66565,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -66505,7 +66604,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66541,7 +66640,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66580,7 +66679,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66619,7 +66718,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -66658,7 +66757,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -66697,7 +66796,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -66732,7 +66831,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -66771,7 +66870,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -66806,7 +66905,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -66845,7 +66944,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -66880,7 +66979,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -66915,7 +67014,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -66950,7 +67049,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -66989,7 +67088,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -67028,7 +67127,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -67067,7 +67166,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -67102,7 +67201,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -67141,7 +67240,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -67176,7 +67275,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -67215,7 +67314,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -67254,7 +67353,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -67289,7 +67388,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -67324,7 +67423,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -67359,7 +67458,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -67398,7 +67497,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -67433,7 +67532,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -67468,7 +67567,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -67503,7 +67602,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -67542,7 +67641,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -67577,7 +67676,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -67616,7 +67715,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "temaz"
    ],
    "stats": {
     "studyCount": 0,
@@ -67655,7 +67754,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -67694,7 +67793,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -67733,7 +67832,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -67768,7 +67867,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -67803,7 +67902,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -67838,7 +67937,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -67873,7 +67972,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -67912,7 +68011,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -67951,7 +68050,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -67990,7 +68089,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -68025,7 +68124,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -68064,7 +68163,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -68103,7 +68202,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -68138,7 +68237,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -68177,7 +68276,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -68216,7 +68315,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -68251,7 +68350,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -68290,7 +68389,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -68329,7 +68428,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -68368,7 +68467,8 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6",
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -68403,7 +68503,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -68442,7 +68542,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -68485,7 +68585,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -68524,7 +68624,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -68559,7 +68659,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -68594,7 +68694,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -68633,7 +68733,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -68672,7 +68772,8 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema6",
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -68711,7 +68812,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -68754,7 +68855,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -68793,7 +68894,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -68833,7 +68934,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -68872,7 +68973,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -68907,7 +69008,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -68957,7 +69058,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk2"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -68992,7 +69093,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69031,7 +69132,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69066,7 +69167,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -69101,7 +69202,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69136,7 +69237,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69175,7 +69276,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -69210,7 +69311,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -69249,7 +69350,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -69288,7 +69389,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -69327,7 +69428,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69366,7 +69467,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -69405,7 +69506,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -69444,7 +69545,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69483,7 +69584,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69522,7 +69623,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -69561,7 +69662,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -69600,7 +69701,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -69639,7 +69740,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -69678,7 +69779,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -69717,7 +69818,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -69756,7 +69857,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -69795,7 +69896,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -69834,7 +69935,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -69869,7 +69970,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -69908,7 +70009,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -69947,7 +70048,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -69982,7 +70083,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -70021,7 +70122,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -70056,7 +70157,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -70095,7 +70196,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -70134,7 +70235,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -70173,7 +70274,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -70212,7 +70313,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -70251,7 +70352,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -70290,7 +70391,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -70329,7 +70430,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -70368,7 +70469,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -70407,7 +70508,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -70442,7 +70543,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -70481,7 +70582,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -70516,7 +70617,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -70555,7 +70656,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -70595,7 +70696,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -70630,7 +70731,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -70669,7 +70770,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -70708,7 +70809,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -70747,7 +70848,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -70782,7 +70883,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -70817,7 +70918,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -70856,7 +70957,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -70891,7 +70992,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -70930,7 +71031,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -70965,7 +71066,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -71000,7 +71101,8 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6",
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -71039,7 +71141,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -71078,7 +71180,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -71117,7 +71219,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -71152,7 +71254,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -71187,7 +71289,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -71226,7 +71328,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -71261,7 +71363,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -71296,7 +71398,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -71335,7 +71437,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -71374,7 +71476,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -71413,7 +71515,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -71452,7 +71554,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -71491,7 +71593,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -71530,7 +71632,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -71569,7 +71671,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -71604,7 +71706,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -71639,7 +71741,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -71678,7 +71780,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -71717,7 +71819,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -71752,7 +71854,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -71791,7 +71893,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -71830,7 +71932,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -71865,7 +71967,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -71900,7 +72002,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -71939,7 +72041,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -71978,7 +72080,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "temaz"
    ],
    "stats": {
     "studyCount": 0,
@@ -72017,7 +72119,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -72056,7 +72158,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -72091,7 +72193,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -72130,7 +72232,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -72169,7 +72271,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -72204,7 +72306,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -72239,7 +72341,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -72282,7 +72384,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -72321,7 +72423,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -72360,7 +72462,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -72395,7 +72497,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -72430,7 +72532,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "temaz"
    ],
    "stats": {
     "studyCount": 0,
@@ -72469,7 +72571,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema12"
    ],
    "stats": {
     "studyCount": 0,
@@ -72504,7 +72606,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -72543,7 +72645,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -72582,7 +72684,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -72617,7 +72719,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -72656,7 +72758,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -72695,7 +72797,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -72734,7 +72836,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -72769,7 +72871,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -72808,7 +72910,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -72847,7 +72949,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -72882,7 +72984,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -72917,7 +73019,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -72956,7 +73058,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -72995,7 +73097,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -73030,7 +73132,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -73069,7 +73171,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -73104,7 +73206,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -73143,7 +73245,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -73178,7 +73280,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -73217,7 +73319,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -73256,7 +73358,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -73295,7 +73397,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -73334,7 +73436,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -73373,7 +73475,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -73412,7 +73514,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -73451,7 +73553,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -73490,7 +73592,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -73529,7 +73631,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -73568,7 +73670,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -73603,7 +73705,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -73642,7 +73744,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -73681,7 +73783,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -73720,7 +73822,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -73759,7 +73861,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -73798,7 +73900,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -73833,7 +73935,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -73868,7 +73970,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -73903,7 +74005,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -73942,7 +74044,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -73981,7 +74083,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -74016,7 +74118,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -74055,7 +74157,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -74094,7 +74196,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -74129,7 +74231,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -74168,7 +74270,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -74203,7 +74305,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -74242,7 +74344,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -74281,7 +74383,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -74320,7 +74422,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -74359,7 +74461,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -74398,7 +74500,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -74433,7 +74535,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -74472,7 +74574,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -74507,7 +74609,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema11"
    ],
    "stats": {
     "studyCount": 0,
@@ -74546,7 +74648,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -74585,7 +74687,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -74624,7 +74726,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -74659,7 +74761,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -74698,7 +74800,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -74737,7 +74839,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -74776,7 +74878,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -74815,7 +74917,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -74854,7 +74956,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -74893,7 +74995,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -74932,7 +75034,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -74972,7 +75074,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -75011,7 +75113,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -75046,7 +75148,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema4"
    ],
    "stats": {
     "studyCount": 0,
@@ -75085,7 +75187,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -75124,7 +75226,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -75159,7 +75261,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -75198,7 +75300,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -75233,7 +75335,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -75272,7 +75374,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -75307,7 +75409,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -75346,7 +75448,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -75385,7 +75487,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -75424,7 +75526,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema0"
    ],
    "stats": {
     "studyCount": 0,
@@ -75459,7 +75561,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -75498,7 +75600,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -75537,7 +75639,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema10"
    ],
    "stats": {
     "studyCount": 0,
@@ -75576,7 +75678,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -75615,7 +75717,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -75650,7 +75752,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -75689,7 +75791,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -75724,7 +75826,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema5"
    ],
    "stats": {
     "studyCount": 0,
@@ -75763,7 +75865,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema3"
    ],
    "stats": {
     "studyCount": 0,
@@ -75798,7 +75900,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -75837,7 +75939,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema8"
    ],
    "stats": {
     "studyCount": 0,
@@ -75876,7 +75978,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -75915,7 +76017,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema9"
    ],
    "stats": {
     "studyCount": 0,
@@ -75954,7 +76056,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -75993,7 +76095,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -76032,7 +76134,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -76071,7 +76173,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -76110,7 +76212,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -76149,7 +76251,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -76184,7 +76286,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -76227,7 +76329,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -76267,7 +76369,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -76306,7 +76408,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema7"
    ],
    "stats": {
     "studyCount": 0,
@@ -76349,7 +76451,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -76388,7 +76490,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema1"
    ],
    "stats": {
     "studyCount": 0,
@@ -76427,7 +76529,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -76466,7 +76568,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema6"
    ],
    "stats": {
     "studyCount": 0,
@@ -76505,7 +76607,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
@@ -76548,7 +76650,7 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "hsk3"
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
