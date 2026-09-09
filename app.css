@@ -729,3 +729,16 @@ button { cursor: pointer; border: none; background: none; }
 .say-py { margin-top: 6px; }
 .say-es { margin-top: 6px; color: var(--text-soft); }
 .say-pct { margin-top: 10px; font-size: 12px; color: var(--text-soft); }
+
+/* El chino a la vista mientras lo repites en voz alta */
+.say-source {
+  font-size: 25px; font-weight: 700; line-height: 1.5; margin-top: 10px;
+}
+
+/* Por qué no funcionó el micrófono */
+.say-error {
+  margin-top: 14px; padding: 12px 14px; border-radius: 12px;
+  background: var(--warn-bg); color: var(--warn); text-align: left;
+}
+.say-err-msg { font-weight: 600; line-height: 1.45; }
+.say-err-code { margin-top: 6px; font-size: 11px; opacity: .75; }

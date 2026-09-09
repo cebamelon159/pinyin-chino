@@ -318,6 +318,8 @@ var Speech = {
     this.voice = found;
   },
 
+  gen: 0,
+
   speak: function (text, onEnd) {
     if (!("speechSynthesis" in window) || !text) { if (onEnd) onEnd(); return; }
     try {
@@ -327,10 +329,16 @@ var Speech = {
       if (this.voice) u.voice = this.voice;
       u.rate = Store.settings.rate;
       if (onEnd) {
-        // cancel() de la siguiente llamada dispara onend de esta: el cerrojo
-        // evita que el callback se ejecute dos veces y encadene voces sueltas
-        var hecho = false;
-        var fin = function () { if (!hecho) { hecho = true; onEnd(); } };
+        // Dos cerrojos. `hecho`: cancel() de la siguiente llamada dispara el
+        // onend de ésta, y el callback no debe correr dos veces. `mio`: si
+        // alguien llama a callar() —al abrir el micrófono, por ejemplo— la
+        // continuación queda anulada, o la voz volvería a hablar encima.
+        var hecho = false, mio = Speech.gen;
+        var fin = function () {
+          if (hecho || mio !== Speech.gen) return;
+          hecho = true;
+          onEnd();
+        };
         u.onend = fin;
         u.onerror = fin;
         // algunos Android no disparan onend: red de seguridad por longitud
@@ -350,6 +358,7 @@ var Speech = {
   },
 
   callar: function () {
+    this.gen++;               // anula las continuaciones que estén en cola
     try { if ("speechSynthesis" in window) speechSynthesis.cancel(); } catch (e) {}
   },
 
@@ -364,44 +373,116 @@ var Speech = {
    en voz alta y te calificas tú. */
 var Voz = {
   rec: null,
+  cancelado: false,
+  permisoOk: false,
 
   available: function () {
     return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
   },
 
+  /* Qué salió mal, en cristiano. El código crudo también se enseña: es lo
+     único que permite distinguir "no había internet" de "no te oí". */
+  MENSAJES: {
+    "no-speech":  "No se oyó nada. Acerca el micrófono a la boca y habla claro.",
+    "audio-capture": "No encuentro ningún micrófono en este aparato.",
+    "not-allowed": "Falta darle permiso al micrófono. En Chrome: candado → Micrófono → Permitir.",
+    "service-not-allowed": "El navegador bloqueó el micrófono. Revisa los permisos del sitio.",
+    "network": "El reconocimiento de voz necesita internet: Chrome manda el audio a Google. Sin datos no funciona, aunque el resto de la app sí.",
+    "aborted": "Se cortó la grabación.",
+    "language-not-supported": "Este navegador no reconoce chino.",
+    "no-soportado": "Este navegador no reconoce voz. Usa Chrome.",
+    "start": "No se pudo abrir el micrófono."
+  },
+
+  explica: function (err) {
+    return this.MENSAJES[err] || ("Fallo del micrófono (" + err + ")");
+  },
+
+  /* Chrome no siempre enseña el aviso del micrófono al arrancar el
+     reconocimiento —dentro de la app instalada, casi nunca—, y entonces
+     falla en silencio. Pedirlo antes con getUserMedia sí lo enseña, y de
+     paso deja el micrófono despierto. */
+  permiso: function (ok, fallo) {
+    if (this.permisoOk) return ok();
+    if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+      this.permisoOk = true;      // sin API: que lo pida el reconocedor
+      return ok();
+    }
+    var self = this;
+    navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {
+      stream.getTracks().forEach(function (t) { t.stop(); });
+      self.permisoOk = true;
+      ok();
+    }).catch(function (e) {
+      var n = (e && e.name) || "";
+      fallo(n === "NotAllowedError" || n === "SecurityError"
+              ? "not-allowed" : "audio-capture");
+    });
+  },
+
   escuchar: function (opts) {
     var R = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!R) { opts.onError("no-soportado"); return; }
-    this.parar();
-    var r = new R();
-    r.lang = "zh-CN";
-    r.interimResults = true;
-    r.continuous = false;
-    r.maxAlternatives = 3;
+    var self = this;
+    // Chrome corta a los pocos segundos si no oye nada. Que se acabe la
+    // grabación porque tardaste en arrancar no es un fallo tuyo: se reintenta.
+    var reintentos = opts.reintentos == null ? 2 : opts.reintentos;
 
-    var dicho = "", alternativas = [];
-    r.onresult = function (e) {
-      var parcial = "";
-      for (var i = e.resultIndex; i < e.results.length; i++) {
-        var res = e.results[i];
-        if (res.isFinal) {
-          dicho += res[0].transcript;
-          for (var j = 0; j < res.length; j++) alternativas.push(res[j].transcript);
-        } else parcial += res[0].transcript;
+    this.permiso(arrancar, function (err) { opts.onError(err); });
+
+    function arrancar() {
+      self.parar();
+      var r = new R();
+      r.lang = "zh-CN";
+      r.interimResults = true;
+      r.continuous = false;
+      r.maxAlternatives = 3;
+
+      var dicho = "", err = null;
+
+      r.onstart = function () { if (opts.onListo) opts.onListo(); };
+      r.onresult = function (e) {
+        var parcial = "";
+        for (var i = e.resultIndex; i < e.results.length; i++) {
+          var res = e.results[i];
+          if (res.isFinal) dicho += res[0].transcript;
+          else parcial += res[0].transcript;
+        }
+        if (opts.onParcial) opts.onParcial(dicho + parcial);
+      };
+      r.onerror = function (e) { err = e.error || "error"; };
+      r.onend = function () {
+        self.rec = null;
+        if (!dicho && err === "no-speech" && reintentos > 0 && !self.cancelado) {
+          reintentos--;
+          if (opts.onAviso) opts.onAviso("Sigo escuchando…");
+          setTimeout(arrancar, 150);
+          return;
+        }
+        if (!dicho && err) { opts.onError(err); return; }
+        if (!dicho && self.cancelado) { opts.onError("aborted"); return; }
+        if (opts.onFin) opts.onFin(dicho);
+      };
+
+      self.rec = r;
+      self.cancelado = false;
+      try {
+        r.start();
+      } catch (e) {
+        self.rec = null;
+        opts.onError("start");
       }
-      if (opts.onParcial) opts.onParcial(dicho + parcial);
-    };
-    r.onerror = function (e) { if (opts.onError) opts.onError(e.error || "error"); };
-    r.onend = function () {
-      Voz.rec = null;
-      if (opts.onFin) opts.onFin(dicho, alternativas);
-    };
+    }
+  },
 
-    this.rec = r;
-    try { r.start(); } catch (e) { opts.onError("start"); }
+  /* Cerrar el micrófono conservando lo dicho. `parar` lo tira. */
+  terminar: function () {
+    this.cancelado = true;
+    if (this.rec) { try { this.rec.stop(); } catch (e) {} }
   },
 
   parar: function () {
+    this.cancelado = true;
     if (this.rec) {
       try { this.rec.abort(); } catch (e) {}
       this.rec = null;
@@ -1130,6 +1211,9 @@ var Modes = {
       var prompt = el("div", "prompt-block");
       prompt.appendChild(el("div", "prompt-label", "Escucha y repítela"));
       if (c.es) prompt.appendChild(el("div", "prompt-es", c.es));
+      // El chino se ve desde el principio: lo que se practica aquí es decirlo
+      // bien, no acordarse de él a ciegas. Para eso están los otros ejercicios.
+      prompt.appendChild(el("div", "say-source hanzi", c.hanzi));
       card.appendChild(prompt);
 
       // Ondas: dicen en qué punto va el ejercicio sin ocupar media pantalla
@@ -1144,6 +1228,10 @@ var Modes = {
       var oido = el("div", "say-heard");
       oido.hidden = true;
       card.appendChild(oido);
+
+      var fallo = el("div", "say-error");
+      fallo.hidden = true;
+      card.appendChild(fallo);
 
       var respuesta = el("div", "say-answer");
       respuesta.hidden = true;
@@ -1172,44 +1260,57 @@ var Modes = {
       /* --- grabar --- */
       function grabar() {
         if (resuelto || escuchando) return;
-        if (!Voz.available()) { sinMicro(); return; }
-        Speech.callar();          // que la voz no se oiga a sí misma
+        if (!Voz.available()) { problema("no-soportado"); return; }
+        Speech.callar();          // corta la voz y anula lo que tuviera en cola
         escuchando = true;
         intentos++;
+        fallo.hidden = true;
+        fallo.innerHTML = "";
         oido.hidden = false;
         oido.textContent = "";
-        modo("say-listening", "Te escucho… habla ahora");
+        modo("say-listening", "Abriendo el micrófono…");
         ctx.setActions([
-          { label: "■  Terminar", cls: "ghost", onClick: function () { Voz.parar(); } },
+          // stop() cierra el micrófono conservando lo dicho; abort() lo tiraba
+          { label: "■  Ya está", cls: "ghost", onClick: function () { Voz.terminar(); } },
         ]);
 
         Voz.escuchar({
+          onListo: function () { modo("say-listening", "Te escucho… habla ahora"); },
+          onAviso: function (t) { modo("say-listening", t); },
           onParcial: function (txt) {
             oido.className = "say-heard hanzi";
             oido.textContent = txt;
           },
           onError: function (err) {
             escuchando = false;
-            if (err === "not-allowed" || err === "service-not-allowed") {
-              modo("", "Falta el permiso del micrófono");
-              toast("Dale permiso al micrófono en el candado de la barra");
-              sinMicro();
-            } else if (err === "no-soportado") {
-              sinMicro();
-            }
+            problema(err);
           },
           onFin: function (dicho) {
             escuchando = false;
             if (resuelto) return;
-            if (!normalizarChino(dicho)) {
-              modo("", "No te escuché");
-              oido.hidden = true;
-              botones();
-              return;
-            }
+            if (!normalizarChino(dicho)) { problema("no-speech"); return; }
             calificar(dicho);
           }
         });
+      }
+
+      /* El micrófono falla por media docena de motivos muy distintos y antes
+         se quedaban todos en un "No te escuché" que no decía nada. Ahora se
+         explica cuál fue y siempre queda salida: reintentar o calificarte tú. */
+      function problema(err) {
+        if (resuelto) return;
+        modo("", "El micrófono no captó nada");
+        oido.hidden = true;
+        fallo.hidden = false;
+        fallo.innerHTML = "";
+        fallo.appendChild(el("div", "say-err-msg", Voz.explica(err)));
+        fallo.appendChild(el("div", "say-err-code", "código: " + err));
+        var acciones = [];
+        if (err !== "no-soportado" && err !== "language-not-supported") {
+          acciones.push({ label: "🎤  Reintentar", cls: "", onClick: grabar });
+        }
+        acciones.push({ label: "Verla y calificarme", cls: "ghost", onClick: sinMicro });
+        ctx.setActions(acciones);
       }
 
       /* --- comparar lo dicho con la frase --- */
@@ -1241,7 +1342,6 @@ var Modes = {
 
         respuesta.hidden = false;
         respuesta.innerHTML = "";
-        respuesta.appendChild(el("div", "say-target hanzi", c.hanzi));
         var py = el("div", "say-py");
         py.appendChild(renderPinyin(c));
         respuesta.appendChild(py);
@@ -1278,6 +1378,7 @@ var Modes = {
             onClick: function () {
               $$(".feedback", body).forEach(function (n) { n.remove(); });
               respuesta.hidden = true;
+              fallo.hidden = true;
               estado.hidden = false;
               resuelto = false;
               reproducir(function () { grabar(); });
@@ -1297,18 +1398,22 @@ var Modes = {
       }
 
       /* --- sin reconocimiento de voz: te calificas tú --- */
+      /* Sin micrófono el ejercicio sigue valiendo: la oyes, la dices en alto
+         mirando el pinyin y te calificas tú. */
       function sinMicro() {
         if (resuelto) return;
         resuelto = true;
+        Voz.parar();
         estado.hidden = true;
+        oido.hidden = true;
+        fallo.hidden = true;
         respuesta.hidden = false;
-        respuesta.appendChild(el("div", "say-target hanzi", c.hanzi));
+        respuesta.innerHTML = "";
         var py = el("div", "say-py");
         py.appendChild(renderPinyin(c));
         respuesta.appendChild(py);
-        if (c.es) respuesta.appendChild(el("div", "say-es", c.es));
         respuesta.appendChild(el("div", "say-pct",
-          "Este navegador no reconoce voz: dila en alto y compárala tú."));
+          "Dila en alto mirando el pinyin y decide tú si te salió."));
         ctx.showGrading();
       }
 
@@ -2133,6 +2238,36 @@ function bindEvents() {
     Store.saveSettings();
   };
   $("#btn-test-voice").onclick = function () { Speech.speak("你好，我们一起学习汉语。"); };
+
+  /* Prueba del micrófono. Existe porque cuando el reconocimiento falla no se
+     distingue "no te oí" de "no hay internet" o "falta el permiso", y sin
+     saber cuál es no hay nada que arreglar. */
+  $("#btn-test-mic").onclick = function () {
+    var hint = $("#mic-hint"), btn = this;
+    if (!Voz.available()) {
+      hint.innerHTML = "<b>Este navegador no reconoce voz.</b> Usa Chrome; " +
+                       "Firefox y el navegador de Samsung no lo traen.";
+      return;
+    }
+    btn.disabled = true;
+    hint.textContent = "Pidiendo el micrófono…";
+    Voz.escuchar({
+      reintentos: 0,
+      onListo: function () { hint.textContent = "Habla ahora: di 你好"; },
+      onParcial: function (t) { hint.textContent = "Te oigo: " + t; },
+      onError: function (err) {
+        btn.disabled = false;
+        hint.innerHTML = "<b>No funcionó.</b> " + Voz.explica(err) +
+                         " <br><small>código: " + err + "</small>";
+      },
+      onFin: function (dicho) {
+        btn.disabled = false;
+        hint.innerHTML = dicho
+          ? "<b>Funciona.</b> Te entendió: <b class='hanzi'>" + dicho + "</b>"
+          : "<b>No se oyó nada.</b> Sube el volumen del micrófono y prueba otra vez.";
+      }
+    });
+  };
   $("#btn-check-updates").onclick = function () {
     toast("Buscando…");
     Data.checkForUpdates(true);
