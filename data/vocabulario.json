@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-09-09T01:11:24",
+ "generated": "2026-09-09T01:13:53",
  "decks": [
   {
    "id": "L14",
@@ -4272,7 +4272,8 @@
    },
    "pinyinOriginal": "dé",
    "especial": {
-    "L11": "📕 Vocabulario del libro"
+    "L11": "📕 Vocabulario del libro",
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
