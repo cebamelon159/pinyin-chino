@@ -2022,6 +2022,70 @@ var UI = {
     // Los textos largos de la lección (diálogos) se ofrecen aquí mismo, como
     // una opción más. Son un trozo del mismo mazo, no un mazo aparte: así el
     // vocabulario y su diálogo viven juntos.
+    /* Un grupo dentro de la lección (un texto, o el vocabulario que entra
+       del libro): una fila que lo abre en flashcards y, sangrados debajo,
+       los ejercicios que tengan tarjetas ahí dentro. */
+    function grupo(icono, titulo, pertenece, pie, subModos) {
+      var suyas = cards.filter(pertenece);
+      var b = el("button", "mode");
+      b.appendChild(el("div", "mode-ico", icono));
+      var txt = el("div", "mode-txt");
+      txt.appendChild(el("b", "", titulo));
+      txt.appendChild(el("span", "", pie(suyas.length)));
+      b.appendChild(txt);
+      b.onclick = function () {
+        $("#mode-sheet").hidden = true;
+        Session.start(deck, "flash", pertenece);
+      };
+      list.appendChild(b);
+
+      Object.keys(Modes).forEach(function (k) {
+        var m = Modes[k];
+        if (!subModos(m)) return;
+        var aptas = suyas.filter(m.fits).length;
+        if (!aptas) return;
+        var sub = el("button", "mode mode-sub");
+        sub.appendChild(el("div", "mode-ico", m.icon));
+        var st = el("div", "mode-txt");
+        st.appendChild(el("b", "", m.name));
+        st.appendChild(el("span", "", m.desc + " · " + aptas + " tarjetas"));
+        sub.appendChild(st);
+        sub.onclick = function () {
+          $("#mode-sheet").hidden = true;
+          Session.start(deck, m.id, pertenece);
+        };
+        list.appendChild(sub);
+      });
+    }
+
+    /* Lo que de verdad entra del examen: el vocabulario del libro y las
+       Frases clave. Va antes que los textos porque es lo que se estudia
+       la semana de la prueba; el mazo completo sigue arriba, intacto. */
+    var especialDe = function (c) {
+      return (deck && c.especial && c.especial[deck.id]) || null;
+    };
+    var especiales = [];
+    cards.forEach(function (c) {
+      var e = especialDe(c);
+      if (e && especiales.indexOf(e) < 0) especiales.push(e);
+    });
+    if (especiales.length) {
+      // el vocabulario primero y las frases después, no por orden de emoji
+      especiales.sort(function (a, b) {
+        var peso = function (x) { return x.indexOf("Vocabulario") >= 0 ? 0 : 1; };
+        return peso(a) - peso(b) || (a < b ? -1 : 1);
+      });
+      list.appendChild(el("div", "mode-sep", "Lo que entra del libro"));
+      especiales.forEach(function (e) {
+        var corte = e.indexOf(" ");
+        grupo(e.slice(0, corte), e.slice(corte + 1),
+              function (c) { return especialDe(c) === e; },
+              function (n) { return n + " tarjetas del libro"; },
+              function (m) { return m.id !== "flash"; });
+      });
+    }
+
+    // Los textos largos de la lección (diálogos)
     var textos = [];
     cards.forEach(function (c) {
       var t = textoDe(c);
@@ -2031,38 +2095,10 @@ var UI = {
       textos.sort();          // Texto 1 antes que Texto 2
       list.appendChild(el("div", "mode-sep", "Textos de la lección"));
       textos.forEach(function (t) {
-        var deEsteTexto = function (c) { return textoDe(c) === t; };
-        var n = cards.filter(deEsteTexto).length;
-        var b = el("button", "mode");
-        b.appendChild(el("div", "mode-ico", "📖"));
-        var txt = el("div", "mode-txt");
-        txt.appendChild(el("b", "", t));
-        txt.appendChild(el("span", "", "Las oraciones del texto · " + n + " tarjetas"));
-        b.appendChild(txt);
-        b.onclick = function () {
-          $("#mode-sheet").hidden = true;
-          Session.start(deck, "flash", deEsteTexto);
-        };
-        list.appendChild(b);
-
-        // Los ejercicios de producción del texto, sangrados debajo
-        Object.keys(Modes).forEach(function (k2) {
-          var m2 = Modes[k2];
-          if (!m2.soloTexto && !m2.tambienTexto) return;
-          var aptas = cards.filter(deEsteTexto).filter(m2.fits).length;
-          if (!aptas) return;
-          var sub = el("button", "mode mode-sub");
-          sub.appendChild(el("div", "mode-ico", m2.icon));
-          var st = el("div", "mode-txt");
-          st.appendChild(el("b", "", m2.name));
-          st.appendChild(el("span", "", m2.desc + " · " + aptas + " frases"));
-          sub.appendChild(st);
-          sub.onclick = function () {
-            $("#mode-sheet").hidden = true;
-            Session.start(deck, m2.id, deEsteTexto);
-          };
-          list.appendChild(sub);
-        });
+        grupo("📖", t,
+              function (c) { return textoDe(c) === t; },
+              function (n) { return "Las oraciones del texto · " + n + " tarjetas"; },
+              function (m) { return !!(m.soloTexto || m.tambienTexto); });
       });
     }
 

@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-09-08T23:55:07",
+ "generated": "2026-09-09T01:11:24",
  "decks": [
   {
    "id": "L14",
@@ -118,17 +118,14 @@
     "c662f554a4f604eec53ef4ee551994e004e2a5c0f",
     "c4f604eec8bf45f975bf96211540c610f",
     "c529b6ce24f6076846c498bed6bd46211597d4f60",
-    "c62118bd58bd5",
     "c621160f351994e004e2a75595b66751f5b66592a",
     "c5c0f4e914f6053ef4ee58ddf62114e008d775199",
-    "c6ca195ee9898",
     "c5bf94e86964696e85e73662f8bb080054ed67684",
     "c54b14eec627e4ed66765554691cf554691cf5427",
     "c5bf9554a51995267672c4ed64e005b9a53c85feb",
     "c62117ed94ed6625375358bdd",
     "c8fd95957592a678162f3670d88c5662f8c017684",
     "c662f621176844f6089c95f97600e4e486837",
-    "c5f8854089002",
     "c54b14eec8fd89700898156db5957592a678162f3",
     "c5c0f4e9167094e004ef665d7888d54b14eec53ef",
     "c54b14eec5e948be553bb54ea513f4e705462",
@@ -139,7 +136,6 @@
     "c4e0b534854b14eec53bb770b770b",
     "c8fd94e244ef6592a678162f3670d88c576845f0f",
     "c4f6089c95f9754ea4ef6597d767d76848fd8662f",
-    "c90fd5f88597d",
     "c770b88686f14768465f650197a7f767d76846bd4",
     "c597d5c318981767d7684",
     "c8fd9513f768465d7888d600e4e486837",
@@ -150,7 +146,13 @@
     "c8fd94ef67ea27684989c82724e0d951953ef662f",
     "c4f60770b8fd94ef66bd490a34ef6957f4e24516c",
     "c53ef662f8fd94ef6662f68c97684621160f38981",
-    "c4f604eec61626162770b54276211514853bb4e00"
+    "c4f604eec61626162770b54276211514853bb4e00",
+    "c8fd96837",
+    "c900962e9",
+    "c6f148bdd52678fd880fd63d09ad862114eec7684",
+    "c4f6076846c498bed6bd46211597d4f6067655199",
+    "c5979768490a34ef6662f77ed7684621160f38981",
+    "c79df76846bd44e7076844fbf5b9c591a4e86"
    ]
   },
   {
@@ -248,7 +250,6 @@
     "c62114e0d80fd8fd94e48957f65f695f44e0d7528",
     "c5bf94e8662115e265b66751f8bc14e865b66751f",
     "c5b66751f8bc14e0d884c60a867094e2d56fd7684",
-    "c6709",
     "c597d8bf760a8628a59d3540d548c624b673a53f7",
     "c8fd9662f60a876849a7e71678fd9662f65b07684",
     "c60a853ef4ee5628a536188c55728624b673a4e0a",
@@ -257,13 +258,11 @@
     "c66285929628a62a471679001523059274f7f9986",
     "c4ed64eec4e244e2a661f671f4ee5540e624d628a",
     "c8bf760a8628a9a7e71674ea47ed96211",
-    "c60a88bd54e008bd5",
     "c67975a1c4f6056de67654e868def4e0a8f9b82e6",
     "c6211676562ff7bb15b505427",
     "c529b6ce24f607b494e86591a957f65f695f4",
     "c62114eca5929572859168fb9529e4e8b5f88987a",
     "c771f4e0d597d610f601d8ba94f607b494e864e94",
-    "c6ca151737cfb",
     "c62117528624b673a4e0a4e864e004f1a513f7f51",
     "c62114eec804a5f975f889ad85174",
     "c4f60603b662f80fd90475230804a592976844eba",
@@ -282,7 +281,11 @@
     "c67094e0a7f515f8865b94fbf",
     "c5bf94e866628592962114eec5bbf820d76847f51",
     "c8fd94e48957f65f695f44e0d80fd4e0a7f51771f",
-    "c4f605e948be557509ad894c153bb4e0a6d7763a5"
+    "c4f605e948be557509ad894c153bb4e0a6d7763a5",
+    "c621166285929628a62a471679001523059274f7f",
+    "c621189814e704e005f2053bb53174eac7684706b",
+    "c6211628a8f66505c572857304e0b505c8f66573a",
+    "c4ee5524d4ece4e0a6d77676553174eac706b8f66"
    ]
   },
   {
@@ -421,8 +424,6 @@
     "c8bf795ee5bc4822a7a7a591a5c1194b1",
     "c6211898179f04e004e0b530588f9653e57288fd9",
     "c90ae8d39662f4e8c767e4e9453415143",
-    "c8fd94e488d35",
-    "c6d778fd05462",
     "c6d778fd0768490ae8d39662f4e00767e4e005341",
     "c62115bc46d778fd05427",
     "c8bf760a8586b4e004e0b8fd95f2053555b50",
@@ -434,7 +435,6 @@
     "c4f604e1395e88dd16765544a8bc96211530588f9",
     "c662f65b07248768465b05b9e75286c498bed8bfe",
     "c4f60723872384e005b9a4f1a559c6b228fd95957",
-    "c558260a8597d",
     "c8bf795ee60a8662f4e01529b6ce25417",
     "c60a8662f54ea4f4d",
     "c6211662f5feb90125458",
@@ -457,7 +457,13 @@
     "c554a4e0d597d610f601d621181ea5df18bb09519",
     "c621173b057285c314e0a53bb",
     "c6ca151737cfb53ef80fd662f62116ca18bf46e05",
-    "c8f9b82e660a84e86"
+    "c8f9b82e660a84e86",
+    "c6211898190017ed9621172387238",
+    "c5bf94e0d8d7762116ca1542c6e05695a8bf7518d",
+    "c60a88fd85f977b7e4e2a5b575c317b7e57288fd9",
+    "c6211670b53cb5bc467654e004e2a530588f9",
+    "c62114e9470b94ee5540e898151fa53bb",
+    "c4e0d597d610f601d621181ea5df18bb095194e86"
    ]
   },
   {
@@ -649,7 +655,6 @@
     "c62114e5f60f353bb4e16535a56ed770b4e00770b",
     "c59166ee94e5f5f88597d591c666f7279522b7f8e",
     "c4e0a6d7776845546573a975e5e38591a4e1c897f",
-    "c4e0d592a8d35",
     "c4e0a6d774eba8863670d505a5f97771f597d6211",
     "c4f604e704e868fd94e48591a8863670d",
     "c542c8bf44e0a6d774eba559c6b227a7f8863670d",
@@ -657,7 +662,16 @@
     "c4ed64eec666e901a8bdd8bf45f975f88597d5e74",
     "c5b664e864e0053e5963f62c952ff61c2",
     "c4f608bf44ec04e4862114e0d61c2",
-    "c8fd95c31662f4e0a6d778bdd768462114e0d61c2"
+    "c8fd95c31662f4e0a6d778bdd768462114e0d61c2",
+    "c4e66",
+    "c4f6067655f97771f65e9",
+    "c4f60572890a3513f54035f97597d4e0d597d",
+    "c4ed64eec666e901a8bdd8bf45f97600e4e486837",
+    "c4ed64eec666e901a8bdd8bf45f975f88597d",
+    "c4ed6521a4ece897f5b8956de53174eac53c88981",
+    "c62114e704e864e244ef66bdb88634e09676188d9",
+    "c59798fd854034e86897f5b8976845c0f54034e70",
+    "c62115b664e864e0053e54e0a6d778bdd"
    ]
   },
   {
@@ -1317,7 +1331,6 @@
     "c773c955c",
     "c4f1e",
     "c62a57eb8",
-    "c4e66",
     "c71677247",
     "c716776f8673a",
     "c5b575178",
@@ -3074,12 +3087,12 @@
   },
   {
    "id": "c65b05b9e75286c498bed8bfe672c",
-   "hanzi": "「新实用汉语课本」",
-   "pinyin": "「 xīn shíyòng Hànyǔ kèběn 」",
+   "hanzi": "《新实用汉语课本》",
+   "pinyin": "《 xīn shíyòng Hànyǔ kèběn》",
    "tokens": [
     {
      "t": "p",
-     "hanzi": "「"
+     "hanzi": "《"
     },
     {
      "t": "w",
@@ -3139,10 +3152,10 @@
     },
     {
      "t": "p",
-     "hanzi": "」"
+     "hanzi": "》"
     }
    ],
-   "es": "«Nuevo libro práctico de chino» (el libro del curso)",
+   "es": "Nuevo chino práctico (el libro del curso)",
    "en": null,
    "emoji": null,
    "image": null,
@@ -3159,7 +3172,10 @@
     "correctCount": 5,
     "lastStudiedAt": 1786307422762
    },
-   "pinyinOriginal": "「 xīn shí yòng hàn yǔ kè běn 」"
+   "pinyinOriginal": "「 xīn shí yòng hàn yǔ kè běn 」",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c4e005b9a",
@@ -3200,7 +3216,10 @@
     "correctCount": 5,
     "lastStudiedAt": 1786305347423
    },
-   "pinyinOriginal": "yī dìng"
+   "pinyinOriginal": "yī dìng",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c4e00822c",
@@ -3241,7 +3260,10 @@
     "correctCount": 5,
     "lastStudiedAt": 1786306977159
    },
-   "pinyinOriginal": "yī bān"
+   "pinyinOriginal": "yī bān",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c4e1395e8",
@@ -3281,6 +3303,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305498991
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3416,6 +3441,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786306428577
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3456,6 +3484,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305630831
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3532,6 +3563,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786305387460
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3573,7 +3607,10 @@
     "correctCount": 4,
     "lastStudiedAt": 1786305051658
    },
-   "pinyinOriginal": "bǎo ān"
+   "pinyinOriginal": "bǎo ān",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c516c53f8",
@@ -3613,6 +3650,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786307233139
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3693,6 +3733,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786304842318
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3773,6 +3816,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786306034495
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3813,6 +3859,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786305471009
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3854,7 +3903,10 @@
     "correctCount": 5,
     "lastStudiedAt": 1786305888923
    },
-   "pinyinOriginal": "gào sù"
+   "pinyinOriginal": "gào sù",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c56fd5916",
@@ -3930,6 +3982,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786305239324
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -3966,6 +4021,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786306291827
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4006,6 +4064,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786307447123
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4042,6 +4103,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786306578064
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4126,6 +4190,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786305361132
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4203,7 +4270,10 @@
     "correctCount": 14,
     "lastStudiedAt": 1786305254966
    },
-   "pinyinOriginal": "dé"
+   "pinyinOriginal": "dé",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c5feb90125355",
@@ -4305,6 +4375,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786306709247
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4392,6 +4465,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305021753
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4480,6 +4556,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786304965320
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4516,6 +4595,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305009038
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4552,6 +4634,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786307178476
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4644,6 +4729,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786304691928
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4684,6 +4772,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786306306236
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4720,6 +4811,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786304878620
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4840,6 +4934,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786306882748
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -4881,7 +4978,10 @@
     "correctCount": 5,
     "lastStudiedAt": 1786306470381
    },
-   "pinyinOriginal": "qīng chǔ"
+   "pinyinOriginal": "qīng chǔ",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c7248",
@@ -4917,6 +5017,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786306667608
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5070,6 +5173,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786305953702
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5110,6 +5216,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786304903080
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5146,6 +5255,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305618018
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5187,6 +5299,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786306061638
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5330,6 +5445,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786304801384
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5371,7 +5489,10 @@
     "correctCount": 3,
     "lastStudiedAt": 1786305455002
    },
-   "pinyinOriginal": "háng kōng fēi jī"
+   "pinyinOriginal": "háng kōng fēi jī",
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c8ba25355",
@@ -5447,6 +5568,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305764976
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5567,6 +5691,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786304826415
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5643,6 +5770,9 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786307218191
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5741,12 +5871,16 @@
    "lesson": 11,
    "decks": [
     "L12",
-    "L11"
+    "L11",
+    "L14"
    ],
    "stats": {
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786307325478
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5783,6 +5917,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786306722299
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5859,6 +5996,9 @@
     "studyCount": 3,
     "correctCount": 3,
     "lastStudiedAt": 1786305971174
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -5939,6 +6079,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1786304944969
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6020,6 +6163,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1786307154844
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6070,6 +6216,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732359407
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6121,7 +6270,10 @@
     "correctCount": 7,
     "lastStudiedAt": 1784732684946
    },
-   "pinyinOriginal": "Shì bó Yuán"
+   "pinyinOriginal": "Shì bó Yuán",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c4e1a52a1",
@@ -6200,7 +6352,10 @@
     "correctCount": 7,
     "lastStudiedAt": 1784732510895
    },
-   "pinyinOriginal": "dōng xī"
+   "pinyinOriginal": "dōng xī",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c4eba6c115e01",
@@ -6243,6 +6398,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732497444
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6278,6 +6436,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784731706754
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6517,7 +6678,10 @@
     "correctCount": 6,
     "lastStudiedAt": 1784732035242
    },
-   "toneHint": "bīngmáyǒng"
+   "toneHint": "bīngmáyǒng",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c53c289c2",
@@ -6556,6 +6720,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732584218
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6591,6 +6758,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732042112
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6630,6 +6800,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732076520
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6704,6 +6877,9 @@
     "studyCount": 9,
     "correctCount": 9,
     "lastStudiedAt": 1784732989360
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6778,6 +6954,9 @@
     "studyCount": 10,
     "correctCount": 10,
     "lastStudiedAt": 1784732887150
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6817,6 +6996,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732477021
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -6973,6 +7155,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732142125
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7012,6 +7197,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732638982
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7091,6 +7279,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784731695405
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7130,6 +7321,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732156782
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7165,6 +7359,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784731980246
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7239,6 +7436,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732934878
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7357,6 +7557,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732866276
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7435,6 +7638,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732800975
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7592,6 +7798,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1784732953510
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7635,6 +7844,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784731804947
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7670,6 +7882,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1784732963297
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7705,6 +7920,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732878556
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7822,6 +8040,9 @@
     "studyCount": 6,
     "correctCount": 6,
     "lastStudiedAt": 1784731914464
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7861,6 +8082,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784732453742
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7981,7 +8205,10 @@
     "correctCount": 6,
     "lastStudiedAt": 1784732227529
    },
-   "pinyinOriginal": "wán ér"
+   "pinyinOriginal": "wán ér",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c74f6",
@@ -8217,6 +8444,9 @@
     "studyCount": 7,
     "correctCount": 6,
     "lastStudiedAt": 1784732215858
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -8346,6 +8576,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1784732787138
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -8425,7 +8658,10 @@
     "correctCount": 7,
     "lastStudiedAt": 1784732909854
    },
-   "pinyinOriginal": "yīng bàng"
+   "pinyinOriginal": "yīng bàng",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c83dc",
@@ -8503,6 +8739,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732417227
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -8582,6 +8821,9 @@
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1784732762805
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -8622,7 +8864,10 @@
     "correctCount": 7,
     "lastStudiedAt": 1784732058409
    },
-   "pinyinOriginal": "Xī ān"
+   "pinyinOriginal": "Xī ān",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c89c95f97",
@@ -8661,6 +8906,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732983742
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -8735,6 +8983,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1784733008304
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -8827,7 +9078,7 @@
    "hsk": null,
    "hskNew": null,
    "freq": null,
-   "type": "sentence",
+   "type": "word",
    "lesson": 11,
    "decks": [
     "L11"
@@ -8837,7 +9088,10 @@
     "correctCount": 7,
     "lastStudiedAt": 1784731867121
    },
-   "pinyinOriginal": "Dí shì ní Lè yuán"
+   "pinyinOriginal": "Dí shì ní Lè yuán",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c90a3513f",
@@ -8873,7 +9127,10 @@
     "correctCount": 6,
     "lastStudiedAt": 1784732648397
    },
-   "pinyinOriginal": "nà ér"
+   "pinyinOriginal": "nà ér",
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c94b15305",
@@ -8991,6 +9248,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784731826745
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -9028,7 +9288,10 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "pinyinOriginal": "gāo ǎi"
+   "pinyinOriginal": "gāo ǎi",
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c9ad8697c592753a6",
@@ -9075,6 +9338,9 @@
     "studyCount": 8,
     "correctCount": 8,
     "lastStudiedAt": 1784732743371
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
    }
   },
   {
@@ -13650,16 +13916,12 @@
    "type": "word",
    "lesson": 8,
    "decks": [
-    "L8",
-    "L13"
+    "L8"
    ],
    "stats": {
     "studyCount": 27,
     "correctCount": 27,
     "lastStudiedAt": 1781580760998
-   },
-   "texto": {
-    "L13": "Texto 2 — 坐高铁回北京"
    }
   },
   {
@@ -18202,6 +18464,9 @@
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1775594469525
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -18707,6 +18972,9 @@
     "studyCount": 15,
     "correctCount": 15,
     "lastStudiedAt": 1775595014008
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -18856,16 +19124,12 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L6",
-    "L14"
+    "L6"
    ],
    "stats": {
     "studyCount": 7,
     "correctCount": 7,
     "lastStudiedAt": 1775595501367
-   },
-   "texto": {
-    "L14": "Texto 1 — 留学生晚会"
    }
   },
   {
@@ -32684,6 +32948,9 @@
    },
    "texto": {
     "L11": "Texto 1 — 换钱"
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
    }
   },
   {
@@ -33855,6 +34122,9 @@
    },
    "texto": {
     "L11": "Texto 1 — 换钱"
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
    }
   },
   {
@@ -34050,6 +34320,9 @@
    "toneHint": "wóyěhénxiǎngqùXīānlǚxíngnǐgéiwǒjièshàojièshàoba",
    "texto": {
     "L11": "Texto 1 — 换钱"
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
    }
   },
   {
@@ -35983,15 +36256,12 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "L11"
+    "mia11B"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L11": "Texto 2 — 上海"
    }
   },
   {
@@ -39203,6 +39473,9 @@
    "patternEs": "Terminar de hacer algo",
    "texto": {
     "L12": "Texto 2 — 快递"
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
    }
   },
   {
@@ -40523,6 +40796,9 @@
    },
    "texto": {
     "L12": "Texto 1 — 寄包裹"
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
    }
   },
   {
@@ -41456,15 +41732,12 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L12"
+    "mia12A"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L12": "Texto 1 — 寄包裹"
    }
   },
   {
@@ -41513,15 +41786,12 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L12"
+    "mia12A"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L12": "Texto 1 — 寄包裹"
    }
   },
   {
@@ -43127,15 +43397,12 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L12"
+    "mia12B"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L12": "Texto 2 — 快递"
    }
   },
   {
@@ -43828,6 +44095,9 @@
    },
    "texto": {
     "L12": "Texto 2 — 快递"
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
    }
   },
   {
@@ -45015,6 +45285,9 @@
    },
    "texto": {
     "L12": "Texto 2 — 快递"
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
    }
   },
   {
@@ -45840,6 +46113,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -45875,6 +46151,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -45993,6 +46272,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46071,6 +46353,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46114,6 +46399,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46277,6 +46565,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46355,6 +46646,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46390,6 +46684,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46429,6 +46726,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46464,6 +46764,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46503,6 +46806,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46547,7 +46853,10 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "dàshíguǎn"
+   "toneHint": "dàshíguǎn",
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c59276982",
@@ -46586,6 +46895,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46629,6 +46941,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46742,6 +47057,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46781,6 +47099,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46817,6 +47138,10 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro",
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46891,6 +47216,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -46926,6 +47254,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47040,6 +47371,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47079,6 +47413,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47114,6 +47451,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47228,6 +47568,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47267,6 +47610,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47317,6 +47663,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47473,6 +47822,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47544,6 +47896,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47618,6 +47973,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47657,6 +48015,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47696,6 +48057,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47731,6 +48095,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47805,6 +48172,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47840,6 +48210,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47883,6 +48256,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47922,6 +48298,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48035,6 +48414,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48179,6 +48561,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48214,6 +48599,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48292,6 +48680,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48331,6 +48722,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48370,6 +48764,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -48409,6 +48806,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "📕 Vocabulario del libro"
    }
   },
   {
@@ -50677,16 +51077,13 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "temaz",
-    "L13"
+    "mia13B",
+    "temaz"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L13": "Texto 1 — 办手机卡"
    }
   },
   {
@@ -51803,6 +52200,9 @@
    "patternEs": "Recién, no antes de (más tarde de lo esperado)",
    "texto": {
     "L13": "Texto 1 — 办手机卡"
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
    }
   },
   {
@@ -51964,8 +52364,8 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "conectores",
-    "L13"
+    "mia13B",
+    "conectores"
    ],
    "stats": {
     "studyCount": 0,
@@ -51973,10 +52373,7 @@
     "lastStudiedAt": null
    },
    "pattern": "Verbo + 一 + Verbo",
-   "patternEs": "Hacer algo un poquito, probar",
-   "texto": {
-    "L13": "Texto 1 — 办手机卡"
-   }
+   "patternEs": "Hacer algo un poquito, probar"
   },
   {
    "id": "c67975a1c4f6056de67654e868def4e0a8f9b82e6",
@@ -52198,6 +52595,9 @@
    },
    "texto": {
     "L13": "Texto 2 — 坐高铁回北京"
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
    }
   },
   {
@@ -52718,6 +53118,9 @@
    "toneHint": "zhēnbùhǎoyìsiràngníděnglewǔshífēnzhōng",
    "texto": {
     "L13": "Texto 2 — 坐高铁回北京"
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
    }
   },
   {
@@ -52994,6 +53397,9 @@
    },
    "texto": {
     "L13": "Texto 2 — 坐高铁回北京"
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
    }
   },
   {
@@ -53844,6 +54250,9 @@
    },
    "texto": {
     "L13": "Texto 2 — 坐高铁回北京"
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
    }
   },
   {
@@ -54322,6 +54731,9 @@
    "patternEs": "Tanto... como... (dos cualidades)",
    "texto": {
     "L13": "Texto 2 — 坐高铁回北京"
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
    }
   },
   {
@@ -55611,6 +56023,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55650,6 +56065,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55693,6 +56111,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55732,6 +56153,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55772,7 +56196,10 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "biáoyǎn"
+   "toneHint": "biáoyǎn",
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c828276ee",
@@ -55811,6 +56238,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55850,6 +56280,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55889,6 +56322,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55928,6 +56364,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -55971,6 +56410,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56006,6 +56448,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56045,6 +56490,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56080,6 +56528,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56119,6 +56570,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56158,6 +56612,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56197,6 +56654,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56236,6 +56696,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56275,6 +56738,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56314,6 +56780,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56353,6 +56822,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56392,6 +56864,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56427,6 +56902,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56466,6 +56944,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56505,6 +56986,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56544,6 +57028,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56583,6 +57070,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56618,6 +57108,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56692,6 +57185,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56762,6 +57258,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56797,6 +57296,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56836,6 +57338,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56871,6 +57376,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56910,6 +57418,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56953,6 +57464,9 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -57153,7 +57667,7 @@
    "hsk": null,
    "hskNew": null,
    "freq": null,
-   "type": "sentence",
+   "type": "word",
    "lesson": null,
    "decks": [
     "L14"
@@ -57162,9 +57676,7 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "pattern": "太...了",
-   "patternEs": "Demasiado + adjetivo"
+   }
   },
   {
    "id": "c6ca160f35230",
@@ -58257,7 +58769,10 @@
     "lastStudiedAt": null
    },
    "pattern": "A 比 B + adjetivo",
-   "patternEs": "A es más [adj] que B"
+   "patternEs": "A es más [adj] que B",
+   "especial": {
+    "L14": "⭐ Frases clave"
+   }
   },
   {
    "id": "c8fd94ef66bd490a34ef6957f4e24516c5206",
@@ -58739,7 +59254,10 @@
     "lastStudiedAt": null
    },
    "pattern": "又...又...",
-   "patternEs": "Tanto... como... (dos cualidades)"
+   "patternEs": "Tanto... como... (dos cualidades)",
+   "especial": {
+    "L14": "⭐ Frases clave"
+   }
   },
   {
    "id": "c4f604eec53ef4ee58df3821e6216800588686f14",
@@ -61046,6 +61564,9 @@
    "toneHint": "wǒjuédedǎtàijíquánbǐtiàowúyǒuyìsi",
    "texto": {
     "L14": "Texto 1 — 留学生晚会"
+   },
+   "especial": {
+    "L14": "⭐ Frases clave"
    }
   },
   {
@@ -61944,6 +62465,9 @@
    "toneHint": "wǒmenkéyǐchàngZhōngwéngēchànggēbíyǎnhuàjùróngyì",
    "texto": {
     "L14": "Texto 1 — 留学生晚会"
+   },
+   "especial": {
+    "L14": "⭐ Frases clave"
    }
   },
   {
@@ -62743,15 +63267,12 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "L14"
+    "mia14A"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L14": "Texto 1 — 留学生晚会"
    }
   },
   {
@@ -63917,15 +64438,12 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L14"
+    "mia14B"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "texto": {
-    "L14": "Texto 2 — 租服装"
    }
   },
   {
@@ -65431,17 +65949,14 @@
    "type": "sentence",
    "lesson": null,
    "decks": [
-    "L14"
+    "mia14B"
    ],
    "stats": {
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
    },
-   "toneHint": "dōuhénhǎo",
-   "texto": {
-    "L14": "Texto 2 — 租服装"
-   }
+   "toneHint": "dōuhénhǎo"
   },
   {
    "id": "c770b88686f14768465f650197a7f767d76846bd4",
@@ -66294,6 +66809,9 @@
    "patternEs": "Demasiado + adjetivo",
    "texto": {
     "L14": "Texto 2 — 租服装"
+   },
+   "especial": {
+    "L14": "⭐ Frases clave"
    }
   },
   {
@@ -66907,6 +67425,9 @@
    },
    "texto": {
     "L14": "Texto 2 — 租服装"
+   },
+   "especial": {
+    "L14": "⭐ Frases clave"
    }
   },
   {
@@ -67219,6 +67740,3055 @@
    },
    "texto": {
     "L14": "Texto 2 — 租服装"
+   }
+  },
+  {
+   "id": "c4e66",
+   "hanzi": "书",
+   "pinyin": "shū",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "书",
+     "pinyin": "shū",
+     "syl": [
+      [
+       "shū",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "libro",
+   "en": "book; letter; document",
+   "emoji": "📖",
+   "image": "images/c4e66.webp",
+   "hsk": 1,
+   "hskNew": 1,
+   "freq": 560,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
+  },
+  {
+   "id": "c4f6067655f97771f65e9",
+   "hanzi": "你来得真早！",
+   "pinyin": "nǐ lái de zhēn zǎo！",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "真",
+     "pinyin": "zhēn",
+     "syl": [
+      [
+       "zhēn",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "早",
+     "pinyin": "zǎo",
+     "syl": [
+      [
+       "zǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "！"
+    }
+   ],
+   "es": "¡Qué temprano llegaste!",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4f60572890a3513f54035f97597d4e0d597d",
+   "hanzi": "你在那儿吃得好不好？",
+   "pinyin": "nǐ zài nàr chī de hǎobuhǎo？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "那儿",
+     "pinyin": "nàr",
+     "syl": [
+      [
+       "nàr",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吃",
+     "pinyin": "chī",
+     "syl": [
+      [
+       "chī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好不好",
+     "pinyin": "hǎobuhǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "bu",
+       5
+      ],
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "¿Comiste bien allá?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4ed64eec666e901a8bdd8bf45f97600e4e486837",
+   "hanzi": "他们普通话说得怎么样？",
+   "pinyin": "tāmen pǔtōnghuà shuō de zěnmeyàng？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "普通话",
+     "pinyin": "pǔtōnghuà",
+     "syl": [
+      [
+       "pǔ",
+       3
+      ],
+      [
+       "tōng",
+       1
+      ],
+      [
+       "huà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "怎么样",
+     "pinyin": "zěnmeyàng",
+     "syl": [
+      [
+       "zěn",
+       3
+      ],
+      [
+       "me",
+       5
+      ],
+      [
+       "yàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "¿Qué tal hablan el mandarín?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4ed64eec666e901a8bdd8bf45f975f88597d",
+   "hanzi": "他们普通话说得很好。",
+   "pinyin": "tāmen pǔtōnghuà shuō de hěn hǎo。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "普通话",
+     "pinyin": "pǔtōnghuà",
+     "syl": [
+      [
+       "pǔ",
+       3
+      ],
+      [
+       "tōng",
+       1
+      ],
+      [
+       "huà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "很",
+     "pinyin": "hěn",
+     "syl": [
+      [
+       "hěn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好",
+     "pinyin": "hǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Hablan muy bien el mandarín.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tāmenpǔtōnghuàshuōdehénhǎo",
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4ed6521a4ece897f5b8956de53174eac53c88981",
+   "hanzi": "他刚从西安回北京，又要去上海。",
+   "pinyin": "tā gāng cóng Xī'ān huí Běijīng， yòu yào qù Shànghǎi。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "刚",
+     "pinyin": "gāng",
+     "syl": [
+      [
+       "gāng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "从",
+     "pinyin": "cóng",
+     "syl": [
+      [
+       "cóng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "西安",
+     "pinyin": "Xī'ān",
+     "syl": [
+      [
+       "Xī",
+       1
+      ],
+      [
+       "ān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "回",
+     "pinyin": "huí",
+     "syl": [
+      [
+       "huí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "北京",
+     "pinyin": "Běijīng",
+     "syl": [
+      [
+       "Běi",
+       3
+      ],
+      [
+       "jīng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "又",
+     "pinyin": "yòu",
+     "syl": [
+      [
+       "yòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "去",
+     "pinyin": "qù",
+     "syl": [
+      [
+       "qù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上海",
+     "pinyin": "Shànghǎi",
+     "syl": [
+      [
+       "Shàng",
+       4
+      ],
+      [
+       "hǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Recién volvió de Xi'an a Pekín y ya se va a Shanghái.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c62114e704e864e244ef66bdb88634e09676188d9",
+   "hanzi": "我买了两件毛衣、三条裙子。",
+   "pinyin": "wǒ mǎi le liǎng jiàn máoyī、 sān tiáo qúnzi。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "买",
+     "pinyin": "mǎi",
+     "syl": [
+      [
+       "mǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "两",
+     "pinyin": "liǎng",
+     "syl": [
+      [
+       "liǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "毛衣",
+     "pinyin": "máoyī",
+     "syl": [
+      [
+       "máo",
+       2
+      ],
+      [
+       "yī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "、"
+    },
+    {
+     "t": "w",
+     "hanzi": "三",
+     "pinyin": "sān",
+     "syl": [
+      [
+       "sān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "条",
+     "pinyin": "tiáo",
+     "syl": [
+      [
+       "tiáo",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "裙子",
+     "pinyin": "qúnzi",
+     "syl": [
+      [
+       "qún",
+       2
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Me compré dos chompas y tres faldas.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "wómǎileliǎngjiànmáoyīsāntiáoqúnzi",
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c59798fd854034e86897f5b8976845c0f54034e70",
+   "hanzi": "她还吃了西安的小吃，买了很多明信片。",
+   "pinyin": "tā hái chī le Xī'ān de xiǎochī， mǎi le hěn duō míngxìnpiàn。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "她",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还",
+     "pinyin": "hái",
+     "syl": [
+      [
+       "hái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吃",
+     "pinyin": "chī",
+     "syl": [
+      [
+       "chī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "西安",
+     "pinyin": "Xī'ān",
+     "syl": [
+      [
+       "Xī",
+       1
+      ],
+      [
+       "ān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "小吃",
+     "pinyin": "xiǎochī",
+     "syl": [
+      [
+       "xiǎo",
+       3
+      ],
+      [
+       "chī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "买",
+     "pinyin": "mǎi",
+     "syl": [
+      [
+       "mǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "很",
+     "pinyin": "hěn",
+     "syl": [
+      [
+       "hěn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "多",
+     "pinyin": "duō",
+     "syl": [
+      [
+       "duō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "明信片",
+     "pinyin": "míngxìnpiàn",
+     "syl": [
+      [
+       "míng",
+       2
+      ],
+      [
+       "xìn",
+       4
+      ],
+      [
+       "piàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Además probó la comida callejera de Xi'an y compró muchas postales.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c62115b664e864e0053e54e0a6d778bdd",
+   "hanzi": "我学了一句上海话。",
+   "pinyin": "wǒ xué le yíjù Shànghǎi huà。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "学",
+     "pinyin": "xué",
+     "syl": [
+      [
+       "xué",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一句",
+     "pinyin": "yíjù",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "jù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上海",
+     "pinyin": "Shànghǎi",
+     "syl": [
+      [
+       "Shàng",
+       4
+      ],
+      [
+       "hǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "话",
+     "pinyin": "huà",
+     "syl": [
+      [
+       "huà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Aprendí una frase en shanghainés.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L11"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L11": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c6211898190017ed9621172387238",
+   "hanzi": "我要送给我爸爸。",
+   "pinyin": "wǒ yào sònggěi wǒ bàba。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送给",
+     "pinyin": "sònggěi",
+     "syl": [
+      [
+       "sòng",
+       4
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "爸爸",
+     "pinyin": "bàba",
+     "syl": [
+      [
+       "bà",
+       4
+      ],
+      [
+       "ba",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Se lo voy a regalar a mi papá.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "wǒyàosònggéiwǒbàba",
+   "especial": {
+    "L12": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c5bf94e0d8d7762116ca1542c6e05695a8bf7518d",
+   "hanzi": "对不起，我没听清楚，请再说一遍。",
+   "pinyin": "duìbuqǐ， wǒ méi tīng qīngchu， qǐng zàishuō yíbiàn。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "对不起",
+     "pinyin": "duìbuqǐ",
+     "syl": [
+      [
+       "duì",
+       4
+      ],
+      [
+       "bu",
+       5
+      ],
+      [
+       "qǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "没",
+     "pinyin": "méi",
+     "syl": [
+      [
+       "méi",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "听",
+     "pinyin": "tīng",
+     "syl": [
+      [
+       "tīng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "清楚",
+     "pinyin": "qīngchu",
+     "syl": [
+      [
+       "qīng",
+       1
+      ],
+      [
+       "chu",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "请",
+     "pinyin": "qǐng",
+     "syl": [
+      [
+       "qǐng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "再说",
+     "pinyin": "zàishuō",
+     "syl": [
+      [
+       "zài",
+       4
+      ],
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一遍",
+     "pinyin": "yíbiàn",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "biàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Perdón, no escuché bien, repítalo por favor.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "duìbuqíwǒméitīngqīngchuqǐngzàishuōyíbiàn",
+   "especial": {
+    "L12": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c60a88fd85f977b7e4e2a5b575c317b7e57288fd9",
+   "hanzi": "您还得签个字，就签在这儿。",
+   "pinyin": "nín hái de qiān gè zì， jiù qiān zài zhèr。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "您",
+     "pinyin": "nín",
+     "syl": [
+      [
+       "nín",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还",
+     "pinyin": "hái",
+     "syl": [
+      [
+       "hái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "签",
+     "pinyin": "qiān",
+     "syl": [
+      [
+       "qiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "个",
+     "pinyin": "gè",
+     "syl": [
+      [
+       "gè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "字",
+     "pinyin": "zì",
+     "syl": [
+      [
+       "zì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "就",
+     "pinyin": "jiù",
+     "syl": [
+      [
+       "jiù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "签",
+     "pinyin": "qiān",
+     "syl": [
+      [
+       "qiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "这儿",
+     "pinyin": "zhèr",
+     "syl": [
+      [
+       "zhèr",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Todavía tiene que firmar, firme aquí.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c6211670b53cb5bc467654e004e2a530588f9",
+   "hanzi": "我朋友寄来一个包裹。",
+   "pinyin": "wǒ péngyou jì lái yíge bāoguǒ。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "朋友",
+     "pinyin": "péngyou",
+     "syl": [
+      [
+       "péng",
+       2
+      ],
+      [
+       "you",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "寄",
+     "pinyin": "jì",
+     "syl": [
+      [
+       "jì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一个",
+     "pinyin": "yíge",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "包裹",
+     "pinyin": "bāoguǒ",
+     "syl": [
+      [
+       "bāo",
+       1
+      ],
+      [
+       "guǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Un amigo me mandó un paquete.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c62114e9470b94ee5540e898151fa53bb",
+   "hanzi": "我五点以后要出去。",
+   "pinyin": "wǒ wǔ diǎn yǐhòu yào chūqù。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "五",
+     "pinyin": "wǔ",
+     "syl": [
+      [
+       "wǔ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "点",
+     "pinyin": "diǎn",
+     "syl": [
+      [
+       "diǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "以后",
+     "pinyin": "yǐhòu",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "hòu",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "出去",
+     "pinyin": "chūqù",
+     "syl": [
+      [
+       "chū",
+       1
+      ],
+      [
+       "qù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Después de las cinco tengo que salir.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "wówǔdiányǐhòuyàochūqù",
+   "especial": {
+    "L12": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4e0d597d610f601d621181ea5df18bb095194e86",
+   "hanzi": "不好意思，我自己记错了，以为是三层呢。",
+   "pinyin": "bùhǎoyìsi， wǒ zìjǐ jìcuò le， yǐwéi shì sān céng ne。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "不好意思",
+     "pinyin": "bùhǎoyìsi",
+     "syl": [
+      [
+       "bù",
+       4
+      ],
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "yì",
+       4
+      ],
+      [
+       "si",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "自己",
+     "pinyin": "zìjǐ",
+     "syl": [
+      [
+       "zì",
+       4
+      ],
+      [
+       "jǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "记错",
+     "pinyin": "jìcuò",
+     "syl": [
+      [
+       "jì",
+       4
+      ],
+      [
+       "cuò",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "以为",
+     "pinyin": "yǐwéi",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "wéi",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "三",
+     "pinyin": "sān",
+     "syl": [
+      [
+       "sān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "层",
+     "pinyin": "céng",
+     "syl": [
+      [
+       "céng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "呢",
+     "pinyin": "ne",
+     "syl": [
+      [
+       "ne",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Disculpe, me confundí yo mismo, creía que era el tercer piso.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L12": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c621166285929628a62a471679001523059274f7f",
+   "hanzi": "我昨天把护照送到大使馆了。",
+   "pinyin": "wǒ zuótiān bǎ hùzhào sòng dào dàshǐguǎn le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "昨天",
+     "pinyin": "zuótiān",
+     "syl": [
+      [
+       "zuó",
+       2
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "护照",
+     "pinyin": "hùzhào",
+     "syl": [
+      [
+       "hù",
+       4
+      ],
+      [
+       "zhào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送",
+     "pinyin": "sòng",
+     "syl": [
+      [
+       "sòng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "到",
+     "pinyin": "dào",
+     "syl": [
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "大使馆",
+     "pinyin": "dàshǐguǎn",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "shǐ",
+       3
+      ],
+      [
+       "guǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Ayer llevé el pasaporte a la embajada.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "wǒzuótiānbǎhùzhàosòngdàodàshíguǎnle",
+   "especial": {
+    "L13": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c621189814e704e005f2053bb53174eac7684706b",
+   "hanzi": "我要买一张去北京的火车票。",
+   "pinyin": "wǒ yào mǎi yì zhāng qù Běijīng de huǒchēpiào。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "买",
+     "pinyin": "mǎi",
+     "syl": [
+      [
+       "mǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yì",
+     "syl": [
+      [
+       "yì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "张",
+     "pinyin": "zhāng",
+     "syl": [
+      [
+       "zhāng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "去",
+     "pinyin": "qù",
+     "syl": [
+      [
+       "qù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "北京",
+     "pinyin": "Běijīng",
+     "syl": [
+      [
+       "Běi",
+       3
+      ],
+      [
+       "jīng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "火车票",
+     "pinyin": "huǒchēpiào",
+     "syl": [
+      [
+       "huǒ",
+       3
+      ],
+      [
+       "chē",
+       1
+      ],
+      [
+       "piào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Quiero comprar un pasaje de tren a Pekín.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c6211628a8f66505c572857304e0b505c8f66573a",
+   "hanzi": "我把车停在地下停车场了。",
+   "pinyin": "wǒ bǎ chē tíng zài dìxià tíngchēchǎng le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "车",
+     "pinyin": "chē",
+     "syl": [
+      [
+       "chē",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "停",
+     "pinyin": "tíng",
+     "syl": [
+      [
+       "tíng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "地下",
+     "pinyin": "dìxià",
+     "syl": [
+      [
+       "dì",
+       4
+      ],
+      [
+       "xià",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "停车场",
+     "pinyin": "tíngchēchǎng",
+     "syl": [
+      [
+       "tíng",
+       2
+      ],
+      [
+       "chē",
+       1
+      ],
+      [
+       "chǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Dejé el carro en el estacionamiento subterráneo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "wóbǎchētíngzàidìxiàtíngchēchǎngle",
+   "especial": {
+    "L13": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4ee5524d4ece4e0a6d77676553174eac706b8f66",
+   "hanzi": "以前从上海来北京，火车要坐十几个小时。",
+   "pinyin": "yǐqián cóng Shànghǎi lái Běijīng， huǒchē yào zuò shíjǐ gè xiǎoshí。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "以前",
+     "pinyin": "yǐqián",
+     "syl": [
+      [
+       "yǐ",
+       3
+      ],
+      [
+       "qián",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "从",
+     "pinyin": "cóng",
+     "syl": [
+      [
+       "cóng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上海",
+     "pinyin": "Shànghǎi",
+     "syl": [
+      [
+       "Shàng",
+       4
+      ],
+      [
+       "hǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "北京",
+     "pinyin": "Běijīng",
+     "syl": [
+      [
+       "Běi",
+       3
+      ],
+      [
+       "jīng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "火车",
+     "pinyin": "huǒchē",
+     "syl": [
+      [
+       "huǒ",
+       3
+      ],
+      [
+       "chē",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "要",
+     "pinyin": "yào",
+     "syl": [
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "坐",
+     "pinyin": "zuò",
+     "syl": [
+      [
+       "zuò",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "十几",
+     "pinyin": "shíjǐ",
+     "syl": [
+      [
+       "shí",
+       2
+      ],
+      [
+       "jǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "个",
+     "pinyin": "gè",
+     "syl": [
+      [
+       "gè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "小时",
+     "pinyin": "xiǎoshí",
+     "syl": [
+      [
+       "xiǎo",
+       3
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Antes, de Shanghái a Pekín el tren tomaba más de diez horas.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L13"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L13": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c8fd96837",
+   "hanzi": "这样",
+   "pinyin": "zhèyàng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "这样",
+     "pinyin": "zhèyàng",
+     "syl": [
+      [
+       "zhè",
+       4
+      ],
+      [
+       "yàng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "así / de esta manera",
+   "en": "this way; like this; so; (before a noun) this kind of; such",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 85,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L14"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L14": "📕 Vocabulario del libro"
+   }
+  },
+  {
+   "id": "c6f148bdd52678fd880fd63d09ad862114eec7684",
+   "hanzi": "演话剧还能提高我们的口语水平。",
+   "pinyin": "yǎn huàjù hái néng tígāo wǒmen de kǒuyǔ shuǐpíng。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "演",
+     "pinyin": "yǎn",
+     "syl": [
+      [
+       "yǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "话剧",
+     "pinyin": "huàjù",
+     "syl": [
+      [
+       "huà",
+       4
+      ],
+      [
+       "jù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "还",
+     "pinyin": "hái",
+     "syl": [
+      [
+       "hái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "能",
+     "pinyin": "néng",
+     "syl": [
+      [
+       "néng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "提高",
+     "pinyin": "tígāo",
+     "syl": [
+      [
+       "tí",
+       2
+      ],
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我们",
+     "pinyin": "wǒmen",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "口语",
+     "pinyin": "kǒuyǔ",
+     "syl": [
+      [
+       "kǒu",
+       3
+      ],
+      [
+       "yǔ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "水平",
+     "pinyin": "shuǐpíng",
+     "syl": [
+      [
+       "shuǐ",
+       3
+      ],
+      [
+       "píng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Actuar además mejora nuestro nivel de conversación.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L14"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "yǎnhuàjùháinéngtígāowǒmendekǒuyúshuǐpíng",
+   "especial": {
+    "L14": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c4f6076846c498bed6bd46211597d4f6067655199",
+   "hanzi": "你的汉语比我好，你来写吧。",
+   "pinyin": "nǐ de Hànyǔ bǐ wǒ hǎo， nǐ lái xiě ba。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "汉语",
+     "pinyin": "Hànyǔ",
+     "syl": [
+      [
+       "Hàn",
+       4
+      ],
+      [
+       "yǔ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好",
+     "pinyin": "hǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "写",
+     "pinyin": "xiě",
+     "syl": [
+      [
+       "xiě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "吧",
+     "pinyin": "ba",
+     "syl": [
+      [
+       "ba",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Tu chino es mejor que el mío, escríbela tú.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L14"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "nǐdeHànyǔbíwǒháonǐláixiěba",
+   "especial": {
+    "L14": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c5979768490a34ef6662f77ed7684621160f38981",
+   "hanzi": "她的那件是短的，我想要一件长的。",
+   "pinyin": "tā de nà jiàn shì duǎn de， wǒ xiǎngyào yí jiàn cháng de。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "她",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "那",
+     "pinyin": "nà",
+     "syl": [
+      [
+       "nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "短",
+     "pinyin": "duǎn",
+     "syl": [
+      [
+       "duǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想要",
+     "pinyin": "xiǎngyào",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ],
+      [
+       "yào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yí",
+     "syl": [
+      [
+       "yí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "长",
+     "pinyin": "cháng",
+     "syl": [
+      [
+       "cháng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "El de ella es corto, yo quiero uno largo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L14"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tādenàjiànshìduǎndewóxiǎngyàoyíjiànchángde",
+   "especial": {
+    "L14": "⭐ Frases clave"
+   }
+  },
+  {
+   "id": "c79df76846bd44e7076844fbf5b9c591a4e86",
+   "hanzi": "租的比买的便宜多了。",
+   "pinyin": "zū de bǐ mǎi de piányi duō le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "租",
+     "pinyin": "zū",
+     "syl": [
+      [
+       "zū",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "买",
+     "pinyin": "mǎi",
+     "syl": [
+      [
+       "mǎi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "便宜",
+     "pinyin": "piányi",
+     "syl": [
+      [
+       "pián",
+       2
+      ],
+      [
+       "yi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "多",
+     "pinyin": "duō",
+     "syl": [
+      [
+       "duō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Alquilar es mucho más barato que comprar.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "L14"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "zūdebímǎidepiányiduōle",
+   "especial": {
+    "L14": "⭐ Frases clave"
    }
   },
   {
@@ -74392,41 +77962,6 @@
    "lesson": null,
    "decks": [
     "tema12"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c4e66",
-   "hanzi": "书",
-   "pinyin": "shū",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "书",
-     "pinyin": "shū",
-     "syl": [
-      [
-       "shū",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "libro",
-   "en": "book; letter; document",
-   "emoji": "📖",
-   "image": "images/c4e66.webp",
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 560,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "tema2"
    ],
    "stats": {
     "studyCount": 0,
