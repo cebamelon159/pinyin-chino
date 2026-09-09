@@ -1741,6 +1741,9 @@ var Session = {
 
   grade: function (correct) {
     var card = this.card;
+    // La sesión ya terminó: los botones viejos siguen en el DOM detrás del
+    // resumen y una pulsación tardía llegaba aquí sin tarjeta.
+    if (!card) return;
     SRS.grade(card.id, correct);
     this.results.push({ card: card, correct: correct });
     this.index++;
@@ -1751,6 +1754,7 @@ var Session = {
      Es lo que permite insistir con la misma estructura hasta que salga,
      en vez de dejarlo pasar y seguir con otra cosa. */
   insertNext: function (card) {
+    if (!this.card) return;
     this.queue.splice(this.index + 1, 0, card);
     this.results.push({ card: this.card, correct: false });
     SRS.grade(this.card.id, false);
