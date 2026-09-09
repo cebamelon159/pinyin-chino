@@ -671,3 +671,61 @@ button { cursor: pointer; border: none; background: none; }
 }
 .mode.mode-sub .mode-ico { font-size: 20px; }
 .mode.mode-sub .mode-txt b { font-size: 14px; }
+
+/* ---------- repetir en voz alta ---------- */
+.say-card { text-align: center; }
+
+.say-state { margin: 22px 0 6px; }
+
+/* Cinco barras: quietas mientras escuchas, saltando mientras hablas.
+   Es el único aviso de que el micrófono está abierto, así que tiene que
+   verse de un vistazo desde lejos, con el teléfono en la mano. */
+.say-wave {
+  display: flex; align-items: center; justify-content: center;
+  gap: 5px; height: 46px;
+}
+.say-wave i {
+  display: block; width: 7px; height: 12px; border-radius: 4px;
+  background: var(--border);
+  transition: height .15s ease, background .2s ease;
+}
+.say-playing .say-wave i { background: var(--green); }
+.say-playing .say-wave i:nth-child(1) { animation: say-bar .9s ease-in-out infinite; }
+.say-playing .say-wave i:nth-child(2) { animation: say-bar .9s ease-in-out .1s infinite; }
+.say-playing .say-wave i:nth-child(3) { animation: say-bar .9s ease-in-out .2s infinite; }
+.say-playing .say-wave i:nth-child(4) { animation: say-bar .9s ease-in-out .3s infinite; }
+.say-playing .say-wave i:nth-child(5) { animation: say-bar .9s ease-in-out .4s infinite; }
+
+.say-listening .say-wave i { background: var(--bad); }
+.say-listening .say-wave i:nth-child(1) { animation: say-bar .55s ease-in-out infinite; }
+.say-listening .say-wave i:nth-child(2) { animation: say-bar .55s ease-in-out .08s infinite; }
+.say-listening .say-wave i:nth-child(3) { animation: say-bar .55s ease-in-out .16s infinite; }
+.say-listening .say-wave i:nth-child(4) { animation: say-bar .55s ease-in-out .24s infinite; }
+.say-listening .say-wave i:nth-child(5) { animation: say-bar .55s ease-in-out .32s infinite; }
+
+@keyframes say-bar {
+  0%, 100% { height: 12px; }
+  50%      { height: 40px; }
+}
+
+/* Quien tenga activado "reducir movimiento" ve las barras encendidas y quietas */
+@media (prefers-reduced-motion: reduce) {
+  .say-wave i { animation: none !important; height: 26px; }
+}
+
+.say-label {
+  font-size: 13px; color: var(--text-soft); margin-top: 8px; font-weight: 600;
+}
+.say-listening .say-label { color: var(--bad); }
+
+/* Lo que va reconociendo mientras hablas */
+.say-heard {
+  min-height: 26px; margin-top: 10px; font-size: 20px;
+  color: var(--text-soft); word-break: break-word;
+}
+
+.say-answer { margin-top: 6px; }
+.say-target { font-size: 26px; font-weight: 700; line-height: 1.45; }
+.say-py { margin-top: 6px; }
+.say-es { margin-top: 6px; color: var(--text-soft); }
+.say-pct { margin-top: 10px; font-size: 12px; color: var(--text-soft); }

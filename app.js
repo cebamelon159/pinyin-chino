@@ -318,19 +318,95 @@ var Speech = {
     this.voice = found;
   },
 
-  speak: function (text) {
-    if (!("speechSynthesis" in window) || !text) return;
+  speak: function (text, onEnd) {
+    if (!("speechSynthesis" in window) || !text) { if (onEnd) onEnd(); return; }
     try {
       speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(text);
       u.lang = (this.voice && this.voice.lang) || "zh-CN";
       if (this.voice) u.voice = this.voice;
       u.rate = Store.settings.rate;
+      if (onEnd) {
+        // cancel() de la siguiente llamada dispara onend de esta: el cerrojo
+        // evita que el callback se ejecute dos veces y encadene voces sueltas
+        var hecho = false;
+        var fin = function () { if (!hecho) { hecho = true; onEnd(); } };
+        u.onend = fin;
+        u.onerror = fin;
+        // algunos Android no disparan onend: red de seguridad por longitud
+        setTimeout(fin, 1200 + text.length * 380 / Math.max(0.5, Store.settings.rate));
+      }
       speechSynthesis.speak(u);
-    } catch (e) {}
+    } catch (e) { if (onEnd) onEnd(); }
+  },
+
+  /* La frase dos veces seguidas, con una pausa en medio. Es como la dan en
+     el examen oral: escuchas, escuchas otra vez, y recién entonces repites. */
+  speakTwice: function (text, onDone) {
+    var self = this;
+    this.speak(text, function () {
+      setTimeout(function () { self.speak(text, onDone); }, 700);
+    });
+  },
+
+  callar: function () {
+    try { if ("speechSynthesis" in window) speechSynthesis.cancel(); } catch (e) {}
   },
 
   available: function () { return this.voices.length > 0; }
+};
+
+/* ───────────────────────── micrófono ─────────────────────────
+   Reconocimiento de voz del navegador (Chrome/Edge y Chrome de Android).
+   Devuelve directamente hanzi, así que lo que dices se puede comparar con la
+   frase esperada usando el mismo diff que el ejercicio de escribir.
+   Si el navegador no lo trae, el ejercicio sigue sirviendo: escuchas, repites
+   en voz alta y te calificas tú. */
+var Voz = {
+  rec: null,
+
+  available: function () {
+    return !!(window.SpeechRecognition || window.webkitSpeechRecognition);
+  },
+
+  escuchar: function (opts) {
+    var R = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (!R) { opts.onError("no-soportado"); return; }
+    this.parar();
+    var r = new R();
+    r.lang = "zh-CN";
+    r.interimResults = true;
+    r.continuous = false;
+    r.maxAlternatives = 3;
+
+    var dicho = "", alternativas = [];
+    r.onresult = function (e) {
+      var parcial = "";
+      for (var i = e.resultIndex; i < e.results.length; i++) {
+        var res = e.results[i];
+        if (res.isFinal) {
+          dicho += res[0].transcript;
+          for (var j = 0; j < res.length; j++) alternativas.push(res[j].transcript);
+        } else parcial += res[0].transcript;
+      }
+      if (opts.onParcial) opts.onParcial(dicho + parcial);
+    };
+    r.onerror = function (e) { if (opts.onError) opts.onError(e.error || "error"); };
+    r.onend = function () {
+      Voz.rec = null;
+      if (opts.onFin) opts.onFin(dicho, alternativas);
+    };
+
+    this.rec = r;
+    try { r.start(); } catch (e) { opts.onError("start"); }
+  },
+
+  parar: function () {
+    if (this.rec) {
+      try { this.rec.abort(); } catch (e) {}
+      this.rec = null;
+    }
+  }
 };
 
 /* ───────────────────────── render de pinyin ───────────────────────── */
@@ -1028,6 +1104,228 @@ var Modes = {
     }
   },
 
+  /* ---- Repetir en voz alta (sólo dentro de un texto) ----
+     El ejercicio del examen oral: la frase suena dos veces, la repites al
+     micrófono y se compara con lo que debía decirse. Mide dos cosas a la vez,
+     que es justo lo que se evalúa: si te acuerdas de la frase y si se te
+     entiende al pronunciarla.
+
+     El reconocimiento devuelve hanzi sin puntuación, así que se compara con el
+     mismo diff palabra a palabra del ejercicio de escribir. No exige un 100%:
+     el reconocedor se come partículas y escribe los números en cifra, y fallar
+     por eso enseñaría a desconfiar del ejercicio, no a hablar mejor. */
+  say: {
+    id: "say", icon: "🎤", name: "Repetir en voz alta",
+    desc: "La escuchas dos veces y la dices al micrófono",
+    soloTexto: true,
+    fits: function (c) {
+      return c.type === "sentence" && pt_hanziCount(c.hanzi) <= 32;
+    },
+    render: function (ctx) {
+      var c = ctx.card, body = ctx.body;
+      var palabras = (c.tokens || []).filter(function (t) { return t.t === "w"; })
+                        .map(function (t) { return t.hanzi; });
+      var card = el("div", "card say-card");
+
+      var prompt = el("div", "prompt-block");
+      prompt.appendChild(el("div", "prompt-label", "Escucha y repítela"));
+      if (c.es) prompt.appendChild(el("div", "prompt-es", c.es));
+      card.appendChild(prompt);
+
+      // Ondas: dicen en qué punto va el ejercicio sin ocupar media pantalla
+      var estado = el("div", "say-state");
+      var onda = el("div", "say-wave");
+      for (var k = 0; k < 5; k++) onda.appendChild(el("i", "", ""));
+      estado.appendChild(onda);
+      var rotulo = el("div", "say-label", "Reproduciendo…");
+      estado.appendChild(rotulo);
+      card.appendChild(estado);
+
+      var oido = el("div", "say-heard");
+      oido.hidden = true;
+      card.appendChild(oido);
+
+      var respuesta = el("div", "say-answer");
+      respuesta.hidden = true;
+      card.appendChild(respuesta);
+
+      body.appendChild(card);
+
+      var resuelto = false, escuchando = false, intentos = 0;
+
+      function modo(cls, texto) {
+        card.className = "card say-card " + cls;
+        rotulo.textContent = texto;
+      }
+
+      /* --- reproducir dos veces --- */
+      function reproducir(despues) {
+        modo("say-playing", "Reproduciendo…");
+        ctx.setActions([]);
+        Speech.speakTwice(c.hanzi, function () {
+          if (resuelto) return;
+          modo("", "Tu turno");
+          if (despues) despues();
+        });
+      }
+
+      /* --- grabar --- */
+      function grabar() {
+        if (resuelto || escuchando) return;
+        if (!Voz.available()) { sinMicro(); return; }
+        Speech.callar();          // que la voz no se oiga a sí misma
+        escuchando = true;
+        intentos++;
+        oido.hidden = false;
+        oido.textContent = "";
+        modo("say-listening", "Te escucho… habla ahora");
+        ctx.setActions([
+          { label: "■  Terminar", cls: "ghost", onClick: function () { Voz.parar(); } },
+        ]);
+
+        Voz.escuchar({
+          onParcial: function (txt) {
+            oido.className = "say-heard hanzi";
+            oido.textContent = txt;
+          },
+          onError: function (err) {
+            escuchando = false;
+            if (err === "not-allowed" || err === "service-not-allowed") {
+              modo("", "Falta el permiso del micrófono");
+              toast("Dale permiso al micrófono en el candado de la barra");
+              sinMicro();
+            } else if (err === "no-soportado") {
+              sinMicro();
+            }
+          },
+          onFin: function (dicho) {
+            escuchando = false;
+            if (resuelto) return;
+            if (!normalizarChino(dicho)) {
+              modo("", "No te escuché");
+              oido.hidden = true;
+              botones();
+              return;
+            }
+            calificar(dicho);
+          }
+        });
+      }
+
+      /* --- comparar lo dicho con la frase --- */
+      function calificar(dicho) {
+        var esperado = normalizarChino(c.hanzi);
+        var mio = normalizarChino(dicho);
+        var difs = compararTokens(
+          segmentar(esperado, palabras),
+          segmentar(mio, palabras)
+        );
+        var bien = 0, total = 0;
+        difs.forEach(function (d) {
+          if (d.op === "ok") { bien += d.w.length; total += d.w.length; }
+          else if (d.op === "falta") total += d.w.length;
+        });
+        var acierto = total ? bien / total : 0;
+        // 85%: el reconocedor se traga 了/的 y escribe 403 en cifra
+        var ok = mio === esperado || acierto >= 0.85;
+        terminar(ok, difs, acierto, dicho);
+      }
+
+      function terminar(ok, difs, acierto, dicho) {
+        if (resuelto) return;
+        resuelto = true;
+        Voz.parar();
+        modo("", ok ? "Bien dicho" : "Casi");
+        estado.hidden = true;
+        oido.hidden = true;          // lo dicho ya sale abajo, en "te oí"
+
+        respuesta.hidden = false;
+        respuesta.innerHTML = "";
+        respuesta.appendChild(el("div", "say-target hanzi", c.hanzi));
+        var py = el("div", "say-py");
+        py.appendChild(renderPinyin(c));
+        respuesta.appendChild(py);
+
+        var extra = document.createDocumentFragment();
+        if (difs) {
+          extra.appendChild(el("div", "say-pct",
+            "Coincidió el " + Math.round(acierto * 100) + " % de la frase"));
+          if (dicho) {
+            var linea = el("div", "diff-legend");
+            linea.textContent = "te oí: " + dicho;
+            extra.appendChild(linea);
+          }
+          var fila = el("div", "diff-row");
+          difs.forEach(function (d) {
+            var cls = d.op === "ok" ? "diff-ok" : d.op === "falta" ? "diff-falta" : "diff-sobra";
+            var n = el("span", "diff-tok hanzi " + cls, d.w);
+            n.title = d.op === "falta" ? "no te lo oí" : d.op === "sobra" ? "dijiste de más" : "bien";
+            fila.appendChild(n);
+          });
+          extra.appendChild(el("div", "diff-legend",
+            "verde: bien · rojo: no te lo oí · tachado: dijiste de más"));
+          extra.appendChild(fila);
+        }
+        if (c.es) extra.appendChild(el("div", "", c.es));
+        ctx.feedback(ok, extra);
+
+        var acciones = [];
+        if (!ok && Voz.available()) {
+          // Antes del examen oral lo que importa es volver a decirla, no
+          // pasar de largo: el reintento vuelve a reproducirla y graba otra vez.
+          acciones.push({
+            label: "🎤  Otra vez", cls: "ghost",
+            onClick: function () {
+              $$(".feedback", body).forEach(function (n) { n.remove(); });
+              respuesta.hidden = true;
+              estado.hidden = false;
+              resuelto = false;
+              reproducir(function () { grabar(); });
+            }
+          });
+        } else {
+          acciones.push({
+            label: "🔊  Oírla otra vez", cls: "ghost",
+            onClick: function () { Speech.speak(c.hanzi); }
+          });
+        }
+        acciones.push({
+          label: "Continuar", cls: ok ? "btn-good" : "btn-bad",
+          onClick: function () { Session.grade(ok && intentos <= 1); }
+        });
+        ctx.setActions(acciones);
+      }
+
+      /* --- sin reconocimiento de voz: te calificas tú --- */
+      function sinMicro() {
+        if (resuelto) return;
+        resuelto = true;
+        estado.hidden = true;
+        respuesta.hidden = false;
+        respuesta.appendChild(el("div", "say-target hanzi", c.hanzi));
+        var py = el("div", "say-py");
+        py.appendChild(renderPinyin(c));
+        respuesta.appendChild(py);
+        if (c.es) respuesta.appendChild(el("div", "say-es", c.es));
+        respuesta.appendChild(el("div", "say-pct",
+          "Este navegador no reconoce voz: dila en alto y compárala tú."));
+        ctx.showGrading();
+      }
+
+      function botones() {
+        var acciones = [
+          { label: "🔊  Otra vez", cls: "ghost",
+            onClick: function () { reproducir(botones); } },
+        ];
+        if (Voz.available()) acciones.push({ label: "🎤  Hablar", cls: "", onClick: grabar });
+        else acciones.push({ label: "Ver la frase", cls: "", onClick: sinMicro });
+        ctx.setActions(acciones);
+      }
+
+      reproducir(botones);
+    }
+  },
+
   /* ---- 5. Reconocer el carácter ---- */
 
   reading: {
@@ -1234,6 +1532,7 @@ var Session = {
 
   renderCurrent: function () {
     var self = this;
+    Voz.parar();                 // que el micrófono no siga abierto de la anterior
     var card = this.card;
     if (!card) return this.finish();
 
@@ -1395,6 +1694,7 @@ var UI = {
   searchTerm: "",
 
   show: function (name) {
+    if (name !== "session") { Voz.parar(); Speech.callar(); }
     ["learn", "library", "settings", "session", "summary"].forEach(function (v) {
       var node = $("#view-" + v);
       if (node) node.hidden = (v !== name);
@@ -1544,10 +1844,21 @@ var UI = {
 
     var cards = deck ? Data.deckCards(deck) : Data.allDue();
 
+    // A qué texto de ESTA lección pertenece la tarjeta (o nada). La etiqueta
+    // va por lección porque hay frases cortas (没关系, 没问题) que también son
+    // vocabulario de una lección vieja.
+    var textoDe = function (c) {
+      return (deck && c.texto && c.texto[deck.id]) || null;
+    };
+    // El mazo principal es el vocabulario: las oraciones de los textos tienen
+    // su propia sección aquí abajo y no hacen falta dos veces.
+    var suelta = function (c) { return !textoDe(c); };
+    var generales = cards.filter(suelta);
+
     Object.keys(Modes).forEach(function (key) {
       var m = Modes[key];
       if (m.soloTexto) return;          // se ofrecen bajo cada texto, no aquí
-      var usable = cards.filter(m.fits).length;
+      var usable = generales.filter(m.fits).length;
       var b = el("button", "mode");
       if (!usable) b.setAttribute("disabled", "");
       b.appendChild(el("div", "mode-ico", m.icon));
@@ -1563,7 +1874,7 @@ var UI = {
       b.appendChild(txt);
       b.onclick = function () {
         $("#mode-sheet").hidden = true;
-        Session.start(deck, m.id);
+        Session.start(deck, m.id, suelta);
       };
       list.appendChild(b);
     });
@@ -1573,13 +1884,14 @@ var UI = {
     // vocabulario y su diálogo viven juntos.
     var textos = [];
     cards.forEach(function (c) {
-      if (c.texto && textos.indexOf(c.texto) < 0) textos.push(c.texto);
+      var t = textoDe(c);
+      if (t && textos.indexOf(t) < 0) textos.push(t);
     });
     if (textos.length) {
       textos.sort();          // Texto 1 antes que Texto 2
       list.appendChild(el("div", "mode-sep", "Textos de la lección"));
       textos.forEach(function (t) {
-        var deEsteTexto = function (c) { return c.texto === t; };
+        var deEsteTexto = function (c) { return textoDe(c) === t; };
         var n = cards.filter(deEsteTexto).length;
         var b = el("button", "mode");
         b.appendChild(el("div", "mode-ico", "📖"));
