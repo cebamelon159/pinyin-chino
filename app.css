@@ -719,9 +719,23 @@ button { cursor: pointer; border: none; background: none; }
 .say-listening .say-label { color: var(--bad); }
 
 /* Lo que va reconociendo mientras hablas */
+.say-live {
+  align-self: stretch;
+  margin-top: 12px; padding: 12px 14px; border-radius: 12px;
+  background: var(--bg-alt); border: 1px dashed var(--border);
+}
+.say-live-label {
+  font-size: 10px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--text-soft);
+}
 .say-heard {
-  min-height: 26px; margin-top: 10px; font-size: 20px;
-  color: var(--text-soft); word-break: break-word;
+  min-height: 30px; margin-top: 6px; font-size: 22px; line-height: 1.4;
+  color: var(--text); word-break: break-word;
+}
+/* Provisional: el reconocedor todavía puede cambiar de opinión */
+.say-heard.vacilando { color: var(--text-soft); }
+.say-heard:empty::after {
+  content: "…"; color: var(--text-soft); font-size: 22px;
 }
 
 .say-answer { margin-top: 6px; }
@@ -737,6 +751,7 @@ button { cursor: pointer; border: none; background: none; }
 
 /* Por qué no funcionó el micrófono */
 .say-error {
+  align-self: stretch;
   margin-top: 14px; padding: 12px 14px; border-radius: 12px;
   background: var(--warn-bg); color: var(--warn); text-align: left;
 }

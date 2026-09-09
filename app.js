@@ -427,6 +427,10 @@ var Voz = {
     // Chrome corta a los pocos segundos si no oye nada. Que se acabe la
     // grabación porque tardaste en arrancar no es un fallo tuyo: se reintenta.
     var reintentos = opts.reintentos == null ? 2 : opts.reintentos;
+    // En continuo no se cierra al primer silencio. Hace falta para una frase
+    // larga con comas: al respirar en medio, el modo normal la daba por
+    // terminada y perdía la segunda mitad.
+    var continuo = !!opts.continuo;
 
     this.permiso(arrancar, function (err) { opts.onError(err); });
 
@@ -434,8 +438,8 @@ var Voz = {
       self.parar();
       var r = new R();
       r.lang = "zh-CN";
-      r.interimResults = true;
-      r.continuous = false;
+      r.interimResults = true;      // sin esto no hay transcripción en vivo
+      r.continuous = continuo;
       r.maxAlternatives = 3;
 
       var dicho = "", err = null;
@@ -448,7 +452,9 @@ var Voz = {
           if (res.isFinal) dicho += res[0].transcript;
           else parcial += res[0].transcript;
         }
-        if (opts.onParcial) opts.onParcial(dicho + parcial);
+        // Se manda lo cerrado + lo que aún está en el aire: es lo que se pinta
+        // mientras hablas, letra a letra.
+        if (opts.onParcial) opts.onParcial(dicho + parcial, !!parcial);
       };
       r.onerror = function (e) { err = e.error || "error"; };
       r.onend = function () {
@@ -1198,10 +1204,10 @@ var Modes = {
   say: {
     id: "say", icon: "🎤", name: "Repetir en voz alta",
     desc: "La escuchas dos veces y la dices al micrófono",
-    soloTexto: true,
-    fits: function (c) {
-      return c.type === "sentence" && pt_hanziCount(c.hanzi) <= 32;
-    },
+    // Éste sí sale en la lista general Y colgando de cada texto: pronunciar
+    // vale igual para una palabra suelta que para una frase del diálogo.
+    tambienTexto: true,
+    fits: function (c) { return pt_hanziCount(c.hanzi) > 0 && pt_hanziCount(c.hanzi) <= 32; },
     render: function (ctx) {
       var c = ctx.card, body = ctx.body;
       var palabras = (c.tokens || []).filter(function (t) { return t.t === "w"; })
@@ -1225,9 +1231,15 @@ var Modes = {
       estado.appendChild(rotulo);
       card.appendChild(estado);
 
-      var oido = el("div", "say-heard");
-      oido.hidden = true;
-      card.appendChild(oido);
+      // Lo que se va oyendo, en vivo. Se pinta mientras hablas: ver aparecer
+      // los caracteres es la mitad del ejercicio, porque enseña en qué sílaba
+      // exacta te entendió otra cosa.
+      var vivo = el("div", "say-live");
+      vivo.hidden = true;
+      vivo.appendChild(el("div", "say-live-label", "Vas diciendo"));
+      var oido = el("div", "say-heard hanzi");
+      vivo.appendChild(oido);
+      card.appendChild(vivo);
 
       var fallo = el("div", "say-error");
       fallo.hidden = true;
@@ -1240,6 +1252,17 @@ var Modes = {
       body.appendChild(card);
 
       var resuelto = false, escuchando = false, intentos = 0;
+      var relojSilencio = null;
+
+      /* En continuo el reconocedor no se cierra solo. Se cierra aquí, cuando
+         llevas un rato callado: así una frase con comas no se corta al
+         respirar, pero tampoco hay que darle a un botón cada vez. */
+      function silencio() {
+        clearTimeout(relojSilencio);
+        relojSilencio = setTimeout(function () {
+          if (escuchando) Voz.terminar();
+        }, 2200);
+      }
 
       function modo(cls, texto) {
         card.className = "card say-card " + cls;
@@ -1266,8 +1289,9 @@ var Modes = {
         intentos++;
         fallo.hidden = true;
         fallo.innerHTML = "";
-        oido.hidden = false;
+        vivo.hidden = false;
         oido.textContent = "";
+        oido.classList.remove("vacilando");
         modo("say-listening", "Abriendo el micrófono…");
         ctx.setActions([
           // stop() cierra el micrófono conservando lo dicho; abort() lo tiraba
@@ -1275,18 +1299,26 @@ var Modes = {
         ]);
 
         Voz.escuchar({
-          onListo: function () { modo("say-listening", "Te escucho… habla ahora"); },
+          continuo: true,
+          onListo: function () {
+            modo("say-listening", "Te escucho… habla ahora");
+            clearTimeout(relojSilencio);      // el arranque no cuenta como pausa
+          },
           onAviso: function (t) { modo("say-listening", t); },
-          onParcial: function (txt) {
-            oido.className = "say-heard hanzi";
+          onParcial: function (txt, provisional) {
             oido.textContent = txt;
+            // lo provisional se ve más flojo: aún puede cambiar
+            oido.classList.toggle("vacilando", provisional);
+            silencio();
           },
           onError: function (err) {
             escuchando = false;
+            clearTimeout(relojSilencio);
             problema(err);
           },
           onFin: function (dicho) {
             escuchando = false;
+            clearTimeout(relojSilencio);
             if (resuelto) return;
             if (!normalizarChino(dicho)) { problema("no-speech"); return; }
             calificar(dicho);
@@ -1300,7 +1332,8 @@ var Modes = {
       function problema(err) {
         if (resuelto) return;
         modo("", "El micrófono no captó nada");
-        oido.hidden = true;
+        clearTimeout(relojSilencio);
+        vivo.hidden = true;
         fallo.hidden = false;
         fallo.innerHTML = "";
         fallo.appendChild(el("div", "say-err-msg", Voz.explica(err)));
@@ -1337,8 +1370,9 @@ var Modes = {
         resuelto = true;
         Voz.parar();
         modo("", ok ? "Bien dicho" : "Casi");
+        clearTimeout(relojSilencio);
         estado.hidden = true;
-        oido.hidden = true;          // lo dicho ya sale abajo, en "te oí"
+        vivo.hidden = true;          // lo dicho ya sale abajo, en "te oí"
 
         respuesta.hidden = false;
         respuesta.innerHTML = "";
@@ -1404,8 +1438,9 @@ var Modes = {
         if (resuelto) return;
         resuelto = true;
         Voz.parar();
+        clearTimeout(relojSilencio);
         estado.hidden = true;
-        oido.hidden = true;
+        vivo.hidden = true;
         fallo.hidden = true;
         respuesta.hidden = false;
         respuesta.innerHTML = "";
@@ -2013,7 +2048,7 @@ var UI = {
         // Los ejercicios de producción del texto, sangrados debajo
         Object.keys(Modes).forEach(function (k2) {
           var m2 = Modes[k2];
-          if (!m2.soloTexto) return;
+          if (!m2.soloTexto && !m2.tambienTexto) return;
           var aptas = cards.filter(deEsteTexto).filter(m2.fits).length;
           if (!aptas) return;
           var sub = el("button", "mode mode-sub");
