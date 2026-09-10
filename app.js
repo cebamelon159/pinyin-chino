@@ -825,6 +825,102 @@ function otraConMismaEstructura(card) {
   return shuffle(candidatas)[0];
 }
 
+
+/* ────────── estructuras que se evalúan en el oral ──────────
+   Salen de la diapositiva del examen, una lista por lección. El detector es
+   deliberadamente tosco: busca la marca de la estructura (把, 比, 得…) en lo
+   que dijiste. Puede dar un falso positivo —你的 también lleva 的— y prefiero
+   eso a no marcar nada: sirve para recordarte qué te falta meter, no para
+   ponerte la nota. */
+var ESTRUCTURAS_ORAL = {
+  11: [
+    { pat: "V + 得 + adj", ej: "他说得很好。",
+      test: function (t) { return /得/.test(t); } },
+    { pat: "V + 了", ej: "我买了三个苹果。",
+      test: function (t) { return /了/.test(t); } },
+    { pat: "V+V · V一V · V了V", ej: "你看看。",
+      test: function (t) { return /(.)\1/.test(t) || /(.)[一了]\1/.test(t); } }
+  ],
+  12: [
+    { pat: "V + complemento de resultado", ej: "写完、没看到",
+      test: function (t) { return /(完|错|懂|清楚|见)/.test(t) || /(看|听|写|做|买)到/.test(t); } },
+    { pat: "V + 来 / 去", ej: "你进来。回学校去。",
+      test: function (t) { return /(来|去)/.test(t); } },
+    { pat: "还是 (pregunta de alternativa)", ej: "航空还是海运？",
+      test: function (t) { return /还是/.test(t); } }
+  ],
+  13: [
+    { pat: "把 + O + V + 在/到/给", ej: "把书放在桌子上。",
+      test: function (t) { return /把/.test(t); } },
+    { pat: "V + complemento de duración", ej: "学了三个小时汉语。",
+      test: function (t) { return /(小时|分钟|多长时间|半天|个月|年)/.test(t); } },
+    { pat: "又…又…", ej: "又快又舒服。",
+      test: function (t) { return /又.{1,4}又/.test(t); } }
+  ],
+  14: [
+    { pat: "X 比 Y + adj", ej: "我比你大。",
+      test: function (t) { return /比/.test(t); } },
+    { pat: "X 比 Y + adj + complemento", ej: "我比你大三岁。",
+      test: function (t) { return /比.{1,8}(岁|公分|多了|一点儿|一些|两|三)/.test(t); } },
+    { pat: '的 (红的、我的)', ej: "我想要长一点儿的。",
+      test: function (t) { return /的/.test(t); } }
+  ]
+};
+
+function estructurasDe(deck) {
+  var n = deck && /^L(\d+)$/.exec(deck.id);
+  var lista = n ? ESTRUCTURAS_ORAL[parseInt(n[1], 10)] : null;
+  if (lista) return lista;
+  var todas = [];
+  Object.keys(ESTRUCTURAS_ORAL).forEach(function (k) {
+    todas = todas.concat(ESTRUCTURAS_ORAL[k]);
+  });
+  return todas;
+}
+
+/* Las "palabras dadas" de la imagen.
+
+   Se tiran primero del vocabulario que entra del libro —que es justo lo que
+   la profesora escribe al lado de la lámina— y de ese, lo que aparece en
+   este texto. Sacarlas del texto a secas daba 谢谢 y 漂亮: palabras que
+   están ahí pero que no se está evaluando. */
+function palabrasDeLaEscena(deck, escena, cuantas) {
+  var enTexto = {};
+  escena.forEach(function (c) {
+    (c.tokens || []).forEach(function (t) {
+      if (t.t === "w" && t.hanzi.length > 1) enTexto[t.hanzi] = true;
+    });
+  });
+
+  var delLibro = (deck ? Data.deckCards(deck) : []).filter(function (c) {
+    var e = c.especial && deck && c.especial[deck.id];
+    return e && e.indexOf("Vocabulario") >= 0 && c.type === "word" && c.es;
+  });
+
+  var dentro = delLibro.filter(function (c) { return enTexto[c.hanzi]; });
+  var fuera  = delLibro.filter(function (c) { return !enTexto[c.hanzi]; });
+
+  var elegidas = shuffle(dentro).slice(0, cuantas);
+  if (elegidas.length < cuantas) {
+    elegidas = elegidas.concat(shuffle(fuera).slice(0, cuantas - elegidas.length));
+  }
+  if (!elegidas.length) {
+    // mazo sin vocabulario del libro: se cae a lo que haya en el texto
+    var sueltas = Object.keys(enTexto).map(function (h) {
+      return Data.cards.filter(function (c) {
+        return c.hanzi === h && c.type === "word" && c.es;
+      })[0];
+    }).filter(Boolean);
+    elegidas = shuffle(sueltas).slice(0, cuantas);
+  }
+  // las que tienen dibujo primero: la escena se parece más a una lámina
+  return elegidas.sort(function (a, b) {
+    var peso = function (c) { return c.image ? 2 : c.emoji ? 1 : 0; };
+    return peso(b) - peso(a);
+  });
+}
+
+
 /* ───────────────────────── ejercicios ───────────────────────── */
 /* Cada modo declara si una tarjeta le sirve (`fits`) y cómo se dibuja.
    La sesión sólo orquesta; así añadir un ejercicio no toca el resto. */
@@ -1466,6 +1562,199 @@ var Modes = {
     }
   },
 
+  /* ---- Hablar un minuto sobre la escena (parte 2 del oral) ----
+     La segunda parte del examen vale el 60 %: te ponen una imagen con unas
+     palabras y estructuras dadas y hablas un minuto seguido, pensar incluido.
+
+     Por eso este ejercicio no va tarjeta a tarjeta: `porGrupo` hace que toda
+     la sección sea UN turno. La "imagen" son las palabras del texto con su
+     dibujo, que es lo más cerca que puedo poner de la lámina de clase. */
+  talk: {
+    id: "talk", icon: "🖼️", name: "Hablar un minuto",
+    desc: "Un minuto seguido sobre la escena, con las estructuras dadas",
+    soloTexto: true,
+    porGrupo: true,
+    fits: function (c) { return c.type === "sentence" || !!c.es; },
+    render: function (ctx) {
+      var body = ctx.body;
+      var escena = ctx.card.escena || [];
+      var palabras = palabrasDeLaEscena(Session.deck, escena, 8);
+      var estructuras = estructurasDe(Session.deck);
+      var SEGUNDOS = 60;
+
+      var card = el("div", "card talk-card");
+      card.appendChild(el("div", "prompt-label", "Habla un minuto"));
+      card.appendChild(el("div", "talk-scene", ctx.card.es || ""));
+
+      // --- las palabras dadas, como fichas ---
+      var grid = el("div", "talk-words");
+      palabras.forEach(function (p) {
+        var f = el("div", "talk-word");
+        var ilo = renderIllustration(p, "small");
+        if (ilo) f.appendChild(ilo);
+        f.appendChild(el("div", "tw-hz hanzi", p.hanzi));
+        f.appendChild(el("div", "tw-py", plainPinyin(p)));
+        f.appendChild(el("div", "tw-es", (p.es || "").split(" /")[0]));
+        f.dataset.hanzi = p.hanzi;
+        grid.appendChild(f);
+      });
+      card.appendChild(grid);
+
+      // --- las estructuras obligatorias ---
+      var lista = el("div", "talk-structs");
+      lista.appendChild(el("div", "talk-sub", "Tienes que usar"));
+      estructuras.forEach(function (e, i) {
+        var fila = el("div", "talk-struct");
+        fila.dataset.idx = i;
+        fila.appendChild(el("span", "ts-mark", "○"));
+        var t = el("div", "");
+        t.appendChild(el("b", "", e.pat));
+        t.appendChild(el("span", "ts-ej hanzi", e.ej));
+        fila.appendChild(t);
+        lista.appendChild(fila);
+      });
+      card.appendChild(lista);
+
+      var reloj = el("div", "talk-timer", "1:00");
+      card.appendChild(reloj);
+
+      var vivo = el("div", "say-live");
+      vivo.hidden = true;
+      vivo.appendChild(el("div", "say-live-label", "Vas diciendo"));
+      var oido = el("div", "say-heard hanzi");
+      vivo.appendChild(oido);
+      card.appendChild(vivo);
+
+      body.appendChild(card);
+
+      var dicho = "", corriendo = false, resuelto = false, restante = SEGUNDOS;
+      var tic = null;
+
+      function pinta() {
+        var m = Math.floor(restante / 60), s = restante % 60;
+        reloj.textContent = m + ":" + (s < 10 ? "0" : "") + s;
+        reloj.classList.toggle("poco", restante <= 10);
+      }
+
+      /* El marcado va en vivo: ver encenderse 把 mientras hablas es lo que
+         te empuja a meter la siguiente estructura antes de que se acabe. */
+      function marca(texto) {
+        estructuras.forEach(function (e, i) {
+          var fila = lista.querySelector('[data-idx="' + i + '"]');
+          var ok = e.test(texto);
+          fila.classList.toggle("hecho", ok);
+          fila.querySelector(".ts-mark").textContent = ok ? "●" : "○";
+        });
+        $$(".talk-word", grid).forEach(function (n) {
+          n.classList.toggle("dicha", texto.indexOf(n.dataset.hanzi) >= 0);
+        });
+      }
+
+      function arranca() {
+        if (corriendo || resuelto) return;
+        corriendo = true;
+        Speech.callar();
+        vivo.hidden = false;
+        oido.textContent = "";
+        card.classList.add("talk-live");
+        pinta();
+        tic = setInterval(function () {
+          restante--;
+          pinta();
+          if (restante <= 0) termina();
+        }, 1000);
+
+        if (Voz.available()) {
+          Voz.escuchar({
+            continuo: true,
+            reintentos: 3,
+            onParcial: function (txt, provisional) {
+              dicho = txt;
+              oido.textContent = txt;
+              oido.classList.toggle("vacilando", provisional);
+              marca(normalizarChino(txt));
+            },
+            onError: function (err) {
+              oido.textContent = "";
+              vivo.hidden = true;
+              toast(Voz.explica(err));
+            },
+            onFin: function (t) { if (t) { dicho = t; marca(normalizarChino(t)); } }
+          });
+        } else {
+          vivo.hidden = true;
+        }
+
+        ctx.setActions([
+          { label: "■  Ya terminé", cls: "ghost", onClick: termina }
+        ]);
+      }
+
+      function termina() {
+        if (resuelto) return;
+        resuelto = true;
+        corriendo = false;
+        clearInterval(tic);
+        Voz.parar();
+        card.classList.remove("talk-live");
+        reloj.textContent = "⏱ se acabó";
+
+        var texto = normalizarChino(dicho);
+        marca(texto);
+
+        var usadas = palabras.filter(function (p) { return texto.indexOf(p.hanzi) >= 0; });
+        var hechas = estructuras.filter(function (e) { return e.test(texto); });
+        // el listón: la mitad de las palabras dadas y dos estructuras
+        var ok = usadas.length >= Math.ceil(palabras.length / 2) && hechas.length >= 2;
+
+        var extra = document.createDocumentFragment();
+        if (Voz.available() && texto) {
+          extra.appendChild(el("div", "talk-score",
+            usadas.length + " de " + palabras.length + " palabras dadas · " +
+            hechas.length + " de " + estructuras.length + " estructuras"));
+          var faltan = palabras.filter(function (p) { return texto.indexOf(p.hanzi) < 0; });
+          if (faltan.length) {
+            extra.appendChild(el("div", "diff-legend", "no dijiste:"));
+            var fila = el("div", "diff-row");
+            faltan.forEach(function (p) {
+              fila.appendChild(el("span", "diff-tok hanzi diff-falta", p.hanzi));
+            });
+            extra.appendChild(fila);
+          }
+          extra.appendChild(el("div", "diff-legend", "te oí:"));
+          extra.appendChild(el("div", "talk-said hanzi", dicho));
+        } else {
+          extra.appendChild(el("div", "talk-score",
+            "Sin micrófono no puedo comprobarlo: mira arriba qué palabras y " +
+            "estructuras usaste y decide tú."));
+        }
+        ctx.feedback(ok, extra);
+
+        if (!Voz.available() || !texto) {
+          ctx.showGrading();
+        } else {
+          ctx.setActions([
+            { label: "↻  Otra vez", cls: "ghost", onClick: function () {
+                $$(".feedback", body).forEach(function (n) { n.remove(); });
+                resuelto = false; restante = SEGUNDOS; dicho = "";
+                oido.textContent = "";
+                marca("");
+                pinta();
+                arranca();
+              } },
+            { label: "Continuar", cls: ok ? "btn-good" : "btn-bad",
+              onClick: function () { Session.grade(ok); } }
+          ]);
+        }
+      }
+
+      pinta();
+      ctx.setActions([
+        { label: "▶  Empezar el minuto", cls: "", onClick: arranca }
+      ]);
+    }
+  },
+
   /* ---- 5. Reconocer el carácter ---- */
 
   reading: {
@@ -1642,6 +1931,21 @@ var Session = {
     if (!cards.length) {
       toast("No hay tarjetas para este ejercicio");
       return;
+    }
+
+    // Hay ejercicios que no van tarjeta a tarjeta sino sobre la sección
+    // entera —hablar un minuto de la escena—: la cola es un único turno que
+    // lleva dentro todas sus tarjetas.
+    if (mode.porGrupo) {
+      var seccion = cards;
+      var titulo = (deck && seccion[0].texto && seccion[0].texto[deck.id])
+                   || (deck ? deck.name : "Repaso");
+      cards = [{
+        id: "escena-" + (deck ? deck.id : "libre") + "-" + titulo,
+        hanzi: "", pinyin: "", es: titulo, type: "escena",
+        tokens: [], decks: [], escena: seccion,
+        stats: { studyCount: 0, correctCount: 0, lastStudiedAt: null }
+      }];
     }
 
     // primero lo que toca repasar, luego lo nuevo, y se corta por el límite
