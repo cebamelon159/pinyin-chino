@@ -442,15 +442,27 @@ var Voz = {
       r.continuous = continuo;
       r.maxAlternatives = 3;
 
-      var dicho = "", err = null;
+      var dicho = "", err = null, alternativas = [];
 
       r.onstart = function () { if (opts.onListo) opts.onListo(); };
       r.onresult = function (e) {
+        // Se reconstruye TODO desde e.results en cada evento, en vez de ir
+        // sumando desde e.resultIndex. En modo continuo Chrome vuelve a
+        // entregar tramos ya cerrados, y sumando salía '今天今天' cuando sólo
+        // se había dicho una vez. Rehacerlo entero no puede duplicar nada.
         var parcial = "";
-        for (var i = e.resultIndex; i < e.results.length; i++) {
+        dicho = "";
+        alternativas = [];
+        for (var i = 0; i < e.results.length; i++) {
           var res = e.results[i];
-          if (res.isFinal) dicho += res[0].transcript;
-          else parcial += res[0].transcript;
+          if (res.isFinal) {
+            dicho += res[0].transcript;
+            var otras = [];
+            for (var j = 0; j < res.length; j++) otras.push(res[j].transcript);
+            alternativas.push(otras);
+          } else {
+            parcial += res[0].transcript;
+          }
         }
         // Se manda lo cerrado + lo que aún está en el aire: es lo que se pinta
         // mientras hablas, letra a letra.
@@ -467,7 +479,7 @@ var Voz = {
         }
         if (!dicho && err) { opts.onError(err); return; }
         if (!dicho && self.cancelado) { opts.onError("aborted"); return; }
-        if (opts.onFin) opts.onFin(dicho);
+        if (opts.onFin) opts.onFin(dicho, alternativas);
       };
 
       self.rec = r;
@@ -749,7 +761,39 @@ function enableSwipe(node, onLeft, onRight) {
 /* Para comparar dos frases hay que ignorar la puntuación: si escribes 。 o .
    o nada, la frase es la misma. Los espacios tampoco cuentan. */
 function normalizarChino(s) {
-  return (s || "").replace(/[\s，。！？、；：""''（）《》…—,.!?;:()"'\[\]]/g, "");
+  return normalizarNumeros(s || "")
+    .replace(/[\s，。！？、；：""''（）《》…—,.!?;:()"'\[\]]/g, "");
+}
+
+/* El reconocedor devuelve los números en cifra: dices 一百 y escribe "100",
+   y comparando carácter a carácter eso contaba como fallo aunque lo hubieras
+   dicho perfecto. Se pasan a caracteres los dos lados, así 403 y 四百零三 son
+   lo mismo se escriba como se escriba. */
+var _DIG = "零一二三四五六七八九".split("");
+
+function numeroAChino(n) {
+  if (n < 10) return _DIG[n];
+  if (n < 20) return "十" + (n % 10 ? _DIG[n % 10] : "");
+  if (n < 100) return _DIG[Math.floor(n / 10)] + "十" + (n % 10 ? _DIG[n % 10] : "");
+  if (n < 1000) {
+    var r = n % 100, c = _DIG[Math.floor(n / 100)] + "百";
+    if (!r) return c;
+    return c + (r < 10 ? "零" + _DIG[r] : numeroAChino(r));
+  }
+  if (n < 10000) {
+    var r2 = n % 1000, m = _DIG[Math.floor(n / 1000)] + "千";
+    if (!r2) return m;
+    return m + (r2 < 100 ? "零" + numeroAChino(r2) : numeroAChino(r2));
+  }
+  return String(n);
+}
+
+function normalizarNumeros(s) {
+  return s.replace(/\d+/g, function (d) {
+    var n = parseInt(d, 10);
+    // un número largo (403 de la habitación pasa, un DNI no) se deja como está
+    return (isFinite(n) && d.length <= 4) ? numeroAChino(n) : d;
+  });
 }
 
 /* Vocabulario para partir lo que escribe el usuario. Se construye una vez con
@@ -1412,12 +1456,12 @@ var Modes = {
             clearTimeout(relojSilencio);
             problema(err);
           },
-          onFin: function (dicho) {
+          onFin: function (dicho, alternativas) {
             escuchando = false;
             clearTimeout(relojSilencio);
             if (resuelto) return;
             if (!normalizarChino(dicho)) { problema("no-speech"); return; }
-            calificar(dicho);
+            calificar(dicho, alternativas);
           }
         });
       }
@@ -1443,9 +1487,9 @@ var Modes = {
       }
 
       /* --- comparar lo dicho con la frase --- */
-      function calificar(dicho) {
+      function puntua(texto) {
         var esperado = normalizarChino(c.hanzi);
-        var mio = normalizarChino(dicho);
+        var mio = normalizarChino(texto);
         var difs = compararTokens(
           segmentar(esperado, palabras),
           segmentar(mio, palabras)
@@ -1455,10 +1499,38 @@ var Modes = {
           if (d.op === "ok") { bien += d.w.length; total += d.w.length; }
           else if (d.op === "falta") total += d.w.length;
         });
-        var acierto = total ? bien / total : 0;
-        // 85%: el reconocedor se traga 了/的 y escribe 403 en cifra
-        var ok = mio === esperado || acierto >= 0.85;
-        terminar(ok, difs, acierto, dicho);
+        return {
+          difs: difs, texto: texto,
+          exacto: mio === esperado,
+          acierto: total ? bien / total : 0
+        };
+      }
+
+      /* El reconocedor devuelve varias lecturas del mismo audio y la primera
+         no siempre es la mejor: para 英镑 ofrecía 硬盘 arriba y la buena
+         debajo. Se prueban todas y gana la que más se parece a la frase. */
+      function candidatos(dicho, alternativas) {
+        var lista = [dicho];
+        (alternativas || []).forEach(function (tramo, i) {
+          for (var j = 1; j < tramo.length && j < 4; j++) {
+            var copia = alternativas.map(function (t, k) {
+              return k === i ? tramo[j] : t[0];
+            }).join("");
+            if (lista.indexOf(copia) < 0) lista.push(copia);
+          }
+        });
+        return lista.slice(0, 10);
+      }
+
+      function calificar(dicho, alternativas) {
+        var mejor = null;
+        candidatos(dicho, alternativas).forEach(function (t) {
+          var p = puntua(t);
+          if (!mejor || p.acierto > mejor.acierto) mejor = p;
+        });
+        // 85%: el reconocedor se traga 了/的 y confunde tonos parecidos
+        var ok = mejor.exacto || mejor.acierto >= 0.85;
+        terminar(ok, mejor.difs, mejor.acierto, mejor.texto);
       }
 
       function terminar(ok, difs, acierto, dicho) {
