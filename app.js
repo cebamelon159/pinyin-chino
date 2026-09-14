@@ -765,6 +765,38 @@ function normalizarChino(s) {
     .replace(/[\s，。！？、；：""''（）《》…—,.!?;:()"'\[\]]/g, "");
 }
 
+/* Red de seguridad contra la duplicación del reconocedor.
+
+   Aunque ya no se acumula mal (se rehace la transcripción entera en cada
+   evento), algunos Android reentregan tramos cerrados y salían cosas como
+   「不会啊不会啊我们刚通了电话」. Aquí se colapsa un bloque repetido pegado a
+   sí mismo.
+
+   Dos cerrojos para no romper el chino de verdad: bloques de 2 caracteres o
+   más —así 谢谢, 看看 y 试试, que son de uno, quedan intactos— y nunca se
+   colapsa algo que la propia frase esperada repite, que es lo que salva
+   「你给我介绍介绍吧」 y 「商量商量」. */
+function colapsaRepetidos(texto, esperado) {
+  var s = texto || "";
+  esperado = esperado || "";
+  var cambiado = true, vueltas = 0;
+  while (cambiado && vueltas++ < 40) {
+    cambiado = false;
+    var max = Math.floor(s.length / 2);
+    for (var len = max; len >= 2 && !cambiado; len--) {
+      for (var i = 0; i + 2 * len <= s.length; i++) {
+        var bloque = s.substr(i, len);
+        if (bloque !== s.substr(i + len, len)) continue;
+        if (esperado.indexOf(bloque + bloque) >= 0) continue;   // repetición legítima
+        s = s.slice(0, i + len) + s.slice(i + 2 * len);
+        cambiado = true;
+        break;
+      }
+    }
+  }
+  return s;
+}
+
 /* El reconocedor devuelve los números en cifra: dices 一百 y escribe "100",
    y comparando carácter a carácter eso contaba como fallo aunque lo hubieras
    dicho perfecto. Se pasan a caracteres los dos lados, así 403 y 四百零三 son
@@ -1489,7 +1521,7 @@ var Modes = {
       /* --- comparar lo dicho con la frase --- */
       function puntua(texto) {
         var esperado = normalizarChino(c.hanzi);
-        var mio = normalizarChino(texto);
+        var mio = colapsaRepetidos(normalizarChino(texto), esperado);
         var difs = compararTokens(
           segmentar(esperado, palabras),
           segmentar(mio, palabras)
@@ -1500,7 +1532,7 @@ var Modes = {
           else if (d.op === "falta") total += d.w.length;
         });
         return {
-          difs: difs, texto: texto,
+          difs: difs, texto: mio,        // ya limpio: es lo que se enseña en "te oí"
           exacto: mio === esperado,
           acierto: total ? bien / total : 0
         };
@@ -2719,6 +2751,20 @@ function bindEvents() {
       }
     });
   };
+  /* Qué versión está instalada de verdad. El service worker sirve de su
+     caché, así que "ya lo actualicé" y "el celular está usando lo nuevo" no
+     son lo mismo; sin esto no había forma de saber cuál de las dos era. */
+  (function () {
+    var caja = $("#build-info");
+    if (!caja) return;
+    fetch("sw.js", { cache: "no-store" }).then(function (r) { return r.text(); })
+      .then(function (t) {
+        var m = /var BUILD = "([^"]+)"/.exec(t);
+        caja.textContent = "Versión instalada: " + (m ? m[1] : "desconocida");
+      })
+      .catch(function () { caja.textContent = "Versión instalada: sin conexión"; });
+  }());
+
   $("#btn-check-updates").onclick = function () {
     toast("Buscando…");
     Data.checkForUpdates(true);
@@ -2839,6 +2885,8 @@ window.Pinyin = {
   checkPinyin: checkPinyin,
   splitSyllables: splitSyllables,
   stripTones: stripTones,
+  colapsaRepetidos: colapsaRepetidos,
+  normalizarChino: normalizarChino,
   Data: Data, Store: Store, SRS: SRS, Session: Session, UI: UI, Speech: Speech
 };
 

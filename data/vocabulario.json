@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-09-09T01:13:53",
+ "generated": "2026-09-14T10:35:27",
  "decks": [
   {
    "id": "L14",
@@ -458,6 +458,7 @@
     "c621173b057285c314e0a53bb",
     "c6ca151737cfb53ef80fd662f62116ca18bf46e05",
     "c8f9b82e660a84e86",
+    "c5bc4",
     "c6211898190017ed9621172387238",
     "c5bf94e0d8d7762116ca1542c6e05695a8bf7518d",
     "c60a88fd85f977b7e4e2a5b575c317b7e57288fd9",
@@ -663,7 +664,6 @@
     "c5b664e864e0053e5963f62c952ff61c2",
     "c4f608bf44ec04e4862114e0d61c2",
     "c8fd95c31662f4e0a6d778bdd768462114e0d61c2",
-    "c4e66",
     "c4f6067655f97771f65e9",
     "c4f60572890a3513f54035f97597d4e0d597d",
     "c4ed64eec666e901a8bdd8bf45f97600e4e486837",
@@ -1331,6 +1331,7 @@
     "c773c955c",
     "c4f1e",
     "c62a57eb8",
+    "c4e66",
     "c71677247",
     "c716776f8673a",
     "c5b575178",
@@ -5569,9 +5570,6 @@
     "studyCount": 4,
     "correctCount": 4,
     "lastStudiedAt": 1786305764976
-   },
-   "especial": {
-    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -7647,16 +7645,16 @@
   {
    "id": "c6570",
    "hanzi": "数",
-   "pinyin": "shù",
+   "pinyin": "shǔ",
    "tokens": [
     {
      "t": "w",
      "hanzi": "数",
-     "pinyin": "shù",
+     "pinyin": "shǔ",
      "syl": [
       [
-       "shù",
-       4
+       "shǔ",
+       3
       ]
      ]
     }
@@ -7678,7 +7676,9 @@
     "correctCount": 8,
     "lastStudiedAt": 1784732774762
    },
-   "pinyinOriginal": "shǔ"
+   "especial": {
+    "L11": "📕 Vocabulario del libro"
+   }
   },
   {
    "id": "c65875316",
@@ -10002,12 +10002,16 @@
    "type": "word",
    "lesson": 10,
    "decks": [
+    "L12",
     "L10"
    ],
    "stats": {
     "studyCount": 5,
     "correctCount": 5,
     "lastStudiedAt": 1781621316306
+   },
+   "especial": {
+    "L12": "📕 Vocabulario del libro"
    }
   },
   {
@@ -34703,7 +34707,7 @@
   {
    "id": "c7ed960a88fd9662f56db53434e09767e4e035341",
    "hanzi": "给您，这是四千三百七十八块人民币，请数一数。",
-   "pinyin": "gěi nín， zhè shì sìqiān sānbǎi qīshíbā kuài rénmínbì， qǐng shù yí shù。",
+   "pinyin": "gěi nín， zhè shì sìqiān sānbǎi qīshíbā kuài rénmínbì， qǐng shǔ yì shǔ。",
    "tokens": [
     {
      "t": "w",
@@ -34850,33 +34854,33 @@
     {
      "t": "w",
      "hanzi": "数",
-     "pinyin": "shù",
+     "pinyin": "shǔ",
      "syl": [
       [
-       "shù",
-       4
+       "shǔ",
+       3
       ]
      ]
     },
     {
      "t": "w",
      "hanzi": "一",
-     "pinyin": "yí",
+     "pinyin": "yì",
      "syl": [
       [
-       "yí",
-       2
+       "yì",
+       4
       ]
      ]
     },
     {
      "t": "w",
      "hanzi": "数",
-     "pinyin": "shù",
+     "pinyin": "shǔ",
      "syl": [
       [
-       "shù",
-       4
+       "shǔ",
+       3
       ]
      ]
     },
@@ -34902,6 +34906,7 @@
     "correctCount": 0,
     "lastStudiedAt": null
    },
+   "toneHint": "gěinínzhèshìsìqiānsānbǎiqīshíbākuàirénmínbìqíngshǔyìshǔ",
    "texto": {
     "L11": "Texto 1 — 换钱"
    }
@@ -67744,44 +67749,6 @@
    }
   },
   {
-   "id": "c4e66",
-   "hanzi": "书",
-   "pinyin": "shū",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "书",
-     "pinyin": "shū",
-     "syl": [
-      [
-       "shū",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "libro",
-   "en": "book; letter; document",
-   "emoji": "📖",
-   "image": "images/c4e66.webp",
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 560,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L11"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L11": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c4f6067655f97771f65e9",
    "hanzi": "你来得真早！",
    "pinyin": "nǐ lái de zhēn zǎo！",
@@ -77963,6 +77930,41 @@
    "lesson": null,
    "decks": [
     "tema12"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4e66",
+   "hanzi": "书",
+   "pinyin": "shū",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "书",
+     "pinyin": "shū",
+     "syl": [
+      [
+       "shū",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "libro",
+   "en": "book; letter; document",
+   "emoji": "📖",
+   "image": "images/c4e66.webp",
+   "hsk": 1,
+   "hskNew": 1,
+   "freq": 560,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "tema2"
    ],
    "stats": {
     "studyCount": 0,
