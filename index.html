@@ -155,12 +155,16 @@
       <div class="settings-group">
         <h2>Sobre los datos</h2>
         <p class="hint" id="data-info"></p>
-        <p class="hint" id="build-info"></p>
-        <button class="btn ghost" id="btn-check-updates">Buscar vocabulario nuevo</button>
+        <p class="hint" id="build-info">Versión instalada: …</p>
+        <button class="btn ghost" id="btn-check-updates">Buscar actualizaciones</button>
         <p class="hint">
-          Cuando añadas una lección en la PC y ejecutes <code>agregar.bat</code>,
-          pulsa aquí con el celular conectado a la misma wifi. Una vez
-          descargado, funciona sin conexión.
+          Busca vocabulario nuevo <b>y</b> versiones nuevas de la app. Necesita
+          conexión; una vez descargado, todo funciona sin ella.
+        </p>
+        <button class="btn danger-ghost" id="btn-force-update">Forzar reinstalación</button>
+        <p class="hint">
+          Si la app se quedó con una versión vieja y el botón de arriba no la
+          arregla. Borra solo la caché: <b>tu progreso y el audio no se tocan</b>.
         </p>
       </div>
     </div>

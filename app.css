@@ -851,3 +851,6 @@ button { cursor: pointer; border: none; background: none; }
   width: 72px; flex: 0 0 auto;
 }
 .player-loop { font-size: 12px; color: var(--text-soft); }
+
+/* Aviso de que hay una versión más nueva esperando */
+.hint-warn { color: var(--warn); font-weight: 600; }

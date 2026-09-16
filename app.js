@@ -998,6 +998,69 @@ function palabrasDeLaEscena(deck, escena, cuantas) {
 
 
 
+
+/* ───────────────────── actualizar la app de verdad ─────────────────────
+
+   El botón de antes solo miraba si el vocabulario había cambiado. Una versión
+   que trae un ejercicio nuevo pero los mismos datos —que es lo normal— no
+   movía ese JSON, así que decía "no hay nada nuevo" mientras el celular seguía
+   con el código viejo y sin forma de sacarlo de ahí.
+
+   Ahora se compara la marca de publicación (BUILD) del servidor contra la de
+   la caché instalada, que es lo que de verdad determina qué código se ejecuta. */
+var Actualizar = {
+
+  /* BUILD que hay publicado ahora mismo. */
+  enServidor: function () {
+    return fetch("sw.js", { cache: "no-store" })
+      .then(function (r) { return r.text(); })
+      .then(function (t) {
+        var m = /var BUILD = "([^"]+)"/.exec(t);
+        return m ? m[1] : null;
+      });
+  },
+
+  /* BUILD que está sirviendo el service worker: el nombre de su caché es
+     "pinyin-<BUILD>", así que no hace falta preguntarle nada. */
+  instalado: function () {
+    if (!window.caches) return Promise.resolve(null);
+    return caches.keys().then(function (claves) {
+      var mias = claves.filter(function (k) { return k.indexOf("pinyin-") === 0; });
+      if (!mias.length) return null;
+      return mias.sort().pop().slice("pinyin-".length);
+    }).catch(function () { return null; });
+  },
+
+  /* Descarga la versión nueva y recarga. El service worker hace skipWaiting,
+     pero la página YA se pintó desde la caché vieja: sin recargar, no se ve. */
+  aplicar: function () {
+    if (!navigator.serviceWorker) { location.reload(); return; }
+    navigator.serviceWorker.getRegistration().then(function (reg) {
+      if (!reg) { location.reload(); return; }
+      reg.update().catch(function () {}).then(function () {
+        setTimeout(function () { location.reload(); }, 1200);
+      });
+    });
+  },
+
+  /* La salida de emergencia: fuera el service worker y fuera sus cachés.
+     No toca localStorage (el progreso) ni IndexedDB (el audio del cuaderno). */
+  reinstalar: function () {
+    var tareas = [];
+    if (window.caches) {
+      tareas.push(caches.keys().then(function (ks) {
+        return Promise.all(ks.map(function (k) { return caches.delete(k); }));
+      }));
+    }
+    if (navigator.serviceWorker) {
+      tareas.push(navigator.serviceWorker.getRegistrations().then(function (rs) {
+        return Promise.all(rs.map(function (r) { return r.unregister(); }));
+      }));
+    }
+    return Promise.all(tareas).catch(function () {});
+  }
+};
+
 /* ───────────────────────── audio del cuaderno ─────────────────────────
    Los mp3 son de un cuaderno de ejercicios comercial y el sitio publicado es
    público, así que NO viajan en el repositorio: se cargan una vez desde el
@@ -2993,19 +3056,30 @@ function bindEvents() {
       }
     });
   };
-  /* Qué versión está instalada de verdad. El service worker sirve de su
-     caché, así que "ya lo actualicé" y "el celular está usando lo nuevo" no
+  /* Qué versión se está ejecutando y si hay otra esperando. El service worker
+     sirve de su caché, así que "ya lo publiqué" y "el celular usa lo nuevo" no
      son lo mismo; sin esto no había forma de saber cuál de las dos era. */
-  (function () {
+  UI.pintaVersion = function () {
     var caja = $("#build-info");
     if (!caja) return;
-    fetch("sw.js", { cache: "no-store" }).then(function (r) { return r.text(); })
-      .then(function (t) {
-        var m = /var BUILD = "([^"]+)"/.exec(t);
-        caja.textContent = "Versión instalada: " + (m ? m[1] : "desconocida");
-      })
-      .catch(function () { caja.textContent = "Versión instalada: sin conexión"; });
-  }());
+    Actualizar.instalado().then(function (local) {
+      caja.textContent = "Versión instalada: " + (local || "sin caché (siempre de la red)");
+      return Actualizar.enServidor().then(function (remoto) {
+        if (!remoto) return;
+        if (local && remoto !== local) {
+          caja.textContent = "Versión instalada: " + local +
+                             " · hay una nueva (" + remoto + ")";
+          caja.classList.add("hint-warn");
+        } else {
+          caja.classList.remove("hint-warn");
+          if (!local) caja.textContent += " · publicada: " + remoto;
+        }
+      });
+    }).catch(function () {
+      caja.textContent = "Versión instalada: no se pudo comprobar";
+    });
+  };
+  UI.pintaVersion();
 
   /* ---- audio del cuaderno ---- */
   $("#btn-load-audio").onclick = function () { $("#audio-file").click(); };
@@ -3087,8 +3161,33 @@ function bindEvents() {
   UI.pintaAudio();
 
   $("#btn-check-updates").onclick = function () {
+    var boton = this;
+    boton.disabled = true;
     toast("Buscando…");
-    Data.checkForUpdates(true);
+    Data.checkForUpdates(true);      // vocabulario
+    // y el código, que es lo que el botón viejo no miraba
+    Promise.all([Actualizar.instalado(), Actualizar.enServidor()])
+      .then(function (r) {
+        var local = r[0], remoto = r[1];
+        boton.disabled = false;
+        UI.pintaVersion();
+        if (!remoto) { toast("Sin conexión"); return; }
+        if (local && remoto !== local) {
+          toast("Versión nueva (" + remoto + "), instalando…");
+          Actualizar.aplicar();
+        }
+      })
+      .catch(function () { boton.disabled = false; toast("Sin conexión"); });
+  };
+
+  $("#btn-force-update").onclick = function () {
+    var aviso = "Se borra la caché de la app y se vuelve a descargar. "
+              + "Tu progreso y el audio cargado NO se borran.";
+    if (!confirm(aviso)) return;
+    toast("Reinstalando…");
+    Actualizar.reinstalar().then(function () {
+      setTimeout(function () { location.reload(true); }, 600);
+    });
   };
 
   [["#set-autoplay", "autoplay"], ["#set-colors", "colors"],
