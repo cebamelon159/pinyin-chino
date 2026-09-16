@@ -140,6 +140,19 @@
       </div>
 
       <div class="settings-group">
+        <h2>Audio del cuaderno</h2>
+        <p class="hint">
+          Los mp3 del cuaderno de ejercicios (11-1.mp3, 11-2.mp3…). Se guardan
+          <b>solo en este teléfono</b>, no se suben a ningún sitio. Nómbralos
+          <code>lección-pista.mp3</code> para que sepa a qué lección van.
+        </p>
+        <button class="btn ghost" id="btn-load-audio">Cargar mp3 del cuaderno</button>
+        <input type="file" id="audio-file" accept="audio/*,.mp3" multiple hidden>
+        <div id="audio-list" class="audio-list"></div>
+        <button class="btn danger-ghost" id="btn-clear-audio" hidden>Borrar todo el audio</button>
+      </div>
+
+      <div class="settings-group">
         <h2>Sobre los datos</h2>
         <p class="hint" id="data-info"></p>
         <p class="hint" id="build-info"></p>
@@ -203,6 +216,47 @@
       <h2 id="mode-deck-name">Elegir ejercicio</h2>
       <div class="mode-list" id="mode-list"></div>
       <button class="btn ghost" id="btn-mode-cancel">Cancelar</button>
+    </div>
+  </div>
+
+  <!-- ══════════════ REPRODUCTOR DE AUDIO ══════════════ -->
+  <div class="sheet-backdrop" id="audio-sheet" hidden>
+    <div class="sheet">
+      <div class="sheet-handle"></div>
+      <h2 id="audio-title">Audio</h2>
+      <div class="player">
+        <div class="player-time"><span id="au-now">0:00</span><span id="au-total">0:00</span></div>
+        <input type="range" id="au-seek" class="au-seek" min="0" max="1000" value="0">
+
+        <div class="player-main">
+          <button class="btn ghost au-btn" id="au-back">↩ 10s</button>
+          <button class="btn au-play" id="au-play">▶</button>
+          <button class="btn ghost au-btn" id="au-fwd">10s ↪</button>
+        </div>
+
+        <div class="player-row">
+          <span class="player-label">Repetir</span>
+          <button class="btn ghost chip" data-rep="1">1×</button>
+          <button class="btn ghost chip" data-rep="2">2×</button>
+          <button class="btn ghost chip" data-rep="3">3×</button>
+        </div>
+
+        <div class="player-row">
+          <span class="player-label">Velocidad</span>
+          <button class="btn ghost chip" data-vel="0.75">0,75×</button>
+          <button class="btn ghost chip" data-vel="1">1×</button>
+          <button class="btn ghost chip" data-vel="1.25">1,25×</button>
+        </div>
+
+        <div class="player-row">
+          <span class="player-label">Bucle A–B</span>
+          <button class="btn ghost chip" id="au-a">A</button>
+          <button class="btn ghost chip" id="au-b">B</button>
+          <button class="btn ghost chip" id="au-loop-off">✕</button>
+          <span class="player-loop" id="au-loop"></span>
+        </div>
+      </div>
+      <button class="btn ghost" id="btn-audio-close">Cerrar</button>
     </div>
   </div>
 

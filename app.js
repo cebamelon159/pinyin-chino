@@ -997,6 +997,155 @@ function palabrasDeLaEscena(deck, escena, cuantas) {
 }
 
 
+
+/* ───────────────────────── audio del cuaderno ─────────────────────────
+   Los mp3 son de un cuaderno de ejercicios comercial y el sitio publicado es
+   público, así que NO viajan en el repositorio: se cargan una vez desde el
+   propio teléfono y se quedan en IndexedDB. Cero bytes publicados, el service
+   worker no tiene que precachear 25 MB, y funcionan sin conexión.
+
+   La lección sale del nombre del archivo: 13-2.mp3 -> lección 13, pista 2. */
+var Pistas = {
+  db: null,
+
+  abrir: function () {
+    var self = this;
+    if (this.db) return Promise.resolve(this.db);
+    return new Promise(function (ok, fallo) {
+      if (!window.indexedDB) return fallo(new Error("sin IndexedDB"));
+      var req = indexedDB.open("pinyin-audio", 1);
+      req.onupgradeneeded = function () {
+        var db = req.result;
+        if (!db.objectStoreNames.contains("pistas")) {
+          db.createObjectStore("pistas", { keyPath: "id" });
+        }
+      };
+      req.onsuccess = function () { self.db = req.result; ok(self.db); };
+      req.onerror = function () { fallo(req.error); };
+    });
+  },
+
+  _tx: function (modo) {
+    return this.abrir().then(function (db) {
+      return db.transaction("pistas", modo).objectStore("pistas");
+    });
+  },
+
+  /* "13-2.mp3" -> {leccion: 13, pista: 2}. Sin ese patrón la pista se guarda
+     igual, pero suelta: aparece en Ajustes y no dentro de una lección. */
+  interpreta: function (nombre) {
+    var m = /(\d{1,2})\s*[-_. ]\s*(\d{1,2})/.exec(nombre.replace(/\.[^.]+$/, ""));
+    if (!m) return { leccion: null, pista: null };
+    return { leccion: parseInt(m[1], 10), pista: parseInt(m[2], 10) };
+  },
+
+  guardar: function (file) {
+    var meta = this.interpreta(file.name);
+    var id = meta.leccion ? (meta.leccion + "-" + meta.pista) : file.name;
+    return this._tx("readwrite").then(function (store) {
+      return new Promise(function (ok, fallo) {
+        var req = store.put({
+          id: id, nombre: file.name, blob: file, tam: file.size,
+          leccion: meta.leccion, pista: meta.pista
+        });
+        req.onsuccess = function () { ok(id); };
+        req.onerror = function () { fallo(req.error); };
+      });
+    });
+  },
+
+  lista: function () {
+    return this._tx("readonly").then(function (store) {
+      return new Promise(function (ok, fallo) {
+        var req = store.getAll();
+        req.onsuccess = function () {
+          ok((req.result || []).sort(function (a, b) {
+            return (a.leccion - b.leccion) || (a.pista - b.pista);
+          }));
+        };
+        req.onerror = function () { fallo(req.error); };
+      });
+    });
+  },
+
+  borrarTodo: function () {
+    return this._tx("readwrite").then(function (store) {
+      return new Promise(function (ok) {
+        store.clear().onsuccess = function () { ok(); };
+      });
+    });
+  }
+};
+
+/* El reproductor. Un solo <audio> para toda la app: dos a la vez se pisan y
+   en el móvil se quedan sonando de fondo. */
+var Reproductor = {
+  audio: null, url: null, repeticiones: 1, vuelta: 0,
+  a: null, b: null,
+
+  elemento: function () {
+    if (!this.audio) {
+      this.audio = new Audio();
+      this.audio.preload = "metadata";
+    }
+    return this.audio;
+  },
+
+  abrir: function (registro) {
+    var self = this;
+    var a = this.elemento();
+    this.cerrar(true);
+
+    this.url = URL.createObjectURL(registro.blob);
+    a.src = this.url;
+    a.playbackRate = 1;
+    this.repeticiones = 1;
+    this.vuelta = 0;
+    this.a = this.b = null;
+
+    $("#audio-title").textContent = registro.leccion
+      ? "Lección " + registro.leccion + " · pista " + registro.pista
+      : registro.nombre;
+    $("#audio-sheet").hidden = false;
+    UI.marcaChips();
+    UI.pintaBucle();
+
+    a.onloadedmetadata = function () { UI.pintaTiempo(); };
+    a.ontimeupdate = function () {
+      // el bucle A-B se comprueba aquí: no hay evento propio para "pasó por B"
+      if (self.a != null && self.b != null && a.currentTime >= self.b) {
+        a.currentTime = self.a;
+      }
+      UI.pintaTiempo();
+    };
+    a.onended = function () {
+      self.vuelta++;
+      if (self.vuelta < self.repeticiones) {
+        a.currentTime = 0;
+        a.play();
+      } else {
+        self.vuelta = 0;
+        $("#au-play").textContent = "▶";
+      }
+      UI.pintaTiempo();
+    };
+    a.onplay = function () { $("#au-play").textContent = "❚❚"; };
+    a.onpause = function () { $("#au-play").textContent = "▶"; };
+
+    a.play().catch(function () { /* el móvil puede pedir un toque más */ });
+  },
+
+  cerrar: function (silencioso) {
+    if (this.audio) {
+      this.audio.pause();
+      this.audio.removeAttribute("src");
+      this.audio.load();
+    }
+    if (this.url) { URL.revokeObjectURL(this.url); this.url = null; }
+    if (!silencioso) $("#audio-sheet").hidden = true;
+  }
+};
+
 /* ───────────────────────── ejercicios ───────────────────────── */
 /* Cada modo declara si una tarjeta le sirve (`fits`) y cómo se dibuja.
    La sesión sólo orquesta; así añadir un ejercicio no toca el resto. */
@@ -2388,6 +2537,74 @@ var UI = {
     });
   },
 
+
+  /* ---- audio del cuaderno ---- */
+  formatoTiempo: function (s) {
+    if (!isFinite(s)) return "0:00";
+    var m = Math.floor(s / 60), r = Math.floor(s % 60);
+    return m + ":" + (r < 10 ? "0" : "") + r;
+  },
+
+  pintaTiempo: function () {
+    var a = Reproductor.audio;
+    if (!a) return;
+    $("#au-now").textContent = UI.formatoTiempo(a.currentTime);
+    $("#au-total").textContent = UI.formatoTiempo(a.duration);
+    var barra = $("#au-seek");
+    if (a.duration && !barra.dataset.arrastrando) {
+      barra.value = Math.round(a.currentTime / a.duration * 1000);
+    }
+  },
+
+  marcaChips: function () {
+    var a = Reproductor.audio;
+    $$("[data-rep]").forEach(function (b) {
+      b.classList.toggle("on", +b.dataset.rep === Reproductor.repeticiones);
+    });
+    $$("[data-vel]").forEach(function (b) {
+      b.classList.toggle("on", a && +b.dataset.vel === a.playbackRate);
+    });
+  },
+
+  pintaBucle: function () {
+    var r = Reproductor;
+    var txt = "";
+    if (r.a != null && r.b == null) txt = "A en " + UI.formatoTiempo(r.a) + " · marca B";
+    else if (r.a != null && r.b != null)
+      txt = UI.formatoTiempo(r.a) + " – " + UI.formatoTiempo(r.b);
+    $("#au-loop").textContent = txt;
+    $("#au-a").classList.toggle("on", r.a != null);
+    $("#au-b").classList.toggle("on", r.b != null);
+  },
+
+  /* La lista de Ajustes: qué hay cargado y cuánto ocupa. */
+  pintaAudio: function () {
+    var caja = $("#audio-list");
+    if (!caja) return;
+    Pistas.lista().then(function (todas) {
+      caja.innerHTML = "";
+      $("#btn-clear-audio").hidden = !todas.length;
+      if (!todas.length) {
+        caja.appendChild(el("p", "hint", "Todavía no has cargado ninguno."));
+        return;
+      }
+      var mb = todas.reduce(function (n, p) { return n + p.tam; }, 0) / 1048576;
+      caja.appendChild(el("p", "hint",
+        todas.length + " pistas · " + mb.toFixed(1) + " MB en este teléfono"));
+      var grid = el("div", "audio-chips");
+      todas.forEach(function (p) {
+        var b = el("button", "btn ghost chip",
+                   p.leccion ? "L" + p.leccion + "·" + p.pista : p.nombre);
+        b.onclick = function () { Reproductor.abrir(p); };
+        grid.appendChild(b);
+      });
+      caja.appendChild(grid);
+    }).catch(function () {
+      caja.innerHTML = "";
+      caja.appendChild(el("p", "hint", "Este navegador no guarda audio."));
+    });
+  },
+
   /* ---- selector de ejercicio ---- */
   openModes: function (deck, title) {
     $("#mode-deck-name").textContent = title || "Elegir ejercicio";
@@ -2512,6 +2729,31 @@ var UI = {
               function (n) { return "Las oraciones del texto · " + n + " tarjetas"; },
               function (m) { return !!(m.soloTexto || m.tambienTexto); });
       });
+    }
+
+    // Las pistas del cuaderno de esta lección, si están cargadas en el móvil
+    var num = deck && /^L(\d+)$/.exec(deck.id);
+    if (num) {
+      Pistas.lista().then(function (todas) {
+        var mias = todas.filter(function (p) {
+          return p.leccion === parseInt(num[1], 10);
+        });
+        if (!mias.length) return;
+        list.appendChild(el("div", "mode-sep", "Audio del cuaderno"));
+        mias.forEach(function (pista) {
+          var b = el("button", "mode");
+          b.appendChild(el("div", "mode-ico", "🎧"));
+          var t = el("div", "mode-txt");
+          t.appendChild(el("b", "", "Pista " + pista.pista));
+          t.appendChild(el("span", "", "Escucharla con repetición y bucle"));
+          b.appendChild(t);
+          b.onclick = function () {
+            $("#mode-sheet").hidden = true;
+            Reproductor.abrir(pista);
+          };
+          list.appendChild(b);
+        });
+      }).catch(function () {});
     }
 
     $("#mode-sheet").hidden = false;
@@ -2764,6 +3006,85 @@ function bindEvents() {
       })
       .catch(function () { caja.textContent = "Versión instalada: sin conexión"; });
   }());
+
+  /* ---- audio del cuaderno ---- */
+  $("#btn-load-audio").onclick = function () { $("#audio-file").click(); };
+  $("#audio-file").onchange = function () {
+    var ficheros = Array.prototype.slice.call(this.files || []);
+    if (!ficheros.length) return;
+    var self = this;
+    toast("Guardando " + ficheros.length + " pistas…");
+    Promise.all(ficheros.map(function (f) { return Pistas.guardar(f); }))
+      .then(function () {
+        toast("Listo, quedan en este teléfono");
+        UI.pintaAudio();
+      })
+      .catch(function (e) { toast("No se pudo guardar: " + (e.message || e)); })
+      .then(function () { self.value = ""; });
+  };
+  $("#btn-clear-audio").onclick = function () {
+    if (!confirm("¿Borrar todas las pistas de este teléfono?")) return;
+    Pistas.borrarTodo().then(function () { UI.pintaAudio(); toast("Borrado"); });
+  };
+
+  $("#btn-audio-close").onclick = function () { Reproductor.cerrar(); };
+  $("#audio-sheet").onclick = function (e) {
+    if (e.target === this) Reproductor.cerrar();
+  };
+
+  $("#au-play").onclick = function () {
+    var a = Reproductor.elemento();
+    if (a.paused) a.play(); else a.pause();
+  };
+  $("#au-back").onclick = function () {
+    var a = Reproductor.audio; if (a) a.currentTime = Math.max(0, a.currentTime - 10);
+  };
+  $("#au-fwd").onclick = function () {
+    var a = Reproductor.audio;
+    if (a) a.currentTime = Math.min(a.duration || 0, a.currentTime + 10);
+  };
+
+  $$("[data-rep]").forEach(function (b) {
+    b.onclick = function () {
+      Reproductor.repeticiones = +b.dataset.rep;
+      Reproductor.vuelta = 0;
+      UI.marcaChips();
+    };
+  });
+  $$("[data-vel]").forEach(function (b) {
+    b.onclick = function () {
+      var a = Reproductor.elemento();
+      a.playbackRate = +b.dataset.vel;
+      UI.marcaChips();
+    };
+  });
+
+  $("#au-a").onclick = function () {
+    var a = Reproductor.audio; if (!a) return;
+    Reproductor.a = a.currentTime; Reproductor.b = null; UI.pintaBucle();
+  };
+  $("#au-b").onclick = function () {
+    var a = Reproductor.audio; if (!a || Reproductor.a == null) {
+      toast("Marca primero la A"); return;
+    }
+    if (a.currentTime <= Reproductor.a) { toast("La B va después de la A"); return; }
+    Reproductor.b = a.currentTime;
+    a.currentTime = Reproductor.a;
+    UI.pintaBucle();
+  };
+  $("#au-loop-off").onclick = function () {
+    Reproductor.a = Reproductor.b = null; UI.pintaBucle();
+  };
+
+  var barra = $("#au-seek");
+  barra.oninput = function () { this.dataset.arrastrando = "1"; };
+  barra.onchange = function () {
+    var a = Reproductor.audio;
+    if (a && a.duration) a.currentTime = this.value / 1000 * a.duration;
+    delete this.dataset.arrastrando;
+  };
+
+  UI.pintaAudio();
 
   $("#btn-check-updates").onclick = function () {
     toast("Buscando…");

@@ -811,3 +811,43 @@ button { cursor: pointer; border: none; background: none; }
 
 .talk-score { font-weight: 600; margin-bottom: 6px; }
 .talk-said { font-size: 17px; line-height: 1.5; margin-top: 4px; }
+
+/* ---------- audio del cuaderno ---------- */
+.audio-list { margin: 8px 0; }
+.audio-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 6px; }
+
+.chip {
+  padding: 6px 12px; font-size: 13px; width: auto; min-width: 0;
+  border-radius: 999px;
+}
+.chip.on {
+  background: var(--green); color: #fff; border-color: var(--green);
+}
+
+.player { margin-bottom: 14px; }
+.player-time {
+  display: flex; justify-content: space-between;
+  font-size: 12px; color: var(--text-soft); font-variant-numeric: tabular-nums;
+}
+.au-seek { width: 100%; margin: 4px 0 10px; }
+
+.player-main {
+  display: flex; align-items: center; justify-content: center; gap: 10px;
+  margin-bottom: 14px;
+}
+.au-btn { width: auto; padding: 10px 14px; font-size: 13px; }
+.au-play {
+  width: 64px; height: 64px; border-radius: 50%; font-size: 22px;
+  padding: 0; flex: 0 0 auto;
+}
+
+.player-row {
+  display: flex; align-items: center; flex-wrap: wrap; gap: 6px;
+  margin-bottom: 8px;
+}
+.player-label {
+  font-size: 10px; font-weight: 700; text-transform: uppercase;
+  letter-spacing: .06em; color: var(--text-soft);
+  width: 72px; flex: 0 0 auto;
+}
+.player-loop { font-size: 12px; color: var(--text-soft); }
