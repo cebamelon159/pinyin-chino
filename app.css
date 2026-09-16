@@ -854,3 +854,20 @@ button { cursor: pointer; border: none; background: none; }
 
 /* Aviso de que hay una versión más nueva esperando */
 .hint-warn { color: var(--warn); font-weight: 600; }
+
+/* Filas de audio en Ajustes: nombre real + a qué lección va */
+.audio-row {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 0; border-bottom: 1px solid var(--border);
+}
+.audio-row-txt { flex: 1 1 auto; min-width: 0; }
+.audio-name {
+  font-size: 12px; color: var(--text-soft);
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
+}
+.audio-asigna { display: flex; gap: 6px; margin-top: 4px; }
+.audio-sel {
+  font-size: 13px; padding: 4px 6px; border-radius: 8px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--text);
+}
+.mode.mode-aviso { border-color: var(--warn); background: var(--warn-bg); }

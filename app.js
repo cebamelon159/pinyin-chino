@@ -1131,6 +1131,55 @@ var Pistas = {
     });
   },
 
+  /* Reasignar a mano. Hace falta porque WhatsApp y Drive renombran los
+     archivos al pasarlos al móvil (AUD-20260916-WA0001.mp3) y entonces no hay
+     forma de deducir la lección del nombre. */
+  reasignar: function (id, leccion, pista) {
+    return this._tx("readwrite").then(function (store) {
+      return new Promise(function (ok, fallo) {
+        var get = store.get(id);
+        get.onsuccess = function () {
+          var r = get.result;
+          if (!r) return ok();
+          r.leccion = leccion || null;
+          r.pista = pista || null;
+          var put = store.put(r);
+          put.onsuccess = function () { ok(); };
+          put.onerror = function () { fallo(put.error); };
+        };
+        get.onerror = function () { fallo(get.error); };
+      });
+    });
+  },
+
+  /* Asignación en bloque. WhatsApp entrega los 12 archivos como
+     AUD-...-WA0000 … WA0011, pero EN ORDEN: ordenados por nombre son
+     11-1, 11-2, 11-3, 12-1 … 14-3. Un toque y quedan colocados; si alguno
+     cae mal, se corrige con los desplegables de su fila. */
+  asignarEnOrden: function (lecciones, porLeccion) {
+    var self = this;
+    return this.lista().then(function (todas) {
+      // sólo las que están sin colocar: las que ya tienen lección se respetan
+      var orden = todas.filter(function (p) { return !p.leccion; })
+                       .sort(function (a, b) {
+        return a.nombre < b.nombre ? -1 : a.nombre > b.nombre ? 1 : 0;
+      });
+      var tareas = [];
+      orden.forEach(function (p, i) {
+        var l = lecciones[Math.floor(i / porLeccion)];
+        if (!l) return;
+        tareas.push(self.reasignar(p.id, l, (i % porLeccion) + 1));
+      });
+      return Promise.all(tareas);
+    });
+  },
+
+  borrar: function (id) {
+    return this._tx("readwrite").then(function (store) {
+      return new Promise(function (ok) { store.delete(id).onsuccess = function () { ok(); }; });
+    });
+  },
+
   borrarTodo: function () {
     return this._tx("readwrite").then(function (store) {
       return new Promise(function (ok) {
@@ -2640,7 +2689,9 @@ var UI = {
     $("#au-b").classList.toggle("on", r.b != null);
   },
 
-  /* La lista de Ajustes: qué hay cargado y cuánto ocupa. */
+  /* La lista de Ajustes. Cada pista enseña su nombre real y a qué lección va,
+     y se puede corregir ahí mismo: si el archivo llegó renombrado desde
+     WhatsApp, esta es la única forma de colocarlo en su lección. */
   pintaAudio: function () {
     var caja = $("#audio-list");
     if (!caja) return;
@@ -2652,19 +2703,71 @@ var UI = {
         return;
       }
       var mb = todas.reduce(function (n, p) { return n + p.tam; }, 0) / 1048576;
-      caja.appendChild(el("p", "hint",
-        todas.length + " pistas · " + mb.toFixed(1) + " MB en este teléfono"));
-      var grid = el("div", "audio-chips");
+      var sinAsignar = todas.filter(function (p) { return !p.leccion; }).length;
+      var cabecera = el("p", "hint",
+        todas.length + " pistas · " + mb.toFixed(1) + " MB en este teléfono");
+      caja.appendChild(cabecera);
+      $("#btn-auto-asignar").hidden = !sinAsignar;
+      if (sinAsignar) {
+        caja.appendChild(el("p", "hint hint-warn",
+          sinAsignar + (sinAsignar === 1
+            ? " pista no tiene lección: ponle abajo a cuál va."
+            : " pistas no tienen lección: ponles abajo a cuál van.")));
+      }
+
       todas.forEach(function (p) {
-        var b = el("button", "btn ghost chip",
-                   p.leccion ? "L" + p.leccion + "·" + p.pista : p.nombre);
-        b.onclick = function () { Reproductor.abrir(p); };
-        grid.appendChild(b);
+        var fila = el("div", "audio-row");
+
+        var play = el("button", "btn ghost chip", "▶");
+        play.onclick = function () { Reproductor.abrir(p); };
+        fila.appendChild(play);
+
+        var datos = el("div", "audio-row-txt");
+        datos.appendChild(el("div", "audio-name", p.nombre));
+        var sel = el("div", "audio-asigna");
+
+        var lec = el("select", "audio-sel");
+        lec.appendChild(el("option", "", "—"));
+        [5,6,7,8,9,10,11,12,13,14].forEach(function (n) {
+          var o = el("option", "", "Lección " + n);
+          o.value = n;
+          if (p.leccion === n) o.selected = true;
+          lec.appendChild(o);
+        });
+
+        var pis = el("select", "audio-sel");
+        pis.appendChild(el("option", "", "—"));
+        [1,2,3,4,5].forEach(function (n) {
+          var o = el("option", "", "Pista " + n);
+          o.value = n;
+          if (p.pista === n) o.selected = true;
+          pis.appendChild(o);
+        });
+
+        var guarda = function () {
+          Pistas.reasignar(p.id, +lec.value || null, +pis.value || null)
+            .then(function () { UI.pintaAudio(); toast("Guardado"); });
+        };
+        lec.onchange = guarda;
+        pis.onchange = guarda;
+
+        sel.appendChild(lec);
+        sel.appendChild(pis);
+        datos.appendChild(sel);
+        fila.appendChild(datos);
+
+        var borra = el("button", "btn ghost chip", "✕");
+        borra.onclick = function () {
+          Pistas.borrar(p.id).then(function () { UI.pintaAudio(); });
+        };
+        fila.appendChild(borra);
+
+        caja.appendChild(fila);
       });
-      caja.appendChild(grid);
-    }).catch(function () {
+    }).catch(function (e) {
       caja.innerHTML = "";
-      caja.appendChild(el("p", "hint", "Este navegador no guarda audio."));
+      caja.appendChild(el("p", "hint hint-warn",
+        "No se pudo leer el audio guardado: " + (e && e.message ? e.message : e)));
     });
   },
 
@@ -2728,16 +2831,42 @@ var UI = {
     if (num) {
       Pistas.lista().then(function (todas) {
         if (!hueco.isConnected) return;      // ya se cerró o se abrió otra hoja
+        if (!todas.length) return;           // no hay audio cargado: nada que decir
         var mias = todas.filter(function (p) {
           return p.leccion === parseInt(num[1], 10);
         });
-        if (!mias.length) return;
+        // Si ninguna está asignada a esta lección se enseñan igual las que no
+        // tienen lección: hay audio cargado, y dejar la sección en blanco sólo
+        // consigue que parezca que la app lo perdió.
+        var sueltas = todas.filter(function (p) { return !p.leccion; });
+        var enseñar = mias.length ? mias : sueltas;
+        if (!enseñar.length) return;
+
         hueco.appendChild(el("div", "mode-sep", "Audio del cuaderno"));
-        mias.forEach(function (pista) {
+        if (!mias.length) {
+          var aviso = el("button", "mode mode-aviso");
+          aviso.appendChild(el("div", "mode-ico", "⚠️"));
+          var at = el("div", "mode-txt");
+          at.appendChild(el("b", "", "Sin lección asignada"));
+          at.appendChild(el("span", "",
+            "Estas pistas no saben a qué lección van. Toca para asignarlas."));
+          aviso.appendChild(at);
+          aviso.onclick = function () {
+            $("#mode-sheet").hidden = true;
+            UI.show("settings");
+            setTimeout(function () {
+              var n = $("#audio-list");
+              if (n) n.scrollIntoView({ block: "center" });
+            }, 150);
+          };
+          hueco.appendChild(aviso);
+        }
+
+        enseñar.forEach(function (pista) {
           var b = el("button", "mode");
           b.appendChild(el("div", "mode-ico", "🎧"));
           var t = el("div", "mode-txt");
-          t.appendChild(el("b", "", "Pista " + pista.pista));
+          t.appendChild(el("b", "", pista.pista ? "Pista " + pista.pista : pista.nombre));
           t.appendChild(el("span", "", "Repetición 2×/3×, bucle A-B y velocidad"));
           b.appendChild(t);
           b.onclick = function () {
@@ -2746,7 +2875,12 @@ var UI = {
           };
           hueco.appendChild(b);
         });
-      }).catch(function () {});
+      }).catch(function (e) {
+        if (!hueco.isConnected) return;
+        hueco.appendChild(el("div", "mode-sep", "Audio del cuaderno"));
+        hueco.appendChild(el("div", "hint hint-warn",
+          "No se pudo leer: " + (e && e.message ? e.message : e)));
+      });
     }
 
     /* Un grupo dentro de la lección (un texto, o el vocabulario que entra
@@ -3106,6 +3240,13 @@ function bindEvents() {
       .catch(function (e) { toast("No se pudo guardar: " + (e.message || e)); })
       .then(function () { self.value = ""; });
   };
+  $("#btn-auto-asignar").onclick = function () {
+    Pistas.asignarEnOrden([11, 12, 13, 14], 3).then(function () {
+      UI.pintaAudio();
+      toast("Asignadas. Compruébalas con ▶");
+    });
+  };
+
   $("#btn-clear-audio").onclick = function () {
     if (!confirm("¿Borrar todas las pistas de este teléfono?")) return;
     Pistas.borrarTodo().then(function () { UI.pintaAudio(); toast("Borrado"); });
