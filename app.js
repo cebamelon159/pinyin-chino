@@ -2714,6 +2714,41 @@ var UI = {
     // Los textos largos de la lección (diálogos) se ofrecen aquí mismo, como
     // una opción más. Son un trozo del mismo mazo, no un mazo aparte: así el
     // vocabulario y su diálogo viven juntos.
+    /* El audio del cuaderno, justo debajo de los ejercicios generales.
+
+       Va arriba a propósito: la hoja de una lección mide 2000 px y entra en
+       660, así que al final del todo había que bajar por 27 entradas para
+       dar con él y sencillamente no se encontraba.
+
+       Se reserva el hueco ahora, en su sitio, porque leer IndexedDB es
+       asíncrono y si no el bloque aterrizaba al final de la lista igual. */
+    var hueco = el("div", "");
+    list.appendChild(hueco);
+    var num = deck && /^L(\d+)$/.exec(deck.id);
+    if (num) {
+      Pistas.lista().then(function (todas) {
+        if (!hueco.isConnected) return;      // ya se cerró o se abrió otra hoja
+        var mias = todas.filter(function (p) {
+          return p.leccion === parseInt(num[1], 10);
+        });
+        if (!mias.length) return;
+        hueco.appendChild(el("div", "mode-sep", "Audio del cuaderno"));
+        mias.forEach(function (pista) {
+          var b = el("button", "mode");
+          b.appendChild(el("div", "mode-ico", "🎧"));
+          var t = el("div", "mode-txt");
+          t.appendChild(el("b", "", "Pista " + pista.pista));
+          t.appendChild(el("span", "", "Repetición 2×/3×, bucle A-B y velocidad"));
+          b.appendChild(t);
+          b.onclick = function () {
+            $("#mode-sheet").hidden = true;
+            Reproductor.abrir(pista);
+          };
+          hueco.appendChild(b);
+        });
+      }).catch(function () {});
+    }
+
     /* Un grupo dentro de la lección (un texto, o el vocabulario que entra
        del libro): una fila que lo abre en flashcards y, sangrados debajo,
        los ejercicios que tengan tarjetas ahí dentro. */
@@ -2792,31 +2827,6 @@ var UI = {
               function (n) { return "Las oraciones del texto · " + n + " tarjetas"; },
               function (m) { return !!(m.soloTexto || m.tambienTexto); });
       });
-    }
-
-    // Las pistas del cuaderno de esta lección, si están cargadas en el móvil
-    var num = deck && /^L(\d+)$/.exec(deck.id);
-    if (num) {
-      Pistas.lista().then(function (todas) {
-        var mias = todas.filter(function (p) {
-          return p.leccion === parseInt(num[1], 10);
-        });
-        if (!mias.length) return;
-        list.appendChild(el("div", "mode-sep", "Audio del cuaderno"));
-        mias.forEach(function (pista) {
-          var b = el("button", "mode");
-          b.appendChild(el("div", "mode-ico", "🎧"));
-          var t = el("div", "mode-txt");
-          t.appendChild(el("b", "", "Pista " + pista.pista));
-          t.appendChild(el("span", "", "Escucharla con repetición y bucle"));
-          b.appendChild(t);
-          b.onclick = function () {
-            $("#mode-sheet").hidden = true;
-            Reproductor.abrir(pista);
-          };
-          list.appendChild(b);
-        });
-      }).catch(function () {});
     }
 
     $("#mode-sheet").hidden = false;
