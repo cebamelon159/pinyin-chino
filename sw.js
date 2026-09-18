@@ -7,7 +7,7 @@
 // el navegador vea un service worker distinto y detecte que hay versión nueva:
 // si este archivo no cambia, el celular se queda con el código viejo aunque
 // app.js sí haya cambiado.
-var BUILD = "20260916-002909";
+var BUILD = "20260918-144450";
 
 var CACHE = "pinyin-" + BUILD;
 var ASSETS = [

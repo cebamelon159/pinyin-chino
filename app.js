@@ -223,6 +223,10 @@ var Data = {
         Data.decks = d.decks || [];
         Data.grammar = d.grammar || [];
         Data.complements = d.complements || [];
+        Data.hskTotales = {};
+        Object.keys(d.hskTotales || {}).forEach(function (k) {
+          Data.hskTotales[+k] = d.hskTotales[k];
+        });
         Data.cards.forEach(function (c) { Data.byId[c.id] = c; });
         var imported = Store.seedFromBackup(Data.cards);
         Data.cards.forEach(function (c) { Store.card(c.id); });
@@ -2323,7 +2327,12 @@ var Session = {
     // quieres ESE mazo: aplicarlo ahí dejaba 10 frases de las 59 disponibles.
     var nuevas = deck ? fresh : shuffle(fresh).slice(0, Store.settings.newPerSession);
 
-    var picked = shuffle(due).concat(shuffle(nuevas)).concat(shuffle(rest));
+    // Un mazo `ordenado` viene con un orden que significa algo —el del mapa
+    // del HSK va por frecuencia— y barajarlo lo tira: te daba 30 palabras al
+    // azar de 257 en vez de las 30 que más vas a usar.
+    var picked = (deck && deck.ordenado)
+      ? due.concat(nuevas).concat(rest)
+      : shuffle(due).concat(shuffle(nuevas)).concat(shuffle(rest));
     picked = picked.slice(0, Math.max(1, Store.settings.maxPerSession));
 
     this.queue = picked;
@@ -2547,8 +2556,128 @@ var UI = {
     document.body.appendChild(bar);
   },
 
+
+  /* ---- Mapa del HSK ----
+     La idea sale del póster que me pasó: el ancho de cada nivel es
+     proporcional a cuántas palabras tiene, y así se ve de un golpe que cada
+     nivel casi dobla al anterior. Lo que cambia es que aquí las barras se
+     rellenan con SU progreso, no con el vocabulario en abstracto.
+
+     Tres estados, y un cuarto que es el importante: lo que ni siquiera está
+     cargado en la app. Enseñarlo en gris rayado es lo honesto — el HSK4 son
+     598 palabras y aquí hay 73. */
+  renderHskMap: function () {
+    var caja = $("#hsk-map");
+    if (!caja) return;
+    caja.innerHTML = "";
+
+    var totales = Data.hskTotales || {};
+    var niveles = Object.keys(totales).map(Number).sort(function (a, b) { return a - b; });
+    if (!niveles.length) { caja.hidden = true; return; }
+    caja.hidden = false;
+
+    /* La regleta: los seis niveles a escala real, uno al lado del otro. Es lo
+       que el póster enseña de un vistazo —cada nivel casi dobla al anterior—
+       y aquí ocupa una sola línea. Debajo, cada nivel a ancho completo para
+       que el progreso sí se lea. */
+    var suma = niveles.reduce(function (a, n) { return a + totales[n]; }, 0);
+    var regleta = el("div", "hsk-escala");
+    niveles.forEach(function (n) {
+      var t = el("i", "hsk-seg hsk-n" + n);
+      t.style.width = (100 * totales[n] / suma) + "%";
+      t.title = "HSK" + n + ": " + totales[n] + " palabras";
+      regleta.appendChild(t);
+    });
+    caja.appendChild(regleta);
+    var pie = el("div", "hsk-escala-pie");
+    niveles.forEach(function (n) {
+      var e = el("span", "hsk-escala-et");
+      e.style.width = (100 * totales[n] / suma) + "%";
+      e.textContent = totales[n] >= 298 ? String(n) : "";
+      pie.appendChild(e);
+    });
+    caja.appendChild(pie);
+    caja.appendChild(el("div", "hsk-nota hsk-nota-top",
+      "Cada nivel casi dobla al anterior: los seis, a escala."));
+
+    niveles.forEach(function (n) {
+      var total = totales[n];
+      var cards = Data.cards.filter(function (c) { return c.hsk === n; });
+
+      var hechas = 0, vistas = 0;
+      cards.forEach(function (c) {
+        var p = Store.progress[c.id];
+        if (!p || !p.reps) return;
+        if ((p.interval || 0) >= 7) hechas++;      // el mismo criterio que arriba
+        else vistas++;
+      });
+      var sinTocar = cards.length - hechas - vistas;
+      var sinCargar = total - cards.length;
+
+      var fila = el("div", "hsk-fila");
+
+      var cab = el("div", "hsk-cab");
+      cab.appendChild(el("b", "", "HSK" + n));
+      cab.appendChild(el("span", "hsk-cifra", hechas + " / " + total));
+      fila.appendChild(cab);
+
+      // Ancho completo: el tamaño del nivel ya lo cuenta la regleta de arriba,
+      // y a escala lineal el HSK1 medía 6% de la pantalla y no se leía nada.
+      var pista = el("div", "hsk-pista");
+      [["hecha", hechas], ["vista", vistas], ["cruda", sinTocar], ["ausente", sinCargar]]
+        .forEach(function (par) {
+          if (!par[1]) return;
+          var t = el("i", "hsk-tramo hsk-" + par[0]);
+          t.style.width = (100 * par[1] / total) + "%";
+          t.title = par[1] + " palabras";
+          pista.appendChild(t);
+        });
+      fila.appendChild(pista);
+
+      if (sinCargar > 0) {
+        fila.appendChild(el("div", "hsk-nota",
+          sinCargar + " de las " + total + " todavía no están en la app"));
+      }
+
+      if (cards.length) {
+        fila.classList.add("hsk-tocable");
+        fila.onclick = function () {
+          // primero lo que falta, y dentro de eso lo más frecuente: es el
+          // orden en que de verdad compensa aprender un nivel
+          var pend = cards.filter(function (c) {
+            var p = Store.progress[c.id];
+            return !p || !p.reps || (p.interval || 0) < 7;
+          });
+          var lista = (pend.length ? pend : cards).slice().sort(function (a, b) {
+            return (a.freq || 1e9) - (b.freq || 1e9);
+          });
+          UI.openModes({
+            id: "hsk" + n,
+            name: "HSK " + n,
+            source: "hsknivel",
+            ordenado: true,          // que la sesión no lo baraje
+            cards: lista.map(function (c) { return c.id; })
+          }, "HSK " + n + " · " + lista.length + " por aprender");
+        };
+      }
+
+      caja.appendChild(fila);
+    });
+
+    var ley = el("div", "hsk-leyenda");
+    [["hecha", "consolidada"], ["vista", "empezada"],
+     ["cruda", "sin tocar"], ["ausente", "sin cargar"]].forEach(function (par) {
+      var s = el("span", "hsk-ley");
+      s.appendChild(el("i", "hsk-tramo hsk-" + par[0]));
+      s.appendChild(document.createTextNode(par[1]));
+      ley.appendChild(s);
+    });
+    caja.appendChild(ley);
+  },
+
   /* ---- Aprender ---- */
   renderLearn: function () {
+    this.renderHskMap();
     var totalReps = 0, totalOk = 0, learned = 0;
     Data.cards.forEach(function (c) {
       var p = Store.progress[c.id];
