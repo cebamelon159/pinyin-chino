@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-10-05T20:24:09",
+ "generated": "2026-10-05T20:54:04",
  "decks": [
   {
    "id": "L17",
@@ -224,6 +224,33 @@
    "order": 85,
    "source": "leccion",
    "cards": [
+    "c5173",
+    "c5f00706f",
+    "c5173706f",
+    "c5f0075358111",
+    "c5f00753589c6",
+    "c5f007a97",
+    "c5f005173",
+    "c4f5c5bb6",
+    "c97f34e505bb6",
+    "c94a274345bb6",
+    "c4e0079cd",
+    "c672c5b50",
+    "c76d25b50",
+    "c59165356",
+    "c591653565458",
+    "c53987c73",
+    "c4e134e1a",
+    "c753589c65267",
+    "c7701",
+    "c535765b9",
+    "c51c665f6",
+    "c630965f6",
+    "c8ba88bba",
+    "c591a957f65f695f4",
+    "c534a5e74",
+    "c59549a6c",
+    "c67876777",
     "c62118ddf4f604e0068374e5f5f88559c6b224e2d",
     "c4ed68ddf62114e0d4e0068374ed6559c6b226cb9",
     "c4f6089c95f974e2d56fd753b8ddf6cb9753b4e00",
@@ -1433,6 +1460,38 @@
    ]
   },
   {
+   "id": "miaR3",
+   "name": "🧩 Repaso del Básico 3 — estructuras",
+   "order": 150,
+   "source": "mias",
+   "cards": [
+    "c4ed64eca592967655f97975e5e3865e9",
+    "c529b6ce251995f974e0d597d770b",
+    "c4f604eec6628592973a95f97597d4e0d597d",
+    "c62118bf4897f73ed72598bed8bf45f974e0d6d41",
+    "c4f604e0a6765",
+    "c4f608fc767654e004e0b62117ed94f60770b4e00",
+    "c4ed651fa53bb4e86",
+    "c4eca5929662f67975a1c7684805a4f1a4f604eec",
+    "c8fd94ef6886c886b6bd490a34ef68d35",
+    "c4ed64e0d6bd462119ad8",
+    "c4ed66ca1670962119ad8",
+    "c4ed64eec6bd462114eec8bf45f976d415229",
+    "c897f74dc6bd482f9679c5927591a4e86",
+    "c4ed66bd462119ad84e0070b9513f",
+    "c8fd94ef68863670d6bd490a34ef68d354e095341",
+    "c80015e08628a676f5b50653e5728684c5b504e0a",
+    "c6211628a4f5c4e1a5e2652305b66682167654e86",
+    "c5979628a751f65e5793c726990017ed967975a1c",
+    "c4ed68dd14e864e004e2a5c0f65f6",
+    "c4ed6770b4e66770b4e864e8c53415206949f",
+    "c51994e86534a4e2a5c0f65f676844f5c4e1a",
+    "c8fd9672c4e665f886709610f601d4f60770b4e00",
+    "c8fd94e2a95ee98985f8896be4f60597d597d513f",
+    "c662f4e004f4d4f5c5bb6"
+   ]
+  },
+  {
    "id": "conectores",
    "name": "Conectores y estructuras clave",
    "order": 200,
@@ -1509,6 +1568,30 @@
     "c867d71364ed64eec5531768462116ca1542c61c2",
     "c4eac5267768497f34e507279522b597d542c",
     "c670976844eba4f1a55314eac5267670976844eba",
+    "c4ed64eca592967655f97975e5e3865e9",
+    "c529b6ce251995f974e0d597d770b",
+    "c4f604eec6628592973a95f97597d4e0d597d",
+    "c62118bf4897f73ed72598bed8bf45f974e0d6d41",
+    "c4f604e0a6765",
+    "c4f608fc767654e004e0b62117ed94f60770b4e00",
+    "c4ed651fa53bb4e86",
+    "c4eca5929662f67975a1c7684805a4f1a4f604eec",
+    "c8fd94ef6886c886b6bd490a34ef68d35",
+    "c4ed64e0d6bd462119ad8",
+    "c4ed66ca1670962119ad8",
+    "c4ed64eec6bd462114eec8bf45f976d415229",
+    "c897f74dc6bd482f9679c5927591a4e86",
+    "c4ed66bd462119ad84e0070b9513f",
+    "c8fd94ef68863670d6bd490a34ef68d354e095341",
+    "c80015e08628a676f5b50653e5728684c5b504e0a",
+    "c6211628a4f5c4e1a5e2652305b66682167654e86",
+    "c5979628a751f65e5793c726990017ed967975a1c",
+    "c4ed68dd14e864e004e2a5c0f65f6",
+    "c4ed6770b4e66770b4e864e8c53415206949f",
+    "c51994e86534a4e2a5c0f65f676844f5c4e1a",
+    "c8fd9672c4e665f886709610f601d4f60770b4e00",
+    "c8fd94e2a95ee98985f8896be4f60597d597d513f",
+    "c662f4e004f4d4f5c5bb6",
     "c56e04e3a4e0b96e862404ee562116ca153bb",
     "c867d71365f887d2f4f46662f62115f889ad85174",
     "c4ed64e0d4f464f1a8bf46c498bed800c4e148bf4",
@@ -1980,7 +2063,6 @@
     "c8868793a",
     "c7ecf8fc7",
     "c90475230",
-    "c5173",
     "c5237"
    ]
   },
@@ -71144,6 +71226,1125 @@
    }
   },
   {
+   "id": "c5173",
+   "hanzi": "关",
+   "pinyin": "guān",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "关",
+     "pinyin": "guān",
+     "syl": [
+      [
+       "guān",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "cerrar / apagar",
+   "en": "mountain pass; to close; to shut; to turn off; to confine; to lock (sb) up; to shut (sb in a room, a bird in a cage etc)",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 1,
+   "freq": 1129,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5f00706f",
+   "hanzi": "开灯",
+   "pinyin": "kāidēng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "开灯",
+     "pinyin": "kāidēng",
+     "syl": [
+      [
+       "kāi",
+       1
+      ],
+      [
+       "dēng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "encender la luz",
+   "en": "to turn on the light",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5173706f",
+   "hanzi": "关灯",
+   "pinyin": "guān dēng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "关",
+     "pinyin": "guān",
+     "syl": [
+      [
+       "guān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "灯",
+     "pinyin": "dēng",
+     "syl": [
+      [
+       "dēng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "apagar la luz",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5f0075358111",
+   "hanzi": "开电脑",
+   "pinyin": "kāi diànnǎo",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "开",
+     "pinyin": "kāi",
+     "syl": [
+      [
+       "kāi",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "电脑",
+     "pinyin": "diànnǎo",
+     "syl": [
+      [
+       "diàn",
+       4
+      ],
+      [
+       "nǎo",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "encender la computadora",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5f00753589c6",
+   "hanzi": "开电视",
+   "pinyin": "kāi diànshì",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "开",
+     "pinyin": "kāi",
+     "syl": [
+      [
+       "kāi",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "电视",
+     "pinyin": "diànshì",
+     "syl": [
+      [
+       "diàn",
+       4
+      ],
+      [
+       "shì",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "encender el televisor",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5f007a97",
+   "hanzi": "开窗",
+   "pinyin": "kāi chuāng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "开",
+     "pinyin": "kāi",
+     "syl": [
+      [
+       "kāi",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "窗",
+     "pinyin": "chuāng",
+     "syl": [
+      [
+       "chuāng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "abrir la ventana",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5f005173",
+   "hanzi": "开关",
+   "pinyin": "kāiguān",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "开关",
+     "pinyin": "kāiguān",
+     "syl": [
+      [
+       "kāi",
+       1
+      ],
+      [
+       "guān",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "interruptor",
+   "en": "power switch; gas valve; to open the city (or frontier) gate",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 6,
+   "freq": 7738,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4f5c5bb6",
+   "hanzi": "作家",
+   "pinyin": "zuòjiā",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "作家",
+     "pinyin": "zuòjiā",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "jiā",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "escritor",
+   "en": "author",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 3034,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c97f34e505bb6",
+   "hanzi": "音乐家",
+   "pinyin": "yīnyuèjiā",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "音乐家",
+     "pinyin": "yīnyuèjiā",
+     "syl": [
+      [
+       "yīn",
+       1
+      ],
+      [
+       "yuè",
+       4
+      ],
+      [
+       "jiā",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "músico",
+   "en": "musician",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c94a274345bb6",
+   "hanzi": "钢琴家",
+   "pinyin": "gāngqínjiā",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "钢琴家",
+     "pinyin": "gāngqínjiā",
+     "syl": [
+      [
+       "gāng",
+       1
+      ],
+      [
+       "qín",
+       2
+      ],
+      [
+       "jiā",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "pianista",
+   "en": "pianist",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4e0079cd",
+   "hanzi": "一种",
+   "pinyin": "yìzhǒng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "一种",
+     "pinyin": "yìzhǒng",
+     "syl": [
+      [
+       "yì",
+       4
+      ],
+      [
+       "zhǒng",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "un tipo de / una clase de",
+   "en": "one kind of; one type of",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c672c5b50",
+   "hanzi": "本子",
+   "pinyin": "běnzi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "本子",
+     "pinyin": "běnzi",
+     "syl": [
+      [
+       "běn",
+       3
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "cuaderno",
+   "en": "book; notebook; Japanese-style self-published comic (esp. an erotic one), aka \"dōjinshi\"",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 1,
+   "freq": 12849,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c76d25b50",
+   "hanzi": "盒子",
+   "pinyin": "hézi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "盒子",
+     "pinyin": "hézi",
+     "syl": [
+      [
+       "hé",
+       2
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "caja",
+   "en": "box; case; hezi – a savory turnover-like pie in northern Chinese and Mongolian cuisines",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 5,
+   "freq": 6250,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c59165356",
+   "hanzi": "外卖",
+   "pinyin": "wàimài",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "外卖",
+     "pinyin": "wàimài",
+     "syl": [
+      [
+       "wài",
+       4
+      ],
+      [
+       "mài",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "comida a domicilio / delivery",
+   "en": "(of a restaurant) to provide a takeout or home delivery meal; takeout (business); takeout (meal)",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 15748,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c591653565458",
+   "hanzi": "外卖员",
+   "pinyin": "wàimàiyuán",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "外卖员",
+     "pinyin": "wàimàiyuán",
+     "syl": [
+      [
+       "wài",
+       4
+      ],
+      [
+       "mài",
+       4
+      ],
+      [
+       "yuán",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "repartidor de comida",
+   "en": "food delivery person",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c53987c73",
+   "hanzi": "厘米",
+   "pinyin": "límǐ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "厘米",
+     "pinyin": "límǐ",
+     "syl": [
+      [
+       "lí",
+       2
+      ],
+      [
+       "mǐ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "centímetro",
+   "en": "centimeter",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 4,
+   "freq": 23825,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c4e134e1a",
+   "hanzi": "专业",
+   "pinyin": "zhuānyè",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "专业",
+     "pinyin": "zhuānyè",
+     "syl": [
+      [
+       "zhuān",
+       1
+      ],
+      [
+       "yè",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "carrera / especialidad",
+   "en": "specialty; specialized field; main field of study (at university)",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 3,
+   "freq": 1146,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c753589c65267",
+   "hanzi": "电视剧",
+   "pinyin": "diànshìjù",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "电视剧",
+     "pinyin": "diànshìjù",
+     "syl": [
+      [
+       "diàn",
+       4
+      ],
+      [
+       "shì",
+       4
+      ],
+      [
+       "jù",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "serie de televisión",
+   "en": "TV series; TV drama",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 3,
+   "freq": 4222,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c7701",
+   "hanzi": "省",
+   "pinyin": "shěng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "省",
+     "pinyin": "shěng",
+     "syl": [
+      [
+       "shěng",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "provincia",
+   "en": "(bound form) to scrutinize; (bound form) to reflect (on one's conduct); (bound form) to come to realize",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 1081,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c535765b9",
+   "hanzi": "南方",
+   "pinyin": "nánfāng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "南方",
+     "pinyin": "nánfāng",
+     "syl": [
+      [
+       "nán",
+       2
+      ],
+      [
+       "fāng",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "el sur",
+   "en": "south; southern direction; (in China) southern regions, often referring to areas south of the Yangtze River",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 3191,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c51c665f6",
+   "hanzi": "准时",
+   "pinyin": "zhǔnshí",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "准时",
+     "pinyin": "zhǔnshí",
+     "syl": [
+      [
+       "zhǔn",
+       3
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "puntual / a la hora",
+   "en": "on time; punctual; on schedule",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 4,
+   "freq": 6248,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c630965f6",
+   "hanzi": "按时",
+   "pinyin": "ànshí",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "按时",
+     "pinyin": "ànshí",
+     "syl": [
+      [
+       "àn",
+       4
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "a tiempo / en el plazo",
+   "en": "on time; before deadline; on schedule",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 4,
+   "freq": 7233,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8ba88bba",
+   "hanzi": "讨论",
+   "pinyin": "tǎolùn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "讨论",
+     "pinyin": "tǎolùn",
+     "syl": [
+      [
+       "tǎo",
+       3
+      ],
+      [
+       "lùn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "discutir / debatir",
+   "en": "to discuss; to talk over",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 1047,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c591a957f65f695f4",
+   "hanzi": "多长时间",
+   "pinyin": "duō cháng shíjiān",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "多",
+     "pinyin": "duō",
+     "syl": [
+      [
+       "duō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "长",
+     "pinyin": "cháng",
+     "syl": [
+      [
+       "cháng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "时间",
+     "pinyin": "shíjiān",
+     "syl": [
+      [
+       "shí",
+       2
+      ],
+      [
+       "jiān",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "cuánto tiempo",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c534a5e74",
+   "hanzi": "半年",
+   "pinyin": "bànnián",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "半年",
+     "pinyin": "bànnián",
+     "syl": [
+      [
+       "bàn",
+       4
+      ],
+      [
+       "nián",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "medio año",
+   "en": "half a year",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 1,
+   "freq": 37795,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c59549a6c",
+   "hanzi": "奔马",
+   "pinyin": "bēnmǎ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "奔马",
+     "pinyin": "bēnmǎ",
+     "syl": [
+      [
+       "bēn",
+       1
+      ],
+      [
+       "mǎ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "«Caballo galopando» (cuadro de Xu Beihong)",
+   "en": "(literary) (swift like a) speeding horse",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c67876777",
+   "hanzi": "枇杷",
+   "pinyin": "pípa",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "枇杷",
+     "pinyin": "pípa",
+     "syl": [
+      [
+       "pí",
+       2
+      ],
+      [
+       "pa",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "níspero",
+   "en": "loquat tree (Eriobotrya japonica); loquat fruit",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
    "id": "c62118ddf4f604e0068374e5f5f88559c6b224e2d",
    "hanzi": "我跟你一样，也很喜欢中国画。",
    "pinyin": "wǒ gēn nǐ yíyàng， yě hěn xǐhuan Zhōngguóhuà。",
@@ -102913,6 +104114,2637 @@
    }
   },
   {
+   "id": "c4ed64eca592967655f97975e5e3865e9",
+   "hanzi": "他今天来得非常早。",
+   "pinyin": "tā jīntiān lái de fēicháng zǎo。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "今天",
+     "pinyin": "jīntiān",
+     "syl": [
+      [
+       "jīn",
+       1
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "非常",
+     "pinyin": "fēicháng",
+     "syl": [
+      [
+       "fēi",
+       1
+      ],
+      [
+       "cháng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "早",
+     "pinyin": "zǎo",
+     "syl": [
+      [
+       "zǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Hoy llegó muy temprano.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + 得 + Adv + Adj",
+   "patternEs": "Complemento descriptivo: cómo se hace la acción"
+  },
+  {
+   "id": "c529b6ce251995f974e0d597d770b",
+   "hanzi": "力波写得不好看。",
+   "pinyin": "Lìbō xiě de bù hǎokàn。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "力波",
+     "pinyin": "Lìbō",
+     "syl": [
+      [
+       "Lì",
+       4
+      ],
+      [
+       "bō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "写",
+     "pinyin": "xiě",
+     "syl": [
+      [
+       "xiě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bù",
+     "syl": [
+      [
+       "bù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好看",
+     "pinyin": "hǎokàn",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Lìbō no escribe bonito.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + 得 + 不 + Adj",
+   "patternEs": "Negativa del complemento descriptivo"
+  },
+  {
+   "id": "c4f604eec6628592973a95f97597d4e0d597d",
+   "hanzi": "你们昨天玩得好不好？",
+   "pinyin": "nǐmen zuótiān wán de hǎobuhǎo？",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "你们",
+     "pinyin": "nǐmen",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "昨天",
+     "pinyin": "zuótiān",
+     "syl": [
+      [
+       "zuó",
+       2
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "玩",
+     "pinyin": "wán",
+     "syl": [
+      [
+       "wán",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好不好",
+     "pinyin": "hǎobuhǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "bu",
+       5
+      ],
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ],
+   "es": "¿La pasaron bien ayer?",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + 得 + Adj 不 Adj？",
+   "patternEs": "Pregunta afirmativa-negativa"
+  },
+  {
+   "id": "c62118bf4897f73ed72598bed8bf45f974e0d6d41",
+   "hanzi": "我说西班牙语说得不流利。",
+   "pinyin": "wǒ shuō Xībānyáyǔ shuō de bù liúlì。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "西班牙语",
+     "pinyin": "Xībānyáyǔ",
+     "syl": [
+      [
+       "Xī",
+       1
+      ],
+      [
+       "bān",
+       1
+      ],
+      [
+       "yá",
+       2
+      ],
+      [
+       "yǔ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bù",
+     "syl": [
+      [
+       "bù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "流利",
+     "pinyin": "liúlì",
+     "syl": [
+      [
+       "liú",
+       2
+      ],
+      [
+       "lì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Hablo español sin fluidez.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "S + (V) + O + V + 得 + Adj",
+   "patternEs": "Con objeto hay que repetir el verbo"
+  },
+  {
+   "id": "c4f604e0a6765",
+   "hanzi": "你上来！",
+   "pinyin": "nǐ shànglái！",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上来",
+     "pinyin": "shànglái",
+     "syl": [
+      [
+       "shàng",
+       4
+      ],
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "！"
+    }
+   ],
+   "es": "¡Sube (hacia mí)!",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + 来 / 去",
+   "patternEs": "Complemento de dirección: hacia o lejos del hablante"
+  },
+  {
+   "id": "c4f608fc767654e004e0b62117ed94f60770b4e00",
+   "hanzi": "你过来一下，我给你看一样东西。",
+   "pinyin": "nǐ guòlái yíxià， wǒ gěi nǐ kàn yíyàng dōngxi。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "过来",
+     "pinyin": "guòlái",
+     "syl": [
+      [
+       "guò",
+       4
+      ],
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一下",
+     "pinyin": "yíxià",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "xià",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "给",
+     "pinyin": "gěi",
+     "syl": [
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看",
+     "pinyin": "kàn",
+     "syl": [
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一样",
+     "pinyin": "yíyàng",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "yàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "东西",
+     "pinyin": "dōngxi",
+     "syl": [
+      [
+       "dōng",
+       1
+      ],
+      [
+       "xi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Ven un momento, te enseño algo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "nǐguòláiyíxiàwǒgéinǐkànyíyàngdōngxi",
+   "pattern": "过来",
+   "patternEs": "Ven acá (enfatiza el recorrido, no solo la dirección)"
+  },
+  {
+   "id": "c4ed651fa53bb4e86",
+   "hanzi": "他出去了。",
+   "pinyin": "tā chūqù le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "出去",
+     "pinyin": "chūqù",
+     "syl": [
+      [
+       "chū",
+       1
+      ],
+      [
+       "qù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Ya salió.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + 来/去 + 了",
+   "patternEs": "Acción ya ocurrida con dirección"
+  },
+  {
+   "id": "c4eca5929662f67975a1c7684805a4f1a4f604eec",
+   "hanzi": "今天是林娜的聚会，你们可以带礼物来。",
+   "pinyin": "jīntiān shì Lín Nà de jùhuì， nǐmen kěyǐ dài lǐwù lái。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "今天",
+     "pinyin": "jīntiān",
+     "syl": [
+      [
+       "jīn",
+       1
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "林娜",
+     "pinyin": "Lín Nà",
+     "syl": [
+      [
+       "Lín",
+       2
+      ],
+      [
+       "Nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "聚会",
+     "pinyin": "jùhuì",
+     "syl": [
+      [
+       "jù",
+       4
+      ],
+      [
+       "huì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你们",
+     "pinyin": "nǐmen",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "可以",
+     "pinyin": "kěyǐ",
+     "syl": [
+      [
+       "kě",
+       3
+      ],
+      [
+       "yǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "礼物",
+     "pinyin": "lǐwù",
+     "syl": [
+      [
+       "lǐ",
+       3
+      ],
+      [
+       "wù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Hoy es la fiesta de Lín Nà, pueden traer un regalo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "jīntiānshìLínNàdejùhuìnǐmenkéyǐdàilǐwùlái",
+   "pattern": "V + O + 来/去",
+   "patternEs": "Con objeto, 来/去 va al final"
+  },
+  {
+   "id": "c8fd94ef6886c886b6bd490a34ef68d35",
+   "hanzi": "这件衬衫比那件贵。",
+   "pinyin": "zhè jiàn chènshān bǐ nà jiàn guì。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "衬衫",
+     "pinyin": "chènshān",
+     "syl": [
+      [
+       "chèn",
+       4
+      ],
+      [
+       "shān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "那",
+     "pinyin": "nà",
+     "syl": [
+      [
+       "nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "贵",
+     "pinyin": "guì",
+     "syl": [
+      [
+       "guì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Esta camisa es más cara que aquella.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "X 比 Y + Adj",
+   "patternEs": "X es más [adj] que Y"
+  },
+  {
+   "id": "c4ed64e0d6bd462119ad8",
+   "hanzi": "他不比我高。",
+   "pinyin": "tā bù bǐ wǒ gāo。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bù",
+     "syl": [
+      [
+       "bù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "syl": [
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Él no es más alto que yo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tābùbíwǒgāo",
+   "pattern": "X 不比 Y + Adj",
+   "patternEs": "X no es más [adj] que Y (puede ser igual o menos)"
+  },
+  {
+   "id": "c4ed66ca1670962119ad8",
+   "hanzi": "他没有我高。",
+   "pinyin": "tā méiyǒu wǒ gāo。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "没有",
+     "pinyin": "méiyǒu",
+     "syl": [
+      [
+       "méi",
+       2
+      ],
+      [
+       "yǒu",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "syl": [
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Él no es tan alto como yo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tāméiyóuwǒgāo",
+   "pattern": "X 没有 Y + Adj",
+   "patternEs": "X no es tan [adj] como Y"
+  },
+  {
+   "id": "c4ed64eec6bd462114eec8bf45f976d415229",
+   "hanzi": "他们比我们说得流利。",
+   "pinyin": "tāmen bǐ wǒmen shuō de liúlì。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我们",
+     "pinyin": "wǒmen",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "流利",
+     "pinyin": "liúlì",
+     "syl": [
+      [
+       "liú",
+       2
+      ],
+      [
+       "lì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Ellos hablan con más fluidez que nosotros.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tāmenbíwǒmenshuōdeliúlì",
+   "pattern": "X 比 Y + V + 得 + Adj",
+   "patternEs": "Comparar cómo se hace algo"
+  },
+  {
+   "id": "c897f74dc6bd482f9679c5927591a4e86",
+   "hanzi": "西瓜比苹果大多了。",
+   "pinyin": "xīguā bǐ píngguǒ dàduō le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "西瓜",
+     "pinyin": "xīguā",
+     "syl": [
+      [
+       "xī",
+       1
+      ],
+      [
+       "guā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "苹果",
+     "pinyin": "píngguǒ",
+     "syl": [
+      [
+       "píng",
+       2
+      ],
+      [
+       "guǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "大多",
+     "pinyin": "dàduō",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "duō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "La sandía es mucho más grande que la manzana.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "X 比 Y + Adj + 多了",
+   "patternEs": "Mucho más [adj] que"
+  },
+  {
+   "id": "c4ed66bd462119ad84e0070b9513f",
+   "hanzi": "他比我高一点儿。",
+   "pinyin": "tā bǐ wǒ gāo yìdiǎnr。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "syl": [
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一点儿",
+     "pinyin": "yìdiǎnr",
+     "syl": [
+      [
+       "yì",
+       4
+      ],
+      [
+       "diǎnr",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Él es un poco más alto que yo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "tābíwǒgāoyìdiǎnr",
+   "pattern": "X 比 Y + Adj + 一点儿",
+   "patternEs": "Un poco más [adj] que"
+  },
+  {
+   "id": "c8fd94ef68863670d6bd490a34ef68d354e095341",
+   "hanzi": "这件衣服比那件贵三十块钱。",
+   "pinyin": "zhè jiàn yīfu bǐ nà jiàn guì sānshí kuài qián。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "衣服",
+     "pinyin": "yīfu",
+     "syl": [
+      [
+       "yī",
+       1
+      ],
+      [
+       "fu",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "那",
+     "pinyin": "nà",
+     "syl": [
+      [
+       "nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "贵",
+     "pinyin": "guì",
+     "syl": [
+      [
+       "guì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "三十",
+     "pinyin": "sānshí",
+     "syl": [
+      [
+       "sān",
+       1
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "块",
+     "pinyin": "kuài",
+     "syl": [
+      [
+       "kuài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "钱",
+     "pinyin": "qián",
+     "syl": [
+      [
+       "qián",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Esta ropa es treinta yuanes más cara que aquella.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "X 比 Y + Adj + cantidad",
+   "patternEs": "Más [adj] por una cantidad concreta"
+  },
+  {
+   "id": "c80015e08628a676f5b50653e5728684c5b504e0a",
+   "hanzi": "老师把杯子放在桌子上。",
+   "pinyin": "lǎoshī bǎ bēizi fàng zài zhuōzi shàng。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "老师",
+     "pinyin": "lǎoshī",
+     "syl": [
+      [
+       "lǎo",
+       3
+      ],
+      [
+       "shī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "杯子",
+     "pinyin": "bēizi",
+     "syl": [
+      [
+       "bēi",
+       1
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "放",
+     "pinyin": "fàng",
+     "syl": [
+      [
+       "fàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "桌子",
+     "pinyin": "zhuōzi",
+     "syl": [
+      [
+       "zhuō",
+       1
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上",
+     "pinyin": "shàng",
+     "syl": [
+      [
+       "shàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "El profesor puso el vaso sobre la mesa.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "S + 把 + O + V + 在 + lugar",
+   "patternEs": "Dejar algo EN un sitio"
+  },
+  {
+   "id": "c6211628a4f5c4e1a5e2652305b66682167654e86",
+   "hanzi": "我把作业带到学校来了。",
+   "pinyin": "wǒ bǎ zuòyè dài dào xuéxiào lái le。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "作业",
+     "pinyin": "zuòyè",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "yè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "到",
+     "pinyin": "dào",
+     "syl": [
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "学校",
+     "pinyin": "xuéxiào",
+     "syl": [
+      [
+       "xué",
+       2
+      ],
+      [
+       "xiào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Traje la tarea a la escuela.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "wóbǎzuòyèdàidàoxuéxiàoláile",
+   "pattern": "S + 把 + O + V + 到 + lugar (+来/去)",
+   "patternEs": "Llevar algo HASTA un sitio"
+  },
+  {
+   "id": "c5979628a751f65e5793c726990017ed967975a1c",
+   "hanzi": "她把生日礼物送给林娜。",
+   "pinyin": "tā bǎ shēngrìlǐwù sònggěi Lín Nà。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "她",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "生日礼物",
+     "pinyin": "shēngrìlǐwù",
+     "syl": [
+      [
+       "shēng",
+       1
+      ],
+      [
+       "rì",
+       4
+      ],
+      [
+       "lǐ",
+       3
+      ],
+      [
+       "wù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送给",
+     "pinyin": "sònggěi",
+     "syl": [
+      [
+       "sòng",
+       4
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "林娜",
+     "pinyin": "Lín Nà",
+     "syl": [
+      [
+       "Lín",
+       2
+      ],
+      [
+       "Nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Le regaló el regalo de cumpleaños a Lín Nà.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "S + 把 + O + V + 给 + alguien",
+   "patternEs": "Entregarle algo a alguien"
+  },
+  {
+   "id": "c4ed68dd14e864e004e2a5c0f65f6",
+   "hanzi": "他跑了一个小时。",
+   "pinyin": "tā pǎo le yíge xiǎoshí。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "跑",
+     "pinyin": "pǎo",
+     "syl": [
+      [
+       "pǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一个",
+     "pinyin": "yíge",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "小时",
+     "pinyin": "xiǎoshí",
+     "syl": [
+      [
+       "xiǎo",
+       3
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Corrió una hora.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + 了 + complemento de duración",
+   "patternEs": "Cuánto duró la acción"
+  },
+  {
+   "id": "c4ed6770b4e66770b4e864e8c53415206949f",
+   "hanzi": "他看书看了二十分钟。",
+   "pinyin": "tā kànshū kàn le èrshí fēnzhōng。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看书",
+     "pinyin": "kànshū",
+     "syl": [
+      [
+       "kàn",
+       4
+      ],
+      [
+       "shū",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看",
+     "pinyin": "kàn",
+     "syl": [
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "二十",
+     "pinyin": "èrshí",
+     "syl": [
+      [
+       "èr",
+       4
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "分钟",
+     "pinyin": "fēnzhōng",
+     "syl": [
+      [
+       "fēn",
+       1
+      ],
+      [
+       "zhōng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Leyó veinte minutos.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "(V) + O + V + duración",
+   "patternEs": "Con objeto se repite el verbo"
+  },
+  {
+   "id": "c51994e86534a4e2a5c0f65f676844f5c4e1a",
+   "hanzi": "写了半个小时的作业。",
+   "pinyin": "xiě le bànge xiǎoshí de zuòyè。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "写",
+     "pinyin": "xiě",
+     "syl": [
+      [
+       "xiě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "半个",
+     "pinyin": "bànge",
+     "syl": [
+      [
+       "bàn",
+       4
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "小时",
+     "pinyin": "xiǎoshí",
+     "syl": [
+      [
+       "xiǎo",
+       3
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "作业",
+     "pinyin": "zuòyè",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "yè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Hizo media hora de tarea.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "V + duración + (的) + O",
+   "patternEs": "Otra forma: la duración antes del objeto"
+  },
+  {
+   "id": "c8fd9672c4e665f886709610f601d4f60770b4e00",
+   "hanzi": "这本书很有意思，你看一看。",
+   "pinyin": "zhè běn shū hěn yǒuyìsi， nǐ kànyíkàn。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "本",
+     "pinyin": "běn",
+     "syl": [
+      [
+       "běn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "书",
+     "pinyin": "shū",
+     "syl": [
+      [
+       "shū",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "很",
+     "pinyin": "hěn",
+     "syl": [
+      [
+       "hěn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "有意思",
+     "pinyin": "yǒuyìsi",
+     "syl": [
+      [
+       "yǒu",
+       3
+      ],
+      [
+       "yì",
+       4
+      ],
+      [
+       "si",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看一看",
+     "pinyin": "kànyíkàn",
+     "syl": [
+      [
+       "kàn",
+       4
+      ],
+      [
+       "yí",
+       2
+      ],
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Este libro es interesante, échale un vistazo.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "zhèběnshūhényǒuyìsinǐkànyíkàn",
+   "pattern": "V 一 V = V 一下",
+   "patternEs": "Hacer algo un momento o probar"
+  },
+  {
+   "id": "c8fd94e2a95ee98985f8896be4f60597d597d513f",
+   "hanzi": "这个问题很难，你好好儿想一想。",
+   "pinyin": "zhège wèntí hěn nán， nǐ hǎohāor xiǎng yì xiǎng。",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "这个",
+     "pinyin": "zhège",
+     "syl": [
+      [
+       "zhè",
+       4
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "问题",
+     "pinyin": "wèntí",
+     "syl": [
+      [
+       "wèn",
+       4
+      ],
+      [
+       "tí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "很",
+     "pinyin": "hěn",
+     "syl": [
+      [
+       "hěn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "难",
+     "pinyin": "nán",
+     "syl": [
+      [
+       "nán",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好好儿",
+     "pinyin": "hǎohāor",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "hāor",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想",
+     "pinyin": "xiǎng",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yì",
+     "syl": [
+      [
+       "yì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想",
+     "pinyin": "xiǎng",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Este problema es difícil, piénsalo bien.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "zhègewèntíhěnnánníhǎohāorxiǎngyìxiǎng",
+   "pattern": "好好儿 + V",
+   "patternEs": "Hacer algo como se debe, con calma"
+  },
+  {
+   "id": "c662f4e004f4d4f5c5bb6",
+   "hanzi": "Mario Vargas Llosa 是一位作家。",
+   "pinyin": "Mario Vargas Llosa shì yí wèi zuòjiā。",
+   "tokens": [
+    {
+     "t": "p",
+     "hanzi": "Mario"
+    },
+    {
+     "t": "p",
+     "hanzi": "Vargas"
+    },
+    {
+     "t": "p",
+     "hanzi": "Llosa"
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yí",
+     "syl": [
+      [
+       "yí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "位",
+     "pinyin": "wèi",
+     "syl": [
+      [
+       "wèi",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "作家",
+     "pinyin": "zuòjiā",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "jiā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ],
+   "es": "Mario Vargas Llosa es un escritor.",
+   "en": null,
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
+   "lesson": null,
+   "decks": [
+    "miaR3",
+    "conectores"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "pattern": "……家",
+   "patternEs": "Sufijo de especialista"
+  },
+  {
    "id": "c6211662f5750573094c153bb7684",
    "hanzi": "我是坐地铁去的。",
    "pinyin": "wǒ shì zuò dìtiě qù de。",
@@ -117106,41 +120938,6 @@
    }
   },
   {
-   "id": "c5173",
-   "hanzi": "关",
-   "pinyin": "guān",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "关",
-     "pinyin": "guān",
-     "syl": [
-      [
-       "guān",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "cerrar / apagar",
-   "en": "mountain pass; to close; to shut; to turn off; to confine; to lock (sb) up; to shut (sb in a room, a bird in a cage etc)",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 1,
-   "freq": 1129,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "tema11"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c529e516c5ba4",
    "hanzi": "办公室",
    "pinyin": "bàngōngshì",
@@ -128432,6 +132229,2220 @@
   },
   {
    "id": "g72",
+   "pattern": "V + 得 + Adv + Adj",
+   "es": "Complemento descriptivo: cómo se hace la acción",
+   "example": "他今天来得非常早。",
+   "examplePinyin": "tā jīntiān lái de fēicháng zǎo。",
+   "exampleEs": "Hoy llegó muy temprano.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "今天",
+     "pinyin": "jīntiān",
+     "syl": [
+      [
+       "jīn",
+       1
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "非常",
+     "pinyin": "fēicháng",
+     "syl": [
+      [
+       "fēi",
+       1
+      ],
+      [
+       "cháng",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "早",
+     "pinyin": "zǎo",
+     "syl": [
+      [
+       "zǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g73",
+   "pattern": "V + 得 + 不 + Adj",
+   "es": "Negativa del complemento descriptivo",
+   "example": "力波写得不好看。",
+   "examplePinyin": "Lìbō xiě de bù hǎokàn。",
+   "exampleEs": "Lìbō no escribe bonito.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "力波",
+     "pinyin": "Lìbō",
+     "syl": [
+      [
+       "Lì",
+       4
+      ],
+      [
+       "bō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "写",
+     "pinyin": "xiě",
+     "syl": [
+      [
+       "xiě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bù",
+     "syl": [
+      [
+       "bù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好看",
+     "pinyin": "hǎokàn",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g74",
+   "pattern": "V + 得 + Adj 不 Adj？",
+   "es": "Pregunta afirmativa-negativa",
+   "example": "你们昨天玩得好不好？",
+   "examplePinyin": "nǐmen zuótiān wán de hǎobuhǎo？",
+   "exampleEs": "¿La pasaron bien ayer?",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "你们",
+     "pinyin": "nǐmen",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "昨天",
+     "pinyin": "zuótiān",
+     "syl": [
+      [
+       "zuó",
+       2
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "玩",
+     "pinyin": "wán",
+     "syl": [
+      [
+       "wán",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好不好",
+     "pinyin": "hǎobuhǎo",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "bu",
+       5
+      ],
+      [
+       "hǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "？"
+    }
+   ]
+  },
+  {
+   "id": "g75",
+   "pattern": "S + (V) + O + V + 得 + Adj",
+   "es": "Con objeto hay que repetir el verbo",
+   "example": "我说西班牙语说得不流利。",
+   "examplePinyin": "wǒ shuō Xībānyáyǔ shuō de bù liúlì。",
+   "exampleEs": "Hablo español sin fluidez.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "西班牙语",
+     "pinyin": "Xībānyáyǔ",
+     "syl": [
+      [
+       "Xī",
+       1
+      ],
+      [
+       "bān",
+       1
+      ],
+      [
+       "yá",
+       2
+      ],
+      [
+       "yǔ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bù",
+     "syl": [
+      [
+       "bù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "流利",
+     "pinyin": "liúlì",
+     "syl": [
+      [
+       "liú",
+       2
+      ],
+      [
+       "lì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g76",
+   "pattern": "V + 来 / 去",
+   "es": "Complemento de dirección: hacia o lejos del hablante",
+   "example": "你上来！",
+   "examplePinyin": "nǐ shànglái！",
+   "exampleEs": "¡Sube (hacia mí)!",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上来",
+     "pinyin": "shànglái",
+     "syl": [
+      [
+       "shàng",
+       4
+      ],
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "！"
+    }
+   ]
+  },
+  {
+   "id": "g77",
+   "pattern": "过来",
+   "es": "Ven acá (enfatiza el recorrido, no solo la dirección)",
+   "example": "你过来一下，我给你看一样东西。",
+   "examplePinyin": "nǐ guòlái yíxià， wǒ gěi nǐ kàn yíyàng dōngxi。",
+   "exampleEs": "Ven un momento, te enseño algo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "过来",
+     "pinyin": "guòlái",
+     "syl": [
+      [
+       "guò",
+       4
+      ],
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一下",
+     "pinyin": "yíxià",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "xià",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "给",
+     "pinyin": "gěi",
+     "syl": [
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看",
+     "pinyin": "kàn",
+     "syl": [
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一样",
+     "pinyin": "yíyàng",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "yàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "东西",
+     "pinyin": "dōngxi",
+     "syl": [
+      [
+       "dōng",
+       1
+      ],
+      [
+       "xi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g78",
+   "pattern": "V + 来/去 + 了",
+   "es": "Acción ya ocurrida con dirección",
+   "example": "他出去了。",
+   "examplePinyin": "tā chūqù le。",
+   "exampleEs": "Ya salió.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "出去",
+     "pinyin": "chūqù",
+     "syl": [
+      [
+       "chū",
+       1
+      ],
+      [
+       "qù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g79",
+   "pattern": "V + O + 来/去",
+   "es": "Con objeto, 来/去 va al final",
+   "example": "今天是林娜的聚会，你们可以带礼物来。",
+   "examplePinyin": "jīntiān shì Lín Nà de jùhuì， nǐmen kěyǐ dài lǐwù lái。",
+   "exampleEs": "Hoy es la fiesta de Lín Nà, pueden traer un regalo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "今天",
+     "pinyin": "jīntiān",
+     "syl": [
+      [
+       "jīn",
+       1
+      ],
+      [
+       "tiān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "林娜",
+     "pinyin": "Lín Nà",
+     "syl": [
+      [
+       "Lín",
+       2
+      ],
+      [
+       "Nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "聚会",
+     "pinyin": "jùhuì",
+     "syl": [
+      [
+       "jù",
+       4
+      ],
+      [
+       "huì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你们",
+     "pinyin": "nǐmen",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "可以",
+     "pinyin": "kěyǐ",
+     "syl": [
+      [
+       "kě",
+       3
+      ],
+      [
+       "yǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "礼物",
+     "pinyin": "lǐwù",
+     "syl": [
+      [
+       "lǐ",
+       3
+      ],
+      [
+       "wù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g80",
+   "pattern": "X 比 Y + Adj",
+   "es": "X es más [adj] que Y",
+   "example": "这件衬衫比那件贵。",
+   "examplePinyin": "zhè jiàn chènshān bǐ nà jiàn guì。",
+   "exampleEs": "Esta camisa es más cara que aquella.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "衬衫",
+     "pinyin": "chènshān",
+     "syl": [
+      [
+       "chèn",
+       4
+      ],
+      [
+       "shān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "那",
+     "pinyin": "nà",
+     "syl": [
+      [
+       "nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "贵",
+     "pinyin": "guì",
+     "syl": [
+      [
+       "guì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g81",
+   "pattern": "X 不比 Y + Adj",
+   "es": "X no es más [adj] que Y (puede ser igual o menos)",
+   "example": "他不比我高。",
+   "examplePinyin": "tā bù bǐ wǒ gāo。",
+   "exampleEs": "Él no es más alto que yo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "不",
+     "pinyin": "bù",
+     "syl": [
+      [
+       "bù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "syl": [
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g82",
+   "pattern": "X 没有 Y + Adj",
+   "es": "X no es tan [adj] como Y",
+   "example": "他没有我高。",
+   "examplePinyin": "tā méiyǒu wǒ gāo。",
+   "exampleEs": "Él no es tan alto como yo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "没有",
+     "pinyin": "méiyǒu",
+     "syl": [
+      [
+       "méi",
+       2
+      ],
+      [
+       "yǒu",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "syl": [
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g83",
+   "pattern": "X 比 Y + V + 得 + Adj",
+   "es": "Comparar cómo se hace algo",
+   "example": "他们比我们说得流利。",
+   "examplePinyin": "tāmen bǐ wǒmen shuō de liúlì。",
+   "exampleEs": "Ellos hablan con más fluidez que nosotros.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他们",
+     "pinyin": "tāmen",
+     "syl": [
+      [
+       "tā",
+       1
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我们",
+     "pinyin": "wǒmen",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ],
+      [
+       "men",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "说",
+     "pinyin": "shuō",
+     "syl": [
+      [
+       "shuō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "得",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "流利",
+     "pinyin": "liúlì",
+     "syl": [
+      [
+       "liú",
+       2
+      ],
+      [
+       "lì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g84",
+   "pattern": "X 比 Y + Adj + 多了",
+   "es": "Mucho más [adj] que",
+   "example": "西瓜比苹果大多了。",
+   "examplePinyin": "xīguā bǐ píngguǒ dàduō le。",
+   "exampleEs": "La sandía es mucho más grande que la manzana.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "西瓜",
+     "pinyin": "xīguā",
+     "syl": [
+      [
+       "xī",
+       1
+      ],
+      [
+       "guā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "苹果",
+     "pinyin": "píngguǒ",
+     "syl": [
+      [
+       "píng",
+       2
+      ],
+      [
+       "guǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "大多",
+     "pinyin": "dàduō",
+     "syl": [
+      [
+       "dà",
+       4
+      ],
+      [
+       "duō",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g85",
+   "pattern": "X 比 Y + Adj + 一点儿",
+   "es": "Un poco más [adj] que",
+   "example": "他比我高一点儿。",
+   "examplePinyin": "tā bǐ wǒ gāo yìdiǎnr。",
+   "exampleEs": "Él es un poco más alto que yo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "高",
+     "pinyin": "gāo",
+     "syl": [
+      [
+       "gāo",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一点儿",
+     "pinyin": "yìdiǎnr",
+     "syl": [
+      [
+       "yì",
+       4
+      ],
+      [
+       "diǎnr",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g86",
+   "pattern": "X 比 Y + Adj + cantidad",
+   "es": "Más [adj] por una cantidad concreta",
+   "example": "这件衣服比那件贵三十块钱。",
+   "examplePinyin": "zhè jiàn yīfu bǐ nà jiàn guì sānshí kuài qián。",
+   "exampleEs": "Esta ropa es treinta yuanes más cara que aquella.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "衣服",
+     "pinyin": "yīfu",
+     "syl": [
+      [
+       "yī",
+       1
+      ],
+      [
+       "fu",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "比",
+     "pinyin": "bǐ",
+     "syl": [
+      [
+       "bǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "那",
+     "pinyin": "nà",
+     "syl": [
+      [
+       "nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "件",
+     "pinyin": "jiàn",
+     "syl": [
+      [
+       "jiàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "贵",
+     "pinyin": "guì",
+     "syl": [
+      [
+       "guì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "三十",
+     "pinyin": "sānshí",
+     "syl": [
+      [
+       "sān",
+       1
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "块",
+     "pinyin": "kuài",
+     "syl": [
+      [
+       "kuài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "钱",
+     "pinyin": "qián",
+     "syl": [
+      [
+       "qián",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g87",
+   "pattern": "S + 把 + O + V + 在 + lugar",
+   "es": "Dejar algo EN un sitio",
+   "example": "老师把杯子放在桌子上。",
+   "examplePinyin": "lǎoshī bǎ bēizi fàng zài zhuōzi shàng。",
+   "exampleEs": "El profesor puso el vaso sobre la mesa.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "老师",
+     "pinyin": "lǎoshī",
+     "syl": [
+      [
+       "lǎo",
+       3
+      ],
+      [
+       "shī",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "杯子",
+     "pinyin": "bēizi",
+     "syl": [
+      [
+       "bēi",
+       1
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "放",
+     "pinyin": "fàng",
+     "syl": [
+      [
+       "fàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "桌子",
+     "pinyin": "zhuōzi",
+     "syl": [
+      [
+       "zhuō",
+       1
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "上",
+     "pinyin": "shàng",
+     "syl": [
+      [
+       "shàng",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g88",
+   "pattern": "S + 把 + O + V + 到 + lugar (+来/去)",
+   "es": "Llevar algo HASTA un sitio",
+   "example": "我把作业带到学校来了。",
+   "examplePinyin": "wǒ bǎ zuòyè dài dào xuéxiào lái le。",
+   "exampleEs": "Traje la tarea a la escuela.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "我",
+     "pinyin": "wǒ",
+     "syl": [
+      [
+       "wǒ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "作业",
+     "pinyin": "zuòyè",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "yè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "带",
+     "pinyin": "dài",
+     "syl": [
+      [
+       "dài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "到",
+     "pinyin": "dào",
+     "syl": [
+      [
+       "dào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "学校",
+     "pinyin": "xuéxiào",
+     "syl": [
+      [
+       "xué",
+       2
+      ],
+      [
+       "xiào",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "来",
+     "pinyin": "lái",
+     "syl": [
+      [
+       "lái",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g89",
+   "pattern": "S + 把 + O + V + 给 + alguien",
+   "es": "Entregarle algo a alguien",
+   "example": "她把生日礼物送给林娜。",
+   "examplePinyin": "tā bǎ shēngrìlǐwù sònggěi Lín Nà。",
+   "exampleEs": "Le regaló el regalo de cumpleaños a Lín Nà.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "她",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "把",
+     "pinyin": "bǎ",
+     "syl": [
+      [
+       "bǎ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "生日礼物",
+     "pinyin": "shēngrìlǐwù",
+     "syl": [
+      [
+       "shēng",
+       1
+      ],
+      [
+       "rì",
+       4
+      ],
+      [
+       "lǐ",
+       3
+      ],
+      [
+       "wù",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "送给",
+     "pinyin": "sònggěi",
+     "syl": [
+      [
+       "sòng",
+       4
+      ],
+      [
+       "gěi",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "林娜",
+     "pinyin": "Lín Nà",
+     "syl": [
+      [
+       "Lín",
+       2
+      ],
+      [
+       "Nà",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g90",
+   "pattern": "V + 了 + complemento de duración",
+   "es": "Cuánto duró la acción",
+   "example": "他跑了一个小时。",
+   "examplePinyin": "tā pǎo le yíge xiǎoshí。",
+   "exampleEs": "Corrió una hora.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "跑",
+     "pinyin": "pǎo",
+     "syl": [
+      [
+       "pǎo",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一个",
+     "pinyin": "yíge",
+     "syl": [
+      [
+       "yí",
+       2
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "小时",
+     "pinyin": "xiǎoshí",
+     "syl": [
+      [
+       "xiǎo",
+       3
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g91",
+   "pattern": "(V) + O + V + duración",
+   "es": "Con objeto se repite el verbo",
+   "example": "他看书看了二十分钟。",
+   "examplePinyin": "tā kànshū kàn le èrshí fēnzhōng。",
+   "exampleEs": "Leyó veinte minutos.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "他",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看书",
+     "pinyin": "kànshū",
+     "syl": [
+      [
+       "kàn",
+       4
+      ],
+      [
+       "shū",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看",
+     "pinyin": "kàn",
+     "syl": [
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "二十",
+     "pinyin": "èrshí",
+     "syl": [
+      [
+       "èr",
+       4
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "分钟",
+     "pinyin": "fēnzhōng",
+     "syl": [
+      [
+       "fēn",
+       1
+      ],
+      [
+       "zhōng",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g92",
+   "pattern": "V + duración + (的) + O",
+   "es": "Otra forma: la duración antes del objeto",
+   "example": "写了半个小时的作业。",
+   "examplePinyin": "xiě le bànge xiǎoshí de zuòyè。",
+   "exampleEs": "Hizo media hora de tarea.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "写",
+     "pinyin": "xiě",
+     "syl": [
+      [
+       "xiě",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "了",
+     "pinyin": "le",
+     "syl": [
+      [
+       "le",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "半个",
+     "pinyin": "bànge",
+     "syl": [
+      [
+       "bàn",
+       4
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "小时",
+     "pinyin": "xiǎoshí",
+     "syl": [
+      [
+       "xiǎo",
+       3
+      ],
+      [
+       "shí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "的",
+     "pinyin": "de",
+     "syl": [
+      [
+       "de",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "作业",
+     "pinyin": "zuòyè",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "yè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g93",
+   "pattern": "V 一 V = V 一下",
+   "es": "Hacer algo un momento o probar",
+   "example": "这本书很有意思，你看一看。",
+   "examplePinyin": "zhè běn shū hěn yǒuyìsi， nǐ kànyíkàn。",
+   "exampleEs": "Este libro es interesante, échale un vistazo.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "这",
+     "pinyin": "zhè",
+     "syl": [
+      [
+       "zhè",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "本",
+     "pinyin": "běn",
+     "syl": [
+      [
+       "běn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "书",
+     "pinyin": "shū",
+     "syl": [
+      [
+       "shū",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "很",
+     "pinyin": "hěn",
+     "syl": [
+      [
+       "hěn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "有意思",
+     "pinyin": "yǒuyìsi",
+     "syl": [
+      [
+       "yǒu",
+       3
+      ],
+      [
+       "yì",
+       4
+      ],
+      [
+       "si",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "看一看",
+     "pinyin": "kànyíkàn",
+     "syl": [
+      [
+       "kàn",
+       4
+      ],
+      [
+       "yí",
+       2
+      ],
+      [
+       "kàn",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g94",
+   "pattern": "好好儿 + V",
+   "es": "Hacer algo como se debe, con calma",
+   "example": "这个问题很难，你好好儿想一想。",
+   "examplePinyin": "zhège wèntí hěn nán， nǐ hǎohāor xiǎng yì xiǎng。",
+   "exampleEs": "Este problema es difícil, piénsalo bien.",
+   "exampleTokens": [
+    {
+     "t": "w",
+     "hanzi": "这个",
+     "pinyin": "zhège",
+     "syl": [
+      [
+       "zhè",
+       4
+      ],
+      [
+       "ge",
+       5
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "问题",
+     "pinyin": "wèntí",
+     "syl": [
+      [
+       "wèn",
+       4
+      ],
+      [
+       "tí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "很",
+     "pinyin": "hěn",
+     "syl": [
+      [
+       "hěn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "难",
+     "pinyin": "nán",
+     "syl": [
+      [
+       "nán",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "你",
+     "pinyin": "nǐ",
+     "syl": [
+      [
+       "nǐ",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "好好儿",
+     "pinyin": "hǎohāor",
+     "syl": [
+      [
+       "hǎo",
+       3
+      ],
+      [
+       "hāor",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想",
+     "pinyin": "xiǎng",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yì",
+     "syl": [
+      [
+       "yì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "想",
+     "pinyin": "xiǎng",
+     "syl": [
+      [
+       "xiǎng",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g95",
+   "pattern": "……家",
+   "es": "Sufijo de especialista",
+   "example": "Mario Vargas Llosa 是一位作家。",
+   "examplePinyin": "Mario Vargas Llosa shì yí wèi zuòjiā。",
+   "exampleEs": "Mario Vargas Llosa es un escritor.",
+   "exampleTokens": [
+    {
+     "t": "p",
+     "hanzi": "Mario"
+    },
+    {
+     "t": "p",
+     "hanzi": "Vargas"
+    },
+    {
+     "t": "p",
+     "hanzi": "Llosa"
+    },
+    {
+     "t": "w",
+     "hanzi": "是",
+     "pinyin": "shì",
+     "syl": [
+      [
+       "shì",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "一",
+     "pinyin": "yí",
+     "syl": [
+      [
+       "yí",
+       2
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "位",
+     "pinyin": "wèi",
+     "syl": [
+      [
+       "wèi",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "作家",
+     "pinyin": "zuòjiā",
+     "syl": [
+      [
+       "zuò",
+       4
+      ],
+      [
+       "jiā",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "。"
+    }
+   ]
+  },
+  {
+   "id": "g96",
    "pattern": "因为...所以...",
    "es": "Porque... por eso...",
    "example": "因为下雨，所以我没去。",
@@ -128527,7 +134538,7 @@
    ]
   },
   {
-   "id": "g73",
+   "id": "g97",
    "pattern": "虽然...但是...",
    "es": "Aunque... sin embargo...",
    "example": "虽然很累，但是我很高兴。",
@@ -128634,7 +134645,7 @@
    ]
   },
   {
-   "id": "g74",
+   "id": "g98",
    "pattern": "不但...而且...",
    "es": "No solo... sino que además...",
    "example": "他不但会说汉语，而且说得很好。",
@@ -128774,7 +134785,7 @@
    ]
   },
   {
-   "id": "g75",
+   "id": "g99",
    "pattern": "如果...就...",
    "es": "Si... entonces...",
    "example": "如果你有时间，就来我家。",
@@ -128888,7 +134899,7 @@
    ]
   },
   {
-   "id": "g76",
+   "id": "g100",
    "pattern": "要是...就...",
    "es": "Si... entonces... (coloquial)",
    "example": "要是明天不下雨，我们就去。",
@@ -128999,7 +135010,7 @@
    ]
   },
   {
-   "id": "g77",
+   "id": "g101",
    "pattern": "只要...就...",
    "es": "Con tal de que... basta con...",
    "example": "只要你努力，就一定行。",
@@ -129095,7 +135106,7 @@
    ]
   },
   {
-   "id": "g78",
+   "id": "g102",
    "pattern": "一...就...",
    "es": "En cuanto... entonces...",
    "example": "我一到就给你打电话。",
@@ -129194,7 +135205,7 @@
    ]
   },
   {
-   "id": "g79",
+   "id": "g103",
    "pattern": "先...再...",
    "es": "Primero... después...",
    "example": "先做作业，再看电视。",
@@ -129286,7 +135297,7 @@
    ]
   },
   {
-   "id": "g80",
+   "id": "g104",
    "pattern": "一边...一边...",
    "es": "Hacer dos cosas a la vez",
    "example": "他一边走一边听音乐。",
@@ -129378,7 +135389,7 @@
    ]
   },
   {
-   "id": "g81",
+   "id": "g105",
    "pattern": "又...又...",
    "es": "Tanto... como... (dos cualidades)",
    "example": "这个又便宜又好吃。",
@@ -129459,7 +135470,7 @@
    ]
   },
   {
-   "id": "g82",
+   "id": "g106",
    "pattern": "越...越...",
    "es": "Cuanto más... más...",
    "example": "雨越下越大。",
@@ -129528,7 +135539,7 @@
    ]
   },
   {
-   "id": "g83",
+   "id": "g107",
    "pattern": "除了...以外",
    "es": "Aparte de... / excepto...",
    "example": "除了他以外，我们都去了。",
@@ -129635,7 +135646,7 @@
    ]
   },
   {
-   "id": "g84",
+   "id": "g108",
    "pattern": "不是...而是...",
    "es": "No es... sino...",
    "example": "他不是老师，而是学生。",
@@ -129724,7 +135735,7 @@
    ]
   },
   {
-   "id": "g85",
+   "id": "g109",
    "pattern": "或者...或者...",
    "es": "O bien... o bien... (afirmando)",
    "example": "或者今天，或者明天。",
@@ -129802,7 +135813,7 @@
    ]
   },
   {
-   "id": "g86",
+   "id": "g110",
    "pattern": "还是",
    "es": "O (solo en preguntas)",
    "example": "你喝茶还是咖啡？",
@@ -129872,7 +135883,7 @@
    ]
   },
   {
-   "id": "g87",
+   "id": "g111",
    "pattern": "为了",
    "es": "Para (con esa finalidad)",
    "example": "为了学好汉语，我每天听录音。",
@@ -129987,7 +135998,7 @@
    ]
   },
   {
-   "id": "g88",
+   "id": "g112",
    "pattern": "所以",
    "es": "Por eso / así que",
    "example": "我很忙，所以没去。",
@@ -130075,7 +136086,7 @@
    ]
   },
   {
-   "id": "g89",
+   "id": "g113",
    "pattern": "可是",
    "es": "Pero",
    "example": "我想去，可是没有时间。",
@@ -130171,7 +136182,7 @@
    ]
   },
   {
-   "id": "g90",
+   "id": "g114",
    "pattern": "而且",
    "es": "Además",
    "example": "这儿很近，而且很方便。",
@@ -130263,7 +136274,7 @@
    ]
   },
   {
-   "id": "g91",
+   "id": "g115",
    "pattern": "然后",
    "es": "Luego / a continuación",
    "example": "我们先吃饭，然后去逛街。",
@@ -130363,7 +136374,7 @@
    ]
   },
   {
-   "id": "g92",
+   "id": "g116",
    "pattern": "最后",
    "es": "Por último / finalmente",
    "example": "最后，他签了字。",
@@ -130440,7 +136451,7 @@
    ]
   },
   {
-   "id": "g93",
+   "id": "g117",
    "pattern": "因此",
    "es": "Por lo tanto (formal)",
    "example": "他没准备，因此没通过。",
@@ -130536,7 +136547,7 @@
    ]
   },
   {
-   "id": "g94",
+   "id": "g118",
    "pattern": "其实",
    "es": "En realidad",
    "example": "他看起来很凶，其实很好。",
@@ -130643,7 +136654,7 @@
    ]
   },
   {
-   "id": "g95",
+   "id": "g119",
    "pattern": "比如说",
    "es": "Por ejemplo",
    "example": "比如说，你可以坐地铁。",
@@ -130732,7 +136743,7 @@
    ]
   },
   {
-   "id": "g96",
+   "id": "g120",
    "pattern": "一方面...另一方面...",
    "es": "Por un lado... por otro...",
    "example": "一方面很贵，另一方面不方便。",
@@ -130840,7 +136851,7 @@
    ]
   },
   {
-   "id": "g97",
+   "id": "g121",
    "pattern": "无论...都...",
    "es": "Sin importar... siempre...",
    "example": "无论多忙，他都来。",
@@ -130928,7 +136939,7 @@
    ]
   },
   {
-   "id": "g98",
+   "id": "g122",
    "pattern": "既然...就...",
    "es": "Ya que... entonces...",
    "example": "既然来了，就多坐一会儿。",
@@ -131031,7 +137042,7 @@
    ]
   },
   {
-   "id": "g99",
+   "id": "g123",
    "pattern": "不过",
    "es": "Sin embargo (suave)",
    "example": "东西不错，不过太贵了。",
@@ -131127,7 +137138,7 @@
    ]
   },
   {
-   "id": "g100",
+   "id": "g124",
    "pattern": "于是",
    "es": "Entonces / y así (narrando)",
    "example": "下雨了，于是我们回家了。",
@@ -131227,7 +137238,7 @@
    ]
   },
   {
-   "id": "g101",
+   "id": "g125",
    "pattern": "从...到...",
    "es": "Desde... hasta...",
    "example": "从家到学校要二十分钟。",
