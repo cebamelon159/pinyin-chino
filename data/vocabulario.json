@@ -1,6 +1,6 @@
 {
  "version": 2,
- "generated": "2026-10-05T20:54:04",
+ "generated": "2026-10-07T16:16:18",
  "decks": [
   {
    "id": "L17",
@@ -8,6 +8,15 @@
    "order": 83,
    "source": "leccion",
    "cards": [
+    "c4f1a",
+    "c82e6",
+    "c52679662",
+    "c56fd5bb6",
+    "c68a6",
+    "c8138",
+    "c82ad857e",
+    "c5047",
+    "c66f25b50",
     "c6211542c8fc74e246b2197f34e504f1a",
     "c62118fd86ca1770b8fc74eac5267",
     "c4f60770b8fc74eac52676ca16709",
@@ -17,7 +26,6 @@
     "c670976844eba4f1a55314eac5267670976844eba",
     "c8fc7",
     "c97f34e504f1a",
-    "c4f1a",
     "c67426280",
     "c7ec47ec7",
     "c8457540d",
@@ -29,12 +37,13 @@
     "c59d15a18",
     "c7ed35a5a",
     "c75db82e6",
-    "c82e6",
     "c6b7b",
     "c79bb5f00",
-    "c52679662",
-    "c56fd5bb6",
-    "c68a6",
+    "c65b0534e52679662",
+    "c56fd5bb6592752679662",
+    "c7ea2697c68a6",
+    "c8d3e5b9d7389",
+    "c67979edb7389",
     "c4e3b89d2",
     "c6f145458",
     "c4e004e9b",
@@ -43,7 +52,6 @@
     "c6234",
     "c97625177",
     "c81388c31",
-    "c8138",
     "c6f1451fa",
     "c6d7762a5",
     "c82ad857e821e",
@@ -53,9 +61,8 @@
     "c5c0f63d07434",
     "c62c9",
     "c5bd25047",
-    "c5047",
     "c540d66f2",
-    "c66f25b50",
+    "c6881795d",
     "c67654e2d56fd4ee5540e6211542c8fc74e246b21",
     "c7ea2697c68a6662f4e2d56fd8457540d768453e4",
     "c4ed64eec768465454e8b4f608bb05f97771f6e05",
@@ -105,6 +112,17 @@
    "order": 84,
    "source": "leccion",
    "cards": [
+    "c51cf",
+    "c80a5",
+    "c91cd",
+    "c7403",
+    "c6c60",
+    "c8d5b",
+    "c8ff7",
+    "c6b63",
+    "c6bd4",
+    "c8f855bfc",
+    "c80038bd5",
     "c6211662f4e945c815f0059cb5b666e386cf37684",
     "c62114e0d662f57286e386cf373ed5b667684662f",
     "c62116b63572856fe4e669986501f4e66",
@@ -114,8 +132,6 @@
     "c4ed64eec662f8ddf723872386216800554e554e5",
     "c4f60627e621167094ec04e484e8b513f5427",
     "c51cf80a5",
-    "c51cf",
-    "c80a5",
     "c62404ee5",
     "c953b70bc",
     "c56e04e3a",
@@ -125,22 +141,20 @@
     "c8fd052a8",
     "c8e22",
     "c8db37403",
-    "c7403",
     "c8dd16b65",
     "c961f",
     "c67097684",
     "c961f5458",
     "c6e386cf36c60",
-    "c6c60",
     "c519c6751",
     "c65597ec3",
+    "c90a3",
     "c6cb3",
     "c6bd48d5b",
-    "c8d5b",
     "c52a06cb9",
+    "c5728",
     "c753589c6",
     "c74038ff7",
-    "c8ff7",
     "c6b635728",
     "c5e02",
     "c59275b66751f",
@@ -155,10 +169,8 @@
     "c5f53",
     "c591663f4",
     "c8f855bfc8bfe",
-    "c8f855bfc",
     "c4e0b8bfe",
     "c8d62",
-    "c80038bd5",
     "c6c498bed6c345e7380038bd5",
     "c6211771f4e0d77e590534f606e386cf36e385f97",
     "c6211662f8ddf6211723872385b667684",
@@ -224,6 +236,20 @@
    "order": 85,
    "source": "leccion",
    "cards": [
+    "c7f8e672f",
+    "c5f00",
+    "c753b513f",
+    "c82b1513f",
+    "c9e1f",
+    "c5bb6",
+    "c6cb9",
+    "c51748da3",
+    "c8fdc",
+    "c8fd1",
+    "c773c",
+    "c73a97b11",
+    "c5b83",
+    "c50cf",
     "c5173",
     "c5f00706f",
     "c5173706f",
@@ -261,15 +287,10 @@
     "c8001753b5bb65c31662f8001753b5bb6",
     "c5df27ecf753b4e8653414e005e744e86",
     "c7f8e672f9986",
-    "c7f8e672f",
     "c5f0095e8",
-    "c5f00",
     "c597d597d513f",
     "c4e2d56fd753b",
-    "c753b513f",
     "c82b19e1f753b",
-    "c82b1513f",
-    "c9e1f",
     "c4e006837",
     "c5f0059cb",
     "c753b",
@@ -277,24 +298,19 @@
     "c753b5bb6",
     "c4e0d65625f53",
     "c6cb9753b",
-    "c6cb9",
+    "c5bf9",
     "c611f51748da3",
-    "c51748da3",
     "c4eac5267",
     "c9a6c9a6c864e864e",
     "c8c26865a",
     "c90a34e48",
     "c5e45",
     "c529e6cd5",
-    "c8fdc",
-    "c8fd1",
-    "c773c",
+    "c8fdc572859298fb98fd15728773c524d",
     "c8fd94e9b",
     "c753568af",
     "c5f0073a97b11",
-    "c73a97b11",
     "c5b834eec",
-    "c5b83",
     "c5fd8",
     "c4e3b8981",
     "c58a8",
@@ -302,12 +318,12 @@
     "c5339",
     "c522b7684",
     "c597d50cf",
-    "c50cf",
     "c5f80",
     "c867e",
     "c90a34e9b",
     "c4e666cd5",
     "c4f46662f",
+    "c4ecb7ecd",
     "c5f9060b29e3f",
     "c9f50767d77f3",
     "c7f8e672f99868fd86ca15f0095e85462",
@@ -1760,7 +1776,6 @@
    "order": 500,
    "source": "tema",
    "cards": [
-    "c5bb6",
     "c697c",
     "c51b07bb1",
     "c7a7a8c03",
@@ -2076,7 +2091,6 @@
     "c662f",
     "c4e0d",
     "c8fd9",
-    "c90a3",
     "c4e2a",
     "c548c",
     "c90fd",
@@ -7456,9 +7470,6 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "especial": {
-    "L17": "📕 Vocabulario del libro"
    }
   },
   {
@@ -12377,7 +12388,7 @@
      ]
     }
    ],
-   "es": "Saber (habilidad) / poder",
+   "es": "saber, poder · reunión, evento (音乐会)",
    "en": "(bound form) to reckon accounts",
    "emoji": null,
    "image": null,
@@ -12395,9 +12406,6 @@
     "studyCount": 12,
     "correctCount": 12,
     "lastStudiedAt": 1781582098891
-   },
-   "especial": {
-    "L17": "📕 Vocabulario del libro"
    }
   },
   {
@@ -12693,7 +12701,7 @@
      ]
     }
    ],
-   "es": "En (preposición de lugar)",
+   "es": "en (lugar) · estar haciendo algo (在上课)",
    "en": "to exist; to be alive; (of sb or sth) to be (located) at; (used before a verb to indicate an action in progress)",
    "emoji": null,
    "image": null,
@@ -12703,12 +12711,16 @@
    "type": "word",
    "lesson": 8,
    "decks": [
-    "L8"
+    "L8",
+    "L16"
    ],
    "stats": {
     "studyCount": 22,
     "correctCount": 22,
     "lastStudiedAt": 1781582385958
+   },
+   "especial": {
+    "L16": "📕 Vocabulario del libro"
    }
   },
   {
@@ -16114,12 +16126,16 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L5"
+    "L5",
+    "L15"
    ],
    "stats": {
     "studyCount": 16,
     "correctCount": 16,
     "lastStudiedAt": 1773670452892
+   },
+   "especial": {
+    "L15": "📕 Vocabulario del libro"
    }
   },
   {
@@ -20197,7 +20213,7 @@
      ]
     }
    ],
-   "es": "haber hecho alguna vez (partícula) / pasar, cruzar",
+   "es": "pasar, cruzar · partícula de experiencia (看过)",
    "en": "to cross; to go over; to pass (time)",
    "emoji": null,
    "image": null,
@@ -47586,8 +47602,7 @@
    },
    "especial": {
     "L13": "📕 Vocabulario del libro",
-    "L14": "📕 Vocabulario del libro",
-    "L15": "📕 Vocabulario del libro"
+    "L14": "📕 Vocabulario del libro"
    }
   },
   {
@@ -47885,7 +47900,7 @@
      ]
     }
    ],
-   "es": "recoger / contestar / recibir",
+   "es": "recoger, recibir · contestar (接电话)",
    "en": "to receive; to answer (the phone); to meet or welcome sb",
    "emoji": null,
    "image": null,
@@ -48905,9 +48920,6 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
    }
   },
   {
@@ -56465,7 +56477,7 @@
      ]
     }
    ],
-   "es": "comparado con / que (comparación)",
+   "es": "comparado con, que · el marcador (2比1)",
    "en": "to compare; (followed by a noun and adjective) more {adj.} than {noun}; ratio",
    "emoji": null,
    "image": null,
@@ -56475,7 +56487,8 @@
    "type": "word",
    "lesson": null,
    "decks": [
-    "L14"
+    "L14",
+    "L16"
    ],
    "stats": {
     "studyCount": 0,
@@ -59110,9 +59123,6 @@
     "studyCount": 0,
     "correctCount": 0,
     "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
    }
   },
   {
@@ -71226,6 +71236,442 @@
    }
   },
   {
+   "id": "c7f8e672f",
+   "hanzi": "美术",
+   "pinyin": "měishù",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "美术",
+     "pinyin": "měishù",
+     "syl": [
+      [
+       "měi",
+       3
+      ],
+      [
+       "shù",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "arte",
+   "en": "art; fine arts; painting",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 3,
+   "freq": 9170,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c753b513f",
+   "hanzi": "画儿",
+   "pinyin": "huàr",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "画儿",
+     "pinyin": "huàr",
+     "syl": [
+      [
+       "huàr",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "pintura / cuadro",
+   "en": "picture; drawing; painting",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 69994,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c82b1513f",
+   "hanzi": "花儿",
+   "pinyin": "huā'ér",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "花儿",
+     "pinyin": "huā'ér",
+     "syl": [
+      [
+       "huā",
+       1
+      ],
+      [
+       "ér",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "flor",
+   "en": "style of folk song popular in Gansu, Qinghai and Ningxia",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c9e1f",
+   "hanzi": "鸟",
+   "pinyin": "niǎo",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "鸟",
+     "pinyin": "niǎo",
+     "syl": [
+      [
+       "niǎo",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "pájaro",
+   "en": "bird; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to",
+   "emoji": "🐦",
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 1593,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5bb6",
+   "hanzi": "家",
+   "pinyin": "jiā",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "家",
+     "pinyin": "jiā",
+     "syl": [
+      [
+       "jiā",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "casa / familia · sufijo de especialista (画家, 作家)",
+   "en": "home; family; (polite) my (sister, uncle etc)",
+   "emoji": "🏠",
+   "image": null,
+   "hsk": 1,
+   "hskNew": 1,
+   "freq": 124,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c6cb9",
+   "hanzi": "油",
+   "pinyin": "yóu",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "油",
+     "pinyin": "yóu",
+     "syl": [
+      [
+       "yóu",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "aceite",
+   "en": "oil; fat; grease",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 1290,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c51748da3",
+   "hanzi": "兴趣",
+   "pinyin": "xìngqù",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "兴趣",
+     "pinyin": "xìngqù",
+     "syl": [
+      [
+       "xìng",
+       4
+      ],
+      [
+       "qù",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "interés",
+   "en": "interest (desire to know about sth); interest (thing in which one is interested); hobby",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 4,
+   "freq": 1847,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8fd1",
+   "hanzi": "近",
+   "pinyin": "jìn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "近",
+     "pinyin": "jìn",
+     "syl": [
+      [
+       "jìn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "cerca / cercano",
+   "en": "near; close to; approximately",
+   "emoji": null,
+   "image": "images/c8fd1.webp",
+   "hsk": 2,
+   "hskNew": 2,
+   "freq": 822,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c773c",
+   "hanzi": "眼",
+   "pinyin": "yǎn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "眼",
+     "pinyin": "yǎn",
+     "syl": [
+      [
+       "yǎn",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "ojo",
+   "en": "eye (CL:隻|只[zhi1],雙|双[shuang1]); (often used with 一[yi1]) a look; a glance; small hole",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 2,
+   "freq": 762,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c73a97b11",
+   "hanzi": "玩笑",
+   "pinyin": "wánxiào",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "玩笑",
+     "pinyin": "wánxiào",
+     "syl": [
+      [
+       "wán",
+       2
+      ],
+      [
+       "xiào",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "broma",
+   "en": "to joke; joke; jest",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5b83",
+   "hanzi": "它",
+   "pinyin": "tā",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "它",
+     "pinyin": "tā",
+     "syl": [
+      [
+       "tā",
+       1
+      ]
+     ]
+    }
+   ],
+   "es": "ello",
+   "en": "it",
+   "emoji": null,
+   "image": null,
+   "hsk": 2,
+   "hskNew": 2,
+   "freq": 114,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c50cf",
+   "hanzi": "像",
+   "pinyin": "xiàng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "像",
+     "pinyin": "xiàng",
+     "syl": [
+      [
+       "xiàng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "ser como / parecer",
+   "en": "to resemble; to be like; to look as if",
+   "emoji": null,
+   "image": null,
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 151,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L15"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
    "id": "c5173",
    "hanzi": "关",
    "pinyin": "guān",
@@ -73445,48 +73891,6 @@
    }
   },
   {
-   "id": "c7f8e672f",
-   "hanzi": "美术",
-   "pinyin": "měishù",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "美术",
-     "pinyin": "měishù",
-     "syl": [
-      [
-       "měi",
-       3
-      ],
-      [
-       "shù",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "arte",
-   "en": "art; fine arts; painting",
-   "emoji": null,
-   "image": null,
-   "hsk": 5,
-   "hskNew": 3,
-   "freq": 9170,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c5f0095e8",
    "hanzi": "开门",
    "pinyin": "kāimén",
@@ -73617,44 +74021,6 @@
    }
   },
   {
-   "id": "c753b513f",
-   "hanzi": "画儿",
-   "pinyin": "huàr",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "画儿",
-     "pinyin": "huàr",
-     "syl": [
-      [
-       "huàr",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "pintura / cuadro",
-   "en": "picture; drawing; painting",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": 2,
-   "freq": 69994,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c82b19e1f753b",
    "hanzi": "花鸟画",
    "pinyin": "huāniǎo huà",
@@ -73693,86 +74059,6 @@
    "hsk": null,
    "hskNew": null,
    "freq": null,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c82b1513f",
-   "hanzi": "花儿",
-   "pinyin": "huā'ér",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "花儿",
-     "pinyin": "huā'ér",
-     "syl": [
-      [
-       "huā",
-       1
-      ],
-      [
-       "ér",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "flor",
-   "en": "style of folk song popular in Gansu, Qinghai and Ningxia",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": null,
-   "freq": null,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c9e1f",
-   "hanzi": "鸟",
-   "pinyin": "niǎo",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "鸟",
-     "pinyin": "niǎo",
-     "syl": [
-      [
-       "niǎo",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "pájaro",
-   "en": "bird; \"bird\" radical in Chinese characters (Kangxi radical 196); (dialect) to pay attention to",
-   "emoji": "🐦",
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 1593,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -74002,29 +74288,29 @@
    }
   },
   {
-   "id": "c6cb9",
-   "hanzi": "油",
-   "pinyin": "yóu",
+   "id": "c5bf9",
+   "hanzi": "对",
+   "pinyin": "duì",
    "tokens": [
     {
      "t": "w",
-     "hanzi": "油",
-     "pinyin": "yóu",
+     "hanzi": "对",
+     "pinyin": "duì",
      "syl": [
       [
-       "yóu",
-       2
+       "duì",
+       4
       ]
      ]
     }
    ],
-   "es": "aceite",
-   "en": "oil; fat; grease",
+   "es": "correcto / cierto · a, hacia (对……感兴趣)",
+   "en": "right; correct; towards; at; for; concerning; regarding",
    "emoji": null,
    "image": null,
-   "hsk": null,
-   "hskNew": 2,
-   "freq": 1290,
+   "hsk": 4,
+   "hskNew": 1,
+   "freq": 28,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -74071,48 +74357,6 @@
    "hsk": null,
    "hskNew": 4,
    "freq": 11617,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c51748da3",
-   "hanzi": "兴趣",
-   "pinyin": "xìngqù",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "兴趣",
-     "pinyin": "xìngqù",
-     "syl": [
-      [
-       "xìng",
-       4
-      ],
-      [
-       "qù",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "interés",
-   "en": "interest (desire to know about sth); interest (thing in which one is interested); hobby",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 4,
-   "freq": 1847,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -74385,68 +74629,83 @@
    }
   },
   {
-   "id": "c8fd1",
-   "hanzi": "近",
-   "pinyin": "jìn",
+   "id": "c8fdc572859298fb98fd15728773c524d",
+   "hanzi": "远在天边，近在眼前",
+   "pinyin": "yuǎn zài tiānbiān， jìnzàiyǎnqián",
    "tokens": [
     {
      "t": "w",
-     "hanzi": "近",
-     "pinyin": "jìn",
+     "hanzi": "远",
+     "pinyin": "yuǎn",
+     "syl": [
+      [
+       "yuǎn",
+       3
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "在",
+     "pinyin": "zài",
+     "syl": [
+      [
+       "zài",
+       4
+      ]
+     ]
+    },
+    {
+     "t": "w",
+     "hanzi": "天边",
+     "pinyin": "tiānbiān",
+     "syl": [
+      [
+       "tiān",
+       1
+      ],
+      [
+       "biān",
+       1
+      ]
+     ]
+    },
+    {
+     "t": "p",
+     "hanzi": "，"
+    },
+    {
+     "t": "w",
+     "hanzi": "近在眼前",
+     "pinyin": "jìnzàiyǎnqián",
      "syl": [
       [
        "jìn",
        4
-      ]
-     ]
-    }
-   ],
-   "es": "cerca / cercano",
-   "en": "near; close to; approximately",
-   "emoji": null,
-   "image": "images/c8fd1.webp",
-   "hsk": 2,
-   "hskNew": 2,
-   "freq": 822,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c773c",
-   "hanzi": "眼",
-   "pinyin": "yǎn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "眼",
-     "pinyin": "yǎn",
-     "syl": [
+      ],
+      [
+       "zài",
+       4
+      ],
       [
        "yǎn",
        3
+      ],
+      [
+       "qián",
+       2
       ]
      ]
     }
    ],
-   "es": "ojo",
-   "en": "eye (CL:隻|只[zhi1],雙|双[shuang1]); (often used with 一[yi1]) a look; a glance; small hole",
+   "es": "está justo delante de ti",
+   "en": null,
    "emoji": null,
    "image": null,
    "hsk": null,
-   "hskNew": 2,
-   "freq": 762,
-   "type": "word",
+   "hskNew": null,
+   "freq": null,
+   "type": "sentence",
    "lesson": null,
    "decks": [
     "L15"
@@ -74591,48 +74850,6 @@
    }
   },
   {
-   "id": "c73a97b11",
-   "hanzi": "玩笑",
-   "pinyin": "wánxiào",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "玩笑",
-     "pinyin": "wánxiào",
-     "syl": [
-      [
-       "wán",
-       2
-      ],
-      [
-       "xiào",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "broma",
-   "en": "to joke; joke; jest",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": null,
-   "freq": null,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c5b834eec",
    "hanzi": "它们",
    "pinyin": "tāmen",
@@ -74660,44 +74877,6 @@
    "hsk": null,
    "hskNew": 2,
    "freq": 793,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c5b83",
-   "hanzi": "它",
-   "pinyin": "tā",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "它",
-     "pinyin": "tā",
-     "syl": [
-      [
-       "tā",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "ello",
-   "en": "it",
-   "emoji": null,
-   "image": null,
-   "hsk": 2,
-   "hskNew": 2,
-   "freq": 114,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -74942,44 +75121,6 @@
    "hsk": 4,
    "hskNew": 2,
    "freq": 738,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L15"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L15": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c50cf",
-   "hanzi": "像",
-   "pinyin": "xiàng",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "像",
-     "pinyin": "xiàng",
-     "syl": [
-      [
-       "xiàng",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "ser como / parecer",
-   "en": "to resemble; to be like; to look as if",
-   "emoji": null,
-   "image": null,
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 151,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -83219,6 +83360,326 @@
    }
   },
   {
+   "id": "c51cf",
+   "hanzi": "减",
+   "pinyin": "jiǎn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "减",
+     "pinyin": "jiǎn",
+     "syl": [
+      [
+       "jiǎn",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "reducir",
+   "en": "to lower; to decrease; to reduce",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 4,
+   "freq": 3695,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c80a5",
+   "hanzi": "肥",
+   "pinyin": "féi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "肥",
+     "pinyin": "féi",
+     "syl": [
+      [
+       "féi",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "gordo",
+   "en": "fat; fertile; loose-fitting or large",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 4,
+   "freq": 2580,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c91cd",
+   "hanzi": "重",
+   "pinyin": "zhòng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "重",
+     "pinyin": "zhòng",
+     "syl": [
+      [
+       "zhòng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "peso / pesado / grave",
+   "en": "heavy; serious; to attach importance to",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 1,
+   "freq": 608,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c7403",
+   "hanzi": "球",
+   "pinyin": "qiú",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "球",
+     "pinyin": "qiú",
+     "syl": [
+      [
+       "qiú",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "balón",
+   "en": "ball; sphere; globe",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 1,
+   "freq": 518,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c6c60",
+   "hanzi": "池",
+   "pinyin": "chí",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "池",
+     "pinyin": "chí",
+     "syl": [
+      [
+       "chí",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "estanque",
+   "en": "pond; reservoir; moat",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8d5b",
+   "hanzi": "赛",
+   "pinyin": "sài",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "赛",
+     "pinyin": "sài",
+     "syl": [
+      [
+       "sài",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "competición / juego",
+   "en": "to compete; competition; match",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 6,
+   "freq": 1181,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8ff7",
+   "hanzi": "迷",
+   "pinyin": "mí",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "迷",
+     "pinyin": "mí",
+     "syl": [
+      [
+       "mí",
+       2
+      ]
+     ]
+    }
+   ],
+   "es": "fanático de algo (sufijo)",
+   "en": "to bewilder; crazy about; fan",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 3,
+   "freq": 2123,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c6b63",
+   "hanzi": "正",
+   "pinyin": "zhèng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "正",
+     "pinyin": "zhèng",
+     "syl": [
+      [
+       "zhèng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "justo / en pleno",
+   "en": "straight; upright; proper",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 1,
+   "freq": 294,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8f855bfc",
+   "hanzi": "辅导",
+   "pinyin": "fǔdǎo",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "辅导",
+     "pinyin": "fǔdǎo",
+     "syl": [
+      [
+       "fǔ",
+       3
+      ],
+      [
+       "dǎo",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "ayudar / guiar",
+   "en": "to guide; to mentor; to counsel; to coach; to tutor",
+   "emoji": null,
+   "image": null,
+   "hsk": 5,
+   "hskNew": 7,
+   "freq": 7641,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "fúdǎo"
+  },
+  {
    "id": "c6211662f4e945c815f0059cb5b666e386cf37684",
    "hanzi": "我是五岁开始学游泳的。",
    "pinyin": "wǒ shì wǔ suì kāishǐ xué yóuyǒng de。",
@@ -84323,82 +84784,6 @@
    }
   },
   {
-   "id": "c51cf",
-   "hanzi": "减",
-   "pinyin": "jiǎn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "减",
-     "pinyin": "jiǎn",
-     "syl": [
-      [
-       "jiǎn",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "reducir",
-   "en": "to lower; to decrease; to reduce",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": 4,
-   "freq": 3695,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c80a5",
-   "hanzi": "肥",
-   "pinyin": "féi",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "肥",
-     "pinyin": "féi",
-     "syl": [
-      [
-       "féi",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "gordo",
-   "en": "fat; fertile; loose-fitting or large",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": 4,
-   "freq": 2580,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c62404ee5",
    "hanzi": "所以",
    "pinyin": "suǒyǐ",
@@ -84690,44 +85075,6 @@
    }
   },
   {
-   "id": "c7403",
-   "hanzi": "球",
-   "pinyin": "qiú",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "球",
-     "pinyin": "qiú",
-     "syl": [
-      [
-       "qiú",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "balón",
-   "en": "ball; sphere; globe",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": 1,
-   "freq": 518,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c8dd16b65",
    "hanzi": "跑步",
    "pinyin": "pǎobù",
@@ -84938,44 +85285,6 @@
    }
   },
   {
-   "id": "c6c60",
-   "hanzi": "池",
-   "pinyin": "chí",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "池",
-     "pinyin": "chí",
-     "syl": [
-      [
-       "chí",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "estanque",
-   "en": "pond; reservoir; moat",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": null,
-   "freq": null,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c519c6751",
    "hanzi": "农村",
    "pinyin": "nóngcūn",
@@ -85060,6 +85369,44 @@
    }
   },
   {
+   "id": "c90a3",
+   "hanzi": "那",
+   "pinyin": "nà",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "那",
+     "pinyin": "nà",
+     "syl": [
+      [
+       "nà",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "ese / aquel · bueno, entonces… (那就开始吧)",
+   "en": "(archaic) many; beautiful; how",
+   "emoji": null,
+   "image": null,
+   "hsk": 1,
+   "hskNew": 1,
+   "freq": 48,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L16"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L16": "📕 Vocabulario del libro"
+   }
+  },
+  {
    "id": "c6cb3",
    "hanzi": "河",
    "pinyin": "hé",
@@ -85125,44 +85472,6 @@
    "hsk": 3,
    "hskNew": 3,
    "freq": 275,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c8d5b",
-   "hanzi": "赛",
-   "pinyin": "sài",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "赛",
-     "pinyin": "sài",
-     "syl": [
-      [
-       "sài",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "competición / juego",
-   "en": "to compete; competition; match",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": 6,
-   "freq": 1181,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -85282,51 +85591,13 @@
      ]
     }
    ],
-   "es": "fanático del fútbol",
+   "es": "hincha / fanático del fútbol",
    "en": "fan (ball sports)",
    "emoji": null,
    "image": null,
    "hsk": 5,
    "hskNew": 3,
    "freq": 4097,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c8ff7",
-   "hanzi": "迷",
-   "pinyin": "mí",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "迷",
-     "pinyin": "mí",
-     "syl": [
-      [
-       "mí",
-       2
-      ]
-     ]
-    }
-   ],
-   "es": "fanático (sufijo)",
-   "en": "to bewilder; crazy about; fan",
-   "emoji": null,
-   "image": null,
-   "hsk": null,
-   "hskNew": 3,
-   "freq": 2123,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -85526,7 +85797,7 @@
      ]
     }
    ],
-   "es": "malo / de bajo nivel",
+   "es": "malo, de bajo nivel",
    "en": "different; wrong; mistaken; to fall short; to lack",
    "emoji": null,
    "image": null,
@@ -85778,7 +86049,7 @@
      ]
     }
    ],
-   "es": "hacer de / trabajar como",
+   "es": "hacer de, trabajar como (当教练)",
    "en": "to be; to act as; manage",
    "emoji": null,
    "image": null,
@@ -85884,49 +86155,6 @@
     "lastStudiedAt": null
    },
    "toneHint": "fúdǎokè",
-   "especial": {
-    "L16": "📕 Vocabulario del libro"
-   }
-  },
-  {
-   "id": "c8f855bfc",
-   "hanzi": "辅导",
-   "pinyin": "fǔdǎo",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "辅导",
-     "pinyin": "fǔdǎo",
-     "syl": [
-      [
-       "fǔ",
-       3
-      ],
-      [
-       "dǎo",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "ayudar / guiar",
-   "en": "to guide; to mentor; to counsel; to coach; to tutor",
-   "emoji": null,
-   "image": null,
-   "hsk": 5,
-   "hskNew": 7,
-   "freq": 7641,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L16"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "toneHint": "fúdǎo",
    "especial": {
     "L16": "📕 Vocabulario del libro"
    }
@@ -94556,6 +94784,263 @@
    }
   },
   {
+   "id": "c82e6",
+   "hanzi": "苦",
+   "pinyin": "kǔ",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "苦",
+     "pinyin": "kǔ",
+     "syl": [
+      [
+       "kǔ",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "amargo",
+   "en": "bitter; hardship; pain",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 4,
+   "freq": 2331,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c52679662",
+   "hanzi": "剧院",
+   "pinyin": "jùyuàn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "剧院",
+     "pinyin": "jùyuàn",
+     "syl": [
+      [
+       "jù",
+       4
+      ],
+      [
+       "yuàn",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "teatro",
+   "en": "theater",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 7,
+   "freq": 6873,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c68a6",
+   "hanzi": "梦",
+   "pinyin": "mèng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "梦",
+     "pinyin": "mèng",
+     "syl": [
+      [
+       "mèng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "sueño",
+   "en": "dream (CL:場|场[chang2]); (bound form) to dream",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 4,
+   "freq": 913,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c8138",
+   "hanzi": "脸",
+   "pinyin": "liǎn",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "脸",
+     "pinyin": "liǎn",
+     "syl": [
+      [
+       "liǎn",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "rostro / cara",
+   "en": "face",
+   "emoji": null,
+   "image": "images/c8138.webp",
+   "hsk": 3,
+   "hskNew": 2,
+   "freq": 629,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c82ad857e",
+   "hanzi": "芭蕾",
+   "pinyin": "bālěi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "芭蕾",
+     "pinyin": "bālěi",
+     "syl": [
+      [
+       "bā",
+       1
+      ],
+      [
+       "lěi",
+       3
+      ]
+     ]
+    }
+   ],
+   "es": "ballet",
+   "en": "ballet (loanword)",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": 7,
+   "freq": 12522,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c5047",
+   "hanzi": "假",
+   "pinyin": "jià",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "假",
+     "pinyin": "jià",
+     "syl": [
+      [
+       "jià",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "vacaciones",
+   "en": "fake; false; artificial",
+   "emoji": null,
+   "image": null,
+   "hsk": 4,
+   "hskNew": 2,
+   "freq": 1053,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
+   "id": "c66f25b50",
+   "hanzi": "曲子",
+   "pinyin": "qǔzi",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "曲子",
+     "pinyin": "qǔzi",
+     "syl": [
+      [
+       "qǔ",
+       3
+      ],
+      [
+       "zi",
+       5
+      ]
+     ]
+    }
+   ],
+   "es": "melodía / pieza",
+   "en": "poem for singing; tune; music",
+   "emoji": null,
+   "image": null,
+   "hsk": 6,
+   "hskNew": null,
+   "freq": 10200,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   }
+  },
+  {
    "id": "c6211542c8fc74e246b2197f34e504f1a",
    "hanzi": "我听过两次音乐会。",
    "pinyin": "wǒ tīng guo liǎng cì yīnyuèhuì。",
@@ -95956,44 +96441,6 @@
    }
   },
   {
-   "id": "c82e6",
-   "hanzi": "苦",
-   "pinyin": "kǔ",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "苦",
-     "pinyin": "kǔ",
-     "syl": [
-      [
-       "kǔ",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "amargo",
-   "en": "bitter; hardship; pain",
-   "emoji": null,
-   "image": null,
-   "hsk": 4,
-   "hskNew": 4,
-   "freq": 2331,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L17"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L17": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c6b7b",
    "hanzi": "死",
    "pinyin": "sǐ",
@@ -96074,17 +96521,25 @@
    }
   },
   {
-   "id": "c52679662",
-   "hanzi": "剧院",
-   "pinyin": "jùyuàn",
+   "id": "c65b0534e52679662",
+   "hanzi": "新华剧院",
+   "pinyin": "Xīnhuá Jùyuàn",
    "tokens": [
     {
      "t": "w",
-     "hanzi": "剧院",
-     "pinyin": "jùyuàn",
+     "hanzi": "新华剧院",
+     "pinyin": "Xīnhuá Jùyuàn",
      "syl": [
       [
-       "jù",
+       "Xīn",
+       1
+      ],
+      [
+       "huá",
+       2
+      ],
+      [
+       "Jù",
        4
       ],
       [
@@ -96094,13 +96549,13 @@
      ]
     }
    ],
-   "es": "teatro",
-   "en": "theater",
+   "es": "Teatro Xinhua",
+   "en": null,
    "emoji": null,
    "image": null,
    "hsk": null,
-   "hskNew": 7,
-   "freq": 6873,
+   "hskNew": null,
+   "freq": null,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -96116,29 +96571,184 @@
    }
   },
   {
-   "id": "c68a6",
-   "hanzi": "梦",
-   "pinyin": "mèng",
+   "id": "c56fd5bb6592752679662",
+   "hanzi": "国家大剧院",
+   "pinyin": "Guójiā Dàjùyuàn",
    "tokens": [
     {
      "t": "w",
-     "hanzi": "梦",
-     "pinyin": "mèng",
+     "hanzi": "国家大剧院",
+     "pinyin": "Guójiā Dàjùyuàn",
      "syl": [
       [
-       "mèng",
+       "Guó",
+       2
+      ],
+      [
+       "jiā",
+       1
+      ],
+      [
+       "Dà",
+       4
+      ],
+      [
+       "jù",
+       4
+      ],
+      [
+       "yuàn",
        4
       ]
      ]
     }
    ],
-   "es": "sueño",
-   "en": "dream (CL:場|场[chang2]); (bound form) to dream",
+   "es": "Gran Teatro Nacional de China",
+   "en": null,
    "emoji": null,
    "image": null,
-   "hsk": 4,
-   "hskNew": 4,
-   "freq": 913,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L17": "📕 Vocabulario del libro"
+   }
+  },
+  {
+   "id": "c7ea2697c68a6",
+   "hanzi": "红楼梦",
+   "pinyin": "Hónglóu Mèng",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "红楼梦",
+     "pinyin": "Hónglóu Mèng",
+     "syl": [
+      [
+       "Hóng",
+       2
+      ],
+      [
+       "lóu",
+       2
+      ],
+      [
+       "Mèng",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "Sueño en el pabellón rojo (novela)",
+   "en": "A Dream of Red Mansions (first completed edition 1791) by Cao Xueqin 曹雪芹[Cao2 Xue3 qin2], one of the four great novels",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "especial": {
+    "L17": "📕 Vocabulario del libro"
+   }
+  },
+  {
+   "id": "c8d3e5b9d7389",
+   "hanzi": "贾宝玉",
+   "pinyin": "Jiǎ Bǎoyù",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "贾宝玉",
+     "pinyin": "Jiǎ Bǎoyù",
+     "syl": [
+      [
+       "Jiǎ",
+       3
+      ],
+      [
+       "Bǎo",
+       3
+      ],
+      [
+       "yù",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "Jia Baoyu, protagonista de la novela",
+   "en": "Jia Baoyu, male character in The Dream of Red Mansions, in love with his cousin Lin Daiyu 林黛玉 but obliged to marry Xue Baochai 薛寶釵|薛宝钗",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
+   "type": "word",
+   "lesson": null,
+   "decks": [
+    "L17"
+   ],
+   "stats": {
+    "studyCount": 0,
+    "correctCount": 0,
+    "lastStudiedAt": null
+   },
+   "toneHint": "JiáBǎoyù",
+   "especial": {
+    "L17": "📕 Vocabulario del libro"
+   }
+  },
+  {
+   "id": "c67979edb7389",
+   "hanzi": "林黛玉",
+   "pinyin": "Lín Dàiyù",
+   "tokens": [
+    {
+     "t": "w",
+     "hanzi": "林黛玉",
+     "pinyin": "Lín Dàiyù",
+     "syl": [
+      [
+       "Lín",
+       2
+      ],
+      [
+       "Dài",
+       4
+      ],
+      [
+       "yù",
+       4
+      ]
+     ]
+    }
+   ],
+   "es": "Lin Daiyu, protagonista de la novela",
+   "en": "Lin Daiyu, female character in The Dream of Red Mansions, cousin and thwarted lover of Jia Baoyu 賈寶玉|贾宝玉",
+   "emoji": null,
+   "image": null,
+   "hsk": null,
+   "hskNew": null,
+   "freq": null,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -96487,44 +97097,6 @@
    }
   },
   {
-   "id": "c8138",
-   "hanzi": "脸",
-   "pinyin": "liǎn",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "脸",
-     "pinyin": "liǎn",
-     "syl": [
-      [
-       "liǎn",
-       3
-      ]
-     ]
-    }
-   ],
-   "es": "rostro / cara",
-   "en": "face",
-   "emoji": null,
-   "image": "images/c8138.webp",
-   "hsk": 3,
-   "hskNew": 2,
-   "freq": 629,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L17"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L17": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c6f1451fa",
    "hanzi": "演出",
    "pinyin": "yǎnchū",
@@ -96840,7 +97412,7 @@
      ]
     }
    ],
-   "es": "tocar (el violín) / jalar",
+   "es": "jalar · tocar (el violín)",
    "en": "to pull; to play (a bowed instrument); to drag",
    "emoji": null,
    "image": null,
@@ -96904,44 +97476,6 @@
    }
   },
   {
-   "id": "c5047",
-   "hanzi": "假",
-   "pinyin": "jià",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "假",
-     "pinyin": "jià",
-     "syl": [
-      [
-       "jià",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "vacaciones",
-   "en": "fake; false; artificial",
-   "emoji": null,
-   "image": null,
-   "hsk": 4,
-   "hskNew": 2,
-   "freq": 1053,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "L17"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   },
-   "especial": {
-    "L17": "📕 Vocabulario del libro"
-   }
-  },
-  {
    "id": "c540d66f2",
    "hanzi": "名曲",
    "pinyin": "míngqǔ",
@@ -96984,33 +97518,33 @@
    }
   },
   {
-   "id": "c66f25b50",
-   "hanzi": "曲子",
-   "pinyin": "qǔzi",
+   "id": "c6881795d",
+   "hanzi": "梁祝",
+   "pinyin": "Liáng Zhù",
    "tokens": [
     {
      "t": "w",
-     "hanzi": "曲子",
-     "pinyin": "qǔzi",
+     "hanzi": "梁祝",
+     "pinyin": "Liáng Zhù",
      "syl": [
       [
-       "qǔ",
-       3
+       "Liáng",
+       2
       ],
       [
-       "zi",
-       5
+       "Zhù",
+       4
       ]
      ]
     }
    ],
-   "es": "melodía / pieza",
-   "en": "poem for singing; tune; music",
+   "es": "Los amantes mariposa (pieza para violín)",
+   "en": "The Butterfly Lovers, a Chinese folktale (abbr. for 梁山伯與祝英台|梁山伯与祝英台[Liang2 Shan1 bo2 yu3 Zhu4 Ying1 tai2])",
    "emoji": null,
    "image": null,
-   "hsk": 6,
+   "hsk": null,
    "hskNew": null,
-   "freq": 10200,
+   "freq": null,
    "type": "word",
    "lesson": null,
    "decks": [
@@ -97297,7 +97831,7 @@
   {
    "id": "c7ea2697c68a6662f4e2d56fd8457540d768453e4",
    "hanzi": "《红楼梦》是中国著名的古典小说，我看过一遍，是英语版的。",
-   "pinyin": "《 HónglóuMèng》 shì Zhōngguó zhùmíng de gǔdiǎn xiǎoshuō， wǒ kàn guo yíbiàn， shì Yīngyǔ bǎn de。",
+   "pinyin": "《 Hónglóu Mèng》 shì Zhōngguó zhùmíng de gǔdiǎn xiǎoshuō， wǒ kàn guo yíbiàn， shì Yīngyǔ bǎn de。",
    "tokens": [
     {
      "t": "p",
@@ -97306,7 +97840,7 @@
     {
      "t": "w",
      "hanzi": "红楼梦",
-     "pinyin": "HónglóuMèng",
+     "pinyin": "Hónglóu Mèng",
      "syl": [
       [
        "Hóng",
@@ -98263,7 +98797,7 @@
   {
    "id": "c621160f34eca5e745bd2504756de56fd768465f6",
    "hanzi": "我想今年寒假回国的时候，把我的小提琴带来，学一学中国的小提琴名曲《梁祝》。",
-   "pinyin": "wǒ xiǎng jīnnián hánjià huíguó de shíhou， bǎ wǒ de xiǎotíqín dàilái， xué yì xué Zhōngguó de xiǎotíqín míngqǔ《 LiángZhù》。",
+   "pinyin": "wǒ xiǎng jīnnián hánjià huíguó de shíhou， bǎ wǒ de xiǎotíqín dàilái， xué yì xué Zhōngguó de xiǎotíqín míngqǔ《 Liáng Zhù》。",
    "tokens": [
     {
      "t": "w",
@@ -98533,7 +99067,7 @@
     {
      "t": "w",
      "hanzi": "梁祝",
-     "pinyin": "LiángZhù",
+     "pinyin": "Liáng Zhù",
      "syl": [
       [
        "Liáng",
@@ -98983,12 +99517,12 @@
   {
    "id": "c65b0534e52679662662f5b6668217ec47ec76211",
    "hanzi": "新华剧院，是学校组织我们留学生去看的。",
-   "pinyin": "Xīnhuá jùyuàn， shì xuéxiào zǔzhī wǒmen liúxuéshēng qù kàn de。",
+   "pinyin": "Xīnhuá Jùyuàn， shì xuéxiào zǔzhī wǒmen liúxuéshēng qù kàn de。",
    "tokens": [
     {
      "t": "w",
-     "hanzi": "新华",
-     "pinyin": "Xīnhuá",
+     "hanzi": "新华剧院",
+     "pinyin": "Xīnhuá Jùyuàn",
      "syl": [
       [
        "Xīn",
@@ -98997,16 +99531,9 @@
       [
        "huá",
        2
-      ]
-     ]
-    },
-    {
-     "t": "w",
-     "hanzi": "剧院",
-     "pinyin": "jùyuàn",
-     "syl": [
+      ],
       [
-       "jù",
+       "Jù",
        4
       ],
       [
@@ -99156,7 +99683,7 @@
   {
    "id": "c4f6053bb8fc756fd5bb65927526796625417",
    "hanzi": "你去过国家大剧院吗？",
-   "pinyin": "nǐ qù guo guójiā dà jùyuàn ma？",
+   "pinyin": "nǐ qù guo Guójiā Dàjùyuàn ma？",
    "tokens": [
     {
      "t": "w",
@@ -99193,35 +99720,21 @@
     },
     {
      "t": "w",
-     "hanzi": "国家",
-     "pinyin": "guójiā",
+     "hanzi": "国家大剧院",
+     "pinyin": "Guójiā Dàjùyuàn",
      "syl": [
       [
-       "guó",
+       "Guó",
        2
       ],
       [
        "jiā",
        1
-      ]
-     ]
-    },
-    {
-     "t": "w",
-     "hanzi": "大",
-     "pinyin": "dà",
-     "syl": [
+      ],
       [
-       "dà",
+       "Dà",
        4
-      ]
-     ]
-    },
-    {
-     "t": "w",
-     "hanzi": "剧院",
-     "pinyin": "jùyuàn",
-     "syl": [
+      ],
       [
        "jù",
        4
@@ -99700,7 +100213,7 @@
   {
    "id": "c8fd94e2a661f671f516d665a4e0a4e0370b95728",
    "hanzi": "这个星期六晚上七点在那儿演京剧的《红楼梦》。",
-   "pinyin": "zhège xīngqīliù wǎnshang qī diǎn zài nàr yǎn Jīngjù de《 HónglóuMèng》。",
+   "pinyin": "zhège xīngqīliù wǎnshang qī diǎn zài nàr yǎn Jīngjù de《 Hónglóu Mèng》。",
    "tokens": [
     {
      "t": "w",
@@ -99839,7 +100352,7 @@
     {
      "t": "w",
      "hanzi": "红楼梦",
-     "pinyin": "HónglóuMèng",
+     "pinyin": "Hónglóu Mèng",
      "syl": [
       [
        "Hóng",
@@ -99888,7 +100401,7 @@
   {
    "id": "c4f60542c8bf48fc77ea2697c68a65427",
    "hanzi": "你听说过《红楼梦》吧？",
-   "pinyin": "nǐ tīngshuō guo《 HónglóuMèng》 ba？",
+   "pinyin": "nǐ tīngshuō guo《 Hónglóu Mèng》 ba？",
    "tokens": [
     {
      "t": "w",
@@ -99934,7 +100447,7 @@
     {
      "t": "w",
      "hanzi": "红楼梦",
-     "pinyin": "HónglóuMèng",
+     "pinyin": "Hónglóu Mèng",
      "syl": [
       [
        "Hóng",
@@ -100339,7 +100852,7 @@
   {
    "id": "c4f608bf47684662f8d3e5b9d7389548c67979edb",
    "hanzi": "你说的是贾宝玉和林黛玉的爱情故事吧？",
-   "pinyin": "nǐ shuō de shì JiǎBǎoyù hé LínDàiyù de àiqíng gùshì ba？",
+   "pinyin": "nǐ shuō de shì Jiǎ Bǎoyù hé Lín Dàiyù de àiqíng gùshì ba？",
    "tokens": [
     {
      "t": "w",
@@ -100388,7 +100901,7 @@
     {
      "t": "w",
      "hanzi": "贾宝玉",
-     "pinyin": "JiǎBǎoyù",
+     "pinyin": "Jiǎ Bǎoyù",
      "syl": [
       [
        "Jiǎ",
@@ -100418,7 +100931,7 @@
     {
      "t": "w",
      "hanzi": "林黛玉",
-     "pinyin": "LínDàiyù",
+     "pinyin": "Lín Dàiyù",
      "syl": [
       [
        "Lín",
@@ -101324,7 +101837,7 @@
   {
    "id": "c6211771f60f3770b4eac526776847ea2697c68a6",
    "hanzi": "我真想看京剧的《红楼梦》。星期六下午你来找我吧。",
-   "pinyin": "wǒ zhēn xiǎng kàn Jīngjù de《 HónglóuMèng》。 xīngqīliù xiàwǔ nǐ lái zhǎo wǒ ba。",
+   "pinyin": "wǒ zhēn xiǎng kàn Jīngjù de《 Hónglóu Mèng》。 xīngqīliù xiàwǔ nǐ lái zhǎo wǒ ba。",
    "tokens": [
     {
      "t": "w",
@@ -101403,7 +101916,7 @@
     {
      "t": "w",
      "hanzi": "红楼梦",
-     "pinyin": "HónglóuMèng",
+     "pinyin": "Hónglóu Mèng",
      "syl": [
       [
        "Hóng",
@@ -101546,7 +102059,7 @@
   {
    "id": "c4f6089c95f974eac526776847ea2697c68a6600e",
    "hanzi": "你觉得京剧的《红楼梦》怎么样？",
-   "pinyin": "nǐ juéde Jīngjù de《 HónglóuMèng》 zěnmeyàng？",
+   "pinyin": "nǐ juéde Jīngjù de《 Hónglóu Mèng》 zěnmeyàng？",
    "tokens": [
     {
      "t": "w",
@@ -101607,7 +102120,7 @@
     {
      "t": "w",
      "hanzi": "红楼梦",
-     "pinyin": "HónglóuMèng",
+     "pinyin": "Hónglóu Mèng",
      "syl": [
       [
        "Hóng",
@@ -112401,41 +112914,6 @@
    }
   },
   {
-   "id": "c90a3",
-   "hanzi": "那",
-   "pinyin": "nà",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "那",
-     "pinyin": "nà",
-     "syl": [
-      [
-       "nà",
-       4
-      ]
-     ]
-    }
-   ],
-   "es": "ese / eso / aquel",
-   "en": "(archaic) many; beautiful; how",
-   "emoji": null,
-   "image": null,
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 48,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "tema12"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
    "id": "c505a",
    "hanzi": "做",
    "pinyin": "zuò",
@@ -112965,41 +113443,6 @@
    "lesson": null,
    "decks": [
     "tema7"
-   ],
-   "stats": {
-    "studyCount": 0,
-    "correctCount": 0,
-    "lastStudiedAt": null
-   }
-  },
-  {
-   "id": "c5bb6",
-   "hanzi": "家",
-   "pinyin": "jiā",
-   "tokens": [
-    {
-     "t": "w",
-     "hanzi": "家",
-     "pinyin": "jiā",
-     "syl": [
-      [
-       "jiā",
-       1
-      ]
-     ]
-    }
-   ],
-   "es": "casa / familia",
-   "en": "home; family; (polite) my (sister, uncle etc)",
-   "emoji": "🏠",
-   "image": null,
-   "hsk": 1,
-   "hskNew": 1,
-   "freq": 124,
-   "type": "word",
-   "lesson": null,
-   "decks": [
-    "tema2"
    ],
    "stats": {
     "studyCount": 0,
